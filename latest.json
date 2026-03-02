@@ -1,41 +1,67 @@
 {
   "generated_at_utc": "2026-03-02T00:00:00Z",
   "headline_summary": [
-    "Escalation in Middle East conflict following US-Israeli strikes on Iran.",
-    "Gulf states considering military response to Iranian attacks.",
-    "Houthi rebels signal resumption of attacks on Red Sea shipping.",
-    "Strait of Hormuz sees significant decline in maritime traffic.",
-    "Major shipping companies suspend operations in the region."
+    "Escalation of conflict in the Strait of Hormuz following US-Israeli strikes on Iran.",
+    "Iran threatens to attack any ship attempting to pass through the Strait.",
+    "Major shipping companies suspend operations in the Strait of Hormuz.",
+    "Oil prices surge due to fears of prolonged disruption in global oil supply.",
+    "Gulf states consider military action against Iran in response to attacks.",
+    "Five commercial vessels reported hit in recent attacks.",
+    "Insurance companies reassess coverage for maritime operations in the region.",
+    "Global shipping routes rerouted around the Cape of Good Hope.",
+    "Potential for significant inflationary pressures on global markets.",
+    "Heightened geopolitical tensions could lead to further instability."
   ],
   "market_implications": {
     "Energy": [
-      "Oil prices surge due to supply disruptions.",
+      "Spike in oil prices expected due to supply disruptions.",
       "Increased war risk premiums for shipping insurance.",
-      "Potential long-term impacts on global oil supply chains."
+      "Potential for long-term impacts on global energy markets.",
+      "Rerouting of oil shipments may increase costs and delivery times.",
+      "Heightened risk of energy shortages in import-dependent countries."
     ],
-    "FX": [],
+    "FX": [
+      "Increased demand for safe-haven currencies like USD.",
+      "Potential depreciation of currencies in emerging markets.",
+      "Volatility in currency markets due to geopolitical tensions."
+    ],
     "Rates": [
-      "Freight rates expected to rise sharply.",
-      "Increased costs for shipping routes around Africa."
+      "Rising shipping rates expected due to increased risk and rerouting.",
+      "Potential for higher inflation rates globally as energy prices rise.",
+      "Interest rates may be influenced by inflationary pressures."
     ],
-    "Equities": []
+    "Equities": [
+      "Increased volatility in energy sector stocks.",
+      "Potential declines in sectors reliant on stable energy prices.",
+      "Market uncertainty may lead to broader sell-offs."
+    ]
   },
   "risk_score": 85,
   "risk_drivers": [
-    "Military escalation in the Gulf region.",
-    "Increased attacks on commercial shipping.",
-    "Disruption of oil supply through critical chokepoints."
+    "Escalation of military conflict in the Gulf region.",
+    "Disruption of critical maritime trade routes.",
+    "Increased geopolitical tensions between Iran and Gulf states."
   ],
   "watchlist": [
     {
-      "asset": "Brent Crude",
+      "asset": "Brent Crude Oil",
       "direction": "up",
-      "why": "Increased geopolitical tensions and supply disruptions."
+      "why": "Expected price surge due to supply disruptions."
     },
     {
       "asset": "Shipping Stocks",
       "direction": "down",
-      "why": "Suspension of operations and increased operational risks."
+      "why": "Increased operational risks and potential losses."
+    },
+    {
+      "asset": "Emerging Market Currencies",
+      "direction": "down",
+      "why": "Potential depreciation due to geopolitical tensions."
+    },
+    {
+      "asset": "US Dollar",
+      "direction": "up",
+      "why": "Increased demand for safe-haven assets."
     }
   ],
   "sources": [
@@ -58,16 +84,16 @@
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
-      "title": "Iranian Guards commander: Strait of Hormuz closed, ships that pass will be burned",
-      "url": "https://www.ynetnews.com/article/skzuxo7ybl",
-      "publisher": "ynet Global",
+      "title": "Iran vows to attack any ship trying to pass through Strait of Hormuz",
+      "url": "https://www.al-monitor.com/originals/2026/03/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz",
+      "publisher": "",
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
-      "title": "Yemen's Iranian-backed Houthi rebels to resume attacks on shipping in Red Sea corridor: Officials",
-      "url": "https://www.thehindu.com/news/international/yemens-iranian-backed-houthi-rebels-to-resume-attacks-on-shipping-in-red-sea-corridor-officials/article70687579.ece",
-      "publisher": "Reuters",
-      "published_at": "2026-02-28T00:00:00.000Z"
+      "title": "How US-Israel attacks on Iran threaten the Strait of Hormuz, oil markets",
+      "url": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets",
+      "publisher": "Priyanka Shankar",
+      "published_at": "2026-03-01T00:00:00.000Z"
     }
   ]
 }

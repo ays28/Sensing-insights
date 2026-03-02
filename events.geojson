@@ -6,19 +6,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.5,
-          23.5
+          56.0,
+          26.0
         ]
       },
       "properties": {
-        "id": "event_001",
+        "id": "event-1",
         "event_type": "Missile Attack",
         "severity": 90,
         "confidence": "high",
-        "title": "Missile Attack on MKD VYOM",
-        "timestamp_utc": "2026-03-02T00:00:00Z",
-        "location_name": "Gulf of Oman",
-        "implication": "Significant escalation in maritime conflict affecting shipping routes.",
+        "title": "Iranian missile strikes on commercial vessels",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "implication": "Significant threat to maritime security and global oil supply.",
         "source_urls": [
           "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
         ]
@@ -29,21 +29,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.5,
-          23.5
+          56.0,
+          26.0
         ]
       },
       "properties": {
-        "id": "event_002",
-        "event_type": "Missile Attack",
+        "id": "event-2",
+        "event_type": "Threat Announcement",
         "severity": 85,
         "confidence": "high",
-        "title": "Missile Attack on STENA IMPERATIVE",
+        "title": "Iran threatens to attack ships in Strait of Hormuz",
         "timestamp_utc": "2026-03-02T00:00:00Z",
-        "location_name": "Bahrain",
-        "implication": "Increased risk for US-flagged vessels in the region.",
+        "location_name": "Strait of Hormuz",
+        "implication": "Increased risk for commercial shipping in the region.",
         "source_urls": [
-          "https://windward.ai/blog/march-2-iran-war-maritime-intelligence-daily/"
+          "https://www.al-monitor.com/originals/2026/03/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz"
         ]
       }
     }
