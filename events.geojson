@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.0,
+          23.0
+        ]
+      },
+      "properties": {
+        "id": "event-1",
+        "event_type": "Houthi Attack",
+        "severity": 80,
+        "confidence": "high",
+        "title": "Houthi rebels signal renewed attacks on Red Sea shipping",
+        "timestamp_utc": "2026-02-28T00:00:00Z",
+        "location_name": "Red Sea",
+        "implication": "Increased risk for commercial shipping in the Red Sea corridor.",
+        "source_urls": [
+          "https://gcaptain.com/houthis-signal-renewed-red-sea-shipping-attacks-after-u-s-israeli-strikes-on-iran/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.0,
+          23.0
+        ]
+      },
+      "properties": {
+        "id": "event-2",
+        "event_type": "Iranian Strike",
+        "severity": 90,
+        "confidence": "high",
+        "title": "Iran strikes Oman port and tanker",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Oman",
+        "implication": "Escalation of conflict affecting regional stability and shipping.",
+        "source_urls": [
+          "https://gulfnews.com/world/gulf/oman-port-and-tanker-hit-as-iran-strikes-gulf-states-1.500459743"
+        ]
+      }
+    }
+  ]
+}
