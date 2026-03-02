@@ -7,20 +7,20 @@
         "type": "Point",
         "coordinates": [
           56.0,
-          23.0
+          24.0
         ]
       },
       "properties": {
-        "id": "event-1",
-        "event_type": "Houthi Attack",
-        "severity": 80,
+        "id": "1",
+        "event_type": "Attack",
+        "severity": 90,
         "confidence": "high",
-        "title": "Houthi rebels signal renewed attacks on Red Sea shipping",
-        "timestamp_utc": "2026-02-28T00:00:00Z",
+        "title": "Houthi Resumption of Attacks on Shipping",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
         "location_name": "Red Sea",
         "implication": "Increased risk for commercial shipping in the Red Sea corridor.",
         "source_urls": [
-          "https://gcaptain.com/houthis-signal-renewed-red-sea-shipping-attacks-after-u-s-israeli-strikes-on-iran/"
+          "https://www.thehindu.com/news/international/yemens-iranian-backed-houthi-rebels-to-resume-attacks-on-shipping-in-red-sea-corridor-officials/article70687579.ece"
         ]
       }
     },
@@ -29,21 +29,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.0,
-          23.0
+          56.0,
+          26.0
         ]
       },
       "properties": {
-        "id": "event-2",
-        "event_type": "Iranian Strike",
-        "severity": 90,
+        "id": "2",
+        "event_type": "Attack",
+        "severity": 95,
         "confidence": "high",
-        "title": "Iran strikes Oman port and tanker",
-        "timestamp_utc": "2026-03-01T00:00:00Z",
-        "location_name": "Oman",
-        "implication": "Escalation of conflict affecting regional stability and shipping.",
+        "title": "Multiple Attacks on Commercial Vessels",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "implication": "Significant disruption to maritime traffic and heightened insurance risks.",
         "source_urls": [
-          "https://gulfnews.com/world/gulf/oman-port-and-tanker-hit-as-iran-strikes-gulf-states-1.500459743"
+          "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
         ]
       }
     }
