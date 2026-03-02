@@ -2,8 +2,8 @@ name: Run tracker
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
-  workflow_dispatch:          # allow manual run button
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -25,10 +25,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Debug - confirm endpoint
+        run: |
+          echo "Looking for /v1/responses (should be empty):"
+          grep -n "v1/responses" tracker.py || true
+          echo "Looking for chat/completions (should exist):"
+          grep -n "chat/completions" tracker.py || true
+
       - name: Run tracker.py
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
         run: |
           python tracker.py
 
