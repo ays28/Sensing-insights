@@ -1,69 +1,72 @@
 {
-  "generated_at_utc": "2026-03-02T15:30:00Z",
+  "generated_at_utc": "2026-03-02T00:00:00Z",
   "headline_summary": [
-    "Gulf states consider military response to Iranian strikes.",
-    "Strait of Hormuz faces severe disruptions with multiple vessel attacks.",
-    "Major shipping companies suspend operations in the region.",
-    "Oil prices surge amid fears of prolonged maritime conflict.",
-    "Iran's military escalates operations in response to US-Israel strikes."
+    "Escalation in Middle East conflict following US-Israeli strikes on Iran.",
+    "Gulf states considering military response to Iranian attacks.",
+    "Houthi rebels signal resumption of attacks on Red Sea shipping.",
+    "Strait of Hormuz sees significant decline in maritime traffic.",
+    "Major shipping companies suspend operations in the region."
   ],
   "market_implications": {
     "Energy": [
-      "Oil prices expected to rise sharply due to supply disruptions.",
-      "Increased risk premiums for shipping insurance in the region.",
+      "Oil prices surge due to supply disruptions.",
+      "Increased war risk premiums for shipping insurance.",
       "Potential long-term impacts on global oil supply chains."
     ],
     "FX": [],
-    "Rates": [],
+    "Rates": [
+      "Freight rates expected to rise sharply.",
+      "Increased costs for shipping routes around Africa."
+    ],
     "Equities": []
   },
   "risk_score": 85,
   "risk_drivers": [
-    "Escalating military conflict in the Gulf region.",
-    "Disruption of maritime trade routes.",
-    "Increased geopolitical tensions involving major powers."
+    "Military escalation in the Gulf region.",
+    "Increased attacks on commercial shipping.",
+    "Disruption of oil supply through critical chokepoints."
   ],
   "watchlist": [
     {
       "asset": "Brent Crude",
-      "direction": "Long",
-      "why": "Expected price surge due to supply disruptions."
+      "direction": "up",
+      "why": "Increased geopolitical tensions and supply disruptions."
     },
     {
-      "asset": "Shipping stocks",
-      "direction": "Short",
-      "why": "Increased operational risks and potential losses."
+      "asset": "Shipping Stocks",
+      "direction": "down",
+      "why": "Suspension of operations and increased operational risks."
     }
   ],
   "sources": [
     {
+      "title": "Houthis Signal Renewed Red Sea Shipping Attacks After U.S.–Israeli Strikes on Iran",
+      "url": "https://gcaptain.com/houthis-signal-renewed-red-sea-shipping-attacks-after-u-s-israeli-strikes-on-iran/",
+      "publisher": "Paul Morgan",
+      "published_at": "2026-02-28T00:00:00.000Z"
+    },
+    {
       "title": "Gulf states on verge of acting against Iran over ‘reckless’ strikes across region",
       "url": "https://www.theguardian.com/world/2026/mar/02/gulf-states-iran-strikes-response",
-      "publisher": "The Guardian",
+      "publisher": "Patrick Wintour",
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
       "title": "Strait of Hormuz Enters Active Crisis: Five Ships Hit, Traffic Collapses, Tanker Markets Brace for Historic Shock",
       "url": "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/",
-      "publisher": "gCaptain",
+      "publisher": "Mike Schuler",
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
-      "title": "Strait of Hormuz crisis explained: What it means for global shipping",
-      "url": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
-      "publisher": "CNBC",
-      "published_at": "2026-03-02T00:00:00.000Z"
-    },
-    {
-      "title": "March 2, 2026: Iran War Maritime Intelligence Daily",
-      "url": "https://windward.ai/blog/march-2-iran-war-maritime-intelligence-daily/",
-      "publisher": "Windward",
+      "title": "Iranian Guards commander: Strait of Hormuz closed, ships that pass will be burned",
+      "url": "https://www.ynetnews.com/article/skzuxo7ybl",
+      "publisher": "ynet Global",
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
       "title": "Yemen's Iranian-backed Houthi rebels to resume attacks on shipping in Red Sea corridor: Officials",
       "url": "https://www.thehindu.com/news/international/yemens-iranian-backed-houthi-rebels-to-resume-attacks-on-shipping-in-red-sea-corridor-officials/article70687579.ece",
-      "publisher": "The Hindu",
+      "publisher": "Reuters",
       "published_at": "2026-02-28T00:00:00.000Z"
     }
   ]
