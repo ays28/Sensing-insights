@@ -11,16 +11,16 @@
         ]
       },
       "properties": {
-        "id": "event-1",
-        "event_type": "Missile Attack",
+        "id": "event-001",
+        "event_type": "Military Action",
         "severity": 90,
         "confidence": "high",
-        "title": "Iranian missile strikes on commercial vessels",
-        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "title": "Iranian Threat to Close Strait of Hormuz",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
         "location_name": "Strait of Hormuz",
-        "implication": "Significant threat to maritime security and global oil supply.",
+        "implication": "Iran threatens to attack any ships attempting to pass through the Strait, raising tensions significantly.",
         "source_urls": [
-          "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
+          "https://www.al-monitor.com/originals/2026/03/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz"
         ]
       }
     },
@@ -34,16 +34,16 @@
         ]
       },
       "properties": {
-        "id": "event-2",
-        "event_type": "Threat Announcement",
+        "id": "event-002",
+        "event_type": "Shipping Incident",
         "severity": 85,
         "confidence": "high",
-        "title": "Iran threatens to attack ships in Strait of Hormuz",
-        "timestamp_utc": "2026-03-02T00:00:00Z",
-        "location_name": "Strait of Hormuz",
-        "implication": "Increased risk for commercial shipping in the region.",
+        "title": "Multiple Commercial Vessels Attacked",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Gulf of Oman",
+        "implication": "Five commercial vessels were struck by missiles and drones, leading to a significant drop in maritime traffic.",
         "source_urls": [
-          "https://www.al-monitor.com/originals/2026/03/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz"
+          "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
         ]
       }
     }

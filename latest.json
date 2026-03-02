@@ -1,67 +1,60 @@
 {
-  "generated_at_utc": "2026-03-02T00:00:00Z",
+  "generated_at_utc": "2026-03-02T12:00:00Z",
   "headline_summary": [
-    "Escalation of conflict in the Strait of Hormuz following US-Israeli strikes on Iran.",
-    "Iran threatens to attack any ship attempting to pass through the Strait.",
-    "Major shipping companies suspend operations in the Strait of Hormuz.",
-    "Oil prices surge due to fears of prolonged disruption in global oil supply.",
-    "Gulf states consider military action against Iran in response to attacks.",
-    "Five commercial vessels reported hit in recent attacks.",
+    "Escalation of conflict in the Middle East following US-Israeli strikes on Iran.",
+    "Iran threatens to close the Strait of Hormuz, a critical oil shipping route.",
+    "Multiple commercial vessels have been attacked in the Gulf of Oman and UAE waters.",
+    "Shipping companies suspend operations through the Strait of Hormuz.",
+    "Oil prices surge amid fears of prolonged disruption to global trade.",
+    "Gulf states consider military responses to Iranian aggression.",
     "Insurance companies reassess coverage for maritime operations in the region.",
-    "Global shipping routes rerouted around the Cape of Good Hope.",
-    "Potential for significant inflationary pressures on global markets.",
-    "Heightened geopolitical tensions could lead to further instability."
+    "Global shipping routes are being rerouted around the Cape of Good Hope.",
+    "Potential for significant economic impacts on energy-dependent countries.",
+    "Heightened military activity reported in the Persian Gulf."
   ],
   "market_implications": {
     "Energy": [
-      "Spike in oil prices expected due to supply disruptions.",
-      "Increased war risk premiums for shipping insurance.",
+      "Oil prices expected to rise sharply due to supply disruptions.",
+      "Increased war risk premiums for shipping in the region.",
       "Potential for long-term impacts on global energy markets.",
-      "Rerouting of oil shipments may increase costs and delivery times.",
-      "Heightened risk of energy shortages in import-dependent countries."
+      "Heightened volatility in crude oil prices.",
+      "Disruption to LNG supplies affecting global markets."
     ],
     "FX": [
       "Increased demand for safe-haven currencies like USD.",
-      "Potential depreciation of currencies in emerging markets.",
-      "Volatility in currency markets due to geopolitical tensions."
+      "Emerging market currencies may face depreciation pressures.",
+      "Potential for inflationary pressures in import-dependent economies."
     ],
     "Rates": [
-      "Rising shipping rates expected due to increased risk and rerouting.",
-      "Potential for higher inflation rates globally as energy prices rise.",
-      "Interest rates may be influenced by inflationary pressures."
+      "Interest rates may be influenced by rising inflation from energy costs.",
+      "Central banks may reconsider monetary easing in response to inflation."
     ],
     "Equities": [
       "Increased volatility in energy sector stocks.",
-      "Potential declines in sectors reliant on stable energy prices.",
-      "Market uncertainty may lead to broader sell-offs."
+      "Potential declines in stocks of companies reliant on stable oil prices."
     ]
   },
   "risk_score": 85,
   "risk_drivers": [
-    "Escalation of military conflict in the Gulf region.",
-    "Disruption of critical maritime trade routes.",
-    "Increased geopolitical tensions between Iran and Gulf states."
+    "Escalating military conflict in the Middle East.",
+    "Threats to global oil supply through the Strait of Hormuz.",
+    "Rising geopolitical tensions affecting trade routes."
   ],
   "watchlist": [
     {
       "asset": "Brent Crude Oil",
-      "direction": "up",
+      "direction": "Long",
       "why": "Expected price surge due to supply disruptions."
     },
     {
+      "asset": "USD",
+      "direction": "Long",
+      "why": "Safe-haven demand amid geopolitical tensions."
+    },
+    {
       "asset": "Shipping Stocks",
-      "direction": "down",
-      "why": "Increased operational risks and potential losses."
-    },
-    {
-      "asset": "Emerging Market Currencies",
-      "direction": "down",
-      "why": "Potential depreciation due to geopolitical tensions."
-    },
-    {
-      "asset": "US Dollar",
-      "direction": "up",
-      "why": "Increased demand for safe-haven assets."
+      "direction": "Short",
+      "why": "Potential declines due to operational disruptions."
     }
   ],
   "sources": [
@@ -78,6 +71,12 @@
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
+      "title": "How US-Israel attacks on Iran threaten the Strait of Hormuz, oil markets",
+      "url": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets",
+      "publisher": "Priyanka Shankar",
+      "published_at": "2026-03-01T00:00:00.000Z"
+    },
+    {
       "title": "Strait of Hormuz Enters Active Crisis: Five Ships Hit, Traffic Collapses, Tanker Markets Brace for Historic Shock",
       "url": "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/",
       "publisher": "Mike Schuler",
@@ -88,12 +87,6 @@
       "url": "https://www.al-monitor.com/originals/2026/03/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz",
       "publisher": "",
       "published_at": "2026-03-02T00:00:00.000Z"
-    },
-    {
-      "title": "How US-Israel attacks on Iran threaten the Strait of Hormuz, oil markets",
-      "url": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets",
-      "publisher": "Priyanka Shankar",
-      "published_at": "2026-03-01T00:00:00.000Z"
     }
   ]
 }
