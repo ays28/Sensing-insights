@@ -11,16 +11,16 @@
         ]
       },
       "properties": {
-        "id": "1",
-        "event_type": "Attack",
+        "id": "event-001",
+        "event_type": "Military Attack",
         "severity": 90,
         "confidence": "high",
-        "title": "Houthi Resumption of Attacks on Shipping",
+        "title": "Iranian missile strikes on commercial vessels",
         "timestamp_utc": "2026-03-02T00:00:00Z",
-        "location_name": "Red Sea",
-        "implication": "Increased risk for commercial shipping in the Red Sea corridor.",
+        "location_name": "Strait of Hormuz",
+        "implication": "Significant disruption to maritime traffic and heightened military tensions.",
         "source_urls": [
-          "https://www.thehindu.com/news/international/yemens-iranian-backed-houthi-rebels-to-resume-attacks-on-shipping-in-red-sea-corridor-officials/article70687579.ece"
+          "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
         ]
       }
     },
@@ -34,16 +34,16 @@
         ]
       },
       "properties": {
-        "id": "2",
-        "event_type": "Attack",
-        "severity": 95,
+        "id": "event-002",
+        "event_type": "Military Response",
+        "severity": 80,
         "confidence": "high",
-        "title": "Multiple Attacks on Commercial Vessels",
+        "title": "Gulf states consider military action against Iran",
         "timestamp_utc": "2026-03-02T00:00:00Z",
-        "location_name": "Strait of Hormuz",
-        "implication": "Significant disruption to maritime traffic and heightened insurance risks.",
+        "location_name": "Gulf Cooperation Council",
+        "implication": "Potential escalation of military conflict in the region.",
         "source_urls": [
-          "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
+          "https://www.theguardian.com/world/2026/mar/02/gulf-states-iran-strikes-response"
         ]
       }
     }
