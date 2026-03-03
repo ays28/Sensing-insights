@@ -21,222 +21,212 @@
       "group": "market"
     },
     {
-      "id": "5dc57b640b40",
-      "label": "U.S. and Israel launch 'pre-emptive' strikes on Iran",
+      "id": "3f5ac93da78b",
+      "label": "U.S. and Israel launch pre-emptive strikes on Iran",
       "group": "event",
       "severity": 95,
       "confidence": "high",
       "event_type": "strike",
-      "timestamp_utc": "2026-02-28T00:00:00Z",
+      "timestamp_utc": "2026-02-28",
       "location_name": "Iran"
     },
     {
-      "id": "19cf17769ad3",
-      "label": "Iranian retaliation includes missile barrages at Gulf neighbours hosting U.S. ba",
+      "id": "6c3e3bc7b276",
+      "label": "Iran vows to attack any ship attempting to transit the Strait of Hormuz",
+      "group": "event",
+      "severity": 92,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-02",
+      "location_name": "Strait of Hormuz"
+    },
+    {
+      "id": "b0af84ba8ab3",
+      "label": "Middle East oil and gas shipping costs surge to all-time high",
+      "group": "event",
+      "severity": 93,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-02",
+      "location_name": "Strait of Hormuz"
+    },
+    {
+      "id": "c8b46d86aabe",
+      "label": "Container lines pause/avoid Suez and Bab el-Mandeb; reroute via Cape of Good Hop",
       "group": "event",
       "severity": 85,
-      "confidence": "med",
-      "event_type": "other",
-      "timestamp_utc": null,
-      "location_name": "Gulf region"
-    },
-    {
-      "id": "357925f53be4",
-      "label": "Iran declares the Strait of Hormuz closed and threatens to fire on transiting sh",
-      "group": "event",
-      "severity": 98,
       "confidence": "high",
       "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-02T20:52:00Z",
-      "location_name": "Strait of Hormuz"
+      "timestamp_utc": "2026-03-01",
+      "location_name": "Bab el-Mandeb Strait"
     },
     {
-      "id": "15852766d672",
-      "label": "Shipping through Hormuz grinds to near halt as ships are hit and insurers cancel",
-      "group": "event",
-      "severity": 80,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": null,
-      "location_name": "Strait of Hormuz"
-    },
-    {
-      "id": "3bd5569b2895",
-      "label": "Global oil and LNG shipping costs surge to record levels amid Hormuz disruption",
-      "group": "event",
-      "severity": 78,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-02T23:57:00Z",
-      "location_name": "Middle East Gulf"
-    },
-    {
-      "id": "18ecfd324f95",
-      "label": "Maersk pauses Trans-Suez sailings and multiple lines reroute around Africa after",
-      "group": "event",
-      "severity": 70,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-01T00:00:00Z",
-      "location_name": "Suez Canal / Bab el-Mandeb"
-    },
-    {
-      "id": "c0ed3294b6be",
-      "label": "Qatar halts LNG production after strikes on Ras Laffan and Mesaieed industrial z",
+      "id": "0d348263aedc",
+      "label": "Saudi Aramco shuts Ras Tanura refinery after drone strike (source)",
       "group": "event",
       "severity": 88,
-      "confidence": "high",
-      "event_type": "strike",
-      "timestamp_utc": "2026-03-02T07:59:00Z",
-      "location_name": "Ras Laffan, Qatar"
-    },
-    {
-      "id": "4d978165b9bb",
-      "label": "Saudi Aramco's Ras Tanura refinery suspends operations after drone strike (preca",
-      "group": "event",
-      "severity": 82,
       "confidence": "med",
       "event_type": "strike",
-      "timestamp_utc": "2026-03-02T07:59:00Z",
+      "timestamp_utc": "2026-03-02",
       "location_name": "Ras Tanura, Saudi Arabia"
     },
     {
-      "id": "3fbb6360fc79",
-      "label": "Most oil production in Iraqi Kurdistan halts as operators stop output (precautio",
+      "id": "4b176d9d85fb",
+      "label": "Qatar LNG supply disrupted amid regional strikes",
       "group": "event",
-      "severity": 75,
-      "confidence": "high",
-      "event_type": "other",
-      "timestamp_utc": "2026-03-02T07:59:00Z",
-      "location_name": "Iraqi Kurdistan"
+      "severity": 86,
+      "confidence": "med",
+      "event_type": "strike",
+      "timestamp_utc": "2026-03-02",
+      "location_name": "Qatar"
     },
     {
-      "id": "35cf89dcbe41",
-      "label": "Major Israeli gas fields, including Leviathan, go offline; exports to Egypt thro",
+      "id": "a499925ac306",
+      "label": "Israeli oil and gas fields down due to regional strikes",
       "group": "event",
       "severity": 78,
-      "confidence": "high",
-      "event_type": "other",
-      "timestamp_utc": "2026-03-02T07:59:00Z",
-      "location_name": "Eastern Mediterranean (Israel)"
+      "confidence": "med",
+      "event_type": "strike",
+      "timestamp_utc": "2026-03-02",
+      "location_name": "Israel"
     },
     {
-      "id": "e8751f9d6022",
-      "label": "Fuel tank at Oman's Duqm port hit; fire breaks out",
+      "id": "f9aa6144a471",
+      "label": "Oil rises as expanding US-Israeli conflict with Iran elevates supply risks",
+      "group": "event",
+      "severity": 72,
+      "confidence": "med",
+      "event_type": "other",
+      "timestamp_utc": "2026-03-03",
+      "location_name": "Global"
+    },
+    {
+      "id": "73fe04cad7d3",
+      "label": "Global energy costs soar as Iran crisis disrupts shipping and production",
+      "group": "event",
+      "severity": 74,
+      "confidence": "med",
+      "event_type": "other",
+      "timestamp_utc": "2026-03-03",
+      "location_name": "Global"
+    },
+    {
+      "id": "22fe893be51d",
+      "label": "Marine insurers cancel war-risk cover as Iran conflict intensifies",
+      "group": "event",
+      "severity": 80,
+      "confidence": "high",
+      "event_type": "other",
+      "timestamp_utc": "2026-03-02",
+      "location_name": "Gulf region"
+    },
+    {
+      "id": "e8f331820ae4",
+      "label": "OPEC+ agrees modest oil output boost even as conflict disrupts shipments",
+      "group": "event",
+      "severity": 60,
+      "confidence": "med",
+      "event_type": "diplomacy",
+      "timestamp_utc": "2026-03-01",
+      "location_name": "OPEC+"
+    },
+    {
+      "id": "c01a892779d8",
+      "label": "~10% of global container fleet caught in Hormuz backup (shipping CEO)",
+      "group": "event",
+      "severity": 82,
+      "confidence": "med",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-02",
+      "location_name": "Strait of Hormuz"
+    },
+    {
+      "id": "b95c3e07526a",
+      "label": "Asian countries reliant on Middle East supply face oil disruption risks",
+      "group": "event",
+      "severity": 68,
+      "confidence": "med",
+      "event_type": "other",
+      "timestamp_utc": "2026-03-02",
+      "location_name": "Asia"
+    },
+    {
+      "id": "911e977197d3",
+      "label": "India reduces gas supply to industries after Qatar outage (sources)",
+      "group": "event",
+      "severity": 62,
+      "confidence": "med",
+      "event_type": "other",
+      "timestamp_utc": "2026-03-03",
+      "location_name": "India"
+    },
+    {
+      "id": "c490130ca4b6",
+      "label": "Iran war enters fourth day as markets slide",
       "group": "event",
       "severity": 70,
       "confidence": "med",
       "event_type": "strike",
-      "timestamp_utc": "2026-03-03T11:54:00Z",
-      "location_name": "Duqm, Oman"
-    },
-    {
-      "id": "49ef04e6a452",
-      "label": "Fire reported at UAE's Fujairah oil hub amid regional strikes",
-      "group": "event",
-      "severity": 72,
-      "confidence": "med",
-      "event_type": "strike",
-      "timestamp_utc": "2026-03-03T11:54:00Z",
-      "location_name": "Fujairah, United Arab Emirates"
-    },
-    {
-      "id": "3df2b2d078a8",
-      "label": "Iraq's Kirkuk crude loadings at Turkey's Ceyhan port stop",
-      "group": "event",
-      "severity": 65,
-      "confidence": "med",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-03T02:12:00Z",
-      "location_name": "Ceyhan, Turkey"
-    },
-    {
-      "id": "a1073e17f8df",
-      "label": "India begins cutting gas supplies to industries in anticipation of reduced Middl",
-      "group": "event",
-      "severity": 55,
-      "confidence": "high",
-      "event_type": "diplomacy",
-      "timestamp_utc": "2026-03-03T06:59:00Z",
-      "location_name": "India"
-    },
-    {
-      "id": "3c6f587095fa",
-      "label": "Asian importers face disrupted Middle East oil supply as vessels bottleneck and ",
-      "group": "event",
-      "severity": 60,
-      "confidence": "high",
-      "event_type": "other",
-      "timestamp_utc": "2026-03-02T08:26:00Z",
-      "location_name": "Asia"
-    },
-    {
-      "id": "ba96d4d1f632",
-      "label": "Israel strikes Beirut's southern suburbs after Hezbollah launches missiles and d",
-      "group": "event",
-      "severity": 83,
-      "confidence": "high",
-      "event_type": "strike",
-      "timestamp_utc": "2026-03-01T23:36:00Z",
-      "location_name": "Beirut (Dahiyeh), Lebanon"
+      "timestamp_utc": "2026-03-03",
+      "location_name": "Middle East"
     }
   ],
   "edges": [
     {
-      "from": "5dc57b640b40",
-      "to": "357925f53be4",
-      "label": "triggered_retaliation",
+      "from": "3f5ac93da78b",
+      "to": "6c3e3bc7b276",
+      "label": "triggers_retaliatory_threat",
       "confidence": "high",
-      "why": "Reuters reports Hormuz closure threat was triggered by U.S. and Israeli strikes on Iran."
+      "why": "Reuters reports the direct strikes preceded Iran's warnings against Hormuz transit as the conflict escalated."
     },
     {
-      "from": "357925f53be4",
-      "to": "15852766d672",
-      "label": "caused",
-      "confidence": "high",
-      "why": "Closure threat and attacks led vessels to halt/anchor and insurers to withdraw cover, disrupting flows."
-    },
-    {
-      "from": "15852766d672",
-      "to": "3bd5569b2895",
-      "label": "amplified_costs",
-      "confidence": "high",
-      "why": "Reuters notes freight rates and war-risk pricing spiked as traffic halted and attacks occurred."
-    },
-    {
-      "from": "357925f53be4",
-      "to": "oil_up_risk",
+      "from": "6c3e3bc7b276",
+      "to": "b0af84ba8ab3",
       "label": "drives",
       "confidence": "high",
-      "why": "Hormuz is a major chokepoint for oil/LNG; closure risk increases crude supply risk premium."
+      "why": "Threat/closure risk increases war-risk premia and reduces available tonnage, pushing freight rates higher."
     },
     {
-      "from": "c0ed3294b6be",
+      "from": "22fe893be51d",
+      "to": "b0af84ba8ab3",
+      "label": "amplifies",
+      "confidence": "high",
+      "why": "Loss of cover and higher premiums make voyages uneconomic for some owners, tightening supply of ships."
+    },
+    {
+      "from": "6c3e3bc7b276",
       "to": "oil_up_risk",
-      "label": "reinforces",
-      "confidence": "med",
-      "why": "Broader energy supply shock (gas/LNG) tends to support oil-linked risk premia and cross-commodity substitution."
+      "label": "increases_risk",
+      "confidence": "high",
+      "why": "Hormuz is a critical chokepoint for crude and LNG; credible closure risk lifts the oil risk premium."
     },
     {
-      "from": "3bd5569b2895",
-      "to": "rates_credit_spreads",
-      "label": "feeds",
+      "from": "0d348263aedc",
+      "to": "oil_up_risk",
+      "label": "increases_risk",
       "confidence": "med",
-      "why": "Higher delivered energy/freight costs raise inflation risk and can widen credit spreads for transport/industrial sectors."
+      "why": "Refinery outages and vulnerability of Gulf infrastructure add to supply/product disruption risk."
     },
     {
-      "from": "3c6f587095fa",
+      "from": "oil_up_risk",
       "to": "em_fx_pressure",
-      "label": "drives",
+      "label": "pressures",
       "confidence": "med",
-      "why": "Higher import bills and supply disruptions worsen trade balances for energy importers, pressuring EM FX."
+      "why": "Higher oil prices worsen trade balances and inflation for net importers, often weakening EM FX."
     },
     {
-      "from": "ba96d4d1f632",
+      "from": "oil_up_risk",
+      "to": "rates_credit_spreads",
+      "label": "widens",
+      "confidence": "med",
+      "why": "Energy-driven inflation risk can lift yields/term premia and widen credit spreads during geopolitical shocks."
+    },
+    {
+      "from": "73fe04cad7d3",
       "to": "risk_off_flows",
       "label": "drives",
       "confidence": "med",
-      "why": "A widening multi-front conflict raises tail risk, typically pushing investors into safe assets."
+      "why": "Rising energy and freight costs increase recession/inflation tradeoffs, prompting de-risking across assets."
     }
   ]
 }

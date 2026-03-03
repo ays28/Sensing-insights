@@ -61,5 +61,35 @@
     "lat": 51.2086975,
     "display_name": "亚洲"
   },
-  "beirut (dahiyeh), lebanon": null
+  "beirut (dahiyeh), lebanon": null,
+  "bab el-mandeb strait": {
+    "lon": 43.3128158,
+    "lat": 12.5743764,
+    "display_name": "Bab-el-Mandeb Strait, Djibouti"
+  },
+  "qatar": {
+    "lon": 51.2295295,
+    "lat": 25.3336984,
+    "display_name": "Qatar"
+  },
+  "israel": {
+    "lon": 34.8594762,
+    "lat": 30.8124247,
+    "display_name": "Israel"
+  },
+  "global": {
+    "lon": 12.5592485,
+    "lat": 55.702215,
+    "display_name": "Global Biodiversity Information Facility, Universitetsparken, Nørrebro, Copenhagen, Copenhagen Municipality, Capital Region of Denmark, 2200, Denmark"
+  },
+  "opec+": {
+    "lon": 16.3659959,
+    "lat": 48.2143593,
+    "display_name": "OPEC, Helferstorferstraße, Schottenviertel, Innere Stadt, Vienna, 1010, Austria"
+  },
+  "middle east": {
+    "lon": -76.5888477,
+    "lat": 39.3014159,
+    "display_name": "Middle East, Baltimore, Maryland, United States"
+  }
 }
