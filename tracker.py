@@ -1,6 +1,5 @@
 import os
 import json
-import re
 import time
 import hashlib
 import subprocess
@@ -27,7 +26,7 @@ OUT_GEOJSON = "events.geojson"
 OUT_HISTORY = "history.jsonl"
 OUT_GRAPH = "graph.json"
 OUT_GEOCODE_CACHE = "geocode_cache.json"
-OUT_EXTRACT = "op_extract.json"  # <-- OpenPlanter writes this
+OUT_EXTRACT = "op_extract.json"  # OpenPlanter writes this
 
 # Time zones
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -68,23 +67,29 @@ MARKET_NODES = [
     {"id": "rates_credit_spreads", "label": "Rates/Credit spreads", "group": "market"},
 ]
 
+
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
+
 def ist_now_iso() -> str:
     return datetime.now(IST).isoformat()
+
 
 def stable_id(*parts: str) -> str:
     s = "|".join([p or "" for p in parts])
     return hashlib.sha1(s.encode("utf-8")).hexdigest()[:12]
 
+
 def write_json(path: str, obj: Any):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
+
 def append_jsonl(path: str, obj: dict):
     with open(path, "a", encoding="utf-8") as f:
         f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
 
 def centroid_fallback(location_name: str) -> Optional[Tuple[float, float, str]]:
     if not location_name:
@@ -97,6 +102,7 @@ def centroid_fallback(location_name: str) -> Optional[Tuple[float, float, str]]:
         if key in k:
             return lon, lat, f"Centroid: {key}"
     return None
+
 
 class Geocoder:
     def __init__(self, cache_path: str):
@@ -157,15 +163,17 @@ class Geocoder:
             self.cache[key] = None
             return None
 
+
 def normalize_links(raw_links: Any) -> List[Dict[str, Any]]:
     # Only accept dicts; ignore strings to prevent crashes.
     if not isinstance(raw_links, list):
         return []
-    cleaned = []
+    out = []
     for item in raw_links:
         if isinstance(item, dict):
-            cleaned.append(item)
-    return cleaned
+            out.append(item)
+    return out
+
 
 def ensure_graph_nodes(nodes: List[Dict[str, Any]], edges: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     id_set: Set[str] = set(n.get("id") for n in nodes if n.get("id"))
@@ -173,15 +181,16 @@ def ensure_graph_nodes(nodes: List[Dict[str, Any]], edges: List[Dict[str, Any]])
         frm = e.get("from")
         to = e.get("to")
         if frm and frm not in id_set:
-            nodes.append({"id": frm, "label": str(frm).replace("_", " "), "group": "event_or_concept"})
+            nodes.append({"id": frm, "label": str(frm).replace("_", " "), "group": "market"})
             id_set.add(frm)
         if to and to not in id_set:
-            nodes.append({"id": to, "label": str(to).replace("_", " "), "group": "event_or_concept"})
+            nodes.append({"id": to, "label": str(to).replace("_", " "), "group": "market"})
             id_set.add(to)
     return nodes
 
+
 def run_openplanter_extract(workspace: str):
-    # Force OpenAI so Anthropic default doesn’t break runs.
+    # IMPORTANT: --reasoning-effort none fixes the OpenAI 400 error.
     task = f"""
 You are an OSINT + markets tracking agent.
 
@@ -240,11 +249,13 @@ Rules:
         "--headless",
         "--provider", "openai",
         "--model", OPENAI_MODEL,
+        "--reasoning-effort", "none",   # ✅ CRITICAL FIX
         "--task", task,
         "--workspace", workspace,
     ]
     print("Running:", " ".join(cmd))
     subprocess.run(cmd, check=True)
+
 
 def main():
     if not EXA_API_KEY:
@@ -289,7 +300,6 @@ def main():
 
         geo = geocoder.geocode(loc) or centroid_fallback(loc)
         if geo is None:
-            # try actor-based fallback
             for a in (e.get("actors") or []):
                 fb = centroid_fallback(str(a))
                 if fb:
@@ -334,8 +344,8 @@ def main():
     edges = []
 
     for l in links:
-        frm = (l.get("from") or "").strip()
-        to = (l.get("to") or "").strip()
+        frm = str(l.get("from") or "").strip()
+        to = str(l.get("to") or "").strip()
         if not frm or not to:
             continue
 
@@ -346,9 +356,9 @@ def main():
         edges.append({
             "from": frm_id,
             "to": to_id,
-            "label": (l.get("relation") or "causes"),
-            "confidence": (l.get("confidence") or "low"),
-            "why": (l.get("why") or ""),
+            "label": str(l.get("relation") or "causes"),
+            "confidence": str(l.get("confidence") or "low"),
+            "why": str(l.get("why") or ""),
         })
 
     nodes = ensure_graph_nodes(nodes, edges)
@@ -366,6 +376,7 @@ def main():
     })
 
     print(f"OK: events_plotted={len(features)} nodes={len(nodes)} edges={len(edges)} wrote={OUT_LATEST},{OUT_GEOJSON},{OUT_GRAPH},{OUT_HISTORY}")
+
 
 if __name__ == "__main__":
     main()
