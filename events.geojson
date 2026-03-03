@@ -6,27 +6,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.2027702,
-          26.4494061
+          54.5643516,
+          32.6475314
         ]
       },
       "properties": {
-        "id": "d1787d6d946d",
+        "id": "5dc57b640b40",
         "event_type": "strike",
-        "severity": 90,
+        "severity": 95,
         "confidence": "high",
-        "title": "Iranian missile strikes on commercial vessels",
-        "timestamp_utc": "2026-03-02T00:00:00Z",
-        "location_name": "Strait of Hormuz",
-        "location_resolved": "مضیق هرمز, عمان",
+        "title": "U.S. and Israel launch 'pre-emptive' strikes on Iran",
+        "timestamp_utc": "2026-02-28T00:00:00Z",
+        "location_name": "Iran",
+        "location_resolved": "ایران",
+        "actors": [
+          "Israel",
+          "United States",
+          "Iran"
+        ],
+        "implication": "Direct state-on-state escalation raises probability of retaliation against regional bases, infrastructure, and shipping; immediate geopolitical risk premium.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8850036,
+          -7.5556411
+        ]
+      },
+      "properties": {
+        "id": "19cf17769ad3",
+        "event_type": "other",
+        "severity": 85,
+        "confidence": "med",
+        "title": "Iranian retaliation includes missile barrages at Gulf neighbours hosting U.S. bases",
+        "timestamp_utc": null,
+        "location_name": "Gulf region",
+        "location_resolved": "Gulf, Southern Region, Papua Niugini",
         "actors": [
           "Iran",
-          "Commercial Shipping Companies"
+          "Qatar",
+          "Kuwait",
+          "Bahrain",
+          "United States"
         ],
-        "implication": "Significant disruption to maritime traffic and potential for escalating military conflict.",
+        "implication": "Raises risk to regional energy hubs and military installations; increases chance of further disruption and risk-off market moves.",
         "source_urls": [
-          "https://www.aljazeera.com/news/2026/3/2/iran-says-will-attack-any-ship-trying-to-pass-through-strait-of-hormuz",
-          "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
+          "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/"
         ]
       }
     },
@@ -40,23 +71,393 @@
         ]
       },
       "properties": {
-        "id": "a25b3cf10848",
+        "id": "357925f53be4",
         "event_type": "shipping_disruption",
-        "severity": 85,
+        "severity": 98,
         "confidence": "high",
-        "title": "Suspension of shipping operations through the Strait of Hormuz",
-        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "title": "Iran declares the Strait of Hormuz closed and threatens to fire on transiting ships",
+        "timestamp_utc": "2026-03-02T20:52:00Z",
         "location_name": "Strait of Hormuz",
         "location_resolved": "مضیق هرمز, عمان",
         "actors": [
-          "Maersk",
-          "MSC",
-          "Hapag-Lloyd",
-          "CMA CGM"
+          "Iran",
+          "IRGC",
+          "Global shipping"
         ],
-        "implication": "Major shipping companies halt operations, leading to increased freight costs and delays.",
+        "implication": "Threatens ~20% of global oil consumption flows and significant LNG volumes; drives crude/gas volatility, freight spikes, and inflation risk.",
         "source_urls": [
-          "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html"
+          "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "15852766d672",
+        "event_type": "shipping_disruption",
+        "severity": 80,
+        "confidence": "high",
+        "title": "Shipping through Hormuz grinds to near halt as ships are hit and insurers cancel war-risk cover",
+        "timestamp_utc": null,
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Iran",
+          "Ship insurers",
+          "Tanker operators"
+        ],
+        "implication": "Physical crude/LNG logistics disrupted; higher delivered energy costs and potential shortages for import-dependent regions.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/iran-conflict-disrupts-oil-supply-asian-countries-dependent-middle-east-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.47712,
+          36.153787
+        ]
+      },
+      "properties": {
+        "id": "3bd5569b2895",
+        "event_type": "shipping_disruption",
+        "severity": 78,
+        "confidence": "high",
+        "title": "Global oil and LNG shipping costs surge to record levels amid Hormuz disruption",
+        "timestamp_utc": "2026-03-02T23:57:00Z",
+        "location_name": "Middle East Gulf",
+        "location_resolved": "Gulf, East Spring Street, Eastwood, Cookeville, Putnam County, Middle Tennessee, Tennessee, 38506, United States",
+        "actors": [
+          "Tanker market",
+          "LNG shippers"
+        ],
+        "implication": "Freight and insurance repricing transmits shock to end-user energy prices and broad inflation expectations.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/middle-east-oil-shipping-costs-surge-all-time-high-us-iran-conflict-intensifies-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.33,
+          12.64
+        ]
+      },
+      "properties": {
+        "id": "18ecfd324f95",
+        "event_type": "shipping_disruption",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Maersk pauses Trans-Suez sailings and multiple lines reroute around Africa after Iran strikes escalation",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Suez Canal / Bab el-Mandeb",
+        "location_resolved": "Centroid: bab el-mandeb",
+        "actors": [
+          "Maersk",
+          "Hapag-Lloyd",
+          "CMA CGM",
+          "MSC"
+        ],
+        "implication": "Longer transit times and higher freight costs tighten global supply chains; increases delivered commodity prices.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/maersk-pauses-sailings-through-suez-canal-bab-el-mandeb-strait-citing-escalating-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5331527,
+          25.8976567
+        ]
+      },
+      "properties": {
+        "id": "c0ed3294b6be",
+        "event_type": "strike",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Qatar halts LNG production after strikes on Ras Laffan and Mesaieed industrial zone",
+        "timestamp_utc": "2026-03-02T07:59:00Z",
+        "location_name": "Ras Laffan, Qatar",
+        "location_resolved": "رأس لفان, قطر",
+        "actors": [
+          "QatarEnergy",
+          "Iran"
+        ],
+        "implication": "Removes a major swing supplier (~20% of global LNG); spikes European/Asian gas benchmarks and tightens power/industrial fuel markets.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.067352,
+          26.707417
+        ]
+      },
+      "properties": {
+        "id": "4d978165b9bb",
+        "event_type": "strike",
+        "severity": 82,
+        "confidence": "med",
+        "title": "Saudi Aramco's Ras Tanura refinery suspends operations after drone strike (precautionary shutdown)",
+        "timestamp_utc": "2026-03-02T07:59:00Z",
+        "location_name": "Ras Tanura, Saudi Arabia",
+        "location_resolved": "رحيمة, محافظة رأس تنوره, المنطقة الشرقية, 32811, السعودية",
+        "actors": [
+          "Saudi Aramco",
+          "Saudi Arabia"
+        ],
+        "implication": "Adds to refined product and export-terminal risk; supports higher crude/product spreads and regional supply tightness.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3283934,
+          36.4239244
+        ]
+      },
+      "properties": {
+        "id": "3fbb6360fc79",
+        "event_type": "other",
+        "severity": 75,
+        "confidence": "high",
+        "title": "Most oil production in Iraqi Kurdistan halts as operators stop output (precaution)",
+        "timestamp_utc": "2026-03-02T07:59:00Z",
+        "location_name": "Iraqi Kurdistan",
+        "location_resolved": "هەرێمی کوردستان, العراق",
+        "actors": [
+          "DNO",
+          "Gulf Keystone Petroleum",
+          "Dana Gas",
+          "HKN Energy"
+        ],
+        "implication": "Reduces regional supply and adds to export uncertainty; can tighten Mediterranean crude grades and support Brent.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8516,
+          31.0461
+        ]
+      },
+      "properties": {
+        "id": "35cf89dcbe41",
+        "event_type": "other",
+        "severity": 78,
+        "confidence": "high",
+        "title": "Major Israeli gas fields, including Leviathan, go offline; exports to Egypt throttled",
+        "timestamp_utc": "2026-03-02T07:59:00Z",
+        "location_name": "Eastern Mediterranean (Israel)",
+        "location_resolved": "Centroid: israel",
+        "actors": [
+          "Israel",
+          "Gas field operators"
+        ],
+        "implication": "Regional gas balance worsens; increases LNG demand/price support and can affect Egypt power/industry.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.6340004,
+          19.6230411
+        ]
+      },
+      "properties": {
+        "id": "e8751f9d6022",
+        "event_type": "strike",
+        "severity": 70,
+        "confidence": "med",
+        "title": "Fuel tank at Oman's Duqm port hit; fire breaks out",
+        "timestamp_utc": "2026-03-03T11:54:00Z",
+        "location_name": "Duqm, Oman",
+        "location_resolved": "الدقم, ولاية الدقم, محافظة الوسطى, عمان",
+        "actors": [
+          "Oman"
+        ],
+        "implication": "Highlights spillover risk to alternative logistics hubs; supports freight/insurance premiums.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/global-energy-costs-soar-iran-crisis-disrupts-shipping-oil-gas-production-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2313667,
+          25.4147357
+        ]
+      },
+      "properties": {
+        "id": "49ef04e6a452",
+        "event_type": "strike",
+        "severity": 72,
+        "confidence": "med",
+        "title": "Fire reported at UAE's Fujairah oil hub amid regional strikes",
+        "timestamp_utc": "2026-03-03T11:54:00Z",
+        "location_name": "Fujairah, United Arab Emirates",
+        "location_resolved": "الفجيرة, الإمارات العربية المتحدة",
+        "actors": [
+          "United Arab Emirates"
+        ],
+        "implication": "Risk to a key bunkering/storage hub increases product and shipping tightness; supports oil and refined product risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/global-energy-costs-soar-iran-crisis-disrupts-shipping-oil-gas-production-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8124428,
+          37.0288825
+        ]
+      },
+      "properties": {
+        "id": "3df2b2d078a8",
+        "event_type": "shipping_disruption",
+        "severity": 65,
+        "confidence": "med",
+        "title": "Iraq's Kirkuk crude loadings at Turkey's Ceyhan port stop",
+        "timestamp_utc": "2026-03-03T02:12:00Z",
+        "location_name": "Ceyhan, Turkey",
+        "location_resolved": "Ceyhan, Adana, Akdeniz Bölgesi, Türkiye",
+        "actors": [
+          "Iraq",
+          "Turkey"
+        ],
+        "implication": "Adds another export constraint into Mediterranean markets; supports regional crude differentials.",
+        "source_urls": [
+          "http://www.reuters.com/business/energy/oil-rises-expanding-us-israeli-conflict-with-iran-elevates-supply-risks-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6677428,
+          22.3511148
+        ]
+      },
+      "properties": {
+        "id": "a1073e17f8df",
+        "event_type": "diplomacy",
+        "severity": 55,
+        "confidence": "high",
+        "title": "India begins cutting gas supplies to industries in anticipation of reduced Middle East LNG (Qatar outage)",
+        "timestamp_utc": "2026-03-03T06:59:00Z",
+        "location_name": "India",
+        "location_resolved": "India",
+        "actors": [
+          "India",
+          "Petronet LNG",
+          "GAIL",
+          "Indian Oil"
+        ],
+        "implication": "Second-round demand destruction/rationing signals physical tightness; may transmit into industrial output and EM macro stress.",
+        "source_urls": [
+          "https://reuters.com/business/energy/india-reduces-gas-supply-industries-after-qatar-outage-sources-say-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.2343748,
+          51.2086975
+        ]
+      },
+      "properties": {
+        "id": "3c6f587095fa",
+        "event_type": "other",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Asian importers face disrupted Middle East oil supply as vessels bottleneck and transport costs rise",
+        "timestamp_utc": "2026-03-02T08:26:00Z",
+        "location_name": "Asia",
+        "location_resolved": "亚洲",
+        "actors": [
+          "Japan",
+          "India",
+          "Asian refiners"
+        ],
+        "implication": "Energy-importer terms-of-trade shock can pressure current accounts, FX, and domestic inflation; raises recession tail risk.",
+        "source_urls": [
+          "http://reuters.com/world/asia-pacific/iran-conflict-disrupts-oil-supply-asian-countries-dependent-middle-east-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8623,
+          33.8547
+        ]
+      },
+      "properties": {
+        "id": "ba96d4d1f632",
+        "event_type": "strike",
+        "severity": 83,
+        "confidence": "high",
+        "title": "Israel strikes Beirut's southern suburbs after Hezbollah launches missiles and drones toward Israel",
+        "timestamp_utc": "2026-03-01T23:36:00Z",
+        "location_name": "Beirut (Dahiyeh), Lebanon",
+        "location_resolved": "Centroid: lebanon",
+        "actors": [
+          "Israel",
+          "Hezbollah",
+          "Lebanon"
+        ],
+        "implication": "Opens/expands a Lebanon front alongside Iran conflict; increases chance of prolonged regional instability and broader asset risk-off.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israeli-military-says-projectiles-were-fired-lebanon-2026-03-01/"
         ]
       }
     }

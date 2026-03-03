@@ -3,5 +3,63 @@
     "lon": 56.2027702,
     "lat": 26.4494061,
     "display_name": "مضیق هرمز, عمان"
-  }
+  },
+  "iran": {
+    "lon": 54.5643516,
+    "lat": 32.6475314,
+    "display_name": "ایران"
+  },
+  "gulf region": {
+    "lon": 144.8850036,
+    "lat": -7.5556411,
+    "display_name": "Gulf, Southern Region, Papua Niugini"
+  },
+  "middle east gulf": {
+    "lon": -85.47712,
+    "lat": 36.153787,
+    "display_name": "Gulf, East Spring Street, Eastwood, Cookeville, Putnam County, Middle Tennessee, Tennessee, 38506, United States"
+  },
+  "suez canal / bab el-mandeb": null,
+  "ras laffan, qatar": {
+    "lon": 51.5331527,
+    "lat": 25.8976567,
+    "display_name": "رأس لفان, قطر"
+  },
+  "ras tanura, saudi arabia": {
+    "lon": 50.067352,
+    "lat": 26.707417,
+    "display_name": "رحيمة, محافظة رأس تنوره, المنطقة الشرقية, 32811, السعودية"
+  },
+  "iraqi kurdistan": {
+    "lon": 44.3283934,
+    "lat": 36.4239244,
+    "display_name": "هەرێمی کوردستان, العراق"
+  },
+  "eastern mediterranean (israel)": null,
+  "duqm, oman": {
+    "lon": 57.6340004,
+    "lat": 19.6230411,
+    "display_name": "الدقم, ولاية الدقم, محافظة الوسطى, عمان"
+  },
+  "fujairah, united arab emirates": {
+    "lon": 56.2313667,
+    "lat": 25.4147357,
+    "display_name": "الفجيرة, الإمارات العربية المتحدة"
+  },
+  "ceyhan, turkey": {
+    "lon": 35.8124428,
+    "lat": 37.0288825,
+    "display_name": "Ceyhan, Adana, Akdeniz Bölgesi, Türkiye"
+  },
+  "india": {
+    "lon": 78.6677428,
+    "lat": 22.3511148,
+    "display_name": "India"
+  },
+  "asia": {
+    "lon": 89.2343748,
+    "lat": 51.2086975,
+    "display_name": "亚洲"
+  },
+  "beirut (dahiyeh), lebanon": null
 }
