@@ -2,8 +2,7 @@ name: Run tracker
 
 on:
   schedule:
-    # Every 3 hours (change if you want)
-    - cron: "0 */3 * * *"
+    - cron: "0 */3 * * *"   # every 3 hours
   workflow_dispatch:
 
 permissions:
@@ -69,10 +68,8 @@ jobs:
           git config user.name "tracker-bot"
           git config user.email "tracker-bot@users.noreply.github.com"
 
-          # Pull/rebase to avoid push failures if main moved
           git pull --rebase
 
-          # Add outputs (repo root)
           git add \
             op_extract.json \
             latest.json \
