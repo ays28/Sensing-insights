@@ -34,7 +34,7 @@ jobs:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4o-mini
-          # Optional knobs (only if your tracker.py uses them)
+          # Optional knobs if your tracker.py uses them
           EXA_PER_QUERY: "10"
           MAX_FETCH_URLS: "30"
         run: |
@@ -44,6 +44,17 @@ jobs:
         run: |
           git config user.name "tracker-bot"
           git config user.email "tracker-bot@users.noreply.github.com"
+
           git add latest.json events.geojson history.jsonl graph.json geocode_cache.json events.jsonl links.jsonl news.jsonl timeline.json || true
-          git diff --staged --quiet || git commit -m "Update tracker data"
-          git push
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update tracker data"
+
+          # Avoid 'fetch first' rejection if another run pushed
+          git pull --rebase origin main
+
+          git push origin main
