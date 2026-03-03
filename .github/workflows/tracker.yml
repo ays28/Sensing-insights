@@ -25,20 +25,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Debug - confirm endpoint (real check)
-        run: |
-          echo "If tracker.py makes an OpenAI call, it must be chat/completions:"
-          grep -n "chat/completions" tracker.py || true
-
-          echo "Ensure tracker.py is NOT calling /v1/responses:"
-          grep -n "OPENAI_BASE_URL.*/responses" tracker.py || true
-          grep -n "/v1/responses" tracker.py || true
-
       - name: Run tracker.py
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4o-mini
+          TRACK_QUERY: Iran Middle East escalation Red Sea shipping Strait of Hormuz sanctions strikes drones missiles diplomacy
         run: |
           python tracker.py
 
@@ -46,6 +38,6 @@ jobs:
         run: |
           git config user.name "tracker-bot"
           git config user.email "tracker-bot@users.noreply.github.com"
-          git add latest.json events.geojson history.jsonl || true
+          git add latest.json events.geojson history.jsonl events.jsonl links.jsonl graph.json geocode_cache.json || true
           git diff --staged --quiet || git commit -m "Update tracker data"
           git push
