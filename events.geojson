@@ -12,13 +12,13 @@
       },
       "properties": {
         "id": "event-001",
-        "event_type": "Military Action",
+        "event_type": "Military Threat",
         "severity": 90,
         "confidence": "high",
-        "title": "Iran threatens military action against vessels in Strait of Hormuz",
-        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "title": "Iran threatens to attack ships in Strait of Hormuz",
+        "timestamp_utc": "2026-03-02T00:00:00.000Z",
         "location_name": "Strait of Hormuz",
-        "implication": "Iran's threats could lead to significant disruptions in global oil supply.",
+        "implication": "Threat to global oil supply and shipping routes.",
         "source_urls": [
           "https://www.aljazeera.com/news/2026/3/2/iran-says-will-attack-any-ship-trying-to-pass-through-strait-of-hormuz"
         ]
@@ -35,12 +35,12 @@
       },
       "properties": {
         "id": "event-002",
-        "event_type": "Attack",
+        "event_type": "Military Action",
         "severity": 85,
         "confidence": "high",
-        "title": "Five ships attacked in the Strait of Hormuz",
-        "timestamp_utc": "2026-03-02T00:00:00Z",
-        "location_name": "Strait of Hormuz",
+        "title": "Five ships hit in Gulf of Oman",
+        "timestamp_utc": "2026-03-02T00:00:00.000Z",
+        "location_name": "Gulf of Oman",
         "implication": "Increased risk for maritime operations in the region.",
         "source_urls": [
           "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"

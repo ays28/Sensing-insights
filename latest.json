@@ -1,44 +1,41 @@
 {
-  "generated_at_utc": "2026-03-02T00:00:00Z",
+  "generated_at_utc": "2026-03-02T00:00:00.000Z",
   "headline_summary": [
-    "Iran threatens to attack any ship attempting to pass through the Strait of Hormuz.",
-    "Five ships have been struck in a series of missile and drone attacks in the region.",
-    "Gulf states are considering military responses to Iranian aggression.",
-    "Shipping companies are rerouting vessels around Africa due to safety concerns.",
-    "Oil prices have surged amid fears of supply disruptions.",
+    "Iran threatens to attack any ship passing through the Strait of Hormuz.",
+    "U.S. and Israeli strikes on Iran escalate tensions in the region.",
+    "Five ships have been hit in a wave of attacks in the Gulf.",
+    "Shipping giants suspend operations through the Strait of Hormuz.",
+    "Oil prices are expected to surge due to supply disruptions.",
     "The Strait of Hormuz is critical for global oil and gas supplies.",
-    "Insurers are reassessing coverage for transits through the strait.",
-    "The situation has escalated tensions in the Middle East significantly."
+    "Insurance companies reassess war-risk exposure in the region.",
+    "Houthi militants signal renewed attacks on shipping in the Red Sea."
   ],
   "market_implications": {
     "Energy": [
-      "Oil prices expected to rise sharply due to supply fears.",
-      "Natural gas prices have already increased significantly in Europe and Asia.",
-      "Potential for historic upheaval in crude tanker markets."
+      "Oil prices could spike to $200 per barrel.",
+      "Natural gas prices rose sharply in Europe and Asia.",
+      "Disruptions in oil supply could lead to inflationary pressures globally."
     ],
-    "FX": [
-      "Increased demand for safe-haven currencies like the USD.",
-      "Emerging market currencies may face depreciation pressures."
-    ],
+    "FX": [],
     "Rates": [],
     "Equities": []
   },
   "risk_score": 85,
   "risk_drivers": [
-    "Escalation of military conflict in the Gulf region.",
-    "Disruption of global oil and gas supplies.",
-    "Increased geopolitical tensions affecting trade routes."
+    "Escalating military conflict in the Middle East.",
+    "Threats to critical maritime trade routes.",
+    "Potential for significant disruptions in oil supply."
   ],
   "watchlist": [
     {
-      "asset": "Brent Crude Oil",
-      "direction": "Long",
+      "asset": "Brent Crude",
+      "direction": "up",
       "why": "Expected price surge due to supply disruptions."
     },
     {
-      "asset": "USD",
-      "direction": "Long",
-      "why": "Increased demand for safe-haven assets."
+      "asset": "Shipping stocks",
+      "direction": "down",
+      "why": "Suspension of operations through the Strait of Hormuz."
     }
   ],
   "sources": [
@@ -49,21 +46,27 @@
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
-      "title": "Gulf states on verge of acting against Iran over ‘reckless’ strikes across region | Iran | The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/02/gulf-states-iran-strikes-response",
-      "publisher": "Patrick Wintour",
-      "published_at": "2026-03-02T00:00:00.000Z"
-    },
-    {
       "title": "Houthis Signal Renewed Red Sea Shipping Attacks After U.S.–Israeli Strikes on Iran",
       "url": "https://gcaptain.com/houthis-signal-renewed-red-sea-shipping-attacks-after-u-s-israeli-strikes-on-iran/",
       "publisher": "Paul Morgan",
       "published_at": "2026-02-28T00:00:00.000Z"
     },
     {
+      "title": "Iran vows to attack any ship trying to pass through Strait of Hormuz - The Hindu",
+      "url": "https://trib.al/GV1qIQL",
+      "publisher": "Reuters",
+      "published_at": "2026-03-02T00:00:00.000Z"
+    },
+    {
       "title": "Strait of Hormuz Enters Active Crisis: Five Ships Hit, Traffic Collapses, Tanker Markets Brace for Historic Shock",
       "url": "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/",
       "publisher": "Mike Schuler",
+      "published_at": "2026-03-02T00:00:00.000Z"
+    },
+    {
+      "title": "Strait of Hormuz crisis explained: What it means for global shipping",
+      "url": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+      "publisher": "Sam Meredith",
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
@@ -75,12 +78,6 @@
     {
       "title": "Iran vows to attack any ship trying to pass through Strait of Hormuz - AL-Monitor: The Middle East’s leading independent news source since 2012",
       "url": "https://www.al-monitor.com/originals/2026/03/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz",
-      "publisher": "",
-      "published_at": "2026-03-02T00:00:00.000Z"
-    },
-    {
-      "title": "Iran conflict 2026: Disruption to Strait of Hormuz increases energy and food production risks",
-      "url": "https://www.janes.com/osint-insights/defence-and-national-security-analysis/iran-conflict-2026-disruption-to-strait-of-hormuz-increases-energy-and-food-production-risks",
       "publisher": "",
       "published_at": "2026-03-02T00:00:00.000Z"
     }
