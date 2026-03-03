@@ -1,84 +1,85 @@
 {
-  "generated_at_utc": "2026-03-02T00:00:00.000Z",
+  "generated_at_utc": "2026-03-02T12:00:00Z",
+  "generated_at_ist": "2026-03-02T17:30:00+05:30",
   "headline_summary": [
-    "Iran threatens to attack any ship passing through the Strait of Hormuz.",
-    "U.S. and Israeli strikes on Iran escalate tensions in the region.",
-    "Five ships have been hit in a wave of attacks in the Gulf.",
+    "Iran threatens to attack any ship attempting to pass through the Strait of Hormuz.",
+    "Five commercial vessels have been struck in the Gulf of Oman and UAE waters.",
     "Shipping giants suspend operations through the Strait of Hormuz.",
-    "Oil prices are expected to surge due to supply disruptions.",
-    "The Strait of Hormuz is critical for global oil and gas supplies.",
-    "Insurance companies reassess war-risk exposure in the region.",
-    "Houthi militants signal renewed attacks on shipping in the Red Sea."
+    "Oil prices surge amid fears of prolonged disruption to global trade.",
+    "Gulf states consider military action against Iran following attacks.",
+    "Houthi forces signal renewed attacks on Red Sea shipping."
   ],
   "market_implications": {
     "Energy": [
-      "Oil prices could spike to $200 per barrel.",
-      "Natural gas prices rose sharply in Europe and Asia.",
-      "Disruptions in oil supply could lead to inflationary pressures globally."
+      "Oil prices could spike to $200 per barrel due to supply disruptions.",
+      "Natural gas prices in Europe surged by nearly 50% following attacks.",
+      "Shipping disruptions could lead to significant increases in freight rates."
     ],
-    "FX": [],
-    "Rates": [],
-    "Equities": []
+    "FX": [
+      "Emerging market currencies may face depreciation pressures due to rising oil prices.",
+      "Countries heavily reliant on oil imports could see increased inflation and currency volatility."
+    ],
+    "Rates": [
+      "Increased risk premiums for maritime insurance are expected.",
+      "Credit spreads may widen as market uncertainty rises."
+    ],
+    "Equities": [
+      "Energy sector stocks may benefit from rising oil prices.",
+      "Broader market volatility could lead to declines in equities linked to consumer sectors."
+    ]
   },
   "risk_score": 85,
   "risk_drivers": [
-    "Escalating military conflict in the Middle East.",
-    "Threats to critical maritime trade routes.",
-    "Potential for significant disruptions in oil supply."
+    "Escalating military conflict in the region.",
+    "Disruption of critical maritime trade routes.",
+    "Increased geopolitical tensions involving global actors."
   ],
   "watchlist": [
     {
       "asset": "Brent Crude",
       "direction": "up",
-      "why": "Expected price surge due to supply disruptions."
+      "why": "Expected supply disruptions and increased demand."
     },
     {
-      "asset": "Shipping stocks",
+      "asset": "Emerging Market Currencies",
       "direction": "down",
-      "why": "Suspension of operations through the Strait of Hormuz."
+      "why": "Pressure from rising oil prices."
+    },
+    {
+      "asset": "Shipping Stocks",
+      "direction": "up",
+      "why": "Increased freight rates due to disruptions."
     }
   ],
   "sources": [
     {
-      "title": "Iran says will attack any ship trying to pass through Strait of Hormuz | Conflict News | Al Jazeera",
+      "title": "Iran says will attack any ship trying to pass through Strait of Hormuz",
       "url": "https://www.aljazeera.com/news/2026/3/2/iran-says-will-attack-any-ship-trying-to-pass-through-strait-of-hormuz",
-      "publisher": "News Agencies",
+      "publisher": "Al Jazeera",
+      "published_at": "2026-03-02T00:00:00.000Z"
+    },
+    {
+      "title": "Gulf states on verge of acting against Iran over ‘reckless’ strikes across region",
+      "url": "https://www.theguardian.com/world/2026/mar/02/gulf-states-iran-strikes-response",
+      "publisher": "The Guardian",
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
       "title": "Houthis Signal Renewed Red Sea Shipping Attacks After U.S.–Israeli Strikes on Iran",
       "url": "https://gcaptain.com/houthis-signal-renewed-red-sea-shipping-attacks-after-u-s-israeli-strikes-on-iran/",
-      "publisher": "Paul Morgan",
+      "publisher": "gCaptain",
       "published_at": "2026-02-28T00:00:00.000Z"
-    },
-    {
-      "title": "Iran vows to attack any ship trying to pass through Strait of Hormuz - The Hindu",
-      "url": "https://trib.al/GV1qIQL",
-      "publisher": "Reuters",
-      "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
       "title": "Strait of Hormuz Enters Active Crisis: Five Ships Hit, Traffic Collapses, Tanker Markets Brace for Historic Shock",
       "url": "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/",
-      "publisher": "Mike Schuler",
+      "publisher": "gCaptain",
       "published_at": "2026-03-02T00:00:00.000Z"
     },
     {
       "title": "Strait of Hormuz crisis explained: What it means for global shipping",
       "url": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
-      "publisher": "Sam Meredith",
-      "published_at": "2026-03-02T00:00:00.000Z"
-    },
-    {
-      "title": "How US-Israel attacks on Iran threaten the Strait of Hormuz, oil markets | Israel-Iran conflict News | Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets",
-      "publisher": "Priyanka Shankar",
-      "published_at": "2026-03-01T00:00:00.000Z"
-    },
-    {
-      "title": "Iran vows to attack any ship trying to pass through Strait of Hormuz - AL-Monitor: The Middle East’s leading independent news source since 2012",
-      "url": "https://www.al-monitor.com/originals/2026/03/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz",
-      "publisher": "",
+      "publisher": "CNBC",
       "published_at": "2026-03-02T00:00:00.000Z"
     }
   ]

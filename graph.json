@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "oil_up_risk",
+      "label": "Oil up-risk",
+      "group": "market"
+    },
+    {
+      "id": "em_fx_pressure",
+      "label": "EM FX pressure",
+      "group": "market"
+    },
+    {
+      "id": "risk_off_flows",
+      "label": "Risk-off flows",
+      "group": "market"
+    },
+    {
+      "id": "rates_credit_spreads",
+      "label": "Rates/Credit spreads",
+      "group": "market"
+    },
+    {
+      "id": "d1787d6d946d",
+      "label": "Iranian missile strikes on commercial vessels",
+      "group": "event",
+      "severity": 90,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz"
+    },
+    {
+      "id": "a25b3cf10848",
+      "label": "Suspension of shipping operations through the Strait of Horm",
+      "group": "event",
+      "severity": 85,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz"
+    }
+  ],
+  "edges": [
+    {
+      "from": "a25b3cf10848",
+      "to": "oil_up_risk",
+      "label": "increases_risk",
+      "confidence": "med",
+      "why": "Shipping disruption can constrain supply routes and raise oil risk premia."
+    },
+    {
+      "from": "oil_up_risk",
+      "to": "em_fx_pressure",
+      "label": "pressures",
+      "confidence": "med",
+      "why": "Higher oil prices often worsen import bills and pressure EM FX for net importers."
+    },
+    {
+      "from": "shipping_disruption",
+      "to": "oil_up_risk",
+      "label": "causes",
+      "confidence": "high",
+      "why": "Disruption of shipping routes directly impacts oil supply and prices."
+    },
+    {
+      "from": "oil_up_risk",
+      "to": "em_fx_pressure",
+      "label": "pressures",
+      "confidence": "high",
+      "why": "Rising oil prices increase inflationary pressures on emerging market economies."
+    }
+  ]
+}
