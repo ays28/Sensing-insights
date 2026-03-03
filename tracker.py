@@ -4,7 +4,7 @@ import time
 import hashlib
 import subprocess
 from datetime import datetime, timezone, timedelta
-from typing import List, Dict, Any, Optional, Tuple, Set
+from typing import Any, Dict, List, Optional, Set, Tuple
 
 import requests
 
@@ -17,16 +17,18 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 # ==========================
 # CONFIG
 # ==========================
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+# Use GPT-5.2 (set by workflow env OPENAI_MODEL=gpt-5.2)
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.2")
+
 FETCH_TIMEOUT = int(os.getenv("FETCH_TIMEOUT", "25"))
 
 # Output files (repo root)
+OUT_EXTRACT = "op_extract.json"
 OUT_LATEST = "latest.json"
 OUT_GEOJSON = "events.geojson"
-OUT_HISTORY = "history.jsonl"
 OUT_GRAPH = "graph.json"
+OUT_HISTORY = "history.jsonl"
 OUT_GEOCODE_CACHE = "geocode_cache.json"
-OUT_EXTRACT = "op_extract.json"  # OpenPlanter writes this
 
 # Time zones
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -81,12 +83,12 @@ def stable_id(*parts: str) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()[:12]
 
 
-def write_json(path: str, obj: Any):
+def write_json(path: str, obj: Any) -> None:
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
 
-def append_jsonl(path: str, obj: dict):
+def append_jsonl(path: str, obj: dict) -> None:
     with open(path, "a", encoding="utf-8") as f:
         f.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
@@ -116,7 +118,7 @@ class Geocoder:
                 self.cache = {}
         self.last_call = 0.0
 
-    def save(self):
+    def save(self) -> None:
         with open(self.cache_path, "w", encoding="utf-8") as f:
             json.dump(self.cache, f, ensure_ascii=False, indent=2)
 
@@ -131,6 +133,7 @@ class Geocoder:
                 return None
             return (float(v["lon"]), float(v["lat"]), v.get("display_name", place))
 
+        # throttle
         now = time.time()
         wait = NOMINATIM_MIN_DELAY_SEC - (now - self.last_call)
         if wait > 0:
@@ -148,6 +151,7 @@ class Geocoder:
             if r.status_code != 200:
                 self.cache[key] = None
                 return None
+
             js = r.json()
             if not js:
                 self.cache[key] = None
@@ -165,13 +169,16 @@ class Geocoder:
 
 
 def normalize_links(raw_links: Any) -> List[Dict[str, Any]]:
-    # Only accept dicts; ignore strings to prevent crashes.
+    # Strictly keep objects only; ignore strings/mixed to avoid crashes.
     if not isinstance(raw_links, list):
         return []
-    out = []
+    out: List[Dict[str, Any]] = []
     for item in raw_links:
         if isinstance(item, dict):
-            out.append(item)
+            frm = item.get("from")
+            to = item.get("to")
+            if frm and to:
+                out.append(item)
     return out
 
 
@@ -189,8 +196,15 @@ def ensure_graph_nodes(nodes: List[Dict[str, Any]], edges: List[Dict[str, Any]])
     return nodes
 
 
-def run_openplanter_extract(workspace: str):
-    # IMPORTANT: --reasoning-effort none fixes the OpenAI 400 error.
+def run_openplanter(workspace: str) -> None:
+    """
+    Calls OpenPlanter to produce ./op_extract.json in repo root.
+
+    IMPORTANT:
+    - We force --reasoning-effort none to prevent the OpenAI HTTP 400 you saw
+      (OpenPlanter sending 'reasoning_effort' on Chat Completions).
+    - Model is GPT-5.2 via env OPENAI_MODEL=gpt-5.2. :contentReference[oaicite:1]{index=1}
+    """
     task = f"""
 You are an OSINT + markets tracking agent.
 
@@ -198,8 +212,6 @@ Goal: Track Middle East events and market implications, and infer relationships 
 
 You MUST write EXACTLY one JSON file to the workspace root:
 - {OUT_EXTRACT}
-
-Use a tool to write the file to path "./{OUT_EXTRACT}" (repo root).
 
 The JSON MUST have exactly these top-level keys:
 - latest (object)
@@ -228,7 +240,7 @@ links array: infer relationships between events AND event->market concepts.
 Each link is an object with:
 - from (string: an event title OR a market concept id)
 - to (string: an event title OR a market concept id)
-- relation (string: e.g., triggers|retaliates|escalates|disrupts|pressures|raises_risk)
+- relation (string)
 - confidence (low|med|high)
 - why (short justification)
 
@@ -241,7 +253,7 @@ Market concept ids you may use:
 Rules:
 - Use ONLY credible sources you can cite in source_urls.
 - Produce at least 15 events if sources allow.
-- links must be objects (no strings).
+- links must be objects only (no strings).
 """
 
     cmd = [
@@ -249,7 +261,7 @@ Rules:
         "--headless",
         "--provider", "openai",
         "--model", OPENAI_MODEL,
-        "--reasoning-effort", "none",   # ✅ CRITICAL FIX
+        "--reasoning-effort", "none",
         "--task", task,
         "--workspace", workspace,
     ]
@@ -257,14 +269,14 @@ Rules:
     subprocess.run(cmd, check=True)
 
 
-def main():
+def main() -> None:
     if not EXA_API_KEY:
         raise SystemExit("Missing EXA_API_KEY")
     if not OPENAI_API_KEY:
         raise SystemExit("Missing OPENAI_API_KEY")
 
     workspace = os.path.abspath(".")
-    run_openplanter_extract(workspace)
+    run_openplanter(workspace)
 
     if not os.path.exists(OUT_EXTRACT):
         raise SystemExit(f"OpenPlanter did not write {OUT_EXTRACT} to repo root.")
@@ -276,35 +288,54 @@ def main():
     events = out.get("events") if isinstance(out.get("events"), list) else []
     links = normalize_links(out.get("links"))
 
+    # add timestamps used by UI
     latest["generated_at_utc"] = latest.get("generated_at_utc") or utc_now_iso()
     latest["generated_at_ist"] = latest.get("generated_at_ist") or ist_now_iso()
 
-    # Geocode -> GeoJSON + event nodes
+    # Geocode events -> GeoJSON + event nodes
     geocoder = Geocoder(OUT_GEOCODE_CACHE)
-    features = []
-    event_nodes = []
+    features: List[Dict[str, Any]] = []
+    event_nodes: List[Dict[str, Any]] = []
 
-    # map from event title to event_id so links can refer to titles
+    # map event title -> event_id so graph edges can reference titles safely
     title_to_id: Dict[str, str] = {}
 
     for e in events:
         if not isinstance(e, dict):
             continue
-        loc = (e.get("location_name") or "").strip()
+
         title = (e.get("title") or "Event").strip()
-        if not loc or not title:
+        loc = (e.get("location_name") or "").strip()
+        etype = (e.get("event_type") or "other").strip()
+        ts = e.get("timestamp_utc") or ""
+
+        # If location missing, try actor fallback to avoid dropping the event completely
+        if not loc:
+            actors = e.get("actors") or []
+            for a in actors:
+                fb = centroid_fallback(str(a))
+                if fb:
+                    loc = str(a)
+                    break
+
+        if not title or not loc:
             continue
 
-        eid = stable_id(title, loc, e.get("timestamp_utc") or "", e.get("event_type") or "")
+        eid = stable_id(title, loc, ts, etype)
         title_to_id[title] = eid
 
-        geo = geocoder.geocode(loc) or centroid_fallback(loc)
+        geo = geocoder.geocode(loc)
         if geo is None:
+            geo = centroid_fallback(loc)
+
+        if geo is None:
+            # last attempt: centroid based on any actor
             for a in (e.get("actors") or []):
                 fb = centroid_fallback(str(a))
                 if fb:
                     geo = fb
                     break
+
         if geo is None:
             continue
 
@@ -312,7 +343,7 @@ def main():
 
         props = {
             "id": eid,
-            "event_type": e.get("event_type", "other"),
+            "event_type": etype,
             "severity": int(e.get("severity", 0) or 0),
             "confidence": e.get("confidence", "low"),
             "title": title,
@@ -324,7 +355,11 @@ def main():
             "source_urls": e.get("source_urls") or [],
         }
 
-        features.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [lon, lat]}, "properties": props})
+        features.append({
+            "type": "Feature",
+            "geometry": {"type": "Point", "coordinates": [lon, lat]},
+            "properties": props,
+        })
 
         event_nodes.append({
             "id": eid,
@@ -339,23 +374,23 @@ def main():
 
     geocoder.save()
 
-    # Build graph from OpenPlanter links
-    nodes = MARKET_NODES + event_nodes
-    edges = []
+    # Graph nodes/edges
+    nodes: List[Dict[str, Any]] = MARKET_NODES + event_nodes
+    edges: List[Dict[str, Any]] = []
 
     for l in links:
-        frm = str(l.get("from") or "").strip()
-        to = str(l.get("to") or "").strip()
-        if not frm or not to:
+        frm_raw = str(l.get("from") or "").strip()
+        to_raw = str(l.get("to") or "").strip()
+        if not frm_raw or not to_raw:
             continue
 
-        # If link refers to event title, convert to event id
-        frm_id = title_to_id.get(frm, frm)
-        to_id = title_to_id.get(to, to)
+        # Convert event titles to event ids when possible
+        frm = title_to_id.get(frm_raw, frm_raw)
+        to = title_to_id.get(to_raw, to_raw)
 
         edges.append({
-            "from": frm_id,
-            "to": to_id,
+            "from": frm,
+            "to": to,
             "label": str(l.get("relation") or "causes"),
             "confidence": str(l.get("confidence") or "low"),
             "why": str(l.get("why") or ""),
@@ -363,11 +398,10 @@ def main():
 
     nodes = ensure_graph_nodes(nodes, edges)
 
-    # Write outputs your HTML uses
+    # Write outputs consumed by index.html
     write_json(OUT_GEOJSON, {"type": "FeatureCollection", "features": features})
     write_json(OUT_GRAPH, {"nodes": nodes, "edges": edges})
     write_json(OUT_LATEST, latest)
-
     append_jsonl(OUT_HISTORY, {
         "generated_at_utc": latest["generated_at_utc"],
         "generated_at_ist": latest["generated_at_ist"],
@@ -375,7 +409,7 @@ def main():
         "top_drivers": (latest.get("risk_drivers") or [])[:3],
     })
 
-    print(f"OK: events_plotted={len(features)} nodes={len(nodes)} edges={len(edges)} wrote={OUT_LATEST},{OUT_GEOJSON},{OUT_GRAPH},{OUT_HISTORY}")
+    print(f"OK: events_plotted={len(features)} nodes={len(nodes)} edges={len(edges)}")
 
 
 if __name__ == "__main__":
