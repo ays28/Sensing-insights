@@ -91,5 +91,24 @@
     "lon": -76.5888477,
     "lat": 39.3014159,
     "display_name": "Middle East, Baltimore, Maryland, United States"
+  },
+  "strait of hormuz / gulf": null,
+  "gulf (near strait of hormuz)": null,
+  "gulf / middle east shipping lanes": null,
+  "bab el-mandeb / suez canal": null,
+  "kurdistan region, iraq": {
+    "lon": 44.9872685,
+    "lat": 35.8925268,
+    "display_name": "Kurdistan Region, Slemani-Dukan Road, کانی خان, Qamchugha, Dokan Central Subdistrict, Dokan District, Sulaymaniyah Governorate, Iraqi Kurdistan Region, 46010, Iraq"
+  },
+  "global oil market": {
+    "lon": 121.0302513,
+    "lat": 14.6292386,
+    "display_name": "Global Oil, Don Alejandro Roces Avenue, Obrero, Diliman, 4th District, Quezon City, Eastern Manila District, Metro Manila, 1103, Philippines"
+  },
+  "israel / iran": {
+    "lon": 34.9909675,
+    "lat": 32.8179652,
+    "display_name": "Iran, German Colony, Downtown District, Haifa, Haifa Subdistrict, Haifa District, 3505526, Israel"
   }
 }
