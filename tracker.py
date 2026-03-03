@@ -252,29 +252,36 @@ def normalize_links(raw_links: Any) -> List[Dict[str, Any]]:
     """
     if raw_links is None:
         return []
+
     if isinstance(raw_links, dict):
         raw_links = [raw_links]
-    if isinstance(raw_links, str):
+    elif isinstance(raw_links, str):
         raw_links = [raw_links]
-    if not isinstance(raw_links, list):
+    elif not isinstance(raw_links, list):
         return []
 
     cleaned: List[Dict[str, Any]] = []
+
     for item in raw_links:
+        # dict shape
         if isinstance(item, dict):
             frm = item.get("from") or item.get("source") or item.get("src")
             to = item.get("to") or item.get("target") or item.get("dst")
             if not frm or not to:
                 continue
-            cleaned.append({
-                "from": str(frm),
-                "to": str(to),
-                "relation": str(item.get("relation") or item.get("label") or "causes"),
-                "confidence": str(item.get("confidence") or "low"),
-                "why": str(item.get("why") or item.get("reason") or ""),
-            })
+
+            cleaned.append(
+                {
+                    "from": str(frm),
+                    "to": str(to),
+                    "relation": str(item.get("relation") or item.get("label") or "causes"),
+                    "confidence": str(item.get("confidence") or "low"),
+                    "why": str(item.get("why") or item.get("reason") or ""),
+                }
+            )
             continue
 
+        # string shape e.g. "A -> B"
         if isinstance(item, str):
             s = item.strip()
             for arrow in ["->", "→", "=>", "⇒"]:
@@ -283,15 +290,20 @@ def normalize_links(raw_links: Any) -> List[Dict[str, Any]]:
                     left = left.strip()
                     right = right.strip()
                     if left and right:
-                        cleaned.append({
-                            "from": left,
-                            "to": right,
-                            "relation": "causes",
-                            "confidence": "low",
-                            "why": "Parsed from string link",
-                        })
+                        cleaned.append(
+                            {
+                                "from": left,
+                                "to": right,
+                                "relation": "causes",
+                                "confidence": "low",
+                                "why": "Parsed from string link",
+                            }
+                        )
                     break
             continue
+
+        # ignore unknown types
+        continue
 
     return cleaned
 
@@ -306,10 +318,10 @@ def ensure_graph_nodes(nodes: List[Dict[str, Any]], edges: List[Dict[str, Any]])
         frm = e.get("from")
         to = e.get("to")
         if frm and frm not in id_set:
-            nodes.append({"id": frm, "label": frm.replace("_", " "), "group": "market"})
+            nodes.append({"id": frm, "label": str(frm).replace("_", " "), "group": "market"})
             id_set.add(frm)
         if to and to not in id_set:
-            nodes.append({"id": to, "label": to.replace("_", " "), "group": "market"})
+            nodes.append({"id": to, "label": str(to).replace("_", " "), "group": "market"})
             id_set.add(to)
     return nodes
 
@@ -358,7 +370,7 @@ def main():
                 "risk_score": "0-100",
                 "risk_drivers": "array 3-8",
                 "market_implications": {"Energy": "array", "FX": "array", "Rates": "array", "Equities": "array"},
-                "sources": "array <=20 objects {title,url,publisher,published_at}"
+                "sources": "array <=20 objects {title,url,publisher,published_at}",
             },
             "events": [
                 {
@@ -370,24 +382,23 @@ def main():
                     "location_name": "string (geocodable; if unsure use a country or strait name)",
                     "actors": "array",
                     "implication": "1-2 lines",
-                    "source_urls": "array of urls"
+                    "source_urls": "array of urls",
                 }
             ],
-            "links": [
-                {"from":"string","to":"string","relation":"string","confidence":"low|med|high","why":"string"}
-            ]
+            "links": [{"from": "string", "to": "string", "relation": "string", "confidence": "low|med|high", "why": "string"}],
         },
         "canonical_chains": [
             "shipping_disruption -> oil_up_risk -> em_fx_pressure",
-            "sanctions -> risk_off_flows -> rates_credit_spreads"
+            "sanctions -> risk_off_flows -> rates_credit_spreads",
         ],
-        "inputs": sources
+        "inputs": sources,
     }
 
     out = openai_json(prompt)
-    latest = out.get("latest") or {}
-    events = out.get("events") or []
-    links = normalize_links(out.get("links"))
+
+    latest = out.get("latest") if isinstance(out.get("latest"), dict) else {}
+    events = out.get("events") if isinstance(out.get("events"), list) else []
+    links = normalize_links(out.get("links"))  # ✅ key fix
 
     latest["generated_at_utc"] = latest.get("generated_at_utc") or utc_now_iso()
     latest["generated_at_ist"] = latest.get("generated_at_ist") or ist_now_iso()
@@ -398,6 +409,8 @@ def main():
     event_nodes = []
 
     for e in events:
+        if not isinstance(e, dict):
+            continue
         try:
             loc = (e.get("location_name") or "").strip()
             if not loc:
@@ -424,7 +437,7 @@ def main():
             props = {
                 "id": eid,
                 "event_type": e.get("event_type", "other"),
-                "severity": int(e.get("severity", 0)),
+                "severity": int(e.get("severity", 0) or 0),
                 "confidence": e.get("confidence", "low"),
                 "title": e.get("title", "Event"),
                 "timestamp_utc": e.get("timestamp_utc"),
@@ -435,18 +448,22 @@ def main():
                 "source_urls": e.get("source_urls") or [],
             }
 
-            features.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [lon, lat]}, "properties": props})
+            features.append(
+                {"type": "Feature", "geometry": {"type": "Point", "coordinates": [lon, lat]}, "properties": props}
+            )
 
-            event_nodes.append({
-                "id": eid,
-                "label": (props["title"] or "Event")[:80],
-                "group": "event",
-                "severity": props["severity"],
-                "confidence": props["confidence"],
-                "event_type": props["event_type"],
-                "timestamp_utc": props["timestamp_utc"],
-                "location_name": props["location_name"],
-            })
+            event_nodes.append(
+                {
+                    "id": eid,
+                    "label": (props["title"] or "Event")[:80],
+                    "group": "event",
+                    "severity": props["severity"],
+                    "confidence": props["confidence"],
+                    "event_type": props["event_type"],
+                    "timestamp_utc": props["timestamp_utc"],
+                    "location_name": props["location_name"],
+                }
+            )
         except Exception:
             continue
 
@@ -461,43 +478,70 @@ def main():
     ]
 
     nodes = market_nodes + event_nodes
-    edges = []
+    edges: List[Dict[str, Any]] = []
 
     # Canonical edges from detected event types
     for f in features:
-        p = f["properties"]
-        if p["event_type"] == "shipping_disruption":
-            edges.append({
-                "from": p["id"], "to": "oil_up_risk",
-                "label": "increases_risk", "confidence": "med",
-                "why": "Shipping disruption can constrain supply routes and raise oil risk premia."
-            })
-            edges.append({
-                "from": "oil_up_risk", "to": "em_fx_pressure",
-                "label": "pressures", "confidence": "med",
-                "why": "Higher oil prices often worsen import bills and pressure EM FX for net importers."
-            })
-        if p["event_type"] == "sanctions":
-            edges.append({
-                "from": p["id"], "to": "risk_off_flows",
-                "label": "triggers", "confidence": "med",
-                "why": "Sanctions can increase uncertainty and drive risk-off positioning."
-            })
-            edges.append({
-                "from": "risk_off_flows", "to": "rates_credit_spreads",
-                "label": "amplifies", "confidence": "med",
-                "why": "Risk-off flows can widen credit spreads and tighten financial conditions."
-            })
+        p = f.get("properties", {})
+        et = p.get("event_type")
+        if et == "shipping_disruption":
+            edges.append(
+                {
+                    "from": p.get("id"),
+                    "to": "oil_up_risk",
+                    "label": "increases_risk",
+                    "confidence": "med",
+                    "why": "Shipping disruption can constrain supply routes and raise oil risk premia.",
+                }
+            )
+            edges.append(
+                {
+                    "from": "oil_up_risk",
+                    "to": "em_fx_pressure",
+                    "label": "pressures",
+                    "confidence": "med",
+                    "why": "Higher oil prices often worsen import bills and pressure EM FX for net importers.",
+                }
+            )
+        if et == "sanctions":
+            edges.append(
+                {
+                    "from": p.get("id"),
+                    "to": "risk_off_flows",
+                    "label": "triggers",
+                    "confidence": "med",
+                    "why": "Sanctions can increase uncertainty and drive risk-off positioning.",
+                }
+            )
+            edges.append(
+                {
+                    "from": "risk_off_flows",
+                    "to": "rates_credit_spreads",
+                    "label": "amplifies",
+                    "confidence": "med",
+                    "why": "Risk-off flows can widen credit spreads and tighten financial conditions.",
+                }
+            )
 
-    # Model edges on top
+    # Model edges on top (now guaranteed dicts)
     for l in links:
-        edges.append({
-            "from": l["from"],
-            "to": l["to"],
-            "label": l.get("relation", "causes"),
-            "confidence": l.get("confidence", "low"),
-            "why": l.get("why", "")
-        })
+        # l is dict by construction
+        frm = l.get("from")
+        to = l.get("to")
+        if not frm or not to:
+            continue
+        edges.append(
+            {
+                "from": frm,
+                "to": to,
+                "label": l.get("relation", "causes"),
+                "confidence": l.get("confidence", "low"),
+                "why": l.get("why", ""),
+            }
+        )
+
+    # drop any edges missing endpoints
+    edges = [e for e in edges if e.get("from") and e.get("to")]
 
     # Ensure edge endpoints exist as nodes
     nodes = ensure_graph_nodes(nodes, edges)
@@ -506,12 +550,15 @@ def main():
     write_json(OUT_GEOJSON, {"type": "FeatureCollection", "features": features})
     write_json(OUT_GRAPH, {"nodes": nodes, "edges": edges})
     write_json(OUT_LATEST, latest)
-    append_jsonl(OUT_HISTORY, {
-        "generated_at_utc": latest["generated_at_utc"],
-        "generated_at_ist": latest["generated_at_ist"],
-        "risk_score": latest.get("risk_score", 0),
-        "top_drivers": (latest.get("risk_drivers") or [])[:3],
-    })
+    append_jsonl(
+        OUT_HISTORY,
+        {
+            "generated_at_utc": latest["generated_at_utc"],
+            "generated_at_ist": latest["generated_at_ist"],
+            "risk_score": latest.get("risk_score", 0),
+            "top_drivers": (latest.get("risk_drivers") or [])[:3],
+        },
+    )
 
     print(f"OK: sources={len(sources)} events_plotted={len(features)} nodes={len(nodes)} edges={len(edges)}")
 
