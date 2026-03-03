@@ -4,56 +4,60 @@
   <meta charset="utf-8" />
   <title>Middle East Live Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
   <style>
     body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#0b1220; color:#e6e8ee;}
     .topbar { display:flex; gap:12px; align-items:center; padding:10px 12px; background:#7a1f1f; }
     .topbar .title { font-weight:800; letter-spacing:.2px; }
     .topbar input { flex:1; padding:10px; border-radius:8px; border:0; outline:none; }
     .muted { color:#aab3c5; font-size:12px; }
-    .wrap { display:grid; grid-template-columns: 320px 1fr 380px; height: calc(100vh - 52px); }
+    .wrap { display:grid; grid-template-columns: 320px 1fr 420px; height: calc(100vh - 52px); }
     .left, .right { background:#101a2e; overflow:auto; }
     .left { border-right:1px solid #1b2a45; padding:12px; }
     .right { border-left:1px solid #1b2a45; padding:12px; }
     #map { height:100%; }
     .card { background:#0f1a33; border:1px solid #22365c; border-radius:12px; padding:12px; margin:12px 0; }
-    .btn { width:100%; margin:6px 0; padding:10px; border-radius:10px; border:1px solid #22365c; background:#0f1a33; color:#e6e8ee; cursor:pointer; }
+    .btn { width:100%; margin:6px 0; padding:10px; border-radius:10px; border:1px solid #22365c; background:#0f1a33; color:#e6e8ee; cursor:pointer; text-align:left;}
+    .btn.active { outline: 2px solid #9bd0ff; }
     .pill { display:inline-block; padding:4px 8px; border-radius:999px; border:1px solid #22365c; margin-right:6px; font-size:12px; }
-    a { color:#9bd0ff; }
+    a { color:#9bd0ff; word-break: break-word; }
     table { width:100%; border-collapse: collapse; }
     th, td { border-bottom:1px solid #22365c; padding:8px; font-size:13px; vertical-align:top; }
     th { text-align:left; color:#cbd5e1; }
+    #graph { height: 420px; background:#0b1220; border:1px solid #22365c; border-radius:12px; }
+    .split { display:grid; grid-template-columns: 1fr 1fr; gap:10px; }
+    .k { font-weight:700; }
   </style>
 </head>
 <body>
   <div class="topbar">
     <div class="title">Tracker</div>
-    <input id="q" placeholder="Filter events (type/title/location)" />
+    <input id="q" placeholder="Filter events (type/title/location/actor)" />
     <div class="muted" id="last">Loading…</div>
   </div>
 
   <div class="wrap">
+    <!-- LEFT NAV -->
     <div class="left">
-      <div class="muted">Views</div>
-      <button class="btn" onclick="showTab('overview')">Overview</button>
-      <button class="btn" onclick="showTab('events')">Events Table</button>
-      <button class="btn" onclick="showTab('sources')">Sources</button>
+      <div class="muted">Navigation</div>
+      <button class="btn active" id="btn-overview" onclick="setTab('overview')">Overview</button>
+      <button class="btn" id="btn-map" onclick="setTab('map')">Map</button>
+      <button class="btn" id="btn-timeline" onclick="setTab('timeline')">Timeline</button>
+      <button class="btn" id="btn-graph" onclick="setTab('graph')">Graph</button>
 
       <div class="card">
-        <div style="font-weight:800;">Layers</div>
+        <div class="k">Layers</div>
         <label><input type="checkbox" checked id="layerEvents"/> Events</label>
-        <div class="muted" style="margin-top:8px;">Auto-refresh every 2 minutes (page polls JSON files).</div>
+        <div class="muted" style="margin-top:8px;">Auto-refresh every 2 minutes.</div>
       </div>
 
-      <div class="card" id="tab-overview">
-        <div style="font-weight:800;">Risk trend</div>
-        <canvas id="riskChart" height="140"></canvas>
-        <div class="muted" style="margin-top:6px;">Based on history.jsonl (one record per run).</div>
-      </div>
-
-      <div class="card" id="tab-events" style="display:none;">
-        <div style="font-weight:800;">Events</div>
+      <!-- Timeline table lives in left area when timeline tab is active -->
+      <div class="card" id="timelinePanel" style="display:none;">
+        <div class="k">Timeline</div>
         <div class="muted" id="eventCount"></div>
         <div style="max-height:55vh; overflow:auto; margin-top:8px;">
           <table>
@@ -62,7 +66,7 @@
                 <th>When</th>
                 <th>What</th>
                 <th>Type</th>
-                <th>Severity</th>
+                <th>Sev</th>
               </tr>
             </thead>
             <tbody id="eventsBody"></tbody>
@@ -70,52 +74,66 @@
         </div>
       </div>
 
-      <div class="card" id="tab-sources" style="display:none;">
-        <div style="font-weight:800;">Sources</div>
-        <div id="sourcesList" style="margin-top:8px;"></div>
+      <!-- Graph panel lives in left when graph tab active -->
+      <div class="card" id="graphPanel" style="display:none;">
+        <div class="k">Causal network</div>
+        <div class="muted">Click nodes to inspect relationships.</div>
+        <div id="graph" style="margin-top:10px;"></div>
+      </div>
+
+      <!-- Overview panel lives in left when overview tab active -->
+      <div class="card" id="overviewPanel">
+        <div class="k">Risk trend</div>
+        <canvas id="riskChart" height="150"></canvas>
+        <div class="muted" style="margin-top:8px;">From history.jsonl (one record per run).</div>
       </div>
     </div>
 
+    <!-- MAP -->
     <div id="map"></div>
 
+    <!-- RIGHT INSPECTOR -->
     <div class="right">
       <div class="card">
         <div style="font-weight:900; font-size:18px;">Market snapshot</div>
         <div class="muted" id="riskLine"></div>
         <div style="margin-top:10px;">
-          <span class="pill" id="pillEnergy">Energy</span>
-          <span class="pill" id="pillFX">FX</span>
-          <span class="pill" id="pillRates">Rates</span>
-          <span class="pill" id="pillEq">Equities</span>
+          <span class="pill">Oil</span>
+          <span class="pill">EM FX</span>
+          <span class="pill">Rates/Credit</span>
+          <span class="pill">Equities</span>
         </div>
       </div>
 
       <div class="card">
-        <div style="font-weight:800;">Top lines</div>
+        <div class="k">Top lines</div>
         <ul id="bullets"></ul>
       </div>
 
       <div class="card">
-        <div style="font-weight:800;">Watchlist</div>
-        <div id="watch"></div>
+        <div class="k">Selected event</div>
+        <div id="selected" class="muted">Click a map marker or a timeline row.</div>
       </div>
 
       <div class="card">
-        <div style="font-weight:800;">How it updates</div>
-        <div class="muted">
-          GitHub Actions regenerates latest.json, events.geojson, history.jsonl every 30 minutes.<br/>
-          This page polls the files and redraws the map + charts.
-        </div>
+        <div class="k">Sources</div>
+        <div id="sourcesList"></div>
+      </div>
+
+      <div class="card">
+        <div class="k">Watchlist</div>
+        <div id="watch"></div>
       </div>
     </div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    // Cache-bust every request so you see new commits quickly
-    const LATEST_URL = `latest.json?t=${Date.now()}`;
-    const GEO_URL    = `events.geojson?t=${Date.now()}`;
-    const HIST_URL   = `history.jsonl?t=${Date.now()}`;
+    // Always cache-bust so latest commits show quickly
+    const LATEST_URL = () => `latest.json?t=${Date.now()}`;
+    const GEO_URL    = () => `events.geojson?t=${Date.now()}`;
+    const HIST_URL   = () => `history.jsonl?t=${Date.now()}`;
+    const GRAPH_URL  = () => `graph.json?t=${Date.now()}`;
 
     const map = L.map('map').setView([28.6, 52.0], 4);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -126,6 +144,8 @@
     let geoLayer = null;
     let allFeatures = [];
     let chart = null;
+    let network = null;
+    let currentTab = "overview";
 
     function severityColor(s) {
       if (s >= 80) return "#ff4d4d";
@@ -134,43 +154,49 @@
       return "#6ee7ff";
     }
 
-    function showTab(name) {
-      document.getElementById("tab-overview").style.display = name === "overview" ? "block" : "none";
-      document.getElementById("tab-events").style.display   = name === "events" ? "block" : "none";
-      document.getElementById("tab-sources").style.display  = name === "sources" ? "block" : "none";
+    function setTab(tab) {
+      currentTab = tab;
+
+      // buttons
+      ["overview","map","timeline","graph"].forEach(t => {
+        document.getElementById("btn-" + t).classList.toggle("active", t === tab);
+      });
+
+      // panels
+      document.getElementById("overviewPanel").style.display = (tab === "overview") ? "block" : "none";
+      document.getElementById("timelinePanel").style.display = (tab === "timeline") ? "block" : "none";
+      document.getElementById("graphPanel").style.display = (tab === "graph") ? "block" : "none";
+
+      // map stays visible always; tab just changes side panels
+      setTimeout(() => map.invalidateSize(), 50);
     }
 
-    function renderTable(features) {
-      const tbody = document.getElementById("eventsBody");
-      tbody.innerHTML = "";
-      document.getElementById("eventCount").textContent = `${features.length} events on map`;
-
-      for (const f of features) {
-        const p = f.properties || {};
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-          <td class="muted">${(p.timestamp_utc || "").slice(0,19).replace("T"," ") || "—"}</td>
-          <td>${p.title || "Event"}<div class="muted">${p.location_name || ""}</div></td>
-          <td class="muted">${p.event_type || ""}</td>
-          <td class="muted">${p.severity ?? ""}</td>
-        `;
-        tr.onclick = () => {
-          const c = f.geometry?.coordinates;
-          if (c) map.setView([c[1], c[0]], 7);
-        };
-        tbody.appendChild(tr);
-      }
+    function renderSelected(p) {
+      const urls = (p.source_urls || []).map(u => `<div><a href="${u}" target="_blank">${u}</a></div>`).join("");
+      const actors = (p.actors || []).length ? `<div><span class="k">Actors:</span> ${(p.actors||[]).join(", ")}</div>` : "";
+      document.getElementById("selected").innerHTML = `
+        <div class="k">${p.title || "Event"}</div>
+        <div class="muted">${p.event_type || ""} • sev ${p.severity ?? ""} • ${p.confidence || ""}</div>
+        <div style="margin-top:6px;"><span class="k">Location:</span> ${p.location_resolved || p.location_name || ""}</div>
+        <div><span class="k">Time:</span> ${p.timestamp_utc || "—"}</div>
+        ${actors}
+        <div style="margin-top:8px;">${p.implication || ""}</div>
+        <div style="margin-top:10px;">${urls}</div>
+      `;
     }
 
     function applyFilter() {
       const q = (document.getElementById("q").value || "").toLowerCase();
       const filtered = allFeatures.filter(f => {
         const p = f.properties || {};
-        const s = `${p.title||""} ${p.location_name||""} ${p.event_type||""}`.toLowerCase();
+        const s = `${p.title||""} ${p.location_name||""} ${p.location_resolved||""} ${p.event_type||""} ${(p.actors||[]).join(" ")}`.toLowerCase();
         return s.includes(q);
       });
-      renderTable(filtered);
 
+      // timeline table
+      renderTimeline(filtered);
+
+      // map
       if (geoLayer) geoLayer.remove();
       geoLayer = L.geoJSON({type:"FeatureCollection", features: filtered}, {
         pointToLayer: (f, latlng) => {
@@ -179,34 +205,64 @@
         },
         onEachFeature: (f, layer) => {
           const p = f.properties || {};
-          const urls = (p.source_urls || []).map(u => `<div><a href="${u}" target="_blank">${u}</a></div>`).join("");
-          layer.bindPopup(`
-            <div style="max-width:320px">
-              <div style="font-weight:800">${p.title || "Event"}</div>
-              <div class="muted">${p.event_type || ""} • severity ${p.severity ?? ""} • ${p.confidence || ""}</div>
-              <div style="margin-top:6px">${p.location_name || ""}</div>
-              <div style="margin-top:6px">${p.implication || ""}</div>
-              <div style="margin-top:8px">${urls}</div>
-            </div>
-          `);
+          layer.on("click", () => renderSelected(p));
+          layer.bindPopup(`<div style="max-width:320px">
+            <div style="font-weight:800">${p.title || "Event"}</div>
+            <div class="muted">${p.event_type || ""} • sev ${p.severity ?? ""} • ${p.confidence || ""}</div>
+            <div style="margin-top:6px">${p.location_resolved || p.location_name || ""}</div>
+            <div style="margin-top:6px">${p.implication || ""}</div>
+          </div>`);
         }
       });
 
       if (document.getElementById("layerEvents").checked) geoLayer.addTo(map);
     }
 
+    function renderTimeline(features) {
+      const tbody = document.getElementById("eventsBody");
+      tbody.innerHTML = "";
+      document.getElementById("eventCount").textContent = `${features.length} events (filtered)`;
+
+      // sort by timestamp descending if available
+      const sorted = [...features].sort((a,b) => {
+        const ta = (a.properties?.timestamp_utc || "");
+        const tb = (b.properties?.timestamp_utc || "");
+        return (tb > ta) ? 1 : (tb < ta) ? -1 : 0;
+      });
+
+      for (const f of sorted) {
+        const p = f.properties || {};
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td class="muted">${(p.timestamp_utc || "").slice(0,19).replace("T"," ") || "—"}</td>
+          <td>${p.title || "Event"}<div class="muted">${p.location_resolved || p.location_name || ""}</div></td>
+          <td class="muted">${p.event_type || ""}</td>
+          <td class="muted">${p.severity ?? ""}</td>
+        `;
+        tr.style.cursor = "pointer";
+        tr.onclick = () => {
+          const c = f.geometry?.coordinates;
+          if (c) map.setView([c[1], c[0]], 6);
+          renderSelected(p);
+        };
+        tbody.appendChild(tr);
+      }
+    }
+
     async function loadGeo() {
-      const res = await fetch(`events.geojson?t=${Date.now()}`);
+      const res = await fetch(GEO_URL());
       const geo = await res.json();
       allFeatures = geo.features || [];
       applyFilter();
     }
 
     async function loadLatest() {
-      const res = await fetch(`latest.json?t=${Date.now()}`);
+      const res = await fetch(LATEST_URL());
       const latest = await res.json();
 
-      document.getElementById("last").textContent = `Updated ${latest.generated_at_utc || ""}`;
+      document.getElementById("last").textContent =
+        `Updated UTC ${latest.generated_at_utc || ""} | IST ${latest.generated_at_ist || ""}`;
+
       document.getElementById("riskLine").textContent =
         `Risk score: ${latest.risk_score ?? "?"} — ${(latest.risk_drivers || []).join(", ")}`;
 
@@ -218,16 +274,6 @@
         bullets.appendChild(li);
       });
 
-      const watch = document.getElementById("watch");
-      watch.innerHTML = "";
-      (latest.watchlist || []).forEach(w => {
-        const div = document.createElement("div");
-        div.className = "muted";
-        div.style.margin = "8px 0";
-        div.innerHTML = `<b style="color:#e6e8ee">${w.asset || ""}</b> (${w.direction || ""}) — ${w.why || ""}`;
-        watch.appendChild(div);
-      });
-
       const sourcesList = document.getElementById("sourcesList");
       sourcesList.innerHTML = "";
       (latest.sources || []).forEach(s => {
@@ -237,18 +283,29 @@
                          <div class="muted">${s.publisher || ""} ${s.published_at || ""}</div>`;
         sourcesList.appendChild(div);
       });
+
+      const watch = document.getElementById("watch");
+      watch.innerHTML = "";
+      (latest.watchlist || []).forEach(w => {
+        const div = document.createElement("div");
+        div.className = "muted";
+        div.style.margin = "8px 0";
+        div.innerHTML = `<b style="color:#e6e8ee">${w.asset || ""}</b> (${w.direction || ""}) — ${w.why || ""}`;
+        watch.appendChild(div);
+      });
     }
 
     async function loadHistory() {
-      const res = await fetch(`history.jsonl?t=${Date.now()}`);
+      const res = await fetch(HIST_URL());
       const text = await res.text();
 
       const rows = text.trim().split("\n").filter(Boolean).map(line => {
         try { return JSON.parse(line); } catch { return null; }
       }).filter(Boolean);
 
-      const labels = rows.slice(-50).map(r => (r.generated_at_utc || "").slice(5,16).replace("T"," "));
-      const data = rows.slice(-50).map(r => r.risk_score ?? null);
+      const last = rows.slice(-60);
+      const labels = last.map(r => ((r.generated_at_ist || r.generated_at_utc || "").slice(5,16).replace("T"," ")));
+      const data = last.map(r => r.risk_score ?? null);
 
       const ctx = document.getElementById("riskChart");
       if (!chart) {
@@ -264,6 +321,47 @@
       }
     }
 
+    async function loadGraph() {
+      const res = await fetch(GRAPH_URL());
+      const g = await res.json();
+
+      const nodes = new vis.DataSet((g.nodes || []).map(n => {
+        const base = { id: n.id, label: n.label || n.id };
+        if (n.group === "market") {
+          return { ...base, shape: "box" };
+        }
+        // event nodes
+        const sev = n.severity ?? 0;
+        return { ...base, shape: "dot", value: Math.max(1, Math.min(10, Math.round(sev/10))) };
+      }));
+
+      const edges = new vis.DataSet((g.edges || []).map(e => ({
+        from: e.from, to: e.to, label: e.label || "", arrows: "to",
+        title: `${e.label || ""}<br/>conf: ${e.confidence || ""}<br/>${e.why || ""}`
+      })));
+
+      const container = document.getElementById("graph");
+      const data = { nodes, edges };
+      const options = {
+        physics: { stabilization: true },
+        interaction: { hover: true },
+      };
+
+      if (!network) {
+        network = new vis.Network(container, data, options);
+        network.on("click", params => {
+          if (params.nodes && params.nodes.length) {
+            const id = params.nodes[0];
+            // if node is an event id, try to find it and show details
+            const f = allFeatures.find(x => x.properties && x.properties.id === id);
+            if (f) renderSelected(f.properties);
+          }
+        });
+      } else {
+        network.setData(data);
+      }
+    }
+
     document.getElementById("q").addEventListener("input", () => applyFilter());
     document.getElementById("layerEvents").addEventListener("change", () => {
       if (!geoLayer) return;
@@ -275,10 +373,13 @@
       try { await loadLatest(); } catch(e) { console.error("latest", e); }
       try { await loadGeo(); } catch(e) { console.error("geo", e); }
       try { await loadHistory(); } catch(e) { console.error("history", e); }
+      try { await loadGraph(); } catch(e) { console.error("graph", e); }
     }
 
+    // start
+    setTab("overview");
     refreshAll();
-    setInterval(refreshAll, 120000); // every 2 minutes
+    setInterval(refreshAll, 120000); // refresh every 2 minutes
   </script>
 </body>
 </html>
