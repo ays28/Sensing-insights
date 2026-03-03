@@ -142,7 +142,7 @@ class Geocoder:
         try:
             r = requests.get(
                 NOMINATIM_URL,
-                params={"q": place, "format": "json", "limit": 1},
+                params={"q": place, "format": "json", "limit": 1, "accept-language": "en"},
                 headers={"User-Agent": NOMINATIM_USER_AGENT},
                 timeout=FETCH_TIMEOUT,
             )
