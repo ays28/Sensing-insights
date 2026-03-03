@@ -2,11 +2,15 @@ name: Run tracker
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0,22,44 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: tracker
+  cancel-in-progress: true
 
 jobs:
   run:
@@ -30,7 +34,9 @@ jobs:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4o-mini
-          TRACK_QUERY: Iran Middle East escalation Red Sea shipping Strait of Hormuz sanctions strikes drones missiles diplomacy
+          # Optional knobs (only if your tracker.py uses them)
+          EXA_PER_QUERY: "10"
+          MAX_FETCH_URLS: "30"
         run: |
           python tracker.py
 
@@ -38,6 +44,6 @@ jobs:
         run: |
           git config user.name "tracker-bot"
           git config user.email "tracker-bot@users.noreply.github.com"
-          git add latest.json events.geojson history.jsonl events.jsonl links.jsonl graph.json geocode_cache.json || true
+          git add latest.json events.geojson history.jsonl graph.json geocode_cache.json events.jsonl links.jsonl news.jsonl timeline.json || true
           git diff --staged --quiet || git commit -m "Update tracker data"
           git push
