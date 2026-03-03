@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
 
@@ -143,6 +146,8 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
   <script>
     // cache-bust per refresh
     const LATEST_URL = () => `latest.json?t=${Date.now()}`;
@@ -154,7 +159,7 @@
     const map = L.map('map').setView([28.6, 52.0], 4);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; OpenStreetMap' }).addTo(map);
 
-    let geoLayer = null;
+    let geoLayer = null;          // will hold the marker cluster group
     let allFeatures = [];
     let filteredFeatures = [];
     let selectedIndex = -1;
@@ -172,7 +177,7 @@
         document.getElementById("btn-"+x).classList.toggle("active", x===v);
       });
       setTimeout(() => map.invalidateSize(), 50);
-      if (v === "graph") setTimeout(() => renderGraph(graphData), 60);
+      if (v === "graph") setTimeout(() => renderGraph(graphData), 80);
     }
 
     function severityColor(s) {
@@ -209,12 +214,24 @@
       renderMap(filteredFeatures);
     }
 
+    // ---- MAP (clustered + fit bounds) ----
     function renderMap(features) {
       if (geoLayer) geoLayer.remove();
-      geoLayer = L.geoJSON({type:"FeatureCollection", features}, {
+
+      const cluster = L.markerClusterGroup({
+        showCoverageOnHover: false,
+        maxClusterRadius: 55
+      });
+
+      const geo = L.geoJSON({type:"FeatureCollection", features}, {
         pointToLayer: (f, latlng) => {
           const sev = (f.properties && f.properties.severity) || 0;
-          return L.circleMarker(latlng, { radius: 7, color: severityColor(sev), weight: 2, fillOpacity: 0.35 });
+
+          // Small jitter to avoid perfect overlap when many points share same centroid
+          const jitter = () => (Math.random() - 0.5) * 0.18;
+          const jlatlng = L.latLng(latlng.lat + jitter(), latlng.lng + jitter());
+
+          return L.circleMarker(jlatlng, { radius: 7, color: severityColor(sev), weight: 2, fillOpacity: 0.35 });
         },
         onEachFeature: (f, layer) => {
           const p = f.properties || {};
@@ -225,7 +242,18 @@
         }
       });
 
+      geo.eachLayer(l => cluster.addLayer(l));
+
+      // keep reference for checkbox toggling
+      geoLayer = cluster;
+
       if (document.getElementById("layerEvents").checked) geoLayer.addTo(map);
+
+      // Fit to all markers so you actually SEE "multiple events"
+      if (features.length) {
+        const b = cluster.getBounds();
+        if (b && b.isValid && b.isValid()) map.fitBounds(b.pad(0.2));
+      }
     }
 
     function renderTimeline(features) {
@@ -322,22 +350,38 @@
       };
     }
 
-    // ---- Important: normalize graph so edges never reference missing nodes ----
+    // Normalize graph so edges never reference missing nodes + de-dup nodes by id
     function normalizeGraph(raw) {
-      const nodes = (raw?.nodes || []).map(n => ({...n}));
-      const edges = (raw?.edges || []).map(e => ({...e}));
+      const srcNodes = (raw?.nodes || []).map(n => ({...n}));
+      const srcEdges = (raw?.edges || []).map(e => ({...e}));
 
+      const nodesById = new Map();
+      for (const n of srcNodes) {
+        if (!n || !n.id) continue;
+        if (!nodesById.has(n.id)) nodesById.set(n.id, n);
+        else {
+          // keep richer node if duplicated
+          const old = nodesById.get(n.id);
+          nodesById.set(n.id, {...old, ...n});
+        }
+      }
+
+      const nodes = Array.from(nodesById.values());
       const idSet = new Set(nodes.map(n => n.id));
+
       const ensureNode = (id) => {
         if (!id || idSet.has(id)) return;
-        nodes.push({ id, label: id.replaceAll("_", " "), group: "market" });
+        nodes.push({ id, label: String(id).replaceAll("_", " "), group: "market" });
         idSet.add(id);
       };
 
-      edges.forEach(e => {
+      const edges = [];
+      for (const e of srcEdges) {
+        if (!e || !e.from || !e.to) continue;
         ensureNode(e.from);
         ensureNode(e.to);
-      });
+        edges.push(e);
+      }
 
       return { nodes, edges };
     }
@@ -356,6 +400,12 @@
 
       const nodes = g.nodes.map(d => ({...d}));
       const links = g.edges.map(d => ({...d}));
+
+      // seed initial positions to avoid "pile at center"
+      nodes.forEach((d, i) => {
+        d.x = (w/2) + Math.cos(i) * 40;
+        d.y = (h/2) + Math.sin(i) * 40;
+      });
 
       const sevScale = d3.scaleLinear().domain([0, 100]).range([7, 18]);
       const nodeRadius = (d) => d.group === "market" ? 16 : sevScale(d.severity ?? 0);
@@ -391,7 +441,7 @@
         .selectAll("line")
         .data(links)
         .join("line")
-        .attr("stroke-width", 1.2);
+        .attr("stroke-width", 1.15);
 
       const node = root.append("g")
         .selectAll("circle")
@@ -403,7 +453,7 @@
         .attr("stroke-width", 2)
         .style("filter", "url(#glow)")
         .call(d3.drag()
-          .on("start", (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+          .on("start", (event, d) => { if (!event.active) sim.alphaTarget(0.35).restart(); d.fx = d.x; d.fy = d.y; })
           .on("drag", (event, d) => { d.fx = event.x; d.fy = event.y; })
           .on("end", (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
         );
@@ -438,11 +488,23 @@
       });
 
       if (sim) sim.stop();
+
+      // ✅ Better spacing forces (less link glue, more repulsion, market nodes pushed outward)
       sim = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id).distance(160).strength(0.75))
-        .force("charge", d3.forceManyBody().strength(-620))
+        .force("link", d3.forceLink(links).id(d => d.id)
+          .distance(d => {
+            const s = (d.source?.group === "market") || (d.target?.group === "market");
+            return s ? 220 : 170;
+          })
+          .strength(0.25)
+        )
+        .force("charge", d3.forceManyBody().strength(-900))
         .force("center", d3.forceCenter(w/2, h/2))
-        .force("collision", d3.forceCollide().radius(d => nodeRadius(d) + 14));
+        .force("collision", d3.forceCollide().radius(d => nodeRadius(d) + 18).iterations(2))
+        .force("radial", d3.forceRadial(
+          d => d.group === "market" ? Math.min(w,h) * 0.32 : Math.min(w,h) * 0.18,
+          w/2, h/2
+        ).strength(0.06));
 
       sim.on("tick", () => {
         link
