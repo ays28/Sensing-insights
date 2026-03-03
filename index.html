@@ -10,7 +10,7 @@
   <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
   <style>
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#0b1220; color:#e6e8ee; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#0b1220; color:#e6e8ee;}
     .topbar { display:flex; gap:12px; align-items:center; padding:10px 12px; background:#7a1f1f; }
     .title { font-weight:900; letter-spacing:.2px; }
     .topbar input { flex:1; padding:10px; border-radius:10px; border:0; outline:none; }
@@ -21,16 +21,15 @@
     .right { border-left:1px solid #1b2a45; padding:12px; }
     #map { height:100%; }
     .card { background:#0f1a33; border:1px solid #22365c; border-radius:14px; padding:12px; margin:12px 0; }
-    .btn { width:100%; margin:6px 0; padding:10px 12px; border-radius:12px; border:1px solid #22365c; background:#0f1a33; color:#e6e8ee; cursor:pointer; text-align:left; }
-    .btn.active { outline:2px solid #9bd0ff; }
+    .btn { width:100%; margin:6px 0; padding:10px 12px; border-radius:12px; border:1px solid #22365c; background:#0f1a33; color:#e6e8ee; cursor:pointer; text-align:left;}
+    .btn.active { outline: 2px solid #9bd0ff; }
     a { color:#9bd0ff; word-break: break-word; }
-    table { width:100%; border-collapse:collapse; }
+    table { width:100%; border-collapse: collapse; }
     th, td { border-bottom:1px solid #22365c; padding:8px; font-size:13px; vertical-align:top; }
     th { text-align:left; color:#cbd5e1; }
     .pill { display:inline-block; padding:4px 8px; border-radius:999px; border:1px solid #22365c; margin-right:6px; font-size:12px; }
     .row { display:flex; align-items:center; justify-content:space-between; gap:10px; }
-    /* Graph container override */
-    #graph { height:420px; background:#0b1220; border:1px solid #22365c; border-radius:12px; color:#ffffff; }
+    #graph { height: 420px; background:#0b1220; border:1px solid #22365c; border-radius:12px; }
   </style>
 </head>
 <body>
@@ -50,7 +49,10 @@
       <button class="btn" id="btn-graph" onclick="setView('graph')">Causal graph</button>
 
       <div class="card">
-        <div class="row"><div style="font-weight:800;">Filters</div><div class="muted" id="count"></div></div>
+        <div class="row">
+          <div style="font-weight:800;">Filters</div>
+          <div class="muted" id="count"></div>
+        </div>
         <label><input type="checkbox" checked id="layerEvents"/> Show map events</label>
         <div class="muted" style="margin-top:8px;">Click a marker or row to inspect on the right.</div>
       </div>
@@ -69,7 +71,11 @@
         <div style="font-weight:800;">Timeline</div>
         <div style="max-height:55vh; overflow:auto; margin-top:8px;">
           <table>
-            <thead><tr><th>When</th><th>What</th><th>Type</th><th>Sev</th></tr></thead>
+            <thead>
+              <tr>
+                <th>When</th><th>What</th><th>Type</th><th>Sev</th>
+              </tr>
+            </thead>
             <tbody id="eventsBody"></tbody>
           </table>
         </div>
@@ -85,26 +91,39 @@
     <!-- MAP -->
     <div id="map"></div>
 
-    <!-- RIGHT -->
+    <!-- RIGHT INSPECTOR -->
     <div class="right">
       <div class="card">
         <div style="font-weight:900; font-size:18px;">Market snapshot</div>
         <div class="muted" id="riskLine"></div>
         <div style="margin-top:10px;">
-          <span class="pill">Oil</span><span class="pill">EM FX</span><span class="pill">Rates/Credit</span><span class="pill">Equities</span>
+          <span class="pill">Oil</span>
+          <span class="pill">EM FX</span>
+          <span class="pill">Rates/Credit</span>
+          <span class="pill">Equities</span>
         </div>
       </div>
 
-      <div class="card"><div style="font-weight:800;">Top lines</div><ul id="bullets"></ul></div>
+      <div class="card">
+        <div style="font-weight:800;">Top lines</div>
+        <ul id="bullets"></ul>
+      </div>
 
       <div class="card">
-        <div class="row"><div style="font-weight:800;">Selected</div>
-          <div><button class="pill" onclick="selectPrev()">Prev</button><button class="pill" onclick="selectNext()">Next</button></div>
+        <div class="row">
+          <div style="font-weight:800;">Selected</div>
+          <div>
+            <button class="pill" onclick="selectPrev()">Prev</button>
+            <button class="pill" onclick="selectNext()">Next</button>
+          </div>
         </div>
         <div id="selected" class="muted">Click a map marker, timeline row, or graph node.</div>
       </div>
 
-      <div class="card"><div style="font-weight:800;">Sources</div><div id="sourcesList"></div></div>
+      <div class="card">
+        <div style="font-weight:800;">Sources</div>
+        <div id="sourcesList"></div>
+      </div>
     </div>
   </div>
 
@@ -116,12 +135,244 @@
     const GRAPH_URL  = () => `graph.json?t=${Date.now()}`;
 
     const map = L.map('map').setView([28.6, 52.0], 4);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:18, attribution:'&copy; OpenStreetMap' }).addTo(map);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; OpenStreetMap' }).addTo(map);
 
-    let geoLayer=null, allFeatures=[], filteredFeatures=[], chart=null, network=null, selectedIndex=-1;
+    let geoLayer = null;
+    let allFeatures = [];
+    let filteredFeatures = [];
+    let chart = null;
+    let network = null;
+    let selectedIndex = -1;
 
-    function setView(v){['overview','news','timeline','graph'].forEach(x=>{document.getElementById('panel-'+x).style.display=(x===v)?'block':'none';document.getElementById('btn-'+x).classList.toggle('active',x===v);});setTimeout(()=>map.invalidateSize(),50);}    
+    function setView(v) {
+      ["overview","news","timeline","graph"].forEach(x => {
+        document.getElementById("panel-"+x).style.display = (x===v) ? "block" : "none";
+        document.getElementById("btn-"+x).classList.toggle("active", x===v);
+      });
+      setTimeout(() => map.invalidateSize(), 50);
+    }
 
-    const severityColor=s=>s>=80?'#ff4d4d':s>=60?'#ff9f1a':s>=40?'#ffd166':'#6ee7ff';
+    function severityColor(s) {
+      if (s >= 80) return "#ff4d4d";
+      if (s >= 60) return "#ff9f1a";
+      if (s >= 40) return "#ffd166";
+      return "#6ee7ff";
+    }
 
-    function renderSelected(p){const urls=(p.source_urls||[]).map(u=>`<div><a href="${u}" target="_blank">${u}</a></div>`).join('');const actors=(p.actors||[]).length?`<div><b>Actors:</b> ${(p.actors||[]).join(', ')}</div>`:'';document.getElementById('selected').innerHTML=`<div style="font-weight:800">${p.title||'Event'}</div><div class="muted">${p.event_type||''} • sev ${p.severity
+    function renderSelected(p) {
+      const urls = (p.source_urls || []).map(u => `<div><a href="${u}" target="_blank">${u}</a></div>`).join("");
+      const actors = (p.actors || []).length ? `<div><b>Actors:</b> ${(p.actors||[]).join(", ")}</div>` : "";
+      document.getElementById("selected").innerHTML = `
+        <div style="font-weight:800">${p.title || "Event"}</div>
+        <div class="muted">${p.event_type || ""} • sev ${p.severity ?? ""} • ${p.confidence || ""}</div>
+        <div style="margin-top:6px;"><b>Location:</b> ${p.location_resolved || p.location_name || ""}</div>
+        <div><b>Time:</b> ${p.timestamp_utc || "—"}</div>
+        ${actors}
+        <div style="margin-top:8px;">${p.implication || ""}</div>
+        <div style="margin-top:10px;">${urls}</div>
+      `;
+    }
+
+    function applyFilter() {
+      const q = (document.getElementById("q").value || "").toLowerCase();
+      filteredFeatures = allFeatures.filter(f => {
+        const p = f.properties || {};
+        const s = `${p.title||""} ${p.location_name||""} ${p.location_resolved||""} ${p.event_type||""} ${(p.actors||[]).join(" ")}`.toLowerCase();
+        return s.includes(q);
+      });
+
+      document.getElementById("count").textContent = `${filteredFeatures.length} events`;
+
+      // timeline
+      renderTimeline(filteredFeatures);
+
+      // map
+      if (geoLayer) geoLayer.remove();
+      geoLayer = L.geoJSON({type:"FeatureCollection", features: filteredFeatures}, {
+        pointToLayer: (f, latlng) => {
+          const sev = (f.properties && f.properties.severity) || 0;
+          return L.circleMarker(latlng, { radius: 7, color: severityColor(sev), weight: 2, fillOpacity: 0.35 });
+        },
+        onEachFeature: (f, layer) => {
+          const p = f.properties || {};
+          layer.on("click", () => {
+            selectedIndex = filteredFeatures.findIndex(x => x.properties?.id === p.id);
+            renderSelected(p);
+          });
+          layer.bindPopup(`<div style="max-width:320px">
+            <div style="font-weight:800">${p.title || "Event"}</div>
+            <div class="muted">${p.event_type || ""} • sev ${p.severity ?? ""} • ${p.confidence || ""}</div>
+            <div style="margin-top:6px">${p.location_resolved || p.location_name || ""}</div>
+            <div style="margin-top:6px">${p.implication || ""}</div>
+          </div>`);
+        }
+      });
+
+      if (document.getElementById("layerEvents").checked) geoLayer.addTo(map);
+    }
+
+    function renderTimeline(features) {
+      const tbody = document.getElementById("eventsBody");
+      tbody.innerHTML = "";
+
+      const sorted = [...features].sort((a,b) => {
+        const ta = (a.properties?.timestamp_utc || "");
+        const tb = (b.properties?.timestamp_utc || "");
+        return (tb > ta) ? 1 : (tb < ta) ? -1 : 0;
+      });
+
+      for (const f of sorted) {
+        const p = f.properties || {};
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td class="muted">${(p.timestamp_utc || "").slice(0,19).replace("T"," ") || "—"}</td>
+          <td>${p.title || "Event"}<div class="muted">${p.location_resolved || p.location_name || ""}</div></td>
+          <td class="muted">${p.event_type || ""}</td>
+          <td class="muted">${p.severity ?? ""}</td>
+        `;
+        tr.style.cursor = "pointer";
+        tr.onclick = () => {
+          selectedIndex = filteredFeatures.findIndex(x => x.properties?.id === p.id);
+          const c = f.geometry?.coordinates;
+          if (c) map.setView([c[1], c[0]], 6);
+          renderSelected(p);
+        };
+        tbody.appendChild(tr);
+      }
+    }
+
+    function selectPrev() {
+      if (!filteredFeatures.length) return;
+      selectedIndex = (selectedIndex <= 0) ? filteredFeatures.length - 1 : selectedIndex - 1;
+      const f = filteredFeatures[selectedIndex];
+      const p = f.properties || {};
+      const c = f.geometry?.coordinates;
+      if (c) map.setView([c[1], c[0]], 6);
+      renderSelected(p);
+    }
+
+    function selectNext() {
+      if (!filteredFeatures.length) return;
+      selectedIndex = (selectedIndex >= filteredFeatures.length - 1) ? 0 : selectedIndex + 1;
+      const f = filteredFeatures[selectedIndex];
+      const p = f.properties || {};
+      const c = f.geometry?.coordinates;
+      if (c) map.setView([c[1], c[0]], 6);
+      renderSelected(p);
+    }
+
+    async function loadGeo() {
+      const res = await fetch(GEO_URL());
+      const geo = await res.json();
+      allFeatures = geo.features || [];
+      applyFilter();
+    }
+
+    async function loadLatest() {
+      const res = await fetch(LATEST_URL());
+      const latest = await res.json();
+
+      document.getElementById("last").textContent =
+        `Updated UTC ${latest.generated_at_utc || ""} | IST ${latest.generated_at_ist || ""}`;
+
+      document.getElementById("riskLine").textContent =
+        `Risk score: ${latest.risk_score ?? "?"} — ${(latest.risk_drivers || []).join(", ")}`;
+
+      const bullets = document.getElementById("bullets");
+      bullets.innerHTML = "";
+      (latest.headline_summary || []).forEach(b => {
+        const li = document.createElement("li");
+        li.textContent = b;
+        bullets.appendChild(li);
+      });
+
+      const sourcesList = document.getElementById("sourcesList");
+      sourcesList.innerHTML = "";
+      (latest.sources || []).forEach(s => {
+        const div = document.createElement("div");
+        div.style.margin = "10px 0";
+        div.innerHTML = `<a href="${s.url}" target="_blank">${s.title || s.url}</a>
+                         <div class="muted">${s.publisher || ""} ${s.published_at || ""}</div>`;
+        sourcesList.appendChild(div);
+      });
+    }
+
+    async function loadHistory() {
+      const res = await fetch(HIST_URL());
+      const text = await res.text();
+      const rows = text.trim().split("\n").filter(Boolean).map(line => {
+        try { return JSON.parse(line); } catch { return null; }
+      }).filter(Boolean);
+
+      const last = rows.slice(-60);
+      const labels = last.map(r => ((r.generated_at_ist || r.generated_at_utc || "").slice(5,16).replace("T"," ")));
+      const data = last.map(r => r.risk_score ?? null);
+
+      const ctx = document.getElementById("riskChart");
+      if (!chart) {
+        chart = new Chart(ctx, { type:"line", data:{ labels, datasets:[{ label:"Risk", data }] },
+          options:{ responsive:true, animation:false, plugins:{ legend:{ display:false } } }
+        });
+      } else {
+        chart.data.labels = labels;
+        chart.data.datasets[0].data = data;
+        chart.update();
+      }
+    }
+
+    async function loadGraph() {
+      const res = await fetch(GRAPH_URL());
+      const g = await res.json();
+
+      const nodes = new vis.DataSet((g.nodes || []).map(n => {
+        const base = { id: n.id, label: n.label || n.id };
+        if (n.group === "market") return { ...base, shape:"box" };
+        return { ...base, shape:"dot", value: Math.max(1, Math.min(10, Math.round((n.severity||0)/10))) };
+      }));
+
+      const edges = new vis.DataSet((g.edges || []).map(e => ({
+        from: e.from, to: e.to, label: e.label || "", arrows:"to",
+        title: `${e.label || ""}<br/>conf: ${e.confidence || ""}<br/>${e.why || ""}`
+      })));
+
+      const container = document.getElementById("graph");
+      const data = { nodes, edges };
+      const options = { physics:{ stabilization:true }, interaction:{ hover:true } };
+
+      if (!network) {
+        network = new vis.Network(container, data, options);
+        network.on("click", params => {
+          if (params.nodes && params.nodes.length) {
+            const id = params.nodes[0];
+            const f = allFeatures.find(x => x.properties && x.properties.id === id);
+            if (f) {
+              selectedIndex = filteredFeatures.findIndex(x => x.properties?.id === id);
+              renderSelected(f.properties);
+            }
+          }
+        });
+      } else {
+        network.setData(data);
+      }
+    }
+
+    async function refreshAll() {
+      try { await loadLatest(); } catch(e) { console.error("latest", e); }
+      try { await loadGeo(); } catch(e) { console.error("geo", e); }
+      try { await loadHistory(); } catch(e) { console.error("history", e); }
+      try { await loadGraph(); } catch(e) { console.error("graph", e); }
+    }
+
+    document.getElementById("q").addEventListener("input", () => applyFilter());
+    document.getElementById("layerEvents").addEventListener("change", () => {
+      if (!geoLayer) return;
+      if (document.getElementById("layerEvents").checked) geoLayer.addTo(map);
+      else geoLayer.remove();
+    });
+
+    setView("overview");
+    refreshAll();
+    setInterval(refreshAll, 120000);
+  </script>
+</body>
+</html>
