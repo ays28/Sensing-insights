@@ -19,6 +19,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Show branch/commit (debug)
+        run: |
+          echo "BRANCH: $GITHUB_REF_NAME"
+          echo "COMMIT:  $(git rev-parse HEAD)"
+          echo "WORKFLOWS:"
+          ls -la .github/workflows || true
+          echo "TRACKER HEAD:"
+          sed -n '1,80p' tracker.py || true
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -34,10 +43,13 @@ jobs:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4o-mini
-          # Optional knobs if your tracker.py uses them
           EXA_PER_QUERY: "10"
           MAX_FETCH_URLS: "30"
+          # Helps Nominatim not block you
+          NOMINATIM_USER_AGENT: "SensingInsightsTracker/1.0 (GitHub Actions; contact via repo owner)"
+          NOMINATIM_MIN_DELAY_SEC: "1.2"
         run: |
+          set -e
           python tracker.py
 
       - name: Commit updates
@@ -54,7 +66,5 @@ jobs:
 
           git commit -m "Update tracker data"
 
-          # Avoid 'fetch first' rejection if another run pushed
           git pull --rebase origin main
-
           git push origin main
