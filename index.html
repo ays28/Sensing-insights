@@ -7,7 +7,7 @@
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 
   <style>
     body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#0b1220; color:#e6e8ee;}
@@ -15,21 +15,33 @@
     .title { font-weight:900; letter-spacing:.2px; }
     .topbar input { flex:1; padding:10px; border-radius:10px; border:0; outline:none; }
     .muted { color:#aab3c5; font-size:12px; }
-    .wrap { display:grid; grid-template-columns: 320px 1fr 420px; height: calc(100vh - 52px); }
+
+    .wrap { display:grid; grid-template-columns: 340px 1fr 440px; height: calc(100vh - 52px); }
     .left, .right { background:#101a2e; overflow:auto; }
     .left { border-right:1px solid #1b2a45; padding:12px; }
     .right { border-left:1px solid #1b2a45; padding:12px; }
+
     #map { height:100%; }
+
     .card { background:#0f1a33; border:1px solid #22365c; border-radius:14px; padding:12px; margin:12px 0; }
     .btn { width:100%; margin:6px 0; padding:10px 12px; border-radius:12px; border:1px solid #22365c; background:#0f1a33; color:#e6e8ee; cursor:pointer; text-align:left;}
     .btn.active { outline: 2px solid #9bd0ff; }
     a { color:#9bd0ff; word-break: break-word; }
+
     table { width:100%; border-collapse: collapse; }
     th, td { border-bottom:1px solid #22365c; padding:8px; font-size:13px; vertical-align:top; }
     th { text-align:left; color:#cbd5e1; }
+
     .pill { display:inline-block; padding:4px 8px; border-radius:999px; border:1px solid #22365c; margin-right:6px; font-size:12px; }
     .row { display:flex; align-items:center; justify-content:space-between; gap:10px; }
-    #graph { height: 420px; background:#0b1220; border:1px solid #22365c; border-radius:12px; }
+
+    /* D3 graph area */
+    #graphWrap { height: 560px; border:1px solid #22365c; border-radius:14px; background:#0b1220; overflow:hidden; }
+    #graphSvg { width:100%; height:100%; display:block; }
+    .graphNote { margin-top:10px; padding:10px; border-radius:12px; border:1px solid #22365c; background:#0b1220; }
+    .noteTitle { font-weight:800; margin-bottom:6px; }
+    .chip { display:inline-block; padding:4px 8px; border-radius:999px; border:1px solid #22365c; margin:4px 6px 0 0; font-size:12px; color:#cbd5e1; }
+    .small { font-size:12px; color:#aab3c5; }
   </style>
 </head>
 <body>
@@ -44,7 +56,6 @@
     <div class="left">
       <div class="muted">Views</div>
       <button class="btn active" id="btn-overview" onclick="setView('overview')">Overview</button>
-      <button class="btn" id="btn-news" onclick="setView('news')">News feed</button>
       <button class="btn" id="btn-timeline" onclick="setView('timeline')">Timeline</button>
       <button class="btn" id="btn-graph" onclick="setView('graph')">Causal graph</button>
 
@@ -54,7 +65,7 @@
           <div class="muted" id="count"></div>
         </div>
         <label><input type="checkbox" checked id="layerEvents"/> Show map events</label>
-        <div class="muted" style="margin-top:8px;">Click a marker or row to inspect on the right.</div>
+        <div class="muted" style="margin-top:8px;">Click a marker / row / graph node to inspect on the right.</div>
       </div>
 
       <div class="card" id="panel-overview">
@@ -62,29 +73,32 @@
         <canvas id="riskChart" height="150"></canvas>
       </div>
 
-      <div class="card" id="panel-news" style="display:none;">
-        <div style="font-weight:800;">News</div>
-        <div id="newsList" class="muted"></div>
-      </div>
-
       <div class="card" id="panel-timeline" style="display:none;">
         <div style="font-weight:800;">Timeline</div>
-        <div style="max-height:55vh; overflow:auto; margin-top:8px;">
+        <div style="max-height:60vh; overflow:auto; margin-top:8px;">
           <table>
-            <thead>
-              <tr>
-                <th>When</th><th>What</th><th>Type</th><th>Sev</th>
-              </tr>
-            </thead>
+            <thead><tr><th>When</th><th>What</th><th>Type</th><th>Sev</th></tr></thead>
             <tbody id="eventsBody"></tbody>
           </table>
         </div>
       </div>
 
       <div class="card" id="panel-graph" style="display:none;">
-        <div style="font-weight:800;">Causal network</div>
-        <div class="muted">Click nodes to inspect relationships.</div>
-        <div id="graph" style="margin-top:10px;"></div>
+        <div class="row">
+          <div style="font-weight:800;">Causal network</div>
+          <div class="muted" id="graphStats"></div>
+        </div>
+
+        <div id="graphWrap" style="margin-top:10px;">
+          <svg id="graphSvg"></svg>
+        </div>
+
+        <div class="graphNote" id="graphNote">
+          <div class="noteTitle">Relationship summary</div>
+          <div class="small" id="graphSummary">Loading…</div>
+          <div id="graphClusters" style="margin-top:8px;"></div>
+          <div id="graphIsolated" style="margin-top:10px;"></div>
+        </div>
       </div>
     </div>
 
@@ -129,27 +143,35 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
+    // cache-bust per refresh
     const LATEST_URL = () => `latest.json?t=${Date.now()}`;
     const GEO_URL    = () => `events.geojson?t=${Date.now()}`;
     const HIST_URL   = () => `history.jsonl?t=${Date.now()}`;
     const GRAPH_URL  = () => `graph.json?t=${Date.now()}`;
 
+    // MAP
     const map = L.map('map').setView([28.6, 52.0], 4);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; OpenStreetMap' }).addTo(map);
 
     let geoLayer = null;
     let allFeatures = [];
     let filteredFeatures = [];
-    let chart = null;
-    let network = null;
     let selectedIndex = -1;
 
+    // CHART
+    let chart = null;
+
+    // D3 GRAPH
+    let graphData = null;
+    let sim = null;
+
     function setView(v) {
-      ["overview","news","timeline","graph"].forEach(x => {
+      ["overview","timeline","graph"].forEach(x => {
         document.getElementById("panel-"+x).style.display = (x===v) ? "block" : "none";
         document.getElementById("btn-"+x).classList.toggle("active", x===v);
       });
       setTimeout(() => map.invalidateSize(), 50);
+      if (v === "graph") setTimeout(() => renderGraph(graphData), 50);
     }
 
     function severityColor(s) {
@@ -183,12 +205,13 @@
 
       document.getElementById("count").textContent = `${filteredFeatures.length} events`;
 
-      // timeline
       renderTimeline(filteredFeatures);
+      renderMap(filteredFeatures);
+    }
 
-      // map
+    function renderMap(features) {
       if (geoLayer) geoLayer.remove();
-      geoLayer = L.geoJSON({type:"FeatureCollection", features: filteredFeatures}, {
+      geoLayer = L.geoJSON({type:"FeatureCollection", features}, {
         pointToLayer: (f, latlng) => {
           const sev = (f.properties && f.properties.severity) || 0;
           return L.circleMarker(latlng, { radius: 7, color: severityColor(sev), weight: 2, fillOpacity: 0.35 });
@@ -261,6 +284,262 @@
       renderSelected(p);
     }
 
+    // --------- D3 Graph + Summary ----------
+    function summarizeGraph(g) {
+      const nodes = (g?.nodes || []).map(n => ({...n}));
+      const edges = (g?.edges || []).map(e => ({...e}));
+
+      const idToLabel = new Map(nodes.map(n => [n.id, n.label || n.id]));
+      const adj = new Map();
+      const deg = new Map();
+      nodes.forEach(n => { adj.set(n.id, []); deg.set(n.id, 0); });
+
+      edges.forEach(e => {
+        if (!adj.has(e.from) || !adj.has(e.to)) return;
+        adj.get(e.from).push(e.to);
+        adj.get(e.to).push(e.from);
+        deg.set(e.from, (deg.get(e.from)||0)+1);
+        deg.set(e.to, (deg.get(e.to)||0)+1);
+      });
+
+      const visited = new Set();
+      const components = [];
+
+      for (const n of nodes) {
+        if (visited.has(n.id)) continue;
+        const queue = [n.id];
+        visited.add(n.id);
+        const comp = [];
+        while (queue.length) {
+          const u = queue.shift();
+          comp.push(u);
+          for (const v of (adj.get(u) || [])) {
+            if (!visited.has(v)) {
+              visited.add(v);
+              queue.push(v);
+            }
+          }
+        }
+        components.push(comp);
+      }
+
+      const isolated = components.filter(c => c.length === 1).map(c => c[0]);
+      const clusters = components.filter(c => c.length > 1)
+        .sort((a,b) => b.length - a.length);
+
+      // Human summary
+      const summary = {
+        totalNodes: nodes.length,
+        totalEdges: edges.length,
+        clustersCount: clusters.length,
+        isolatedCount: isolated.length,
+        clusters: clusters.map(c => c.map(id => idToLabel.get(id) || id)),
+        isolated: isolated.map(id => idToLabel.get(id) || id)
+      };
+      return summary;
+    }
+
+    function renderGraph(g) {
+      graphData = g;
+      if (!g || !g.nodes) return;
+
+      const wrap = document.getElementById("graphWrap");
+      const svg = d3.select("#graphSvg");
+      const w = wrap.clientWidth;
+      const h = wrap.clientHeight;
+
+      svg.attr("viewBox", `0 0 ${w} ${h}`).selectAll("*").remove();
+
+      const nodes = (g.nodes || []).map(d => ({...d}));
+      const links = (g.edges || []).map(d => ({...d}));
+
+      // Scale node size by severity-ish (if present)
+      const sev = d3.scaleLinear()
+        .domain([0, 100])
+        .range([6, 18]);
+
+      // color by group
+      const color = (d) => {
+        if (d.group === "market") return "#9bd0ff";
+        // events by severity
+        const s = d.severity ?? 0;
+        if (s >= 80) return "#ff4d4d";
+        if (s >= 60) return "#ff9f1a";
+        if (s >= 40) return "#ffd166";
+        return "#6ee7ff";
+      };
+
+      // defs glow
+      const defs = svg.append("defs");
+      const filter = defs.append("filter").attr("id", "glow");
+      filter.append("feGaussianBlur").attr("stdDeviation", "2.5").attr("result", "coloredBlur");
+      const feMerge = filter.append("feMerge");
+      feMerge.append("feMergeNode").attr("in", "coloredBlur");
+      feMerge.append("feMergeNode").attr("in", "SourceGraphic");
+
+      // zoom/pan
+      const gRoot = svg.append("g");
+      svg.call(d3.zoom().scaleExtent([0.5, 3]).on("zoom", (event) => {
+        gRoot.attr("transform", event.transform);
+      }));
+
+      // link lines
+      const link = gRoot.append("g")
+        .attr("stroke", "#22365c")
+        .attr("stroke-opacity", 0.9)
+        .selectAll("line")
+        .data(links)
+        .join("line")
+        .attr("stroke-width", 1.2);
+
+      // arrow-ish labels
+      const linkLabel = gRoot.append("g")
+        .selectAll("text")
+        .data(links)
+        .join("text")
+        .attr("fill", "#aab3c5")
+        .attr("font-size", 10)
+        .attr("pointer-events", "none")
+        .text(d => d.label || "");
+
+      // node circles
+      const node = gRoot.append("g")
+        .selectAll("circle")
+        .data(nodes)
+        .join("circle")
+        .attr("r", d => (d.group === "market") ? 14 : sev(d.severity ?? 0))
+        .attr("fill", d => color(d))
+        .attr("stroke", "#0f1a33")
+        .attr("stroke-width", 2)
+        .style("filter", "url(#glow)")
+        .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended)
+        );
+
+      // node labels
+      const label = gRoot.append("g")
+        .selectAll("text")
+        .data(nodes)
+        .join("text")
+        .attr("fill", "#e6e8ee")
+        .attr("font-size", 11)
+        .attr("dx", 16)
+        .attr("dy", 4)
+        .text(d => (d.label || d.id));
+
+      // hover tooltip (simple)
+      node.append("title").text(d => {
+        const extra = d.group === "market" ? "Market node" : `${d.event_type || "event"} | sev ${d.severity ?? "?"}`;
+        return `${d.label || d.id}\n${extra}`;
+      });
+
+      // click: if node is event id, show in inspector
+      node.on("click", (event, d) => {
+        const f = allFeatures.find(x => x.properties?.id === d.id);
+        if (f) {
+          selectedIndex = filteredFeatures.findIndex(x => x.properties?.id === d.id);
+          renderSelected(f.properties);
+        } else {
+          document.getElementById("selected").innerHTML = `<div style="font-weight:800">${d.label || d.id}</div><div class="muted">Market node</div>`;
+        }
+      });
+
+      // simulation
+      if (sim) sim.stop();
+      sim = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(90).strength(0.65))
+        .force("charge", d3.forceManyBody().strength(-320))
+        .force("center", d3.forceCenter(w/2, h/2))
+        .force("collision", d3.forceCollide().radius(d => (d.group === "market") ? 22 : (sev(d.severity ?? 0) + 6)));
+
+      sim.on("tick", () => {
+        link
+          .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+
+        node.attr("cx", d => d.x).attr("cy", d => d.y);
+        label.attr("x", d => d.x).attr("y", d => d.y);
+
+        linkLabel
+          .attr("x", d => (d.source.x + d.target.x)/2)
+          .attr("y", d => (d.source.y + d.target.y)/2);
+      });
+
+      function dragstarted(event, d) {
+        if (!event.active) sim.alphaTarget(0.3).restart();
+        d.fx = d.x; d.fy = d.y;
+      }
+      function dragged(event, d) {
+        d.fx = event.x; d.fy = event.y;
+      }
+      function dragended(event, d) {
+        if (!event.active) sim.alphaTarget(0);
+        d.fx = null; d.fy = null;
+      }
+
+      // Summary note
+      const s = summarizeGraph(g);
+      document.getElementById("graphStats").textContent = `${s.totalNodes} nodes • ${s.totalEdges} links`;
+      document.getElementById("graphSummary").textContent =
+        `Connected groups: ${s.clustersCount}. Isolated nodes: ${s.isolatedCount}.`;
+
+      const clustersDiv = document.getElementById("graphClusters");
+      clustersDiv.innerHTML = "";
+      if (s.clustersCount) {
+        const title = document.createElement("div");
+        title.className = "small";
+        title.innerHTML = `<b>Connected components</b> (largest first):`;
+        clustersDiv.appendChild(title);
+
+        s.clusters.slice(0, 6).forEach((c, idx) => {
+          const line = document.createElement("div");
+          line.className = "small";
+          const shown = c.slice(0, 10);
+          const more = c.length > shown.length ? ` +${c.length - shown.length} more` : "";
+          line.innerHTML = `<span class="chip">Group ${idx+1} • ${c.length} nodes</span> ${shown.join(" → ")}${more}`;
+          clustersDiv.appendChild(line);
+        });
+
+        if (s.clusters.length > 6) {
+          const more = document.createElement("div");
+          more.className = "small";
+          more.textContent = `+ ${s.clusters.length - 6} more groups`;
+          clustersDiv.appendChild(more);
+        }
+      }
+
+      const isoDiv = document.getElementById("graphIsolated");
+      isoDiv.innerHTML = "";
+      if (s.isolatedCount) {
+        const title = document.createElement("div");
+        title.className = "small";
+        title.innerHTML = `<b>Isolated nodes</b> (no links):`;
+        isoDiv.appendChild(title);
+
+        const chips = document.createElement("div");
+        s.isolated.slice(0, 30).forEach(name => {
+          const chip = document.createElement("span");
+          chip.className = "chip";
+          chip.textContent = name;
+          chips.appendChild(chip);
+        });
+        isoDiv.appendChild(chips);
+
+        if (s.isolated.length > 30) {
+          const more = document.createElement("div");
+          more.className = "small";
+          more.textContent = `+ ${s.isolated.length - 30} more isolated`;
+          isoDiv.appendChild(more);
+        }
+      }
+
+      if (!s.clustersCount && !s.isolatedCount) {
+        document.getElementById("graphSummary").textContent = "No graph data yet.";
+      }
+    }
+
     async function loadGeo() {
       const res = await fetch(GEO_URL());
       const geo = await res.json();
@@ -310,7 +589,9 @@
 
       const ctx = document.getElementById("riskChart");
       if (!chart) {
-        chart = new Chart(ctx, { type:"line", data:{ labels, datasets:[{ label:"Risk", data }] },
+        chart = new Chart(ctx, {
+          type:"line",
+          data:{ labels, datasets:[{ label:"Risk", data }] },
           options:{ responsive:true, animation:false, plugins:{ legend:{ display:false } } }
         });
       } else {
@@ -322,38 +603,8 @@
 
     async function loadGraph() {
       const res = await fetch(GRAPH_URL());
-      const g = await res.json();
-
-      const nodes = new vis.DataSet((g.nodes || []).map(n => {
-        const base = { id: n.id, label: n.label || n.id };
-        if (n.group === "market") return { ...base, shape:"box" };
-        return { ...base, shape:"dot", value: Math.max(1, Math.min(10, Math.round((n.severity||0)/10))) };
-      }));
-
-      const edges = new vis.DataSet((g.edges || []).map(e => ({
-        from: e.from, to: e.to, label: e.label || "", arrows:"to",
-        title: `${e.label || ""}<br/>conf: ${e.confidence || ""}<br/>${e.why || ""}`
-      })));
-
-      const container = document.getElementById("graph");
-      const data = { nodes, edges };
-      const options = { physics:{ stabilization:true }, interaction:{ hover:true } };
-
-      if (!network) {
-        network = new vis.Network(container, data, options);
-        network.on("click", params => {
-          if (params.nodes && params.nodes.length) {
-            const id = params.nodes[0];
-            const f = allFeatures.find(x => x.properties && x.properties.id === id);
-            if (f) {
-              selectedIndex = filteredFeatures.findIndex(x => x.properties?.id === id);
-              renderSelected(f.properties);
-            }
-          }
-        });
-      } else {
-        network.setData(data);
-      }
+      graphData = await res.json();
+      renderGraph(graphData);
     }
 
     async function refreshAll() {
@@ -373,6 +624,13 @@
     setView("overview");
     refreshAll();
     setInterval(refreshAll, 120000);
+
+    // Re-render graph when window resizes
+    window.addEventListener("resize", () => {
+      if (document.getElementById("panel-graph").style.display !== "none") {
+        renderGraph(graphData);
+      }
+    });
   </script>
 </body>
 </html>
