@@ -25,12 +25,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Debug - confirm endpoint
+      - name: Debug - confirm endpoint (real check)
         run: |
-          echo "Looking for /v1/responses (should be empty):"
-          grep -n "v1/responses" tracker.py || true
-          echo "Looking for chat/completions (should exist):"
+          echo "If tracker.py makes an OpenAI call, it must be chat/completions:"
           grep -n "chat/completions" tracker.py || true
+
+          echo "Ensure tracker.py is NOT calling /v1/responses:"
+          grep -n "OPENAI_BASE_URL.*/responses" tracker.py || true
+          grep -n "/v1/responses" tracker.py || true
 
       - name: Run tracker.py
         env:
