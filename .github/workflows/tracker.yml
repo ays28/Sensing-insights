@@ -2,7 +2,7 @@ name: Run tracker
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours
+    - cron: "0 */3 * * *"  # every 3 hours
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repo
@@ -34,11 +34,11 @@ jobs:
           pip install requests
           pip install git+https://github.com/ShinMegamiBoson/OpenPlanter.git
 
-      - name: Run tracker.py (OpenPlanter extract + Python outputs)
+      - name: Run tracker.py (OpenPlanter -> JSON outputs)
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4o-mini
+          OPENAI_MODEL: gpt-5.2
           FETCH_TIMEOUT: "25"
           NOMINATIM_USER_AGENT: "SensingInsightsTracker/1.0 (GitHub Actions)"
           NOMINATIM_MIN_DELAY_SEC: "1.2"
@@ -51,7 +51,7 @@ jobs:
           set -e
           echo "=== Root files ==="
           ls -la
-          echo "=== Outputs existence ==="
+          echo "=== Output sizes ==="
           for f in op_extract.json latest.json events.geojson graph.json history.jsonl geocode_cache.json; do
             if [ -f "$f" ]; then
               echo "OK: $f (bytes=$(wc -c < "$f"))"
@@ -60,15 +60,13 @@ jobs:
             fi
           done
           echo "=== Git status ==="
-          git status --porcelain=v1
+          git status --porcelain=v1 || true
 
       - name: Commit updates
         run: |
           set -e
           git config user.name "tracker-bot"
           git config user.email "tracker-bot@users.noreply.github.com"
-
-          git pull --rebase
 
           git add \
             op_extract.json \
