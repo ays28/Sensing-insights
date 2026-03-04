@@ -190,5 +190,15 @@
     "lon": -77.0365427,
     "lat": 38.8950368,
     "display_name": "Washington, District of Columbia, United States"
+  },
+  "new york, united states": {
+    "lon": -74.0060152,
+    "lat": 40.7127281,
+    "display_name": "New York, United States"
+  },
+  "hatay province, turkey": {
+    "lon": 30.7368183,
+    "lat": 36.8930628,
+    "display_name": "Hatay Mutfağı, Termesos Bulvarı, Mehmetçik Mahallesi, Antalya, Muratpaşa, Antalya, Mediterranean Region, 07030, Turkey"
   }
 }

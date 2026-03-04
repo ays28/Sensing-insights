@@ -90,10 +90,29 @@
       "title": "Iranian missiles hit central Israel (Tel Aviv district impacts reported)",
       "timestamp_utc": "2026-03-03T13:29:00Z",
       "location_name": "Tel Aviv, Israel",
-      "actors": ["Iran", "Israel Defense Forces"],
+      "actors": [
+        "Iran",
+        "Israel Defense Forces"
+      ],
       "implication": "Direct Iran-Israel kinetic exchange increases escalation risk and broadens risk-off impulse.",
       "source_urls": [
         "https://www.reuters.com/world/middle-east/israeli-military-says-iranian-missiles-hit-central-israel-2026-03-03/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 88,
+      "confidence": "high",
+      "title": "Israel orders evacuation of a swathe of southern Lebanon including Tyre; Israeli strike hits building in Baalbek",
+      "timestamp_utc": "2026-03-04T02:38:00Z",
+      "location_name": "Tyre, Lebanon",
+      "actors": [
+        "Israel",
+        "Hezbollah"
+      ],
+      "implication": "Lebanon theatre escalation broadens regional conflict footprint; increases risk-off flows and local operational disruption.",
+      "source_urls": [
+        "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
       ]
     },
     {
@@ -103,7 +122,11 @@
       "title": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported",
       "timestamp_utc": "2026-03-01T14:51:00Z",
       "location_name": "Strait of Hormuz",
-      "actors": ["Iran", "Commercial Shipping Companies", "International Maritime Organization"],
+      "actors": [
+        "Iran",
+        "Commercial Shipping Companies",
+        "International Maritime Organization"
+      ],
       "implication": "Higher freight/insurance costs and severe energy supply-chain disruption risk; supports oil_up_risk.",
       "source_urls": [
         "https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/"
@@ -116,7 +139,11 @@
       "title": "Rare tanker transit to load Murban crude via Strait of Hormuz amid shipping disruption (Pola to Jebel Dhanna)",
       "timestamp_utc": "2026-03-04T04:58:00Z",
       "location_name": "Jebel Dhanna, United Arab Emirates",
-      "actors": ["Oil tanker Pola", "ADNOC", "Iran"],
+      "actors": [
+        "Oil tanker Pola",
+        "ADNOC",
+        "Iran"
+      ],
       "implication": "Suggests partial/episodic navigation but under elevated operational risk; volatility in flows persists.",
       "source_urls": [
         "https://www.reuters.com/world/middle-east/tanker-heads-uae-port-via-strait-hormuz-load-oil-sources-say-2026-03-04/"
@@ -129,7 +156,12 @@
       "title": "Energy prices surge as Hormuz disruption persists; Iraq output cuts and attacks on energy/logistics sites reported",
       "timestamp_utc": "2026-03-03T11:54:00Z",
       "location_name": "Fujairah, United Arab Emirates",
-      "actors": ["Iran", "Iraq", "Saudi Aramco", "Qatar"],
+      "actors": [
+        "Iran",
+        "Iraq",
+        "Saudi Aramco",
+        "Qatar"
+      ],
       "implication": "Energy and shipping shock raises inflation risks and supports risk_off_flows; spillovers to gas and freight.",
       "source_urls": [
         "https://www.reuters.com/business/energy/global-energy-costs-soar-iran-crisis-disrupts-shipping-oil-gas-production-2026-03-03/"
@@ -142,23 +174,15 @@
       "title": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeline/Red Sea constraints highlighted",
       "timestamp_utc": "2026-03-03T13:25:00Z",
       "location_name": "Yanbu, Saudi Arabia",
-      "actors": ["Saudi Aramco", "Saudi Arabia", "Oil traders", "Tanker operators"],
+      "actors": [
+        "Saudi Aramco",
+        "Saudi Arabia",
+        "Oil traders",
+        "Tanker operators"
+      ],
       "implication": "Rerouting alleviates some supply risk but raises freight costs and shifts risk to Red Sea routes.",
       "source_urls": [
         "http://reuters.com/business/energy/saudi-aramco-seeks-reroute-crude-away-strait-hormuz-sources-say-2026-03-03/"
-      ]
-    },
-    {
-      "event_type": "strike",
-      "severity": 76,
-      "confidence": "high",
-      "title": "Israel orders evacuation of swathe of southern Lebanon as hostilities with Hezbollah intensify; strike in Baalbek reported",
-      "timestamp_utc": "2026-03-04T00:00:00Z",
-      "location_name": "Tyre, Lebanon",
-      "actors": ["Israel", "Hezbollah", "Lebanese National News Agency"],
-      "implication": "Escalation in Lebanon increases regional conflict premium and adds to risk-off dynamics.",
-      "source_urls": [
-        "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
       ]
     },
     {
@@ -168,7 +192,11 @@
       "title": "U.S. expands Iran-related sanctions targeting shadow fleet vessels and networks enabling illicit petroleum sales and weapons programs",
       "timestamp_utc": "2026-02-25T00:00:00Z",
       "location_name": "Washington, DC, United States",
-      "actors": ["U.S. Treasury", "OFAC", "Iran"],
+      "actors": [
+        "U.S. Treasury",
+        "OFAC",
+        "Iran"
+      ],
       "implication": "Sanctions tightening can constrain marginal Iranian oil/logistics capacity and elevate compliance/insurance risk.",
       "source_urls": [
         "http://reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
@@ -182,48 +210,65 @@
       "title": "IRGC claims control of Strait of Hormuz; U.S. discusses potential naval escorts for tankers (as reported)",
       "timestamp_utc": "2026-03-04T00:00:00Z",
       "location_name": "Strait of Hormuz",
-      "actors": ["IRGC Navy", "United States Navy"],
+      "actors": [
+        "IRGC Navy",
+        "United States Navy"
+      ],
       "implication": "Heightened risk of incidents/miscalculation around escort operations; supports oil_up_risk and risk_off_flows.",
       "source_urls": [
         "https://www.aljazeera.com/news/2026/3/4/irgc-says-iran-in-complete-control-of-strait-of-hormuz-amid-trump-threats"
       ]
+    },
+    {
+      "event_type": "cyber",
+      "severity": 55,
+      "confidence": "high",
+      "title": "Hackers hit Iranian apps and websites alongside U.S.-Israeli strikes; internet connectivity drops reported",
+      "timestamp_utc": "2026-03-01T16:31:00Z",
+      "location_name": "Tehran, Iran",
+      "actors": [
+        "Unknown hackers",
+        "Iranian government services"
+      ],
+      "implication": "Cyber activity increases operational uncertainty and raises risk of retaliatory cyber actions against Western and regional targets.",
+      "source_urls": [
+        "http://reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
+      ]
+    },
+    {
+      "event_type": "cyber",
+      "severity": 50,
+      "confidence": "high",
+      "title": "U.S. banks on heightened alert for Iran-linked cyberattacks as war escalates",
+      "timestamp_utc": "2026-03-03T19:55:00Z",
+      "location_name": "New York, United States",
+      "actors": [
+        "U.S. financial institutions",
+        "U.S. regulators",
+        "Iran-linked threat actors (potential)"
+      ],
+      "implication": "Increased cyber-defense posture may coincide with elevated market plumbing risk and risk-off sentiment.",
+      "source_urls": [
+        "http://in.mobile.reuters.com/business/finance/us-banks-high-alert-cyberattacks-iran-war-escalates-2026-03-03/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 72,
+      "confidence": "high",
+      "title": "Turkey says NATO air defences destroyed a ballistic missile fired from Iran headed into Turkish airspace; debris reported in Hatay area",
+      "timestamp_utc": "2026-03-04T11:50:00Z",
+      "location_name": "Hatay Province, Turkey",
+      "actors": [
+        "Iran",
+        "Turkey",
+        "NATO"
+      ],
+      "implication": "Potential widening to a NATO member raises escalation tail-risk and supports risk_off_flows and em_fx_pressure.",
+      "source_urls": [
+        "http://in.mobile.reuters.com/world/middle-east/turkey-says-nato-defences-destroyed-missile-fired-iran-over-mediterranean-2026-03-04/"
+      ]
     }
   ],
-  "links": [
-    {
-      "from": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported",
-      "to": "oil_up_risk",
-      "relation": "drives",
-      "confidence": "high",
-      "why": "Disruption at the main Gulf chokepoint increases risk of supply shortfall and raises freight/insurance costs."
-    },
-    {
-      "from": "Energy prices surge as Hormuz disruption persists; Iraq output cuts and attacks on energy/logistics sites reported",
-      "to": "risk_off_flows",
-      "relation": "amplifies",
-      "confidence": "high",
-      "why": "Energy shock increases inflation uncertainty and downside growth risk, prompting defensive positioning."
-    },
-    {
-      "from": "U.S. expands Iran-related sanctions targeting shadow fleet vessels and networks enabling illicit petroleum sales and weapons programs",
-      "to": "rates_credit_spreads",
-      "relation": "contributes_to",
-      "confidence": "med",
-      "why": "Sanctions and compliance risk can widen spreads for shipping/energy logistics and tighten financing conditions."
-    },
-    {
-      "from": "Iranian missiles hit central Israel (Tel Aviv district impacts reported)",
-      "to": "risk_off_flows",
-      "relation": "triggers",
-      "confidence": "high",
-      "why": "Direct state-on-state strikes raise tail-risk and increase demand for safe havens."
-    },
-    {
-      "from": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeline/Red Sea constraints highlighted",
-      "to": "oil_up_risk",
-      "relation": "partially_mitigates",
-      "confidence": "med",
-      "why": "Rerouting may relieve some constraints but capacity limits and added route risks keep upside risk elevated."
-    }
-  ]
+  "links": []
 }

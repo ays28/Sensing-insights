@@ -6,6 +6,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          30.7368183,
+          36.8930628
+        ]
+      },
+      "properties": {
+        "id": "a4f4ebb62609",
+        "event_type": "strike",
+        "severity": 72,
+        "confidence": "high",
+        "title": "Turkey says NATO air defences destroyed a ballistic missile fired from Iran headed into Turkish airspace; debris reported in Hatay area",
+        "timestamp_utc": "2026-03-04T11:50:00Z",
+        "location_name": "Hatay Province, Turkey",
+        "location_resolved": "Hatay Mutfağı, Termesos Bulvarı, Mehmetçik Mahallesi, Antalya, Muratpaşa, Antalya, Mediterranean Region, 07030, Turkey",
+        "actors": [
+          "Iran",
+          "Turkey",
+          "NATO"
+        ],
+        "implication": "Potential widening to a NATO member raises escalation tail-risk and supports risk_off_flows and em_fx_pressure.",
+        "source_urls": [
+          "http://in.mobile.reuters.com/world/middle-east/turkey-says-nato-defences-destroyed-missile-fired-iran-over-mediterranean-2026-03-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           52.6422391,
           24.1646471
         ]
@@ -27,6 +56,34 @@
         "implication": "Suggests partial/episodic navigation but under elevated operational risk; volatility in flows persists.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/tanker-heads-uae-port-via-strait-hormuz-load-oil-sources-say-2026-03-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1964023,
+          33.2721211
+        ]
+      },
+      "properties": {
+        "id": "5b025b985429",
+        "event_type": "strike",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Israel orders evacuation of a swathe of southern Lebanon including Tyre; Israeli strike hits building in Baalbek",
+        "timestamp_utc": "2026-03-04T02:38:00Z",
+        "location_name": "Tyre, Lebanon",
+        "location_resolved": "Tyre, Tyre District, South Governorate, 1601, Lebanon",
+        "actors": [
+          "Israel",
+          "Hezbollah"
+        ],
+        "implication": "Lebanon theatre escalation broadens regional conflict footprint; increases risk-off flows and local operational disruption.",
+        "source_urls": [
+          "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
         ]
       }
     },
@@ -84,6 +141,35 @@
         "implication": "Heightened risk of incidents/miscalculation around escort operations; supports oil_up_risk and risk_off_flows.",
         "source_urls": [
           "https://www.aljazeera.com/news/2026/3/4/irgc-says-iran-in-complete-control-of-strait-of-hormuz-amid-trump-threats"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "id": "8495e350d05c",
+        "event_type": "cyber",
+        "severity": 50,
+        "confidence": "high",
+        "title": "U.S. banks on heightened alert for Iran-linked cyberattacks as war escalates",
+        "timestamp_utc": "2026-03-03T19:55:00Z",
+        "location_name": "New York, United States",
+        "location_resolved": "New York, United States",
+        "actors": [
+          "U.S. financial institutions",
+          "U.S. regulators",
+          "Iran-linked threat actors (potential)"
+        ],
+        "implication": "Increased cyber-defense posture may coincide with elevated market plumbing risk and risk-off sentiment.",
+        "source_urls": [
+          "http://in.mobile.reuters.com/business/finance/us-banks-high-alert-cyberattacks-iran-war-escalates-2026-03-03/"
         ]
       }
     },
@@ -512,6 +598,34 @@
         "implication": "Sustained drone threat keeps regional air defenses on high alert; raises risk to energy and base-adjacent assets.",
         "source_urls": [
           "https://reuters.com/world/middle-east/kuwait-intercepts-hostile-drones-third-day-iran-retaliatory-strikes-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3896004,
+          35.6892523
+        ]
+      },
+      "properties": {
+        "id": "985c83ddbd42",
+        "event_type": "cyber",
+        "severity": 55,
+        "confidence": "high",
+        "title": "Hackers hit Iranian apps and websites alongside U.S.-Israeli strikes; internet connectivity drops reported",
+        "timestamp_utc": "2026-03-01T16:31:00Z",
+        "location_name": "Tehran, Iran",
+        "location_resolved": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran",
+        "actors": [
+          "Unknown hackers",
+          "Iranian government services"
+        ],
+        "implication": "Cyber activity increases operational uncertainty and raises risk of retaliatory cyber actions against Western and regional targets.",
+        "source_urls": [
+          "http://reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
         ]
       }
     },
