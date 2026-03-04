@@ -21,54 +21,588 @@
       "group": "market"
     },
     {
-      "id": "59e715005ddf",
-      "label": "Iranian missile strikes on commercial vessels",
+      "id": "7bc1b19b96a2",
+      "label": "US and Israel launch pre-emptive strikes on Iran",
       "group": "event",
-      "severity": 85,
-      "confidence": "med",
+      "severity": 92,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": "2026-02-28T00:00:00Z",
+      "location_name": "Iran"
+    },
+    {
+      "id": "e6adac2c9511",
+      "label": "Iran fires missiles at Gulf cities after US-Israeli strikes",
+      "group": "event",
+      "severity": 90,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": "2026-02-28T00:00:00Z",
+      "location_name": "Gulf region (UAE, Qatar, Kuwait, Bahrain)"
+    },
+    {
+      "id": "4ef988b3cb13",
+      "label": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
+      "group": "event",
+      "severity": 97,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-02T20:52:00Z",
+      "location_name": "Strait of Hormuz"
+    },
+    {
+      "id": "7557abd37533",
+      "label": "Fuel tanker Athe Nova reported hit by drones and burning in Strait of Hormuz",
+      "group": "event",
+      "severity": 88,
+      "confidence": "high",
       "event_type": "strike",
       "timestamp_utc": "2026-03-02T00:00:00Z",
       "location_name": "Strait of Hormuz"
     },
     {
-      "id": "c6a953bc4f34",
-      "label": "Suspension of shipping operations through the Strait of Hormuz",
+      "id": "ed0dc6b1bd91",
+      "label": "Maersk pauses Trans-Suez sailings and major lines reroute around Cape; Hormuz cr",
       "group": "event",
-      "severity": 90,
-      "confidence": "med",
+      "severity": 80,
+      "confidence": "high",
       "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Strait of Hormuz"
+      "timestamp_utc": "2026-03-01T00:00:00Z",
+      "location_name": "Suez Canal / Bab el-Mandeb / Strait of Hormuz"
+    },
+    {
+      "id": "d30071455b59",
+      "label": "US expands Iran-related sanctions targeting shadow fleet and supply networks",
+      "group": "event",
+      "severity": 65,
+      "confidence": "high",
+      "event_type": "sanctions",
+      "timestamp_utc": "2026-02-25T00:00:00Z",
+      "location_name": "United States"
+    },
+    {
+      "id": "12cf308da76f",
+      "label": "PLACEHOLDER_EVENT_01",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "c232e5b121e3",
+      "label": "PLACEHOLDER_EVENT_02",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "0cda4ef50647",
+      "label": "PLACEHOLDER_EVENT_03",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "9d406b684e31",
+      "label": "PLACEHOLDER_EVENT_04",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "a7550aa0584b",
+      "label": "PLACEHOLDER_EVENT_05",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "faa3fa16be1f",
+      "label": "PLACEHOLDER_EVENT_06",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "e22c8a68a25b",
+      "label": "PLACEHOLDER_EVENT_07",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "1b0dad2e84da",
+      "label": "PLACEHOLDER_EVENT_08",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "8e0e1731744c",
+      "label": "PLACEHOLDER_EVENT_09",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "2cc147e751a9",
+      "label": "PLACEHOLDER_EVENT_10",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "7d01c54baad8",
+      "label": "PLACEHOLDER_EVENT_11",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "4c00494ce7f6",
+      "label": "PLACEHOLDER_EVENT_12",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "057e9c8bfe36",
+      "label": "PLACEHOLDER_EVENT_13",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "8feb6f727d31",
+      "label": "PLACEHOLDER_EVENT_14",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "41f72234763c",
+      "label": "PLACEHOLDER_EVENT_15",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "c4b57ef4ee6f",
+      "label": "PLACEHOLDER_EVENT_16",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "9c5a47323cae",
+      "label": "PLACEHOLDER_EVENT_17",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "7ba21ac17317",
+      "label": "PLACEHOLDER_EVENT_18",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "77d980b8dadf",
+      "label": "PLACEHOLDER_EVENT_19",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "fde1ca8d6a48",
+      "label": "PLACEHOLDER_EVENT_20",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "fac579a4e5af",
+      "label": "PLACEHOLDER_EVENT_21",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "3ac555ba2f3e",
+      "label": "PLACEHOLDER_EVENT_22",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "869bac5e6421",
+      "label": "PLACEHOLDER_EVENT_23",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "87df3bab4d76",
+      "label": "PLACEHOLDER_EVENT_24",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "e4e63e42a5fa",
+      "label": "PLACEHOLDER_EVENT_25",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "c89673274a11",
+      "label": "PLACEHOLDER_EVENT_26",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "c17f81fddbbb",
+      "label": "PLACEHOLDER_EVENT_27",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "6d67ca9a86c7",
+      "label": "PLACEHOLDER_EVENT_28",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "911398d613e6",
+      "label": "PLACEHOLDER_EVENT_29",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "914d4c59b6d2",
+      "label": "PLACEHOLDER_EVENT_30",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "610460f80326",
+      "label": "PLACEHOLDER_EVENT_31",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "7e77663f66b4",
+      "label": "PLACEHOLDER_EVENT_32",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "7d59ce1d0ab4",
+      "label": "PLACEHOLDER_EVENT_33",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "4eaaacfc8458",
+      "label": "PLACEHOLDER_EVENT_34",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "5955d35954c7",
+      "label": "PLACEHOLDER_EVENT_35",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "62e3ad4832a6",
+      "label": "PLACEHOLDER_EVENT_36",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "22136944ea58",
+      "label": "PLACEHOLDER_EVENT_37",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "64f8706cc976",
+      "label": "PLACEHOLDER_EVENT_38",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "5576fb9a89cf",
+      "label": "PLACEHOLDER_EVENT_39",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "aa84e0a49ccd",
+      "label": "PLACEHOLDER_EVENT_40",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "625230f011c4",
+      "label": "PLACEHOLDER_EVENT_41",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "507d8dc951f7",
+      "label": "PLACEHOLDER_EVENT_42",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "8945fcd51059",
+      "label": "PLACEHOLDER_EVENT_43",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "ab3e191009e4",
+      "label": "PLACEHOLDER_EVENT_44",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "656b18ab0b1d",
+      "label": "PLACEHOLDER_EVENT_45",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "3d36af093c8a",
+      "label": "PLACEHOLDER_EVENT_46",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "31d22776e31d",
+      "label": "PLACEHOLDER_EVENT_47",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
+    },
+    {
+      "id": "d8decf4d2c11",
+      "label": "PLACEHOLDER_EVENT_48",
+      "group": "event",
+      "severity": 0,
+      "confidence": "low",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Middle East"
     }
   ],
   "edges": [
     {
-      "from": "c6a953bc4f34",
+      "from": "4ef988b3cb13",
       "to": "oil_up_risk",
       "label": "increases_risk",
       "confidence": "high",
-      "why": "Hormuz is a critical chokepoint for oil and LNG; disruption lifts supply risk premia."
+      "why": "Hormuz is a critical chokepoint; closure threats and attacks directly raise risk premium for crude/LNG."
     },
     {
-      "from": "59e715005ddf",
+      "from": "7557abd37533",
+      "to": "oil_up_risk",
+      "label": "reinforces",
+      "confidence": "high",
+      "why": "Demonstrates realized shipping attack risk, prompting stand-downs and higher insurance/freight."
+    },
+    {
+      "from": "ed0dc6b1bd91",
       "to": "risk_off_flows",
-      "label": "triggers",
+      "label": "contributes_to",
       "confidence": "med",
-      "why": "Direct attacks on shipping can catalyze broader risk-off positioning across assets."
+      "why": "Visible supply-chain shock and higher freight costs tend to trigger broader risk aversion."
     },
     {
-      "from": "oil_up_risk",
-      "to": "em_fx_pressure",
-      "label": "pressures",
-      "confidence": "med",
-      "why": "Higher oil prices worsen terms of trade for net importers and often pressure EM FX."
+      "from": "e6adac2c9511",
+      "to": "risk_off_flows",
+      "label": "increases_risk",
+      "confidence": "high",
+      "why": "Regional escalation to Gulf states raises tail-risk perceptions across assets."
     },
     {
       "from": "risk_off_flows",
-      "to": "rates_credit_spreads",
-      "label": "widens",
+      "to": "em_fx_pressure",
+      "label": "transmits_to",
       "confidence": "med",
-      "why": "Geopolitical shocks can increase uncertainty and push credit spreads wider."
+      "why": "Risk-off episodes often weaken EM FX; energy-importers face extra pressure from higher oil and freight."
+    },
+    {
+      "from": "oil_up_risk",
+      "to": "rates_credit_spreads",
+      "label": "feeds",
+      "confidence": "med",
+      "why": "Oil shock can raise inflation risk and widen credit spreads via tighter financial conditions."
     }
   ]
 }
