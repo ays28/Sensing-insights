@@ -17,9 +17,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 # ==========================
 # CONFIG
 # ==========================
-# Use GPT-5.2 (set by workflow env OPENAI_MODEL=gpt-5.2)
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.2")
-
 FETCH_TIMEOUT = int(os.getenv("FETCH_TIMEOUT", "25"))
 
 # Output files (repo root)
@@ -35,7 +33,9 @@ IST = timezone(timedelta(hours=5, minutes=30))
 
 # Nominatim (polite usage)
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-NOMINATIM_USER_AGENT = os.getenv("NOMINATIM_USER_AGENT", "SensingInsightsTracker/1.0 (github-actions)")
+NOMINATIM_USER_AGENT = os.getenv(
+    "NOMINATIM_USER_AGENT", "SensingInsightsTracker/1.0 (github-actions)"
+)
 NOMINATIM_MIN_DELAY_SEC = float(os.getenv("NOMINATIM_MIN_DELAY_SEC", "1.2"))
 
 # Fallback centroids (lon, lat)
@@ -70,6 +70,9 @@ MARKET_NODES = [
 ]
 
 
+# ==========================
+# TIME + ID HELPERS
+# ==========================
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
@@ -83,6 +86,9 @@ def stable_id(*parts: str) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()[:12]
 
 
+# ==========================
+# FILE HELPERS
+# ==========================
 def write_json(path: str, obj: Any) -> None:
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
@@ -93,51 +99,73 @@ def append_jsonl(path: str, obj: dict) -> None:
         f.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
 
+# ==========================
+# GEO FALLBACKS
+# ==========================
 def centroid_fallback(location_name: str) -> Optional[Tuple[float, float, str]]:
+    """
+    Returns (lon, lat, display_name) if we can map location_name to a known centroid.
+    """
     if not location_name:
         return None
+
     k = location_name.strip().lower()
     if k in CENTROIDS:
         lon, lat = CENTROIDS[k]
         return lon, lat, f"Centroid: {location_name}"
+
     for key, (lon, lat) in CENTROIDS.items():
         if key in k:
             return lon, lat, f"Centroid: {key}"
+
     return None
 
 
+# ==========================
+# GEOCODER WITH CACHE + THROTTLE
+# ==========================
 class Geocoder:
     def __init__(self, cache_path: str):
         self.cache_path = cache_path
         self.cache: Dict[str, Any] = {}
+        self.last_call = 0.0
+
         if os.path.exists(cache_path):
             try:
                 with open(cache_path, "r", encoding="utf-8") as f:
                     self.cache = json.load(f)
             except Exception:
                 self.cache = {}
-        self.last_call = 0.0
 
     def save(self) -> None:
         with open(self.cache_path, "w", encoding="utf-8") as f:
             json.dump(self.cache, f, ensure_ascii=False, indent=2)
 
+    def _throttle(self) -> None:
+        now = time.time()
+        wait = NOMINATIM_MIN_DELAY_SEC - (now - self.last_call)
+        if wait > 0:
+            time.sleep(wait)
+
     def geocode(self, place: str) -> Optional[Tuple[float, float, str]]:
+        """
+        Returns (lon, lat, display_name) or None.
+        Caches misses as None. Throttles requests.
+        """
         if not place:
             return None
+
         key = place.strip().lower()
 
+        # Cache hit
         if key in self.cache:
             v = self.cache[key]
             if v is None:
                 return None
             return (float(v["lon"]), float(v["lat"]), v.get("display_name", place))
 
-        # throttle
-        now = time.time()
-        wait = NOMINATIM_MIN_DELAY_SEC - (now - self.last_call)
-        if wait > 0:
-            time.sleep(wait)
+        # Throttle before calling
+        self._throttle()
 
         try:
             r = requests.get(
@@ -161,51 +189,68 @@ class Geocoder:
             lon = float(top["lon"])
             lat = float(top["lat"])
             disp = top.get("display_name", place)
+
             self.cache[key] = {"lon": lon, "lat": lat, "display_name": disp}
             return (lon, lat, disp)
+
         except Exception:
             self.cache[key] = None
             return None
 
 
+# ==========================
+# GRAPH NORMALIZATION
+# ==========================
 def normalize_links(raw_links: Any) -> List[Dict[str, Any]]:
-    # Strictly keep objects only; ignore strings/mixed to avoid crashes.
+    """
+    Keep dict links only; ignore strings/mixed.
+    Require 'from' and 'to' keys.
+    """
     if not isinstance(raw_links, list):
         return []
+
     out: List[Dict[str, Any]] = []
     for item in raw_links:
-        if isinstance(item, dict):
-            frm = item.get("from")
-            to = item.get("to")
-            if frm and to:
-                out.append(item)
+        if not isinstance(item, dict):
+            continue
+        frm = item.get("from")
+        to = item.get("to")
+        if frm and to:
+            out.append(item)
     return out
 
 
 def ensure_graph_nodes(nodes: List[Dict[str, Any]], edges: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Ensure every edge endpoint exists in nodes.
+    If missing, add it as a market-group node with a readable label.
+    """
     id_set: Set[str] = set(n.get("id") for n in nodes if n.get("id"))
+
     for e in edges:
         frm = e.get("from")
         to = e.get("to")
+
         if frm and frm not in id_set:
             nodes.append({"id": frm, "label": str(frm).replace("_", " "), "group": "market"})
             id_set.add(frm)
+
         if to and to not in id_set:
             nodes.append({"id": to, "label": str(to).replace("_", " "), "group": "market"})
             id_set.add(to)
+
     return nodes
 
 
-def run_openplanter(workspace: str) -> None:
+# ==========================
+# OPENPLANTER RUNNER
+# ==========================
+def build_openplanter_task() -> str:
     """
-    Calls OpenPlanter to produce ./op_extract.json in repo root.
-
-    IMPORTANT:
-    - We force --reasoning-effort none to prevent the OpenAI HTTP 400 you saw
-      (OpenPlanter sending 'reasoning_effort' on Chat Completions).
-    - Model is GPT-5.2 via env OPENAI_MODEL=gpt-5.2. :contentReference[oaicite:1]{index=1}
+    Returns the exact same task prompt content as your original script,
+    just moved into its own function for readability.
     """
-    task = f"""
+    return f"""
 You are an OSINT + markets tracking agent.
 
 Goal: Track Middle East events and market implications, and infer relationships between events.
@@ -254,7 +299,19 @@ Rules:
 - Use ONLY credible sources you can cite in source_urls.
 - Produce at least 54 events and if location is not available assign the most suitable location/geolocation to them.
 - links must be objects only (no strings).
-"""
+""".strip()
+
+
+def run_openplanter(workspace: str) -> None:
+    """
+    Calls OpenPlanter to produce ./op_extract.json in repo root.
+
+    IMPORTANT:
+    - We force --reasoning-effort none to prevent the OpenAI HTTP 400 you saw
+      (OpenPlanter sending 'reasoning_effort' on Chat Completions).
+    - Model is GPT-5.2 via env OPENAI_MODEL=gpt-5.2.
+    """
+    task = build_openplanter_task()
 
     cmd = [
         "openplanter-agent",
@@ -269,35 +326,90 @@ Rules:
     subprocess.run(cmd, check=True)
 
 
-def main() -> None:
+# ==========================
+# MAIN PIPELINE
+# ==========================
+def require_env() -> None:
     if not EXA_API_KEY:
         raise SystemExit("Missing EXA_API_KEY")
     if not OPENAI_API_KEY:
         raise SystemExit("Missing OPENAI_API_KEY")
 
-    workspace = os.path.abspath(".")
-    run_openplanter(workspace)
 
+def load_extract() -> Dict[str, Any]:
     if not os.path.exists(OUT_EXTRACT):
         raise SystemExit(f"OpenPlanter did not write {OUT_EXTRACT} to repo root.")
 
     with open(OUT_EXTRACT, "r", encoding="utf-8") as f:
-        out = json.load(f)
+        data = json.load(f)
 
-    latest = out.get("latest") if isinstance(out.get("latest"), dict) else {}
-    events = out.get("events") if isinstance(out.get("events"), list) else []
-    links = normalize_links(out.get("links"))
+    if not isinstance(data, dict):
+        return {}
+    return data
 
-    # add timestamps used by UI
+
+def enrich_latest(latest: Dict[str, Any]) -> Dict[str, Any]:
+    latest = latest if isinstance(latest, dict) else {}
     latest["generated_at_utc"] = latest.get("generated_at_utc") or utc_now_iso()
     latest["generated_at_ist"] = latest.get("generated_at_ist") or ist_now_iso()
+    return latest
 
-    # Geocode events -> GeoJSON + event nodes
-    geocoder = Geocoder(OUT_GEOCODE_CACHE)
+
+def resolve_event_location_if_missing(e: Dict[str, Any]) -> str:
+    """
+    Matches your behavior:
+    - If location_name missing, try centroid_fallback on any actor string
+      and if it hits, set loc to that actor string.
+    """
+    loc = (e.get("location_name") or "").strip()
+    if loc:
+        return loc
+
+    actors = e.get("actors") or []
+    for a in actors:
+        fb = centroid_fallback(str(a))
+        if fb:
+            return str(a)
+
+    return ""
+
+
+def geocode_event(
+    geocoder: Geocoder, loc: str, actors: List[Any]
+) -> Optional[Tuple[float, float, str]]:
+    """
+    Matches your fallback ordering:
+    1) geocoder.geocode(loc)
+    2) centroid_fallback(loc)
+    3) centroid_fallback(actor) for any actor
+    """
+    geo = geocoder.geocode(loc)
+    if geo is not None:
+        return geo
+
+    geo = centroid_fallback(loc)
+    if geo is not None:
+        return geo
+
+    for a in actors or []:
+        fb = centroid_fallback(str(a))
+        if fb:
+            return fb
+
+    return None
+
+
+def build_features_and_event_nodes(
+    events: List[Any], geocoder: Geocoder
+) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], Dict[str, str]]:
+    """
+    Returns:
+      - geojson features
+      - event nodes (for graph)
+      - title_to_id mapping (for converting edges by event title)
+    """
     features: List[Dict[str, Any]] = []
     event_nodes: List[Dict[str, Any]] = []
-
-    # map event title -> event_id so graph edges can reference titles safely
     title_to_id: Dict[str, str] = {}
 
     for e in events:
@@ -305,18 +417,11 @@ def main() -> None:
             continue
 
         title = (e.get("title") or "Event").strip()
-        loc = (e.get("location_name") or "").strip()
         etype = (e.get("event_type") or "other").strip()
         ts = e.get("timestamp_utc") or ""
+        actors = e.get("actors") or []
 
-        # If location missing, try actor fallback to avoid dropping the event completely
-        if not loc:
-            actors = e.get("actors") or []
-            for a in actors:
-                fb = centroid_fallback(str(a))
-                if fb:
-                    loc = str(a)
-                    break
+        loc = resolve_event_location_if_missing(e)
 
         if not title or not loc:
             continue
@@ -324,18 +429,7 @@ def main() -> None:
         eid = stable_id(title, loc, ts, etype)
         title_to_id[title] = eid
 
-        geo = geocoder.geocode(loc)
-        if geo is None:
-            geo = centroid_fallback(loc)
-
-        if geo is None:
-            # last attempt: centroid based on any actor
-            for a in (e.get("actors") or []):
-                fb = centroid_fallback(str(a))
-                if fb:
-                    geo = fb
-                    break
-
+        geo = geocode_event(geocoder, loc, actors)
         if geo is None:
             continue
 
@@ -350,32 +444,36 @@ def main() -> None:
             "timestamp_utc": e.get("timestamp_utc"),
             "location_name": loc,
             "location_resolved": disp,
-            "actors": e.get("actors") or [],
+            "actors": actors,
             "implication": e.get("implication") or "",
             "source_urls": e.get("source_urls") or [],
         }
 
-        features.append({
-            "type": "Feature",
-            "geometry": {"type": "Point", "coordinates": [lon, lat]},
-            "properties": props,
-        })
+        features.append(
+            {
+                "type": "Feature",
+                "geometry": {"type": "Point", "coordinates": [lon, lat]},
+                "properties": props,
+            }
+        )
 
-        event_nodes.append({
-            "id": eid,
-            "label": title[:80],
-            "group": "event",
-            "severity": props["severity"],
-            "confidence": props["confidence"],
-            "event_type": props["event_type"],
-            "timestamp_utc": props["timestamp_utc"],
-            "location_name": props["location_name"],
-        })
+        event_nodes.append(
+            {
+                "id": eid,
+                "label": title[:80],
+                "group": "event",
+                "severity": props["severity"],
+                "confidence": props["confidence"],
+                "event_type": props["event_type"],
+                "timestamp_utc": props["timestamp_utc"],
+                "location_name": props["location_name"],
+            }
+        )
 
-    geocoder.save()
+    return features, event_nodes, title_to_id
 
-    # Graph nodes/edges
-    nodes: List[Dict[str, Any]] = MARKET_NODES + event_nodes
+
+def build_edges(links: List[Dict[str, Any]], title_to_id: Dict[str, str]) -> List[Dict[str, Any]]:
     edges: List[Dict[str, Any]] = []
 
     for l in links:
@@ -384,31 +482,64 @@ def main() -> None:
         if not frm_raw or not to_raw:
             continue
 
-        # Convert event titles to event ids when possible
         frm = title_to_id.get(frm_raw, frm_raw)
         to = title_to_id.get(to_raw, to_raw)
 
-        edges.append({
-            "from": frm,
-            "to": to,
-            "label": str(l.get("relation") or "causes"),
-            "confidence": str(l.get("confidence") or "low"),
-            "why": str(l.get("why") or ""),
-        })
+        edges.append(
+            {
+                "from": frm,
+                "to": to,
+                "label": str(l.get("relation") or "causes"),
+                "confidence": str(l.get("confidence") or "low"),
+                "why": str(l.get("why") or ""),
+            }
+        )
 
-    nodes = ensure_graph_nodes(nodes, edges)
+    return edges
 
-    # Write outputs consumed by index.html
+
+def write_outputs(
+    latest: Dict[str, Any],
+    features: List[Dict[str, Any]],
+    nodes: List[Dict[str, Any]],
+    edges: List[Dict[str, Any]],
+) -> None:
     write_json(OUT_GEOJSON, {"type": "FeatureCollection", "features": features})
     write_json(OUT_GRAPH, {"nodes": nodes, "edges": edges})
     write_json(OUT_LATEST, latest)
-    append_jsonl(OUT_HISTORY, {
-        "generated_at_utc": latest["generated_at_utc"],
-        "generated_at_ist": latest["generated_at_ist"],
-        "risk_score": latest.get("risk_score", 0),
-        "top_drivers": (latest.get("risk_drivers") or [])[:3],
-    })
 
+    append_jsonl(
+        OUT_HISTORY,
+        {
+            "generated_at_utc": latest["generated_at_utc"],
+            "generated_at_ist": latest["generated_at_ist"],
+            "risk_score": latest.get("risk_score", 0),
+            "top_drivers": (latest.get("risk_drivers") or [])[:3],
+        },
+    )
+
+
+def main() -> None:
+    require_env()
+
+    workspace = os.path.abspath(".")
+    run_openplanter(workspace)
+
+    out = load_extract()
+    latest = enrich_latest(out.get("latest") if isinstance(out.get("latest"), dict) else {})
+    events = out.get("events") if isinstance(out.get("events"), list) else []
+    links = normalize_links(out.get("links"))
+
+    geocoder = Geocoder(OUT_GEOCODE_CACHE)
+
+    features, event_nodes, title_to_id = build_features_and_event_nodes(events, geocoder)
+    geocoder.save()
+
+    nodes: List[Dict[str, Any]] = MARKET_NODES + event_nodes
+    edges: List[Dict[str, Any]] = build_edges(links, title_to_id)
+    nodes = ensure_graph_nodes(nodes, edges)
+
+    write_outputs(latest, features, nodes, edges)
     print(f"OK: events_plotted={len(features)} nodes={len(nodes)} edges={len(edges)}")
 
 
