@@ -6,6 +6,180 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          52.6422391,
+          24.1646471
+        ]
+      },
+      "properties": {
+        "id": "b24fb98b4b16",
+        "event_type": "shipping_disruption",
+        "severity": 85,
+        "confidence": "high",
+        "title": "Rare tanker transit to load Murban crude via Strait of Hormuz amid shipping disruption (Pola to Jebel Dhanna)",
+        "timestamp_utc": "2026-03-04T04:58:00Z",
+        "location_name": "Jebel Dhanna, United Arab Emirates",
+        "location_resolved": "Danat Resort Jebel Dhanna, As Saffar Street, Al Dhannah, Al Dhafrah Region, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "Oil tanker Pola",
+          "ADNOC",
+          "Iran"
+        ],
+        "implication": "Suggests partial/episodic navigation but under elevated operational risk; volatility in flows persists.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/tanker-heads-uae-port-via-strait-hormuz-load-oil-sources-say-2026-03-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1964023,
+          33.2721211
+        ]
+      },
+      "properties": {
+        "id": "c5533488d4ca",
+        "event_type": "strike",
+        "severity": 76,
+        "confidence": "high",
+        "title": "Israel orders evacuation of swathe of southern Lebanon as hostilities with Hezbollah intensify; strike in Baalbek reported",
+        "timestamp_utc": "2026-03-04T00:00:00Z",
+        "location_name": "Tyre, Lebanon",
+        "location_resolved": "Tyre, Tyre District, South Governorate, 1601, Lebanon",
+        "actors": [
+          "Israel",
+          "Hezbollah",
+          "Lebanese National News Agency"
+        ],
+        "implication": "Escalation in Lebanon increases regional conflict premium and adds to risk-off dynamics.",
+        "source_urls": [
+          "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "6724a062db7f",
+        "event_type": "shipping_disruption",
+        "severity": 70,
+        "confidence": "med",
+        "title": "IRGC claims control of Strait of Hormuz; U.S. discusses potential naval escorts for tankers (as reported)",
+        "timestamp_utc": "2026-03-04T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "IRGC Navy",
+          "United States Navy"
+        ],
+        "implication": "Heightened risk of incidents/miscalculation around escort operations; supports oil_up_risk and risk_off_flows.",
+        "source_urls": [
+          "https://www.aljazeera.com/news/2026/3/4/irgc-says-iran-in-complete-control-of-strait-of-hormuz-amid-trump-threats"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818064,
+          32.0852997
+        ]
+      },
+      "properties": {
+        "id": "7eb8e16afdd2",
+        "event_type": "strike",
+        "severity": 80,
+        "confidence": "high",
+        "title": "Iranian missiles hit central Israel (Tel Aviv district impacts reported)",
+        "timestamp_utc": "2026-03-03T13:29:00Z",
+        "location_name": "Tel Aviv, Israel",
+        "location_resolved": "Tel-Aviv, Tel Aviv Subdistrict, Tel-Aviv District, Israel",
+        "actors": [
+          "Iran",
+          "Israel Defense Forces"
+        ],
+        "implication": "Direct Iran-Israel kinetic exchange increases escalation risk and broadens risk-off impulse.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israeli-military-says-iranian-missiles-hit-central-israel-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0687076,
+          24.089019
+        ]
+      },
+      "properties": {
+        "id": "c3163702047d",
+        "event_type": "shipping_disruption",
+        "severity": 78,
+        "confidence": "high",
+        "title": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeline/Red Sea constraints highlighted",
+        "timestamp_utc": "2026-03-03T13:25:00Z",
+        "location_name": "Yanbu, Saudi Arabia",
+        "location_resolved": "Yanbu`, Yanbu, Medina Province, 46424, Saudi Arabia",
+        "actors": [
+          "Saudi Aramco",
+          "Saudi Arabia",
+          "Oil traders",
+          "Tanker operators"
+        ],
+        "implication": "Rerouting alleviates some supply risk but raises freight costs and shifts risk to Red Sea routes.",
+        "source_urls": [
+          "http://reuters.com/business/energy/saudi-aramco-seeks-reroute-crude-away-strait-hormuz-sources-say-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2313667,
+          25.4147357
+        ]
+      },
+      "properties": {
+        "id": "4992928feb8a",
+        "event_type": "shipping_disruption",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Energy prices surge as Hormuz disruption persists; Iraq output cuts and attacks on energy/logistics sites reported",
+        "timestamp_utc": "2026-03-03T11:54:00Z",
+        "location_name": "Fujairah, United Arab Emirates",
+        "location_resolved": "الفجيرة, الإمارات العربية المتحدة",
+        "actors": [
+          "Iran",
+          "Iraq",
+          "Saudi Aramco",
+          "Qatar"
+        ],
+        "implication": "Energy and shipping shock raises inflation risks and supports risk_off_flows; spillovers to gas and freight.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/global-energy-costs-soar-iran-crisis-disrupts-shipping-oil-gas-production-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           45.333333,
           23.333333
         ]
@@ -346,6 +520,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "3036f9f4e41c",
+        "event_type": "shipping_disruption",
+        "severity": 92,
+        "confidence": "high",
+        "title": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported",
+        "timestamp_utc": "2026-03-01T14:51:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Iran",
+          "Commercial Shipping Companies",
+          "International Maritime Organization"
+        ],
+        "implication": "Higher freight/insurance costs and severe energy supply-chain disruption risk; supports oil_up_risk.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           56.25,
           26.58
         ]
@@ -606,6 +809,36 @@
         "source_urls": [
           "https://www.reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
           "https://home.treasury.gov/news/press-releases/sb0405"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0365427,
+          38.8950368
+        ]
+      },
+      "properties": {
+        "id": "dacd01a8f271",
+        "event_type": "sanctions",
+        "severity": 60,
+        "confidence": "high",
+        "title": "U.S. expands Iran-related sanctions targeting shadow fleet vessels and networks enabling illicit petroleum sales and weapons programs",
+        "timestamp_utc": "2026-02-25T00:00:00Z",
+        "location_name": "Washington, DC, United States",
+        "location_resolved": "Washington, District of Columbia, United States",
+        "actors": [
+          "U.S. Treasury",
+          "OFAC",
+          "Iran"
+        ],
+        "implication": "Sanctions tightening can constrain marginal Iranian oil/logistics capacity and elevate compliance/insurance risk.",
+        "source_urls": [
+          "http://reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
+          "https://ofac.treasury.gov/recent-actions/20260225"
         ]
       }
     },

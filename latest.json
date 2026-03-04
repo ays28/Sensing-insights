@@ -1,14 +1,85 @@
 {
-  "headline_summary": [],
-  "risk_score": 0,
-  "risk_drivers": [],
+  "headline_summary": [
+    "Iran-related hostilities and threats around the Strait of Hormuz are disrupting maritime traffic and raising energy supply risk.",
+    "Commercial shipping has reportedly reduced transits and anchored vessels near the Strait amid projectile/drone incidents and war-risk repricing.",
+    "Israel-Hezbollah escalation in Lebanon is widening the conflict footprint with evacuation orders and strikes reported.",
+    "U.S. Treasury expanded Iran-related sanctions targeting shadow fleet vessels and networks tied to illicit petroleum sales and weapons programs."
+  ],
+  "risk_score": 82,
+  "risk_drivers": [
+    "Effective closure / severe disruption risk at Strait of Hormuz (critical oil/LNG chokepoint)",
+    "Kinetic incidents impacting commercial shipping (projectiles/drones; casualties reported)",
+    "Broader regional escalation (Israel-Hezbollah hostilities in Lebanon)",
+    "Policy response and sanctions tightening affecting Iranian oil flows and shipping networks"
+  ],
   "market_implications": {
-    "Energy": [],
-    "FX": [],
-    "Rates": [],
-    "Equities": []
+    "Energy": [
+      "Higher upside risk to Brent/WTI and European gas due to Hormuz disruption and tanker/LNG bottlenecks.",
+      "Wider Middle East crude differentials and higher freight/insurance premia; rerouting constraints (e.g., Red Sea/Yanbu alternatives)."
+    ],
+    "FX": [
+      "EM FX (especially high current-account deficit importers) faces renewed pressure from energy-import shock and risk-off positioning.",
+      "GCC currencies (pegs) stable mechanically but local liquidity/market confidence can weaken as conflict persists."
+    ],
+    "Rates": [
+      "Oil-driven inflation impulse raises risk of higher front-end rates / delayed easing expectations.",
+      "Credit spreads can widen for shipping, airlines, and energy-intensive sectors; war-risk insurance costs feed into financing conditions."
+    ],
+    "Equities": [
+      "Risk-off pressure on global equities; outperformance bias to upstream energy/defense; underperformance in transport/logistics.",
+      "Regional equity volatility elevated (GCC, Israel) amid escalation headlines and operational disruptions."
+    ]
   },
-  "sources": [],
-  "generated_at_utc": "2026-03-04T12:32:05.759925Z",
-  "generated_at_ist": "2026-03-04T18:02:05.759948+05:30"
+  "sources": [
+    {
+      "title": "Tanker heads to UAE port via Strait of Hormuz to load oil, sources say",
+      "url": "https://www.reuters.com/world/middle-east/tanker-heads-uae-port-via-strait-hormuz-load-oil-sources-say-2026-03-04/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-04T04:58:00Z"
+    },
+    {
+      "title": "Three tankers damaged in Gulf and one seafarer killed as US-Iran conflict escalates",
+      "url": "https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-01T14:51:00Z"
+    },
+    {
+      "title": "Global oil and gas prices soar as Iran crisis disrupts shipping, production",
+      "url": "https://www.reuters.com/business/energy/global-energy-costs-soar-iran-crisis-disrupts-shipping-oil-gas-production-2026-03-03/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-03T11:54:00Z"
+    },
+    {
+      "title": "Saudi Arabia tries to divert oil to Red Sea amid Iran war, faces reluctant shippers",
+      "url": "http://reuters.com/business/energy/saudi-aramco-seeks-reroute-crude-away-strait-hormuz-sources-say-2026-03-03/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-03T13:25:00Z"
+    },
+    {
+      "title": "US expands sanctions on Iran over oil sales, weapons programs",
+      "url": "http://reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
+      "publisher": "Reuters",
+      "published_at": "2026-02-25T00:00:00Z"
+    },
+    {
+      "title": "Iran-related Designations; Non-Proliferation Designations",
+      "url": "https://ofac.treasury.gov/recent-actions/20260225",
+      "publisher": "U.S. Department of the Treasury (OFAC)",
+      "published_at": "2026-02-25T00:00:00Z"
+    },
+    {
+      "title": "Israel orders evacuation of swathe of south Lebanon",
+      "url": "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-04T00:00:00Z"
+    },
+    {
+      "title": "IRGC says Iran in ‘complete control’ of Strait of Hormuz amid Trump threats",
+      "url": "https://www.aljazeera.com/news/2026/3/4/irgc-says-iran-in-complete-control-of-strait-of-hormuz-amid-trump-threats",
+      "publisher": "Al Jazeera",
+      "published_at": "2026-03-04T00:00:00Z"
+    }
+  ],
+  "generated_at_utc": "2026-03-04T12:52:44.782727Z",
+  "generated_at_ist": "2026-03-04T18:22:44.782748+05:30"
 }

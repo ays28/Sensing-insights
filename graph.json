@@ -19,7 +19,123 @@
       "id": "rates_credit_spreads",
       "label": "Rates/Credit spreads",
       "group": "market"
+    },
+    {
+      "id": "7eb8e16afdd2",
+      "label": "Iranian missiles hit central Israel (Tel Aviv district impacts reported)",
+      "group": "event",
+      "severity": 80,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": "2026-03-03T13:29:00Z",
+      "location_name": "Tel Aviv, Israel"
+    },
+    {
+      "id": "3036f9f4e41c",
+      "label": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz h",
+      "group": "event",
+      "severity": 92,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-01T14:51:00Z",
+      "location_name": "Strait of Hormuz"
+    },
+    {
+      "id": "b24fb98b4b16",
+      "label": "Rare tanker transit to load Murban crude via Strait of Hormuz amid shipping disr",
+      "group": "event",
+      "severity": 85,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-04T04:58:00Z",
+      "location_name": "Jebel Dhanna, United Arab Emirates"
+    },
+    {
+      "id": "4992928feb8a",
+      "label": "Energy prices surge as Hormuz disruption persists; Iraq output cuts and attacks ",
+      "group": "event",
+      "severity": 88,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-03T11:54:00Z",
+      "location_name": "Fujairah, United Arab Emirates"
+    },
+    {
+      "id": "c3163702047d",
+      "label": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeli",
+      "group": "event",
+      "severity": 78,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-03T13:25:00Z",
+      "location_name": "Yanbu, Saudi Arabia"
+    },
+    {
+      "id": "c5533488d4ca",
+      "label": "Israel orders evacuation of swathe of southern Lebanon as hostilities with Hezbo",
+      "group": "event",
+      "severity": 76,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": "2026-03-04T00:00:00Z",
+      "location_name": "Tyre, Lebanon"
+    },
+    {
+      "id": "dacd01a8f271",
+      "label": "U.S. expands Iran-related sanctions targeting shadow fleet vessels and networks ",
+      "group": "event",
+      "severity": 60,
+      "confidence": "high",
+      "event_type": "sanctions",
+      "timestamp_utc": "2026-02-25T00:00:00Z",
+      "location_name": "Washington, DC, United States"
+    },
+    {
+      "id": "6724a062db7f",
+      "label": "IRGC claims control of Strait of Hormuz; U.S. discusses potential naval escorts ",
+      "group": "event",
+      "severity": 70,
+      "confidence": "med",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-04T00:00:00Z",
+      "location_name": "Strait of Hormuz"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "3036f9f4e41c",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Disruption at the main Gulf chokepoint increases risk of supply shortfall and raises freight/insurance costs."
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "risk_off_flows",
+      "label": "amplifies",
+      "confidence": "high",
+      "why": "Energy shock increases inflation uncertainty and downside growth risk, prompting defensive positioning."
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "rates_credit_spreads",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Sanctions and compliance risk can widen spreads for shipping/energy logistics and tighten financing conditions."
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "risk_off_flows",
+      "label": "triggers",
+      "confidence": "high",
+      "why": "Direct state-on-state strikes raise tail-risk and increase demand for safe havens."
+    },
+    {
+      "from": "c3163702047d",
+      "to": "oil_up_risk",
+      "label": "partially_mitigates",
+      "confidence": "med",
+      "why": "Rerouting may relieve some constraints but capacity limits and added route risks keep upside risk elevated."
+    }
+  ]
 }

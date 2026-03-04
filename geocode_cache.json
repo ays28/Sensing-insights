@@ -165,5 +165,30 @@
     "lon": 50.5822436,
     "lat": 26.2235041,
     "display_name": "Manama, Capital Governorate, 308, Bahrain"
+  },
+  "tel aviv, israel": {
+    "lon": 34.7818064,
+    "lat": 32.0852997,
+    "display_name": "Tel-Aviv, Tel Aviv Subdistrict, Tel-Aviv District, Israel"
+  },
+  "jebel dhanna, united arab emirates": {
+    "lon": 52.6422391,
+    "lat": 24.1646471,
+    "display_name": "Danat Resort Jebel Dhanna, As Saffar Street, Al Dhannah, Al Dhafrah Region, Abu Dhabi Emirate, United Arab Emirates"
+  },
+  "yanbu, saudi arabia": {
+    "lon": 38.0687076,
+    "lat": 24.089019,
+    "display_name": "Yanbu`, Yanbu, Medina Province, 46424, Saudi Arabia"
+  },
+  "tyre, lebanon": {
+    "lon": 35.1964023,
+    "lat": 33.2721211,
+    "display_name": "Tyre, Tyre District, South Governorate, 1601, Lebanon"
+  },
+  "washington, dc, united states": {
+    "lon": -77.0365427,
+    "lat": 38.8950368,
+    "display_name": "Washington, District of Columbia, United States"
   }
 }
