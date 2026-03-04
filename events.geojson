@@ -6,6 +6,434 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          45.333333,
+          23.333333
+        ]
+      },
+      "properties": {
+        "id": "0219dcc6bccb",
+        "event_type": "strike",
+        "severity": 75,
+        "confidence": "high",
+        "title": "US embassy complex in Riyadh hit by drones, Saudi defence ministry says",
+        "timestamp_utc": "2026-03-03T00:00:00Z",
+        "location_name": "Riyadh, Saudi Arabia",
+        "location_resolved": "Riyadh Region, Saudi Arabia",
+        "actors": [
+          "Saudi Arabia",
+          "United States"
+        ],
+        "implication": "Attack on diplomatic facilities escalates political risk and can trigger further security measures and retaliation.",
+        "source_urls": [
+          "https://reuters.com/world/fire-us-embassy-complex-riyadh-after-blast-heard-sources-say-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5822436,
+          26.2235041
+        ]
+      },
+      "properties": {
+        "id": "c8be23761aba",
+        "event_type": "diplomacy",
+        "severity": 55,
+        "confidence": "high",
+        "title": "US orders some diplomatic staff to leave Bahrain, Iraq and Jordan as Iran conflict escalates",
+        "timestamp_utc": "2026-03-03T00:00:00Z",
+        "location_name": "Manama, Bahrain",
+        "location_resolved": "Manama, Capital Governorate, 308, Bahrain",
+        "actors": [
+          "United States"
+        ],
+        "implication": "Drawdown signals elevated threat environment; can disrupt consular operations and business travel across key hubs.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/us-orders-non-emergency-staff-leave-bahrain-iraq-jordan-2026-03-03/",
+          "http://mobile.reuters.com/world/middle-east/us-orders-non-emergency-staff-leave-bahrain-iraq-jordan-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "4ef988b3cb13",
+        "event_type": "shipping_disruption",
+        "severity": 97,
+        "confidence": "high",
+        "title": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
+        "timestamp_utc": "2026-03-02T20:52:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Iran",
+          "Islamic Revolutionary Guard Corps",
+          "Commercial shipping"
+        ],
+        "implication": "Even partial closure can disrupt ~20% of global oil flows and LNG shipments, sharply lifting freight, insurance and oil risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "9c3dfb6c2829",
+        "event_type": "shipping_disruption",
+        "severity": 97,
+        "confidence": "high",
+        "title": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
+        "timestamp_utc": "2026-03-02T20:52:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Iran",
+          "Islamic Revolutionary Guard Corps",
+          "Commercial shipping"
+        ],
+        "implication": "Even partial closure can disrupt ~20% of global oil flows and LNG shipments, sharply lifting freight, insurance and oil risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "7557abd37533",
+        "event_type": "strike",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Fuel tanker Athe Nova reported hit by drones and burning in Strait of Hormuz",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Iran",
+          "Islamic Revolutionary Guard Corps",
+          "Commercial shipping"
+        ],
+        "implication": "Attack on a tanker reinforces physical risk to maritime flows; increases chance of shipping stand-down and insurance withdrawal.",
+        "source_urls": [
+          "https://reuters.com/business/energy/fuel-tanker-ablaze-strait-hormuz-after-drone-strike-iran-revolutionary-guards-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "b6f1342b1331",
+        "event_type": "strike",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Fuel tanker Athe Nova reported hit by drones and burning in Strait of Hormuz",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Iran",
+          "Islamic Revolutionary Guard Corps",
+          "Commercial shipping"
+        ],
+        "implication": "Attack on a tanker reinforces physical risk to maritime flows; increases chance of shipping stand-down and insurance withdrawal.",
+        "source_urls": [
+          "https://reuters.com/business/energy/fuel-tanker-ablaze-strait-hormuz-after-drone-strike-iran-revolutionary-guards-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.067352,
+          26.707417
+        ]
+      },
+      "properties": {
+        "id": "d2d14c8af84c",
+        "event_type": "strike",
+        "severity": 78,
+        "confidence": "high",
+        "title": "Saudi Aramco shuts Ras Tanura refinery after drone strike, sources say",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Ras Tanura, Saudi Arabia",
+        "location_resolved": "رحيمة, محافظة رأس تنوره, المنطقة الشرقية, 32811, السعودية",
+        "actors": [
+          "Saudi Aramco",
+          "Saudi Arabia"
+        ],
+        "implication": "Temporary shutdown at a key refining/export hub adds upside risk to refined products and crude differentials; raises regional infrastructure vulnerability.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/",
+          "http://mobile.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1277653,
+          51.5074456
+        ]
+      },
+      "properties": {
+        "id": "4337a45a340f",
+        "event_type": "shipping_disruption",
+        "severity": 76,
+        "confidence": "high",
+        "title": "Marine insurers cancel war-risk cover as Iran conflict intensifies",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "Marine insurers",
+          "Commercial shipping"
+        ],
+        "implication": "Withdrawal/pricing of war-risk cover can reduce voyage availability and push tanker/container rates higher, feeding inflation and delivered energy costs.",
+        "source_urls": [
+          "http://reuters.com/world/middle-east/ship-insurers-cancel-war-risk-cover-due-iran-conflict-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.9233,
+          21.4735
+        ]
+      },
+      "properties": {
+        "id": "c0da90f52d24",
+        "event_type": "shipping_disruption",
+        "severity": 74,
+        "confidence": "high",
+        "title": "Global oil and gas shipping costs surge to records amid Hormuz risk",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Commercial shipping"
+        ],
+        "implication": "Record freight and insurance costs tighten effective supply and lift price volatility across crude, LNG and refined products.",
+        "source_urls": [
+          "https://reuters.com/world/middle-east/middle-east-oil-shipping-costs-surge-all-time-high-us-iran-conflict-intensifies-2026-03-02/",
+          "https://www.reuters.com/video/watch/idRW037503032026RP1"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.9233,
+          21.4735
+        ]
+      },
+      "properties": {
+        "id": "dc4fa5e13f1d",
+        "event_type": "shipping_disruption",
+        "severity": 73,
+        "confidence": "high",
+        "title": "About 10% of global container fleet caught in Hormuz backup, shipping CEO says",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Commercial shipping"
+        ],
+        "implication": "Container delays amplify supply-chain disruptions beyond energy, pressuring goods inflation and corporate margins.",
+        "source_urls": [
+          "https://today.reuters.com/business/energy/about-10-global-container-fleet-caught-hormuz-backup-shipping-ceo-says-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3774014,
+          24.4538352
+        ]
+      },
+      "properties": {
+        "id": "8d0882d2e488",
+        "event_type": "other",
+        "severity": 64,
+        "confidence": "high",
+        "title": "AWS reports outages after UAE data center struck by objects",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Abu Dhabi, United Arab Emirates",
+        "location_resolved": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "Amazon Web Services",
+          "United Arab Emirates"
+        ],
+        "implication": "Data-center disruption can ripple into payments, trading, and logistics, adding to risk-off sentiment.",
+        "source_urls": [
+          "https://reuters.com/world/middle-east/amazon-cloud-unit-flags-issues-bahrain-uae-data-centers-amid-iran-strikes-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.9734174,
+          29.3796532
+        ]
+      },
+      "properties": {
+        "id": "86d13423ef26",
+        "event_type": "strike",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Kuwait intercepts hostile drones on third day of Iran retaliatory strikes",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Kuwait City, Kuwait",
+        "location_resolved": "Kuwait City, Qibla, Capital Governorate, 15005, Kuwait",
+        "actors": [
+          "Kuwait",
+          "Iran"
+        ],
+        "implication": "Sustained drone threat keeps regional air defenses on high alert; raises risk to energy and base-adjacent assets.",
+        "source_urls": [
+          "https://reuters.com/world/middle-east/kuwait-intercepts-hostile-drones-third-day-iran-retaliatory-strikes-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.25,
+          26.58
+        ]
+      },
+      "properties": {
+        "id": "ed0dc6b1bd91",
+        "event_type": "shipping_disruption",
+        "severity": 80,
+        "confidence": "high",
+        "title": "Maersk pauses Trans-Suez sailings and major lines reroute around Cape; Hormuz crossings suspended",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Suez Canal / Bab el-Mandeb / Strait of Hormuz",
+        "location_resolved": "Centroid: strait of hormuz",
+        "actors": [
+          "Maersk",
+          "Hapag-Lloyd",
+          "CMA CGM",
+          "MSC"
+        ],
+        "implication": "Reroutes extend voyage times, tighten vessel availability, and raise shipping costs; compounds energy market stress via logistics constraints.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/maersk-pauses-sailings-through-suez-canal-bab-el-mandeb-strait-citing-escalating-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.25,
+          26.58
+        ]
+      },
+      "properties": {
+        "id": "62a1a6f17887",
+        "event_type": "shipping_disruption",
+        "severity": 80,
+        "confidence": "high",
+        "title": "Maersk pauses Trans-Suez sailings and major lines reroute around Cape; Hormuz crossings suspended",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Suez Canal / Bab el-Mandeb / Strait of Hormuz",
+        "location_resolved": "Centroid: strait of hormuz",
+        "actors": [
+          "Maersk",
+          "Hapag-Lloyd",
+          "CMA CGM",
+          "MSC"
+        ],
+        "implication": "Reroutes extend voyage times, tighten vessel availability, and raise shipping costs; compounds energy market stress via logistics constraints.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/maersk-pauses-sailings-through-suez-canal-bab-el-mandeb-strait-citing-escalating-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3896004,
+          35.6892523
+        ]
+      },
+      "properties": {
+        "id": "67120a4038b2",
+        "event_type": "cyber",
+        "severity": 62,
+        "confidence": "high",
+        "title": "Hackers hit Iranian apps and websites after US-Israeli strikes",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Tehran, Iran",
+        "location_resolved": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran",
+        "actors": [
+          "Hackers",
+          "Iran"
+        ],
+        "implication": "Cyber spillover increases operational risk for financial and logistics systems; can worsen uncertainty and raise defensive spending.",
+        "source_urls": [
+          "http://reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           54.5643516,
           32.6475314
         ]
@@ -66,56 +494,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.2027702,
-          26.4494061
+          54.5643516,
+          32.6475314
         ]
       },
       "properties": {
-        "id": "4ef988b3cb13",
-        "event_type": "shipping_disruption",
-        "severity": 97,
-        "confidence": "high",
-        "title": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
-        "timestamp_utc": "2026-03-02T20:52:00Z",
-        "location_name": "Strait of Hormuz",
-        "location_resolved": "مضیق هرمز, عمان",
-        "actors": [
-          "Iran",
-          "Islamic Revolutionary Guard Corps",
-          "Commercial shipping"
-        ],
-        "implication": "Even partial closure can disrupt ~20% of global oil flows and LNG shipments, sharply lifting freight, insurance and oil risk premia.",
-        "source_urls": [
-          "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.2027702,
-          26.4494061
-        ]
-      },
-      "properties": {
-        "id": "7557abd37533",
+        "id": "bc21c04c76a8",
         "event_type": "strike",
-        "severity": 88,
+        "severity": 92,
         "confidence": "high",
-        "title": "Fuel tanker Athe Nova reported hit by drones and burning in Strait of Hormuz",
-        "timestamp_utc": "2026-03-02T00:00:00Z",
-        "location_name": "Strait of Hormuz",
-        "location_resolved": "مضیق هرمز, عمان",
+        "title": "US and Israel launch pre-emptive strikes on Iran",
+        "timestamp_utc": "2026-02-28T00:00:00Z",
+        "location_name": "Iran",
+        "location_resolved": "ایران",
         "actors": [
-          "Iran",
-          "Islamic Revolutionary Guard Corps",
-          "Commercial shipping"
+          "United States",
+          "Israel",
+          "Iran"
         ],
-        "implication": "Attack on a tanker reinforces physical risk to maritime flows; increases chance of shipping stand-down and insurance withdrawal.",
+        "implication": "Marks escalation to direct interstate conflict; raises probability of retaliation against regional bases, shipping and energy infrastructure.",
         "source_urls": [
-          "https://reuters.com/business/energy/fuel-tanker-ablaze-strait-hormuz-after-drone-strike-iran-revolutionary-guards-2026-03-02/"
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
         ]
       }
     },
@@ -124,28 +523,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.25,
-          26.58
+          54.3773,
+          24.4539
         ]
       },
       "properties": {
-        "id": "ed0dc6b1bd91",
-        "event_type": "shipping_disruption",
-        "severity": 80,
+        "id": "2808cac09609",
+        "event_type": "strike",
+        "severity": 90,
         "confidence": "high",
-        "title": "Maersk pauses Trans-Suez sailings and major lines reroute around Cape; Hormuz crossings suspended",
-        "timestamp_utc": "2026-03-01T00:00:00Z",
-        "location_name": "Suez Canal / Bab el-Mandeb / Strait of Hormuz",
-        "location_resolved": "Centroid: strait of hormuz",
+        "title": "Iran fires missiles at Gulf cities after US-Israeli strikes",
+        "timestamp_utc": "2026-02-28T00:00:00Z",
+        "location_name": "Gulf region (UAE, Qatar, Kuwait, Bahrain)",
+        "location_resolved": "Centroid: uae",
         "actors": [
-          "Maersk",
-          "Hapag-Lloyd",
-          "CMA CGM",
-          "MSC"
+          "Iran",
+          "UAE",
+          "Qatar",
+          "Kuwait",
+          "Bahrain"
         ],
-        "implication": "Reroutes extend voyage times, tighten vessel availability, and raise shipping costs; compounds energy market stress via logistics constraints.",
+        "implication": "Direct attacks on Gulf states increase regional spillover risk and elevate concerns about energy and logistics continuity.",
         "source_urls": [
-          "https://www.reuters.com/world/middle-east/maersk-pauses-sailings-through-suez-canal-bab-el-mandeb-strait-citing-escalating-2026-03-01/"
+          "https://in.mobile.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/"
         ]
       }
     },
@@ -160,6 +560,36 @@
       },
       "properties": {
         "id": "d30071455b59",
+        "event_type": "sanctions",
+        "severity": 65,
+        "confidence": "high",
+        "title": "US expands Iran-related sanctions targeting shadow fleet and supply networks",
+        "timestamp_utc": "2026-02-25T00:00:00Z",
+        "location_name": "United States",
+        "location_resolved": "United States",
+        "actors": [
+          "U.S. Treasury",
+          "OFAC",
+          "Iran"
+        ],
+        "implication": "Tightens enforcement risk around Iranian petroleum logistics and procurement; can redirect flows and increase compliance costs for shippers/traders.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
+          "https://home.treasury.gov/news/press-releases/sb0405"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.445882,
+          39.7837304
+        ]
+      },
+      "properties": {
+        "id": "804f81835db3",
         "event_type": "sanctions",
         "severity": 65,
         "confidence": "high",
@@ -1365,6 +1795,981 @@
       },
       "properties": {
         "id": "d8decf4d2c11",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_48",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "652bc0a9bf8d",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_10",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "53de9bceee22",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_11",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "ba5590e8c4ba",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_12",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "bed9a72ccfd7",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_13",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "06f01c5e6502",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_14",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "01fd2c0eb627",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_15",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "03879a455bc7",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_16",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "096fbcc7f120",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_17",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "90cecb9d33f8",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_18",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "8fe4860570c5",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_19",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "5137e07b7a60",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_20",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "5ab262aa0210",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_21",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "2522db695011",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_22",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "9d3c77ae7912",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_23",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "19d55d32405f",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_24",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "f553780dc42b",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_25",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "7df1461a59de",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_26",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "de73fb950b52",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_27",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "836fcb26fd26",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_28",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "835aa6ee4714",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_29",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "f624920de495",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_30",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "46321f0cd6af",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_31",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "203017f50377",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_32",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "06dda32bf1db",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_33",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "8b80704243d8",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_34",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "4b5334706f9b",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_35",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "5e361c527a06",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_36",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "61438ae71b7c",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_37",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "b257fdb0b657",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_38",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "b3bb04d60c33",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_39",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "1fe38391ec82",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_40",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "58e03558eb3f",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_41",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "ae00f3e4eae4",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_42",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "0f240d36bb16",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_43",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "c3b1ee848527",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_44",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "2119c2c7c114",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_45",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "f6ab7f69a125",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_46",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "dedcf9227620",
+        "event_type": "other",
+        "severity": 0,
+        "confidence": "low",
+        "title": "PLACEHOLDER_EVENT_47",
+        "timestamp_utc": null,
+        "location_name": "Middle East",
+        "location_resolved": "Middle East, Baltimore, Maryland, United States",
+        "actors": [],
+        "implication": "Placeholder to be replaced with sourced events.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5888477,
+          39.3014159
+        ]
+      },
+      "properties": {
+        "id": "d485a96d1ac6",
         "event_type": "other",
         "severity": 0,
         "confidence": "low",

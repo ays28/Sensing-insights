@@ -134,5 +134,36 @@
     "display_name": "Bab-el-Mandeb Strait, Djibouti"
   },
   "gulf region (uae, qatar, kuwait, bahrain)": null,
-  "suez canal / bab el-mandeb / strait of hormuz": null
+  "suez canal / bab el-mandeb / strait of hormuz": null,
+  "london, united kingdom": {
+    "lon": -0.1277653,
+    "lat": 51.5074456,
+    "display_name": "Greater London, England, United Kingdom"
+  },
+  "strait of hormuz, near oman": null,
+  "tehran, iran": {
+    "lon": 51.3896004,
+    "lat": 35.6892523,
+    "display_name": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran"
+  },
+  "abu dhabi, united arab emirates": {
+    "lon": 54.3774014,
+    "lat": 24.4538352,
+    "display_name": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates"
+  },
+  "kuwait city, kuwait": {
+    "lon": 47.9734174,
+    "lat": 29.3796532,
+    "display_name": "Kuwait City, Qibla, Capital Governorate, 15005, Kuwait"
+  },
+  "riyadh, saudi arabia": {
+    "lon": 45.333333,
+    "lat": 23.333333,
+    "display_name": "Riyadh Region, Saudi Arabia"
+  },
+  "manama, bahrain": {
+    "lon": 50.5822436,
+    "lat": 26.2235041,
+    "display_name": "Manama, Capital Governorate, 308, Bahrain"
+  }
 }
