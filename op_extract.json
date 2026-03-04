@@ -100,9 +100,124 @@
   "events": [
     {
       "event_type": "strike",
-      "severity": 92,
+      "severity": 90,
       "confidence": "high",
-      "title": "US and Israel launch 'pre-emptive' attack against Iran",
+      "title": "Iranian missile strikes on commercial vessels",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Iran",
+        "Commercial Shipping"
+      ],
+      "implication": "Direct vessel attacks raise the probability of a sustained Hormuz disruption and a larger military escalation.",
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/3/2/iran-says-will-attack-any-ship-trying-to-pass-through-strait-of-hormuz",
+        "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 85,
+      "confidence": "high",
+      "title": "Suspension of shipping operations through the Strait of Hormuz",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Maersk",
+        "MSC",
+        "Hapag-Lloyd",
+        "CMA CGM"
+      ],
+      "implication": "Halted transits constrain energy and container flows; freight and insurance costs reprice sharply.",
+      "source_urls": [
+        "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 75,
+      "confidence": "high",
+      "title": "Major container lines reroute/avoid Suez and Bab el-Mandeb",
+      "timestamp_utc": "2026-03-01T00:00:00Z",
+      "location_name": "Bab el-Mandeb Strait",
+      "actors": [
+        "Maersk",
+        "Hapag-Lloyd",
+        "CMA CGM",
+        "MSC"
+      ],
+      "implication": "Longer voyages around the Cape of Good Hope extend lead times and lift global freight costs.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/maersk-pauses-sailings-through-suez-canal-bab-el-mandeb-strait-citing-escalating-2026-03-01/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 80,
+      "confidence": "high",
+      "title": "Iran warns it will fire on any ship attempting to pass through Strait of Hormuz",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Iran"
+      ],
+      "implication": "Credible threat to the key oil/LNG chokepoint raises near-term supply risk premia across energy markets.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 82,
+      "confidence": "high",
+      "title": "Drone strike forces shutdown at Saudi Aramco Ras Tanura refinery",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Ras Tanura, Saudi Arabia",
+      "actors": [
+        "Saudi Aramco",
+        "Saudi Arabia"
+      ],
+      "implication": "Refining disruption tightens product supply and boosts regional refining margins; signals vulnerability of Gulf infrastructure.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 78,
+      "confidence": "high",
+      "title": "Marine insurers cancel war-risk cover for Gulf voyages",
+      "timestamp_utc": "2026-03-03T00:00:00Z",
+      "location_name": "Persian Gulf",
+      "actors": [
+        "Marine insurers",
+        "Shipping industry"
+      ],
+      "implication": "Loss of cover and higher premiums can choke off available tonnage, amplifying physical oil/LNG dislocations.",
+      "source_urls": [
+        "https://www.reuters.com/business/finance/marine-insurers-cancel-war-risk-cover-tanker-costs-rise-iran-conflict-intensifies-2026-03-03/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 76,
+      "confidence": "high",
+      "title": "Oil and gas shipping costs surge to record highs amid Hormuz crisis",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Shipping industry"
+      ],
+      "implication": "Higher freight and war-risk charges lift delivered energy prices and can tighten margins for refiners and utilities.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/middle-east-oil-shipping-costs-surge-all-time-high-us-iran-conflict-intensifies-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 88,
+      "confidence": "high",
+      "title": "U.S. and Israel launch pre-emptive attack against Iran",
       "timestamp_utc": "2026-02-28T00:00:00Z",
       "location_name": "Iran",
       "actors": [
@@ -110,291 +225,175 @@
         "Israel",
         "Iran"
       ],
-      "implication": "Direct interstate escalation increases risk to Gulf energy supply and regional shipping routes; markets reprice geopolitical risk premium.",
+      "implication": "Direct state-to-state conflict in the Gulf region elevates systemic geopolitical risk and threatens energy/shipping infrastructure.",
       "source_urls": [
         "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
-      ]
-    },
-    {
-      "event_type": "shipping_disruption",
-      "severity": 95,
-      "confidence": "high",
-      "title": "Iran declares Strait of Hormuz closed; warns it will attack ships attempting to transit",
-      "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Strait of Hormuz",
-      "actors": [
-        "Iran"
-      ],
-      "implication": "Threats/attempted closure at a key oil/LNG chokepoint create immediate tail-risk for energy prices and global trade flows.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/"
-      ]
-    },
-    {
-      "event_type": "shipping_disruption",
-      "severity": 85,
-      "confidence": "high",
-      "title": "Iran conflict disrupts global shipping; tankers stranded/damaged",
-      "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Persian Gulf",
-      "actors": [
-        "Iran",
-        "Commercial shipping"
-      ],
-      "implication": "Higher freight and war-risk costs propagate into delivered oil/LNG prices and supply-chain delays, amplifying inflation concerns.",
-      "source_urls": [
-        "https://in.mobile.reuters.com/business/energy/iran-conflict-disrupts-global-shipping-tankers-are-stranded-damaged-2026-03-02/"
-      ]
-    },
-    {
-      "event_type": "shipping_disruption",
-      "severity": 80,
-      "confidence": "high",
-      "title": "About 10% of global container fleet caught in Hormuz backup, shipping CEO says",
-      "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Strait of Hormuz",
-      "actors": [
-        "Commercial shipping"
-      ],
-      "implication": "Container congestion and rerouting adds lead-times and costs, weighing on global cyclicals and supporting risk-off.",
-      "source_urls": [
-        "https://www.reuters.com/business/energy/about-10-global-container-fleet-caught-hormuz-backup-shipping-ceo-says-2026-03-02/"
-      ]
-    },
-    {
-      "event_type": "shipping_disruption",
-      "severity": 78,
-      "confidence": "high",
-      "title": "Maersk pauses Suez/Bab el-Mandeb transits; carriers divert around Cape of Good Hope",
-      "timestamp_utc": "2026-03-01T00:00:00Z",
-      "location_name": "Bab el-Mandeb Strait",
-      "actors": [
-        "Maersk",
-        "Commercial shipping"
-      ],
-      "implication": "Renewed Red Sea route avoidance tightens shipping capacity and raises freight, adding to imported goods inflation risk.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/maersk-pauses-sailings-through-suez-canal-bab-el-mandeb-strait-citing-escalating-2026-03-01/"
-      ]
-    },
-    {
-      "event_type": "strike",
-      "severity": 88,
-      "confidence": "high",
-      "title": "Saudi Aramco shuts Ras Tanura refinery after drone strike, source says",
-      "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Ras Tanura, Saudi Arabia",
-      "actors": [
-        "Saudi Aramco",
-        "Saudi Arabia"
-      ],
-      "implication": "Refining outage risks product-market tightness and higher crack spreads; adds to oil risk premium.",
-      "source_urls": [
-        "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
-      ]
-    },
-    {
-      "event_type": "strike",
-      "severity": 82,
-      "confidence": "high",
-      "title": "Qatar LNG output curtailed after regional strikes, Reuters reports",
-      "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Qatar",
-      "actors": [
-        "Qatar",
-        "QatarEnergy"
-      ],
-      "implication": "LNG supply interruptions tighten Asia/Europe gas balances; increases gas and power price volatility.",
-      "source_urls": [
-        "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
       ]
     },
     {
       "event_type": "strike",
       "severity": 74,
       "confidence": "high",
-      "title": "Israel shuts major gas fields amid regional attacks",
+      "title": "Qatar LNG output disrupted amid regional strikes",
       "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Israel",
+      "location_name": "Qatar",
       "actors": [
-        "Israel"
+        "Qatar",
+        "QatarEnergy"
       ],
-      "implication": "Eastern Mediterranean gas supply risk can spill into regional power and LNG substitution demand.",
+      "implication": "LNG disruption tightens global gas balances and increases European/Asian spot price volatility.",
       "source_urls": [
         "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
       ]
     },
     {
-      "event_type": "other",
-      "severity": 70,
-      "confidence": "med",
-      "title": "Iraqi Kurdistan output disrupted amid Iran conflict spillover",
+      "event_type": "strike",
+      "severity": 65,
+      "confidence": "high",
+      "title": "Israel shuts or reduces output at key natural gas fields",
       "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Kurdistan Region, Iraq",
+      "location_name": "Israel",
       "actors": [
-        "Iraq",
-        "Kurdistan Region"
+        "Israel"
       ],
-      "implication": "Any sustained disruption reduces marginal supply and raises regional crude differentials.",
+      "implication": "Reduced Israeli gas supply can impact regional power generation and tighten Eastern Mediterranean gas availability.",
       "source_urls": [
         "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
       ]
     },
     {
       "event_type": "shipping_disruption",
-      "severity": 84,
+      "severity": 70,
       "confidence": "high",
-      "title": "Middle East oil and gas shipping costs surge to records",
-      "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Persian Gulf",
+      "title": "Energy costs soar as Iran crisis disrupts shipping and production",
+      "timestamp_utc": "2026-03-03T00:00:00Z",
+      "location_name": "Middle East",
       "actors": [
-        "Commercial shipping",
-        "Tanker market"
+        "Energy markets"
       ],
-      "implication": "Delivered energy costs rise even without outright supply losses; volatility in physical differentials increases.",
+      "implication": "The combination of output outages and shipping constraints increases inflation risk and worsens growth trade-offs globally.",
       "source_urls": [
-        "https://www.reuters.com/world/middle-east/middle-east-oil-shipping-costs-surge-all-time-high-us-iran-conflict-intensifies-2026-03-02/"
+        "https://www.reuters.com/business/energy/global-energy-costs-soar-iran-crisis-disrupts-shipping-oil-gas-production-2026-03-03/"
       ]
     },
     {
       "event_type": "other",
-      "severity": 76,
+      "severity": 66,
       "confidence": "high",
-      "title": "Marine insurers cancel/withdraw war-risk cover for some transits",
-      "timestamp_utc": "2026-03-03T00:00:00Z",
-      "location_name": "Persian Gulf",
-      "actors": [
-        "Marine insurers",
-        "Commercial shipping"
-      ],
-      "implication": "Insurance withdrawal can halt trade flows even if routes remain technically open, reinforcing shipping disruptions and raising credit stress.",
-      "source_urls": [
-        "https://www.reuters.com/business/finance/marine-insurers-cancel-war-risk-cover-tanker-costs-rise-iran-conflict-intensifies-2026-03-03/"
-      ]
-    },
-    {
-      "event_type": "diplomacy",
-      "severity": 55,
-      "confidence": "med",
-      "title": "Israel says war with Iran will not take years; signals continued operations",
-      "timestamp_utc": "2026-03-03T00:00:00Z",
-      "location_name": "Israel",
-      "actors": [
-        "Israel",
-        "United States",
-        "Iran"
-      ],
-      "implication": "Public positioning reduces near-term de-escalation probability; keeps risk premium elevated.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/netanyahu-says-us-israel-war-iran-not-going-take-years-2026-03-03/"
-      ]
-    },
-    {
-      "event_type": "other",
-      "severity": 60,
-      "confidence": "high",
-      "title": "India reduces gas supply to industries after Qatar LNG outage, sources say",
+      "title": "India reduces gas supply to industries after Qatar outage",
       "timestamp_utc": "2026-03-03T00:00:00Z",
       "location_name": "India",
       "actors": [
-        "India",
-        "Industrial gas consumers"
+        "India"
       ],
-      "implication": "Demand destruction and rationing indicate real-economy pass-through from supply disruption; negative for growth-sensitive assets.",
+      "implication": "Downstream demand rationing underscores how LNG supply shocks transmit to industrial activity and inflation.",
       "source_urls": [
         "https://www.reuters.com/business/energy/india-reduces-gas-supply-industries-after-qatar-outage-sources-say-2026-03-03/"
       ]
     },
     {
-      "event_type": "other",
-      "severity": 68,
+      "event_type": "diplomacy",
+      "severity": 60,
       "confidence": "high",
-      "title": "Oil rises as conflict elevates supply risks; broader markets slide",
+      "title": "Netanyahu says war with Iran will not take years as markets slide",
       "timestamp_utc": "2026-03-03T00:00:00Z",
-      "location_name": "Global",
+      "location_name": "Israel",
       "actors": [
-        "Oil market",
-        "Global investors"
+        "Israel"
       ],
-      "implication": "Higher energy prices and risk-off sentiment tighten financial conditions; supports USD and widens credit spreads.",
+      "implication": "Signals intent for a shorter campaign, but market stress highlights sensitivity to duration and escalation.",
       "source_urls": [
-        "https://www.reuters.com/business/energy/oil-rises-expanding-us-israeli-conflict-with-iran-elevates-supply-risks-2026-03-03/",
         "https://www.reuters.com/world/middle-east/netanyahu-says-us-israel-war-iran-not-going-take-years-2026-03-03/"
       ]
     },
     {
       "event_type": "other",
-      "severity": 72,
+      "severity": 62,
       "confidence": "high",
-      "title": "Global energy costs soar as Iran crisis disrupts shipping and production",
+      "title": "Oil rises as expanding conflict elevates supply risks",
       "timestamp_utc": "2026-03-03T00:00:00Z",
-      "location_name": "Global",
+      "location_name": "Global markets",
       "actors": [
-        "Energy market",
-        "Commercial shipping"
+        "Oil market participants"
       ],
-      "implication": "Sustained cost shock raises inflation risk while weighing on growth; intensifies stagflation-style positioning.",
+      "implication": "Price action reflects a higher geopolitical risk premium with potential spillover into inflation expectations and equities.",
       "source_urls": [
-        "https://www.reuters.com/business/energy/global-energy-costs-soar-iran-crisis-disrupts-shipping-oil-gas-production-2026-03-03/"
+        "https://www.reuters.com/business/energy/oil-rises-expanding-us-israeli-conflict-with-iran-elevates-supply-risks-2026-03-03/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 68,
+      "confidence": "high",
+      "title": "Iran conflict disrupts global shipping as tankers are stranded, damaged",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Shipping industry",
+        "Tanker operators"
+      ],
+      "implication": "Reports of stranded/damaged tankers indicate physical throughput loss beyond precautionary rerouting, tightening prompt supply.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/iran-conflict-disrupts-global-shipping-tankers-are-stranded-damaged-2026-03-02/"
       ]
     }
   ],
   "links": [
     {
-      "from": "US and Israel launch 'pre-emptive' attack against Iran",
-      "to": "Iran declares Strait of Hormuz closed; warns it will attack ships attempting to transit",
-      "relation": "triggered_retaliation",
+      "from": "U.S. and Israel launch pre-emptive attack against Iran",
+      "to": "Iran warns it will fire on any ship attempting to pass through Strait of Hormuz",
+      "relation": "triggers_retaliation_threat",
       "confidence": "high",
-      "why": "Strikes on Iran preceded Iranian announcement/threats around Hormuz transit."
+      "why": "Reuters reports the conflict escalation is associated with Iran's threat to target shipping through Hormuz."
     },
     {
-      "from": "Iran declares Strait of Hormuz closed; warns it will attack ships attempting to transit",
+      "from": "Iran warns it will fire on any ship attempting to pass through Strait of Hormuz",
+      "to": "Suspension of shipping operations through the Strait of Hormuz",
+      "relation": "drives_operator_suspensions",
+      "confidence": "med",
+      "why": "Threats and attacks raise operational risk; carriers paused/avoided transits as conditions worsened."
+    },
+    {
+      "from": "Iranian missile strikes on commercial vessels",
+      "to": "Suspension of shipping operations through the Strait of Hormuz",
+      "relation": "directly_causes",
+      "confidence": "high",
+      "why": "Vessel strikes materially reduce safe passage and can force carriers to halt transit."
+    },
+    {
+      "from": "Suspension of shipping operations through the Strait of Hormuz",
       "to": "oil_up_risk",
-      "relation": "supply_chokepoint_premium",
+      "relation": "increases_risk",
       "confidence": "high",
-      "why": "Hormuz is a major crude/LNG chokepoint; closure threats add immediate risk premium to oil."
+      "why": "Hormuz is a critical chokepoint for crude and LNG; halted traffic raises the probability of supply disruption."
     },
     {
-      "from": "Maersk pauses Suez/Bab el-Mandeb transits; carriers divert around Cape of Good Hope",
-      "to": "risk_off_flows",
-      "relation": "supply_chain_cost_shock",
+      "from": "Drone strike forces shutdown at Saudi Aramco Ras Tanura refinery",
+      "to": "oil_up_risk",
+      "relation": "adds_supply_risk_premium",
       "confidence": "med",
-      "why": "Rerouting raises freight and delays, historically contributing to risk-off and growth concerns."
+      "why": "Refining outages and infrastructure vulnerability add to regional energy risk premia."
     },
     {
-      "from": "Marine insurers cancel/withdraw war-risk cover for some transits",
-      "to": "Middle East oil and gas shipping costs surge to records",
-      "relation": "amplified_costs",
+      "from": "Marine insurers cancel war-risk cover for Gulf voyages",
+      "to": "Oil and gas shipping costs surge to record highs amid Hormuz crisis",
+      "relation": "amplifies_cost_shock",
       "confidence": "high",
-      "why": "Insurance withdrawal and surcharges directly increase effective shipping costs and reduce available capacity."
+      "why": "Insurance withdrawal and premium hikes directly raise effective voyage costs and reduce available tonnage."
     },
     {
-      "from": "Middle East oil and gas shipping costs surge to records",
-      "to": "rates_credit_spreads",
-      "relation": "inflation_and_financial_conditions",
-      "confidence": "med",
-      "why": "Higher delivered energy costs raise inflation uncertainty and can widen credit spreads/funding costs."
-    },
-    {
-      "from": "Qatar LNG output curtailed after regional strikes, Reuters reports",
+      "from": "oil_up_risk",
       "to": "em_fx_pressure",
-      "relation": "energy_import_costs",
-      "confidence": "med",
-      "why": "Higher LNG prices and tighter supply can pressure FX for energy importers (e.g., parts of Asia)."
-    },
-    {
-      "from": "Saudi Aramco shuts Ras Tanura refinery after drone strike, source says",
-      "to": "oil_up_risk",
-      "relation": "refining_disruption",
+      "relation": "pressures",
       "confidence": "high",
-      "why": "Refinery outages tighten products supply and reinforce crude/product risk premiums."
+      "why": "Higher energy import bills and inflation risk typically weaken net-importer EM currencies."
     },
     {
-      "from": "Oil rises as conflict elevates supply risks; broader markets slide",
+      "from": "oil_up_risk",
       "to": "risk_off_flows",
-      "relation": "market_reaction",
-      "confidence": "high",
-      "why": "Reuters reported oil up and markets sliding in response to escalation, consistent with risk-off."
+      "relation": "drives",
+      "confidence": "med",
+      "why": "Energy shock raises inflation and growth uncertainty, often prompting flight-to-quality and broader de-risking."
     }
   ]
 }

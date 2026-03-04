@@ -115,5 +115,10 @@
     "lon": 51.1972311,
     "lat": 27.2381259,
     "display_name": "Persian Gulf"
+  },
+  "global markets": {
+    "lon": 100.3419608,
+    "lat": 5.4176406,
+    "display_name": "iFAST Global Markets, 2 & 4, Church Street, Little India, Central George Town, North-East, George Town, Penang, 10200, Malaysia"
   }
 }
