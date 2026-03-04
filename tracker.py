@@ -252,7 +252,7 @@ Market concept ids you may use:
 
 Rules:
 - Use ONLY credible sources you can cite in source_urls.
-- Produce at least 15 events if sources allow.
+- Produce at least 150 events if sources allow.
 - links must be objects only (no strings).
 """
 
