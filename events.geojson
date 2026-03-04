@@ -871,6 +871,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          51.3896004,
+          35.6892523
+        ]
+      },
+      "properties": {
+        "id": "a320489030af",
+        "event_type": "strike",
+        "severity": 92,
+        "confidence": "high",
+        "title": "US and Israel launch pre-emptive strikes on Iran",
+        "timestamp_utc": "2026-02-28T00:00:00Z",
+        "location_name": "Tehran, Iran",
+        "location_resolved": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran",
+        "actors": [
+          "United States",
+          "Israel",
+          "Iran"
+        ],
+        "implication": "Marks escalation to direct interstate conflict; raises probability of retaliation against regional bases, shipping and energy infrastructure.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3774014,
+          24.4538352
+        ]
+      },
+      "properties": {
+        "id": "2d225419208f",
+        "event_type": "strike",
+        "severity": 90,
+        "confidence": "high",
+        "title": "Iran fires missiles at Gulf cities after US-Israeli strikes",
+        "timestamp_utc": "2026-02-28T00:00:00Z",
+        "location_name": "Abu Dhabi, United Arab Emirates",
+        "location_resolved": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "Iran",
+          "UAE",
+          "Qatar",
+          "Kuwait",
+          "Bahrain"
+        ],
+        "implication": "Direct attacks on Gulf states increase regional spillover risk and elevate concerns about energy and logistics continuity.",
+        "source_urls": [
+          "https://in.mobile.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -100.445882,
           39.7837304
         ]
@@ -953,6 +1013,36 @@
         "source_urls": [
           "http://reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
           "https://ofac.treasury.gov/recent-actions/20260225"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.445882,
+          39.7837304
+        ]
+      },
+      "properties": {
+        "id": "434b905bbab0",
+        "event_type": "sanctions",
+        "severity": 65,
+        "confidence": "high",
+        "title": "US expands Iran-related sanctions targeting shadow fleet and supply networks",
+        "timestamp_utc": "2026-02-25T00:00:00Z",
+        "location_name": "United States",
+        "location_resolved": "United States",
+        "actors": [
+          "U.S. Treasury",
+          "OFAC",
+          "Iran"
+        ],
+        "implication": "Tightens enforcement risk around Iranian petroleum logistics and procurement; can redirect flows and increase compliance costs for shippers/traders.",
+        "source_urls": [
+          "https://home.treasury.gov/news/press-releases/sb0405",
+          "https://www.reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/"
         ]
       }
     },

@@ -1,34 +1,39 @@
 {
   "latest": {
     "headline_summary": [
-      "Iran-related hostilities and threats around the Strait of Hormuz are disrupting maritime traffic and raising energy supply risk.",
-      "Commercial shipping has reportedly reduced transits and anchored vessels near the Strait amid projectile/drone incidents and war-risk repricing.",
-      "Israel-Hezbollah escalation in Lebanon is widening the conflict footprint with evacuation orders and strikes reported.",
-      "U.S. Treasury expanded Iran-related sanctions targeting shadow fleet vessels and networks tied to illicit petroleum sales and weapons programs."
+      "Strait of Hormuz disruption persists, with tanker incidents and large-scale anchoring reducing effective oil/LNG throughput.",
+      "Energy prices and shipping/insurance costs are surging as the U.S.-Iran conflict expands and Gulf export logistics remain constrained.",
+      "Saudi Arabia explores rerouting crude exports toward the Red Sea (Yanbu) to bypass Hormuz, but faces operational and shipping constraints.",
+      "Israel-Hezbollah escalation in Lebanon adds a second conflict front with evacuation orders and strikes reported.",
+      "Sanctions pressure on Iran-linked oil logistics tightens as the U.S. expands Iran-related designations targeting networks and vessels.",
+      "Cyber activity has increased alongside kinetic escalation, with reported attacks on Iranian apps/websites and heightened alerts in U.S. banking."
     ],
-    "risk_score": 82,
+    "risk_score": 86,
     "risk_drivers": [
-      "Effective closure / severe disruption risk at Strait of Hormuz (critical oil/LNG chokepoint)",
-      "Kinetic incidents impacting commercial shipping (projectiles/drones; casualties reported)",
+      "Sustained shipping disruption risk at the Strait of Hormuz (critical oil/LNG chokepoint)",
+      "Kinetic incidents impacting commercial vessels and Gulf infrastructure (projectiles/drones/missiles)",
       "Broader regional escalation (Israel-Hezbollah hostilities in Lebanon)",
-      "Policy response and sanctions tightening affecting Iranian oil flows and shipping networks"
+      "Energy export/logistics constraints (rerouting limits; outages/attacks) and surging freight/insurance premia",
+      "Sanctions tightening on Iran-linked shipping and petroleum networks",
+      "Elevated cyber risk affecting critical infrastructure and financial sector"
     ],
     "market_implications": {
       "Energy": [
-        "Higher upside risk to Brent/WTI and European gas due to Hormuz disruption and tanker/LNG bottlenecks.",
-        "Wider Middle East crude differentials and higher freight/insurance premia; rerouting constraints (e.g., Red Sea/Yanbu alternatives)."
+        "Higher upside risk to Brent/WTI and European/Asian LNG due to Hormuz disruption, tanker/LNG bottlenecks, and higher war-risk premia (oil_up_risk).",
+        "Wider Middle East crude differentials and elevated freight/insurance premia; rerouting constraints may keep delivered costs high.",
+        "If disruptions persist, inventory draws and refinery feedstock tightness could lift cracks and regional product prices."
       ],
       "FX": [
-        "EM FX (especially high current-account deficit importers) faces renewed pressure from energy-import shock and risk-off positioning.",
-        "GCC currencies (pegs) stable mechanically but local liquidity/market confidence can weaken as conflict persists."
+        "Risk-off supports USD/CHF/JPY; EM FX pressure rises for energy importers and high current-account deficit countries (em_fx_pressure).",
+        "GCC pegs likely hold, but forward points/liquidity could reflect heightened regional risk if conflict persists."
       ],
       "Rates": [
-        "Oil-driven inflation impulse raises risk of higher front-end rates / delayed easing expectations.",
-        "Credit spreads can widen for shipping, airlines, and energy-intensive sectors; war-risk insurance costs feed into financing conditions."
+        "Safe-haven demand can support core bonds, but persistent energy-driven inflation risks may reprice breakevens and delay easing expectations (rates_credit_spreads).",
+        "Credit spreads can widen for shipping, airlines, and energy-intensive sectors as insurance and financing conditions tighten."
       ],
       "Equities": [
-        "Risk-off pressure on global equities; outperformance bias to upstream energy/defense; underperformance in transport/logistics.",
-        "Regional equity volatility elevated (GCC, Israel) amid escalation headlines and operational disruptions."
+        "Risk-off pressure on global equities; relative outperformance bias toward upstream energy/defense; underperformance in transport/logistics and consumer cyclicals.",
+        "Volatility elevated; headlines around shipping and energy infrastructure attacks can drive sharp sector rotations (risk_off_flows)."
       ]
     },
     "sources": [
@@ -69,67 +74,41 @@
         "published_at": "2026-02-25T00:00:00Z"
       },
       {
-        "title": "Israel orders evacuation of swathe of south Lebanon",
+        "title": "Israel orders Lebanese to leave swathe of the south 'immediately'",
         "url": "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/",
         "publisher": "Reuters",
         "published_at": "2026-03-04T00:00:00Z"
       },
       {
-        "title": "IRGC says Iran in ‘complete control’ of Strait of Hormuz amid Trump threats",
-        "url": "https://www.aljazeera.com/news/2026/3/4/irgc-says-iran-in-complete-control-of-strait-of-hormuz-amid-trump-threats",
-        "publisher": "Al Jazeera",
-        "published_at": "2026-03-04T00:00:00Z"
+        "title": "Hackers hit Iranian apps, websites after US-Israeli strikes",
+        "url": "https://www.reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-01T00:00:00Z"
+      },
+      {
+        "title": "US banks on high alert for cyberattacks as Iran war escalates",
+        "url": "http://in.mobile.reuters.com/business/finance/us-banks-high-alert-cyberattacks-iran-war-escalates-2026-03-03/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-03T00:00:00Z"
       }
     ]
   },
   "events": [
     {
       "event_type": "strike",
-      "severity": 80,
+      "severity": 72,
       "confidence": "high",
-      "title": "Iranian missiles hit central Israel (Tel Aviv district impacts reported)",
-      "timestamp_utc": "2026-03-03T13:29:00Z",
-      "location_name": "Tel Aviv, Israel",
+      "title": "Turkey says NATO air defences destroyed a ballistic missile fired from Iran headed into Turkish airspace; debris reported in Hatay area",
+      "timestamp_utc": "2026-03-04T11:50:00Z",
+      "location_name": "Hatay Province, Turkey",
       "actors": [
         "Iran",
-        "Israel Defense Forces"
+        "Turkey",
+        "NATO"
       ],
-      "implication": "Direct Iran-Israel kinetic exchange increases escalation risk and broadens risk-off impulse.",
+      "implication": "Potential widening to a NATO member raises escalation tail-risk and supports risk_off_flows and em_fx_pressure.",
       "source_urls": [
-        "https://www.reuters.com/world/middle-east/israeli-military-says-iranian-missiles-hit-central-israel-2026-03-03/"
-      ]
-    },
-    {
-      "event_type": "strike",
-      "severity": 88,
-      "confidence": "high",
-      "title": "Israel orders evacuation of a swathe of southern Lebanon including Tyre; Israeli strike hits building in Baalbek",
-      "timestamp_utc": "2026-03-04T02:38:00Z",
-      "location_name": "Tyre, Lebanon",
-      "actors": [
-        "Israel",
-        "Hezbollah"
-      ],
-      "implication": "Lebanon theatre escalation broadens regional conflict footprint; increases risk-off flows and local operational disruption.",
-      "source_urls": [
-        "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
-      ]
-    },
-    {
-      "event_type": "shipping_disruption",
-      "severity": 92,
-      "confidence": "high",
-      "title": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported",
-      "timestamp_utc": "2026-03-01T14:51:00Z",
-      "location_name": "Strait of Hormuz",
-      "actors": [
-        "Iran",
-        "Commercial Shipping Companies",
-        "International Maritime Organization"
-      ],
-      "implication": "Higher freight/insurance costs and severe energy supply-chain disruption risk; supports oil_up_risk.",
-      "source_urls": [
-        "https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/"
+        "http://in.mobile.reuters.com/world/middle-east/turkey-says-nato-defences-destroyed-missile-fired-iran-over-mediterranean-2026-03-04/"
       ]
     },
     {
@@ -150,57 +129,36 @@
       ]
     },
     {
-      "event_type": "shipping_disruption",
+      "event_type": "strike",
       "severity": 88,
       "confidence": "high",
-      "title": "Energy prices surge as Hormuz disruption persists; Iraq output cuts and attacks on energy/logistics sites reported",
-      "timestamp_utc": "2026-03-03T11:54:00Z",
-      "location_name": "Fujairah, United Arab Emirates",
+      "title": "Israel orders evacuation of a swathe of southern Lebanon including Tyre; Israeli strike hits building in Baalbek",
+      "timestamp_utc": "2026-03-04T02:38:00Z",
+      "location_name": "Tyre, Lebanon",
       "actors": [
-        "Iran",
-        "Iraq",
-        "Saudi Aramco",
-        "Qatar"
+        "Israel",
+        "Hezbollah"
       ],
-      "implication": "Energy and shipping shock raises inflation risks and supports risk_off_flows; spillovers to gas and freight.",
+      "implication": "Lebanon theatre escalation broadens regional conflict footprint; increases risk-off flows and local operational disruption.",
       "source_urls": [
-        "https://www.reuters.com/business/energy/global-energy-costs-soar-iran-crisis-disrupts-shipping-oil-gas-production-2026-03-03/"
+        "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
       ]
     },
     {
-      "event_type": "shipping_disruption",
-      "severity": 78,
+      "event_type": "strike",
+      "severity": 76,
       "confidence": "high",
-      "title": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeline/Red Sea constraints highlighted",
-      "timestamp_utc": "2026-03-03T13:25:00Z",
-      "location_name": "Yanbu, Saudi Arabia",
+      "title": "Israel orders evacuation of swathe of southern Lebanon as hostilities with Hezbollah intensify; strike in Baalbek reported",
+      "timestamp_utc": "2026-03-04T00:00:00Z",
+      "location_name": "Tyre, Lebanon",
       "actors": [
-        "Saudi Aramco",
-        "Saudi Arabia",
-        "Oil traders",
-        "Tanker operators"
+        "Israel",
+        "Hezbollah",
+        "Lebanese National News Agency"
       ],
-      "implication": "Rerouting alleviates some supply risk but raises freight costs and shifts risk to Red Sea routes.",
+      "implication": "Escalation in Lebanon increases regional conflict premium and adds to risk-off dynamics.",
       "source_urls": [
-        "http://reuters.com/business/energy/saudi-aramco-seeks-reroute-crude-away-strait-hormuz-sources-say-2026-03-03/"
-      ]
-    },
-    {
-      "event_type": "sanctions",
-      "severity": 60,
-      "confidence": "high",
-      "title": "U.S. expands Iran-related sanctions targeting shadow fleet vessels and networks enabling illicit petroleum sales and weapons programs",
-      "timestamp_utc": "2026-02-25T00:00:00Z",
-      "location_name": "Washington, DC, United States",
-      "actors": [
-        "U.S. Treasury",
-        "OFAC",
-        "Iran"
-      ],
-      "implication": "Sanctions tightening can constrain marginal Iranian oil/logistics capacity and elevate compliance/insurance risk.",
-      "source_urls": [
-        "http://reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
-        "https://ofac.treasury.gov/recent-actions/20260225"
+        "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
       ]
     },
     {
@@ -217,22 +175,6 @@
       "implication": "Heightened risk of incidents/miscalculation around escort operations; supports oil_up_risk and risk_off_flows.",
       "source_urls": [
         "https://www.aljazeera.com/news/2026/3/4/irgc-says-iran-in-complete-control-of-strait-of-hormuz-amid-trump-threats"
-      ]
-    },
-    {
-      "event_type": "cyber",
-      "severity": 55,
-      "confidence": "high",
-      "title": "Hackers hit Iranian apps and websites alongside U.S.-Israeli strikes; internet connectivity drops reported",
-      "timestamp_utc": "2026-03-01T16:31:00Z",
-      "location_name": "Tehran, Iran",
-      "actors": [
-        "Unknown hackers",
-        "Iranian government services"
-      ],
-      "implication": "Cyber activity increases operational uncertainty and raises risk of retaliatory cyber actions against Western and regional targets.",
-      "source_urls": [
-        "http://reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
       ]
     },
     {
@@ -254,21 +196,589 @@
     },
     {
       "event_type": "strike",
-      "severity": 72,
+      "severity": 80,
       "confidence": "high",
-      "title": "Turkey says NATO air defences destroyed a ballistic missile fired from Iran headed into Turkish airspace; debris reported in Hatay area",
-      "timestamp_utc": "2026-03-04T11:50:00Z",
-      "location_name": "Hatay Province, Turkey",
+      "title": "Iranian missiles hit central Israel (Tel Aviv district impacts reported)",
+      "timestamp_utc": "2026-03-03T13:29:00Z",
+      "location_name": "Tel Aviv, Israel",
       "actors": [
         "Iran",
-        "Turkey",
-        "NATO"
+        "Israel Defense Forces"
       ],
-      "implication": "Potential widening to a NATO member raises escalation tail-risk and supports risk_off_flows and em_fx_pressure.",
+      "implication": "Direct Iran-Israel kinetic exchange increases escalation risk and broadens risk-off impulse.",
       "source_urls": [
-        "http://in.mobile.reuters.com/world/middle-east/turkey-says-nato-defences-destroyed-missile-fired-iran-over-mediterranean-2026-03-04/"
+        "https://www.reuters.com/world/middle-east/israeli-military-says-iranian-missiles-hit-central-israel-2026-03-03/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 78,
+      "confidence": "high",
+      "title": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeline/Red Sea constraints highlighted",
+      "timestamp_utc": "2026-03-03T13:25:00Z",
+      "location_name": "Yanbu, Saudi Arabia",
+      "actors": [
+        "Saudi Aramco",
+        "Saudi Arabia",
+        "Oil traders",
+        "Tanker operators"
+      ],
+      "implication": "Rerouting alleviates some supply risk but raises freight costs and shifts risk to Red Sea routes.",
+      "source_urls": [
+        "http://reuters.com/business/energy/saudi-aramco-seeks-reroute-crude-away-strait-hormuz-sources-say-2026-03-03/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 88,
+      "confidence": "high",
+      "title": "Energy prices surge as Hormuz disruption persists; Iraq output cuts and attacks on energy/logistics sites reported",
+      "timestamp_utc": "2026-03-03T11:54:00Z",
+      "location_name": "Fujairah, United Arab Emirates",
+      "actors": [
+        "Iran",
+        "Iraq",
+        "Saudi Aramco",
+        "Qatar"
+      ],
+      "implication": "Energy and shipping shock raises inflation risks and supports risk_off_flows; spillovers to gas and freight.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/global-energy-costs-soar-iran-crisis-disrupts-shipping-oil-gas-production-2026-03-03/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 75,
+      "confidence": "high",
+      "title": "US embassy complex in Riyadh hit by drones, Saudi defence ministry says",
+      "timestamp_utc": "2026-03-03T00:00:00Z",
+      "location_name": "Riyadh, Saudi Arabia",
+      "actors": [
+        "Saudi Arabia",
+        "United States"
+      ],
+      "implication": "Attack on diplomatic facilities escalates political risk and can trigger further security measures and retaliation.",
+      "source_urls": [
+        "https://reuters.com/world/fire-us-embassy-complex-riyadh-after-blast-heard-sources-say-2026-03-03/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 55,
+      "confidence": "high",
+      "title": "US orders some diplomatic staff to leave Bahrain, Iraq and Jordan as Iran conflict escalates",
+      "timestamp_utc": "2026-03-03T00:00:00Z",
+      "location_name": "Manama, Bahrain",
+      "actors": [
+        "United States"
+      ],
+      "implication": "Drawdown signals elevated threat environment; can disrupt consular operations and business travel across key hubs.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/us-orders-non-emergency-staff-leave-bahrain-iraq-jordan-2026-03-03/",
+        "http://mobile.reuters.com/world/middle-east/us-orders-non-emergency-staff-leave-bahrain-iraq-jordan-2026-03-03/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 97,
+      "confidence": "high",
+      "title": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
+      "timestamp_utc": "2026-03-02T20:52:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Iran",
+        "Islamic Revolutionary Guard Corps",
+        "Commercial shipping"
+      ],
+      "implication": "Even partial closure can disrupt ~20% of global oil flows and LNG shipments, sharply lifting freight, insurance and oil risk premia.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 88,
+      "confidence": "high",
+      "title": "Fuel tanker Athe Nova reported hit by drones and burning in Strait of Hormuz",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Iran",
+        "Islamic Revolutionary Guard Corps",
+        "Commercial shipping"
+      ],
+      "implication": "Attack on a tanker reinforces physical risk to maritime flows; increases chance of shipping stand-down and insurance withdrawal.",
+      "source_urls": [
+        "https://reuters.com/business/energy/fuel-tanker-ablaze-strait-hormuz-after-drone-strike-iran-revolutionary-guards-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 78,
+      "confidence": "high",
+      "title": "Saudi Aramco shuts Ras Tanura refinery after drone strike, sources say",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Ras Tanura, Saudi Arabia",
+      "actors": [
+        "Saudi Aramco",
+        "Saudi Arabia"
+      ],
+      "implication": "Temporary shutdown at a key refining/export hub adds upside risk to refined products and crude differentials; raises regional infrastructure vulnerability.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/",
+        "http://mobile.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 76,
+      "confidence": "high",
+      "title": "Marine insurers cancel war-risk cover as Iran conflict intensifies",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "London, United Kingdom",
+      "actors": [
+        "Marine insurers",
+        "Commercial shipping"
+      ],
+      "implication": "Withdrawal/pricing of war-risk cover can reduce voyage availability and push tanker/container rates higher, feeding inflation and delivered energy costs.",
+      "source_urls": [
+        "http://reuters.com/world/middle-east/ship-insurers-cancel-war-risk-cover-due-iran-conflict-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 74,
+      "confidence": "high",
+      "title": "Global oil and gas shipping costs surge to records amid Hormuz risk",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman",
+      "actors": [
+        "Commercial shipping"
+      ],
+      "implication": "Record freight and insurance costs tighten effective supply and lift price volatility across crude, LNG and refined products.",
+      "source_urls": [
+        "https://reuters.com/world/middle-east/middle-east-oil-shipping-costs-surge-all-time-high-us-iran-conflict-intensifies-2026-03-02/",
+        "https://www.reuters.com/video/watch/idRW037503032026RP1"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 73,
+      "confidence": "high",
+      "title": "About 10% of global container fleet caught in Hormuz backup, shipping CEO says",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman",
+      "actors": [
+        "Commercial shipping"
+      ],
+      "implication": "Container delays amplify supply-chain disruptions beyond energy, pressuring goods inflation and corporate margins.",
+      "source_urls": [
+        "https://today.reuters.com/business/energy/about-10-global-container-fleet-caught-hormuz-backup-shipping-ceo-says-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "other",
+      "severity": 64,
+      "confidence": "high",
+      "title": "AWS reports outages after UAE data center struck by objects",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Abu Dhabi, United Arab Emirates",
+      "actors": [
+        "Amazon Web Services",
+        "United Arab Emirates"
+      ],
+      "implication": "Data-center disruption can ripple into payments, trading, and logistics, adding to risk-off sentiment.",
+      "source_urls": [
+        "https://reuters.com/world/middle-east/amazon-cloud-unit-flags-issues-bahrain-uae-data-centers-amid-iran-strikes-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 70,
+      "confidence": "high",
+      "title": "Kuwait intercepts hostile drones on third day of Iran retaliatory strikes",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Kuwait City, Kuwait",
+      "actors": [
+        "Kuwait",
+        "Iran"
+      ],
+      "implication": "Sustained drone threat keeps regional air defenses on high alert; raises risk to energy and base-adjacent assets.",
+      "source_urls": [
+        "https://reuters.com/world/middle-east/kuwait-intercepts-hostile-drones-third-day-iran-retaliatory-strikes-2026-03-02/"
+      ]
+    },
+    {
+      "event_type": "cyber",
+      "severity": 55,
+      "confidence": "high",
+      "title": "Hackers hit Iranian apps and websites alongside U.S.-Israeli strikes; internet connectivity drops reported",
+      "timestamp_utc": "2026-03-01T16:31:00Z",
+      "location_name": "Tehran, Iran",
+      "actors": [
+        "Unknown hackers",
+        "Iranian government services"
+      ],
+      "implication": "Cyber activity increases operational uncertainty and raises risk of retaliatory cyber actions against Western and regional targets.",
+      "source_urls": [
+        "http://reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 92,
+      "confidence": "high",
+      "title": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported",
+      "timestamp_utc": "2026-03-01T14:51:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Iran",
+        "Commercial Shipping Companies",
+        "International Maritime Organization"
+      ],
+      "implication": "Higher freight/insurance costs and severe energy supply-chain disruption risk; supports oil_up_risk.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 80,
+      "confidence": "high",
+      "title": "Maersk pauses Trans-Suez sailings and major lines reroute around Cape; Hormuz crossings suspended",
+      "timestamp_utc": "2026-03-01T00:00:00Z",
+      "location_name": "Suez Canal / Bab el-Mandeb / Strait of Hormuz",
+      "actors": [
+        "Maersk",
+        "Hapag-Lloyd",
+        "CMA CGM",
+        "MSC"
+      ],
+      "implication": "Reroutes extend voyage times, tighten vessel availability, and raise shipping costs; compounds energy market stress via logistics constraints.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/maersk-pauses-sailings-through-suez-canal-bab-el-mandeb-strait-citing-escalating-2026-03-01/"
+      ]
+    },
+    {
+      "event_type": "cyber",
+      "severity": 62,
+      "confidence": "high",
+      "title": "Hackers hit Iranian apps and websites after US-Israeli strikes",
+      "timestamp_utc": "2026-03-01T00:00:00Z",
+      "location_name": "Tehran, Iran",
+      "actors": [
+        "Hackers",
+        "Iran"
+      ],
+      "implication": "Cyber spillover increases operational risk for financial and logistics systems; can worsen uncertainty and raise defensive spending.",
+      "source_urls": [
+        "http://reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 92,
+      "confidence": "high",
+      "title": "US and Israel launch pre-emptive strikes on Iran",
+      "timestamp_utc": "2026-02-28T00:00:00Z",
+      "location_name": "Tehran, Iran",
+      "actors": [
+        "United States",
+        "Israel",
+        "Iran"
+      ],
+      "implication": "Marks escalation to direct interstate conflict; raises probability of retaliation against regional bases, shipping and energy infrastructure.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 90,
+      "confidence": "high",
+      "title": "Iran fires missiles at Gulf cities after US-Israeli strikes",
+      "timestamp_utc": "2026-02-28T00:00:00Z",
+      "location_name": "Abu Dhabi, United Arab Emirates",
+      "actors": [
+        "Iran",
+        "UAE",
+        "Qatar",
+        "Kuwait",
+        "Bahrain"
+      ],
+      "implication": "Direct attacks on Gulf states increase regional spillover risk and elevate concerns about energy and logistics continuity.",
+      "source_urls": [
+        "https://in.mobile.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/"
+      ]
+    },
+    {
+      "event_type": "sanctions",
+      "severity": 65,
+      "confidence": "high",
+      "title": "US expands Iran-related sanctions targeting shadow fleet and supply networks",
+      "timestamp_utc": "2026-02-25T00:00:00Z",
+      "location_name": "United States",
+      "actors": [
+        "U.S. Treasury",
+        "OFAC",
+        "Iran"
+      ],
+      "implication": "Tightens enforcement risk around Iranian petroleum logistics and procurement; can redirect flows and increase compliance costs for shippers/traders.",
+      "source_urls": [
+        "https://home.treasury.gov/news/press-releases/sb0405",
+        "https://www.reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/"
+      ]
+    },
+    {
+      "event_type": "sanctions",
+      "severity": 60,
+      "confidence": "high",
+      "title": "U.S. expands Iran-related sanctions targeting shadow fleet vessels and networks enabling illicit petroleum sales and weapons programs",
+      "timestamp_utc": "2026-02-25T00:00:00Z",
+      "location_name": "Washington, DC, United States",
+      "actors": [
+        "U.S. Treasury",
+        "OFAC",
+        "Iran"
+      ],
+      "implication": "Sanctions tightening can constrain marginal Iranian oil/logistics capacity and elevate compliance/insurance risk.",
+      "source_urls": [
+        "http://reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
+        "https://ofac.treasury.gov/recent-actions/20260225"
       ]
     }
   ],
-  "links": []
+  "links": [
+    {
+      "from": "Turkey says NATO air defences destroyed a ballistic missile fired from Iran headed into Turkish airspace; debris reported in Hatay area",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Rare tanker transit to load Murban crude via Strait of Hormuz amid shipping disruption (Pola to Jebel Dhanna)",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "Rare tanker transit to load Murban crude via Strait of Hormuz amid shipping disruption (Pola to Jebel Dhanna)",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Israel orders evacuation of a swathe of southern Lebanon including Tyre; Israeli strike hits building in Baalbek",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Israel orders evacuation of swathe of southern Lebanon as hostilities with Hezbollah intensify; strike in Baalbek reported",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "IRGC claims control of Strait of Hormuz; U.S. discusses potential naval escorts for tankers (as reported)",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "IRGC claims control of Strait of Hormuz; U.S. discusses potential naval escorts for tankers (as reported)",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Iranian missiles hit central Israel (Tel Aviv district impacts reported)",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeline/Red Sea constraints highlighted",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeline/Red Sea constraints highlighted",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Energy prices surge as Hormuz disruption persists; Iraq output cuts and attacks on energy/logistics sites reported",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "Energy prices surge as Hormuz disruption persists; Iraq output cuts and attacks on energy/logistics sites reported",
+      "to": "oil_up_risk",
+      "relation": "raises_energy_complex_risk",
+      "confidence": "med",
+      "why": "Gas/LNG disruptions can amplify broader energy price risk and substitution effects."
+    },
+    {
+      "from": "Energy prices surge as Hormuz disruption persists; Iraq output cuts and attacks on energy/logistics sites reported",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "US embassy complex in Riyadh hit by drones, Saudi defence ministry says",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Fuel tanker Athe Nova reported hit by drones and burning in Strait of Hormuz",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "Fuel tanker Athe Nova reported hit by drones and burning in Strait of Hormuz",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Saudi Aramco shuts Ras Tanura refinery after drone strike, sources say",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Marine insurers cancel war-risk cover as Iran conflict intensifies",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Global oil and gas shipping costs surge to records amid Hormuz risk",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "Global oil and gas shipping costs surge to records amid Hormuz risk",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "About 10% of global container fleet caught in Hormuz backup, shipping CEO says",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "About 10% of global container fleet caught in Hormuz backup, shipping CEO says",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Kuwait intercepts hostile drones on third day of Iran retaliatory strikes",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Maersk pauses Trans-Suez sailings and major lines reroute around Cape; Hormuz crossings suspended",
+      "to": "oil_up_risk",
+      "relation": "raises_supply_disruption_risk",
+      "confidence": "high",
+      "why": "Shipping constraints and incidents around the Strait of Hormuz can reduce effective oil/LNG flows and increase risk premia."
+    },
+    {
+      "from": "Maersk pauses Trans-Suez sailings and major lines reroute around Cape; Hormuz crossings suspended",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "US and Israel launch pre-emptive strikes on Iran",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "Iran fires missiles at Gulf cities after US-Israeli strikes",
+      "to": "risk_off_flows",
+      "relation": "increases_geopolitical_risk",
+      "confidence": "med",
+      "why": "Escalation and disruption can trigger flight-to-quality and higher volatility."
+    },
+    {
+      "from": "US expands Iran-related sanctions targeting shadow fleet and supply networks",
+      "to": "rates_credit_spreads",
+      "relation": "raises_compliance_financing_costs",
+      "confidence": "med",
+      "why": "Sanctions can disrupt trade finance/insurance and widen risk premia for exposed shipping and energy flows."
+    },
+    {
+      "from": "U.S. expands Iran-related sanctions targeting shadow fleet vessels and networks enabling illicit petroleum sales and weapons programs",
+      "to": "rates_credit_spreads",
+      "relation": "raises_compliance_financing_costs",
+      "confidence": "med",
+      "why": "Sanctions can disrupt trade finance/insurance and widen risk premia for exposed shipping and energy flows."
+    }
+  ]
 }

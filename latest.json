@@ -1,33 +1,38 @@
 {
   "headline_summary": [
-    "Iran-related hostilities and threats around the Strait of Hormuz are disrupting maritime traffic and raising energy supply risk.",
-    "Commercial shipping has reportedly reduced transits and anchored vessels near the Strait amid projectile/drone incidents and war-risk repricing.",
-    "Israel-Hezbollah escalation in Lebanon is widening the conflict footprint with evacuation orders and strikes reported.",
-    "U.S. Treasury expanded Iran-related sanctions targeting shadow fleet vessels and networks tied to illicit petroleum sales and weapons programs."
+    "Strait of Hormuz disruption persists, with tanker incidents and large-scale anchoring reducing effective oil/LNG throughput.",
+    "Energy prices and shipping/insurance costs are surging as the U.S.-Iran conflict expands and Gulf export logistics remain constrained.",
+    "Saudi Arabia explores rerouting crude exports toward the Red Sea (Yanbu) to bypass Hormuz, but faces operational and shipping constraints.",
+    "Israel-Hezbollah escalation in Lebanon adds a second conflict front with evacuation orders and strikes reported.",
+    "Sanctions pressure on Iran-linked oil logistics tightens as the U.S. expands Iran-related designations targeting networks and vessels.",
+    "Cyber activity has increased alongside kinetic escalation, with reported attacks on Iranian apps/websites and heightened alerts in U.S. banking."
   ],
-  "risk_score": 82,
+  "risk_score": 86,
   "risk_drivers": [
-    "Effective closure / severe disruption risk at Strait of Hormuz (critical oil/LNG chokepoint)",
-    "Kinetic incidents impacting commercial shipping (projectiles/drones; casualties reported)",
+    "Sustained shipping disruption risk at the Strait of Hormuz (critical oil/LNG chokepoint)",
+    "Kinetic incidents impacting commercial vessels and Gulf infrastructure (projectiles/drones/missiles)",
     "Broader regional escalation (Israel-Hezbollah hostilities in Lebanon)",
-    "Policy response and sanctions tightening affecting Iranian oil flows and shipping networks"
+    "Energy export/logistics constraints (rerouting limits; outages/attacks) and surging freight/insurance premia",
+    "Sanctions tightening on Iran-linked shipping and petroleum networks",
+    "Elevated cyber risk affecting critical infrastructure and financial sector"
   ],
   "market_implications": {
     "Energy": [
-      "Higher upside risk to Brent/WTI and European gas due to Hormuz disruption and tanker/LNG bottlenecks.",
-      "Wider Middle East crude differentials and higher freight/insurance premia; rerouting constraints (e.g., Red Sea/Yanbu alternatives)."
+      "Higher upside risk to Brent/WTI and European/Asian LNG due to Hormuz disruption, tanker/LNG bottlenecks, and higher war-risk premia (oil_up_risk).",
+      "Wider Middle East crude differentials and elevated freight/insurance premia; rerouting constraints may keep delivered costs high.",
+      "If disruptions persist, inventory draws and refinery feedstock tightness could lift cracks and regional product prices."
     ],
     "FX": [
-      "EM FX (especially high current-account deficit importers) faces renewed pressure from energy-import shock and risk-off positioning.",
-      "GCC currencies (pegs) stable mechanically but local liquidity/market confidence can weaken as conflict persists."
+      "Risk-off supports USD/CHF/JPY; EM FX pressure rises for energy importers and high current-account deficit countries (em_fx_pressure).",
+      "GCC pegs likely hold, but forward points/liquidity could reflect heightened regional risk if conflict persists."
     ],
     "Rates": [
-      "Oil-driven inflation impulse raises risk of higher front-end rates / delayed easing expectations.",
-      "Credit spreads can widen for shipping, airlines, and energy-intensive sectors; war-risk insurance costs feed into financing conditions."
+      "Safe-haven demand can support core bonds, but persistent energy-driven inflation risks may reprice breakevens and delay easing expectations (rates_credit_spreads).",
+      "Credit spreads can widen for shipping, airlines, and energy-intensive sectors as insurance and financing conditions tighten."
     ],
     "Equities": [
-      "Risk-off pressure on global equities; outperformance bias to upstream energy/defense; underperformance in transport/logistics.",
-      "Regional equity volatility elevated (GCC, Israel) amid escalation headlines and operational disruptions."
+      "Risk-off pressure on global equities; relative outperformance bias toward upstream energy/defense; underperformance in transport/logistics and consumer cyclicals.",
+      "Volatility elevated; headlines around shipping and energy infrastructure attacks can drive sharp sector rotations (risk_off_flows)."
     ]
   },
   "sources": [
@@ -68,18 +73,24 @@
       "published_at": "2026-02-25T00:00:00Z"
     },
     {
-      "title": "Israel orders evacuation of swathe of south Lebanon",
+      "title": "Israel orders Lebanese to leave swathe of the south 'immediately'",
       "url": "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/",
       "publisher": "Reuters",
       "published_at": "2026-03-04T00:00:00Z"
     },
     {
-      "title": "IRGC says Iran in ‘complete control’ of Strait of Hormuz amid Trump threats",
-      "url": "https://www.aljazeera.com/news/2026/3/4/irgc-says-iran-in-complete-control-of-strait-of-hormuz-amid-trump-threats",
-      "publisher": "Al Jazeera",
-      "published_at": "2026-03-04T00:00:00Z"
+      "title": "Hackers hit Iranian apps, websites after US-Israeli strikes",
+      "url": "https://www.reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-01T00:00:00Z"
+    },
+    {
+      "title": "US banks on high alert for cyberattacks as Iran war escalates",
+      "url": "http://in.mobile.reuters.com/business/finance/us-banks-high-alert-cyberattacks-iran-war-escalates-2026-03-03/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-03T00:00:00Z"
     }
   ],
-  "generated_at_utc": "2026-03-04T14:42:44.326631Z",
-  "generated_at_ist": "2026-03-04T20:12:44.326649+05:30"
+  "generated_at_utc": "2026-03-04T21:41:40.909109Z",
+  "generated_at_ist": "2026-03-05T03:11:40.909129+05:30"
 }
