@@ -120,5 +120,17 @@
     "lon": 100.3419608,
     "lat": 5.4176406,
     "display_name": "iFAST Global Markets, 2 & 4, Church Street, Little India, Central George Town, North-East, George Town, Penang, 10200, Malaysia"
+  },
+  "red sea (near aden, yemen)": null,
+  "gulf of aden (southeast of aden, yemen)": null,
+  "united states": {
+    "lon": -100.445882,
+    "lat": 39.7837304,
+    "display_name": "United States"
+  },
+  "bab el-mandeb": {
+    "lon": 43.3128158,
+    "lat": 12.5743764,
+    "display_name": "Bab-el-Mandeb Strait, Djibouti"
   }
 }
