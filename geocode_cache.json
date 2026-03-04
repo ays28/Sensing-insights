@@ -110,5 +110,10 @@
     "lon": 34.9909675,
     "lat": 32.8179652,
     "display_name": "Iran, German Colony, Downtown District, Haifa, Haifa Subdistrict, Haifa District, 3505526, Israel"
+  },
+  "persian gulf": {
+    "lon": 51.1972311,
+    "lat": 27.2381259,
+    "display_name": "Persian Gulf"
   }
 }
