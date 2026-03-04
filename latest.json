@@ -1,81 +1,14 @@
 {
-  "headline_summary": [
-    "U.S.-Israeli strikes on Iran have escalated into a regional conflict with direct impacts on energy infrastructure and shipping.",
-    "Iran has declared the Strait of Hormuz closed and warned it will fire on any ship attempting to pass; multiple vessels have been hit.",
-    "Iranian missile attacks were reported across Gulf states hosting U.S. forces, prompting air-defence interceptions and disrupting daily life.",
-    "Major shipping lines have paused/redirected Suez/Bab el-Mandeb transits and suspended Hormuz crossings; war-risk surcharges and shelter instructions signal elevated maritime risk.",
-    "The U.S. Treasury has expanded Iran-related sanctions targeting a shadow-fleet and networks linked to petroleum sales and weapons programs."
-  ],
-  "risk_score": 88,
-  "risk_drivers": [
-    "Strait of Hormuz closure threat and stated intent to fire on transiting ships",
-    "Direct attacks on tankers/merchant shipping in or near Hormuz",
-    "Missile exchanges affecting Gulf states hosting U.S. bases (Kuwait, Qatar, Bahrain, UAE)",
-    "Shipping reroutes away from Suez/Bab el-Mandeb plus Hormuz suspensions raising freight/insurance costs",
-    "Sanctions escalation that can tighten enforcement risk and constrain Iranian export logistics"
-  ],
+  "headline_summary": [],
+  "risk_score": 0,
+  "risk_drivers": [],
   "market_implications": {
-    "Energy": [
-      "oil_up_risk: sustained Hormuz disruption materially raises crude/LNG risk premium and physical supply uncertainty.",
-      "Higher tanker and container freight/insurance costs can lift delivered energy prices and widen regional differentials."
-    ],
-    "FX": [
-      "risk_off_flows: heightened geopolitical risk tends to support USD and pressure EM FX, especially energy importers.",
-      "em_fx_pressure: shipping/energy price shock can worsen current accounts for import-dependent EMs."
-    ],
-    "Rates": [
-      "rates_credit_spreads: higher energy-driven inflation risk can lift term premia and widen credit spreads; shipping/energy-linked credits face repricing.",
-      "Risk-off demand can temporarily lower safe-haven yields even as inflation risk rises (higher volatility)."
-    ],
-    "Equities": [
-      "risk_off_flows: global equities may de-rate; airlines/transport/chemicals vulnerable to fuel and freight costs.",
-      "Energy producers and some defense names can outperform in a higher-risk-premium regime."
-    ]
+    "Energy": [],
+    "FX": [],
+    "Rates": [],
+    "Equities": []
   },
-  "sources": [
-    {
-      "title": "US and Israel launch \"pre-emptive\" attack against Iran",
-      "url": "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/",
-      "publisher": "Reuters",
-      "published_at": "2026-02-28"
-    },
-    {
-      "title": "Iranian missiles shake Gulf cities after US, Israeli strikes on Iran",
-      "url": "https://in.mobile.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
-      "publisher": "Reuters",
-      "published_at": "2026-02-28"
-    },
-    {
-      "title": "Iran vows to attack any ship trying to pass through Strait of Hormuz",
-      "url": "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-02"
-    },
-    {
-      "title": "Fuel tanker ablaze in Strait of Hormuz after drone strike, Iran Revolutionary Guards say",
-      "url": "https://reuters.com/business/energy/fuel-tanker-ablaze-strait-hormuz-after-drone-strike-iran-revolutionary-guards-2026-03-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-02"
-    },
-    {
-      "title": "Shipping companies divert vessels around Cape of Good Hope after strikes on Iran",
-      "url": "https://www.reuters.com/world/middle-east/maersk-pauses-sailings-through-suez-canal-bab-el-mandeb-strait-citing-escalating-2026-03-01/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-01"
-    },
-    {
-      "title": "US expands sanctions on Iran over oil sales, weapons programs",
-      "url": "https://www.reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
-      "publisher": "Reuters",
-      "published_at": "2026-02-25"
-    },
-    {
-      "title": "Treasury Targets Iran's Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs",
-      "url": "https://home.treasury.gov/news/press-releases/sb0405",
-      "publisher": "U.S. Department of the Treasury",
-      "published_at": null
-    }
-  ],
-  "generated_at_utc": "2026-03-04T09:30:20.622285Z",
-  "generated_at_ist": "2026-03-04T15:00:20.622304+05:30"
+  "sources": [],
+  "generated_at_utc": "2026-03-04T12:32:05.759925Z",
+  "generated_at_ist": "2026-03-04T18:02:05.759948+05:30"
 }
