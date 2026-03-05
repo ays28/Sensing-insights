@@ -6,6 +6,63 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "d104c2ee807b",
+        "event_type": "shipping_disruption",
+        "severity": 92,
+        "confidence": "high",
+        "title": "Vessel traffic through Strait of Hormuz nearly halted; ~300 tankers stranded",
+        "timestamp_utc": "2026-03-05T01:53:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Commercial shipping",
+          "Iran",
+          "United States"
+        ],
+        "implication": "Throughput shock for crude/LNG; war-risk premia and freight/insurance surge (oil_up_risk).",
+        "source_urls": [
+          "http://reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.8990988,
+          30.1586699
+        ]
+      },
+      "properties": {
+        "id": "335a9e6d2327",
+        "event_type": "strike",
+        "severity": 80,
+        "confidence": "high",
+        "title": "Blast damages Bahamas-flagged tanker Sonangol Namibe near Khor al Zubair port",
+        "timestamp_utc": "2026-03-05T01:53:00Z",
+        "location_name": "Khor Al Zubair, Iraq",
+        "location_resolved": "Khor al-Zubair, Umm Qasr, Umm Qasr Subdistrict, Al-Zubair District, Basra Governorate, Iraq",
+        "actors": [
+          "Unknown attackers",
+          "Commercial shipping"
+        ],
+        "implication": "Highlights spillover of Gulf conflict into Iraqi export infrastructure; raises disruption risk.",
+        "source_urls": [
+          "http://reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           30.7368183,
           36.8930628
         ]
@@ -393,6 +450,33 @@
         "implication": "Sustained strikes raise risk of broader escalation and market risk-off.",
         "source_urls": [
           "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5331527,
+          25.8976567
+        ]
+      },
+      "properties": {
+        "id": "ae8f92a1a478",
+        "event_type": "shipping_disruption",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Qatar declares force majeure on LNG exports amid Gulf conflict",
+        "timestamp_utc": "2026-03-04T00:00:00Z",
+        "location_name": "Ras Laffan, Qatar",
+        "location_resolved": "رأس لفان, قطر",
+        "actors": [
+          "QatarEnergy"
+        ],
+        "implication": "LNG supply shock risks higher European/Asian gas prices; supports energy complex.",
+        "source_urls": [
+          "http://reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05/"
         ]
       }
     },

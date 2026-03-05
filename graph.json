@@ -21,91 +21,35 @@
       "group": "market"
     },
     {
-      "id": "577ce6091237",
-      "label": "Iranian missile strikes on commercial vessels",
+      "id": "d104c2ee807b",
+      "label": "Vessel traffic through Strait of Hormuz nearly halted; ~300 tankers stranded",
       "group": "event",
-      "severity": 90,
+      "severity": 92,
       "confidence": "high",
-      "event_type": "strike",
-      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-05T01:53:00Z",
       "location_name": "Strait of Hormuz"
     },
     {
-      "id": "12812d18ac72",
-      "label": "Suspension of shipping operations through the Strait of Hormuz",
-      "group": "event",
-      "severity": 85,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-02T00:00:00Z",
-      "location_name": "Strait of Hormuz"
-    },
-    {
-      "id": "23ef53063b4d",
-      "label": "COSCO Shipping suspends new bookings for Middle East routes",
-      "group": "event",
-      "severity": 70,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-04T08:37:00Z",
-      "location_name": "Beijing, China"
-    },
-    {
-      "id": "0cf5c5e47a24",
-      "label": "Israel orders evacuation across parts of southern Lebanon amid Hezbollah hostili",
+      "id": "335a9e6d2327",
+      "label": "Blast damages Bahamas-flagged tanker Sonangol Namibe near Khor al Zubair port",
       "group": "event",
       "severity": 80,
       "confidence": "high",
       "event_type": "strike",
-      "timestamp_utc": "2026-03-04T02:38:00Z",
-      "location_name": "Tyre, Lebanon"
+      "timestamp_utc": "2026-03-05T01:53:00Z",
+      "location_name": "Khor Al Zubair, Iraq"
     },
     {
-      "id": "c7d242853d96",
-      "label": "Hackers hit Iranian apps and websites after U.S.-Israeli strikes",
+      "id": "ae8f92a1a478",
+      "label": "Qatar declares force majeure on LNG exports amid Gulf conflict",
       "group": "event",
-      "severity": 55,
+      "severity": 88,
       "confidence": "high",
-      "event_type": "cyber",
-      "timestamp_utc": "2026-03-01T00:00:00Z",
-      "location_name": "Tehran, Iran"
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-04T00:00:00Z",
+      "location_name": "Ras Laffan, Qatar"
     }
   ],
-  "edges": [
-    {
-      "from": "12812d18ac72",
-      "to": "oil_up_risk",
-      "label": "supply_chokepoint",
-      "confidence": "high",
-      "why": "Carrier suspensions/traffic restrictions at a key crude/LNG chokepoint raise expected near-term supply tightness and war-risk premia."
-    },
-    {
-      "from": "577ce6091237",
-      "to": "risk_off_flows",
-      "label": "escalation_drives_risk_off",
-      "confidence": "med",
-      "why": "Direct attacks on commercial shipping increase tail risk of broader conflict and can trigger equity de-risking and volatility."
-    },
-    {
-      "from": "23ef53063b4d",
-      "to": "rates_credit_spreads",
-      "label": "logistics_shock",
-      "confidence": "med",
-      "why": "Freight/insurance cost inflation and trade delays can pressure margins and financing conditions for transport/logistics and exposed corporates."
-    },
-    {
-      "from": "0cf5c5e47a24",
-      "to": "risk_off_flows",
-      "label": "second_front",
-      "confidence": "med",
-      "why": "A widening Israel-Hezbollah conflict adds a second active front, raising regional escalation risk."
-    },
-    {
-      "from": "12812d18ac72",
-      "to": "em_fx_pressure",
-      "label": "terms_of_trade_shock",
-      "confidence": "med",
-      "why": "Higher delivered energy costs typically pressure EM importer currencies via worsened trade balances and inflation expectations."
-    }
-  ]
+  "edges": []
 }

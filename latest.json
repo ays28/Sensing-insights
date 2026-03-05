@@ -1,70 +1,14 @@
 {
-  "headline_summary": [
-    "Strait of Hormuz disruption persists with tanker incidents and large-scale anchoring reducing effective oil/LNG throughput.",
-    "COSCO Shipping suspends new bookings for Middle East routes, citing Hormuz traffic restrictions.",
-    "Israel orders evacuation across parts of southern Lebanon amid intensified hostilities with Hezbollah.",
-    "Energy prices and shipping/insurance costs are surging as U.S.-Iran hostilities expand and Gulf export logistics remain constrained.",
-    "Cyber activity has increased alongside kinetic escalation, with reported attacks on Iranian apps/websites."
-  ],
-  "risk_score": 86,
-  "risk_drivers": [
-    "Sustained shipping disruption risk at the Strait of Hormuz (critical oil/LNG chokepoint)",
-    "Kinetic incidents impacting commercial vessels and Gulf infrastructure (projectiles/drones/missiles)",
-    "Broader regional escalation (Israel-Hezbollah hostilities in Lebanon)",
-    "Energy export/logistics constraints and elevated freight/insurance premia",
-    "Sanctions tightening/compliance risk on Iran-linked shipping and petroleum networks",
-    "Elevated cyber risk affecting critical infrastructure and financial sector"
-  ],
+  "headline_summary": [],
+  "risk_score": 0,
+  "risk_drivers": [],
   "market_implications": {
-    "Energy": [
-      "Higher upside risk to Brent/WTI and LNG due to Hormuz disruption and higher war-risk premia (oil_up_risk).",
-      "Elevated freight/insurance premia may keep delivered crude/products prices high, especially into Europe/Asia."
-    ],
-    "FX": [
-      "Risk-off supports USD/CHF/JPY; EM FX pressure rises for energy importers (em_fx_pressure).",
-      "GCC pegs likely hold, but liquidity/forwards can reflect heightened risk if disruption persists."
-    ],
-    "Rates": [
-      "Safe-haven demand can support core bonds, but energy-driven inflation risks may keep policy expectations tighter (rates_credit_spreads).",
-      "Credit spreads can widen for shipping, airlines, and energy-intensive sectors."
-    ],
-    "Equities": [
-      "Risk-off pressure on global equities; relative tailwind for upstream energy/defense; headwind for transport/logistics (risk_off_flows).",
-      "Volatility elevated; shipping and infrastructure headlines can drive sharp sector rotations."
-    ]
+    "Energy": [],
+    "FX": [],
+    "Rates": [],
+    "Equities": []
   },
-  "sources": [
-    {
-      "title": "Gulf shipping crisis deepens as tankers stranded for fifth day, US sinks Iranian warship",
-      "url": "https://today.reuters.com/business/energy/hormuz-shutdown-worsens-after-us-hits-iranian-warship-tankers-stranded-fifth-day-2026-03-04/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-04T00:00:00Z"
-    },
-    {
-      "title": "Iran conflict disrupts global shipping as tankers are stranded, damaged",
-      "url": "http://www.reuters.com/business/energy/iran-conflict-disrupts-global-shipping-tankers-are-stranded-damaged-2026-03-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-02T00:00:00Z"
-    },
-    {
-      "title": "COSCO Shipping suspends bookings for Middle East routes amid conflict",
-      "url": "https://www.reuters.com/world/middle-east/cosco-shipping-suspends-bookings-middle-east-routes-amid-conflict-2026-03-04/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-04T08:37:00Z"
-    },
-    {
-      "title": "Israel orders evacuation of swathe of south Lebanon",
-      "url": "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-04T02:38:00Z"
-    },
-    {
-      "title": "Hackers hit Iranian apps, websites after US-Israeli strikes",
-      "url": "https://www.reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-01T00:00:00Z"
-    }
-  ],
-  "generated_at_utc": "2026-03-05T07:46:37.552475Z",
-  "generated_at_ist": "2026-03-05T13:16:37.552493+05:30"
+  "sources": [],
+  "generated_at_utc": "2026-03-05T14:51:33.714974Z",
+  "generated_at_ist": "2026-03-05T20:21:33.714998+05:30"
 }

@@ -217,5 +217,10 @@
     "lon": 116.3912972,
     "lat": 39.9057136,
     "display_name": "Beijing, China"
+  },
+  "khor al zubair, iraq": {
+    "lon": 47.8990988,
+    "lat": 30.1586699,
+    "display_name": "Khor al-Zubair, Umm Qasr, Umm Qasr Subdistrict, Al-Zubair District, Basra Governorate, Iraq"
   }
 }
