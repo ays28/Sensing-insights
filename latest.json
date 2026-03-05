@@ -1,14 +1,48 @@
 {
-  "headline_summary": [],
-  "risk_score": 0,
-  "risk_drivers": [],
+  "headline_summary": [
+    "US-Israeli air campaign against Iran entered day six with intensified strikes reported in Tehran",
+    "Iran threatened retaliation beyond the Gulf after the US said it sank an Iranian warship off Sri Lanka",
+    "Iranian state TV was hacked to air opposition figure Reza Pahlavi, highlighting intensifying information operations",
+    "Strait of Hormuz disruption risk remains central for energy prices, tanker availability, and war-risk insurance premia",
+    "US military signaled strikes will expand deeper inland in Iran as Iran’s missile launch tempo reportedly declines"
+  ],
+  "risk_score": 87,
+  "risk_drivers": [
+    "Escalatory US/Israel strike tempo and stated intent to expand targets inland",
+    "Iran retaliation threats against Americans globally",
+    "Persistent shipping/insurance disruption risk around the Strait of Hormuz",
+    "Domestic instability in Iran after the killing of Supreme Leader Ali Khamenei and uncertain succession",
+    "Cyber/information operations increasing miscalculation risk"
+  ],
   "market_implications": {
-    "Energy": [],
-    "FX": [],
-    "Rates": [],
-    "Equities": []
+    "Energy": [
+      "Upside skew to crude and refined products on Hormuz disruption and tanker insurance constraints (oil_up_risk)",
+      "Higher freight and war-risk premia for tankers/LNG cargoes; potential rationing effects for import-dependent Asia"
+    ],
+    "FX": [
+      "Risk-off episodes likely to support USD and safe-haven FX; pressure on EM/high-beta FX (em_fx_pressure, risk_off_flows)"
+    ],
+    "Rates": [
+      "Flight-to-quality can pull core yields lower; oil shock raises inflation-risk and credit spread sensitivity (rates_credit_spreads)"
+    ],
+    "Equities": [
+      "Higher energy and shipping costs weigh on transport/consumer cyclicals; defense/energy may outperform"
+    ]
   },
-  "sources": [],
-  "generated_at_utc": "2026-03-05T14:51:33.714974Z",
-  "generated_at_ist": "2026-03-05T20:21:33.714998+05:30"
+  "sources": [
+    {
+      "title": "Bombing of Tehran intensifies as war enters day six",
+      "url": "https://www.reuters.com/world/asia-pacific/iran-launches-wave-missiles-israel-us-republicans-block-measure-halt-us-air-2026-03-05/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-05"
+    },
+    {
+      "title": "US says Iran firing fewer missiles, US strikes to expand inland",
+      "url": "https://www.reuters.com/world/asia-pacific/us-says-iran-firing-fewer-missiles-us-strikes-expand-inland-2026-03-04/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-04"
+    }
+  ],
+  "generated_at_utc": "2026-03-05T19:52:47.079774Z",
+  "generated_at_ist": "2026-03-06T01:22:47.079794+05:30"
 }
