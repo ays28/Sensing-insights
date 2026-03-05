@@ -35,6 +35,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          116.3912972,
+          39.9057136
+        ]
+      },
+      "properties": {
+        "id": "23ef53063b4d",
+        "event_type": "shipping_disruption",
+        "severity": 70,
+        "confidence": "high",
+        "title": "COSCO Shipping suspends new bookings for Middle East routes",
+        "timestamp_utc": "2026-03-04T08:37:00Z",
+        "location_name": "Beijing, China",
+        "location_resolved": "Beijing, China",
+        "actors": [
+          "COSCO Shipping Lines"
+        ],
+        "implication": "Booking suspensions reflect escalating operational constraints that can compound trade delays and freight inflation.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/cosco-shipping-suspends-bookings-middle-east-routes-amid-conflict-2026-03-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           52.6422391,
           24.1646471
         ]
@@ -111,6 +138,35 @@
           "Lebanon"
         ],
         "implication": "Second front increases geopolitical tail risk and risk-off sentiment, though direct oil flow impact is indirect.",
+        "source_urls": [
+          "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1964023,
+          33.2721211
+        ]
+      },
+      "properties": {
+        "id": "0cf5c5e47a24",
+        "event_type": "strike",
+        "severity": 80,
+        "confidence": "high",
+        "title": "Israel orders evacuation across parts of southern Lebanon amid Hezbollah hostilities",
+        "timestamp_utc": "2026-03-04T02:38:00Z",
+        "location_name": "Tyre, Lebanon",
+        "location_resolved": "Tyre, Tyre District, South Governorate, 1601, Lebanon",
+        "actors": [
+          "Israel",
+          "Hezbollah",
+          "Lebanon"
+        ],
+        "implication": "A widening Lebanon front increases tail risk of broader regional escalation and additional disruption to Eastern Mediterranean energy/logistics.",
         "source_urls": [
           "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
         ]
@@ -887,6 +943,65 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "577ce6091237",
+        "event_type": "strike",
+        "severity": 90,
+        "confidence": "high",
+        "title": "Iranian missile strikes on commercial vessels",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Iran",
+          "Commercial Shipping Companies"
+        ],
+        "implication": "Commercial-vessel strike risk raises odds of prolonged Hormuz disruption and higher war-risk premia.",
+        "source_urls": [
+          "https://www.aljazeera.com/news/2026/3/2/iran-says-will-attack-any-ship-trying-to-pass-through-strait-of-hormuz",
+          "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2027702,
+          26.4494061
+        ]
+      },
+      "properties": {
+        "id": "12812d18ac72",
+        "event_type": "shipping_disruption",
+        "severity": 85,
+        "confidence": "high",
+        "title": "Suspension of shipping operations through the Strait of Hormuz",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Maersk",
+          "MSC",
+          "Hapag-Lloyd",
+          "CMA CGM"
+        ],
+        "implication": "Carrier suspensions and traffic restrictions tighten effective supply of freight capacity and slow Gulf energy exports.",
+        "source_urls": [
+          "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           51.3896004,
           35.6892523
         ]
@@ -1050,6 +1165,34 @@
           "Iran"
         ],
         "implication": "Cyber spillover risk can affect financial infrastructure and critical services; adds to risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3896004,
+          35.6892523
+        ]
+      },
+      "properties": {
+        "id": "c7d242853d96",
+        "event_type": "cyber",
+        "severity": 55,
+        "confidence": "high",
+        "title": "Hackers hit Iranian apps and websites after U.S.-Israeli strikes",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Tehran, Iran",
+        "location_resolved": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran",
+        "actors": [
+          "Hackers",
+          "Iran"
+        ],
+        "implication": "Elevated cyber activity can increase operational risk for financial/telecom services and signal escalation beyond kinetic domains.",
         "source_urls": [
           "https://www.reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
         ]

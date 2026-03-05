@@ -1,11 +1,9 @@
 {
   "headline_summary": [
     "Strait of Hormuz disruption persists with tanker incidents and large-scale anchoring reducing effective oil/LNG throughput.",
+    "COSCO Shipping suspends new bookings for Middle East routes, citing Hormuz traffic restrictions.",
+    "Israel orders evacuation across parts of southern Lebanon amid intensified hostilities with Hezbollah.",
     "Energy prices and shipping/insurance costs are surging as U.S.-Iran hostilities expand and Gulf export logistics remain constrained.",
-    "Commercial vessel damage reports near Fujairah and the northern Strait of Hormuz highlight elevated projectile/drone risk.",
-    "Saudi Arabia explores rerouting crude exports toward the Red Sea (Yanbu) to bypass Hormuz, but faces operational and shipping constraints.",
-    "Israel-Hezbollah escalation in Lebanon adds a second active front, including evacuation orders south of the Litani River.",
-    "New/ongoing sanctions actions are targeting Iran-linked networks and logistics, tightening compliance and shipping constraints.",
     "Cyber activity has increased alongside kinetic escalation, with reported attacks on Iranian apps/websites."
   ],
   "risk_score": 86,
@@ -13,27 +11,26 @@
     "Sustained shipping disruption risk at the Strait of Hormuz (critical oil/LNG chokepoint)",
     "Kinetic incidents impacting commercial vessels and Gulf infrastructure (projectiles/drones/missiles)",
     "Broader regional escalation (Israel-Hezbollah hostilities in Lebanon)",
-    "Energy export/logistics constraints (rerouting limits; outages/attacks) and elevated freight/insurance premia",
-    "Sanctions tightening on Iran-linked shipping and petroleum networks",
+    "Energy export/logistics constraints and elevated freight/insurance premia",
+    "Sanctions tightening/compliance risk on Iran-linked shipping and petroleum networks",
     "Elevated cyber risk affecting critical infrastructure and financial sector"
   ],
   "market_implications": {
     "Energy": [
-      "Higher upside risk to Brent/WTI and European/Asian LNG due to Hormuz disruption, tanker/LNG bottlenecks, and higher war-risk premia (oil_up_risk).",
-      "Wider Middle East crude differentials and elevated freight/insurance premia; rerouting constraints may keep delivered costs high.",
-      "If disruptions persist, inventory draws and refinery feedstock tightness could lift cracks and regional product prices."
+      "Higher upside risk to Brent/WTI and LNG due to Hormuz disruption and higher war-risk premia (oil_up_risk).",
+      "Elevated freight/insurance premia may keep delivered crude/products prices high, especially into Europe/Asia."
     ],
     "FX": [
-      "Risk-off supports USD/CHF/JPY; EM FX pressure rises for energy importers and high current-account deficit countries (em_fx_pressure).",
-      "GCC pegs likely hold, but forward points/liquidity could reflect heightened regional risk if conflict persists."
+      "Risk-off supports USD/CHF/JPY; EM FX pressure rises for energy importers (em_fx_pressure).",
+      "GCC pegs likely hold, but liquidity/forwards can reflect heightened risk if disruption persists."
     ],
     "Rates": [
-      "Safe-haven demand can support core bonds, but persistent energy-driven inflation risks may reprice breakevens and delay easing expectations (rates_credit_spreads).",
-      "Credit spreads can widen for shipping, airlines, and energy-intensive sectors as insurance and financing conditions tighten."
+      "Safe-haven demand can support core bonds, but energy-driven inflation risks may keep policy expectations tighter (rates_credit_spreads).",
+      "Credit spreads can widen for shipping, airlines, and energy-intensive sectors."
     ],
     "Equities": [
-      "Risk-off pressure on global equities; relative outperformance bias toward upstream energy/defense; underperformance in transport/logistics and consumer cyclicals (risk_off_flows).",
-      "Volatility elevated; headlines around shipping and energy infrastructure attacks can drive sharp sector rotations."
+      "Risk-off pressure on global equities; relative tailwind for upstream energy/defense; headwind for transport/logistics (risk_off_flows).",
+      "Volatility elevated; shipping and infrastructure headlines can drive sharp sector rotations."
     ]
   },
   "sources": [
@@ -50,6 +47,12 @@
       "published_at": "2026-03-02T00:00:00Z"
     },
     {
+      "title": "COSCO Shipping suspends bookings for Middle East routes amid conflict",
+      "url": "https://www.reuters.com/world/middle-east/cosco-shipping-suspends-bookings-middle-east-routes-amid-conflict-2026-03-04/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-04T08:37:00Z"
+    },
+    {
       "title": "Israel orders evacuation of swathe of south Lebanon",
       "url": "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/",
       "publisher": "Reuters",
@@ -62,6 +65,6 @@
       "published_at": "2026-03-01T00:00:00Z"
     }
   ],
-  "generated_at_utc": "2026-03-05T02:30:07.403033Z",
-  "generated_at_ist": "2026-03-05T08:00:07.403051+05:30"
+  "generated_at_utc": "2026-03-05T07:46:37.552475Z",
+  "generated_at_ist": "2026-03-05T13:16:37.552493+05:30"
 }

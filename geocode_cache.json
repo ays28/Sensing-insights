@@ -212,5 +212,10 @@
     "lat": 34.0078871,
     "display_name": "Baalbek, طريق نحلة - بعلبك, El Sharawneh, Baalbek, Baalbek District, Baalbek-Hermel Governorate, 1800, Lebanon"
   },
-  "red sea, near yemen": null
+  "red sea, near yemen": null,
+  "beijing, china": {
+    "lon": 116.3912972,
+    "lat": 39.9057136,
+    "display_name": "Beijing, China"
+  }
 }

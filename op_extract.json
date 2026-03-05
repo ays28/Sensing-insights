@@ -2,11 +2,9 @@
   "latest": {
     "headline_summary": [
       "Strait of Hormuz disruption persists with tanker incidents and large-scale anchoring reducing effective oil/LNG throughput.",
+      "COSCO Shipping suspends new bookings for Middle East routes, citing Hormuz traffic restrictions.",
+      "Israel orders evacuation across parts of southern Lebanon amid intensified hostilities with Hezbollah.",
       "Energy prices and shipping/insurance costs are surging as U.S.-Iran hostilities expand and Gulf export logistics remain constrained.",
-      "Commercial vessel damage reports near Fujairah and the northern Strait of Hormuz highlight elevated projectile/drone risk.",
-      "Saudi Arabia explores rerouting crude exports toward the Red Sea (Yanbu) to bypass Hormuz, but faces operational and shipping constraints.",
-      "Israel-Hezbollah escalation in Lebanon adds a second active front, including evacuation orders south of the Litani River.",
-      "New/ongoing sanctions actions are targeting Iran-linked networks and logistics, tightening compliance and shipping constraints.",
       "Cyber activity has increased alongside kinetic escalation, with reported attacks on Iranian apps/websites."
     ],
     "risk_score": 86,
@@ -14,27 +12,26 @@
       "Sustained shipping disruption risk at the Strait of Hormuz (critical oil/LNG chokepoint)",
       "Kinetic incidents impacting commercial vessels and Gulf infrastructure (projectiles/drones/missiles)",
       "Broader regional escalation (Israel-Hezbollah hostilities in Lebanon)",
-      "Energy export/logistics constraints (rerouting limits; outages/attacks) and elevated freight/insurance premia",
-      "Sanctions tightening on Iran-linked shipping and petroleum networks",
+      "Energy export/logistics constraints and elevated freight/insurance premia",
+      "Sanctions tightening/compliance risk on Iran-linked shipping and petroleum networks",
       "Elevated cyber risk affecting critical infrastructure and financial sector"
     ],
     "market_implications": {
       "Energy": [
-        "Higher upside risk to Brent/WTI and European/Asian LNG due to Hormuz disruption, tanker/LNG bottlenecks, and higher war-risk premia (oil_up_risk).",
-        "Wider Middle East crude differentials and elevated freight/insurance premia; rerouting constraints may keep delivered costs high.",
-        "If disruptions persist, inventory draws and refinery feedstock tightness could lift cracks and regional product prices."
+        "Higher upside risk to Brent/WTI and LNG due to Hormuz disruption and higher war-risk premia (oil_up_risk).",
+        "Elevated freight/insurance premia may keep delivered crude/products prices high, especially into Europe/Asia."
       ],
       "FX": [
-        "Risk-off supports USD/CHF/JPY; EM FX pressure rises for energy importers and high current-account deficit countries (em_fx_pressure).",
-        "GCC pegs likely hold, but forward points/liquidity could reflect heightened regional risk if conflict persists."
+        "Risk-off supports USD/CHF/JPY; EM FX pressure rises for energy importers (em_fx_pressure).",
+        "GCC pegs likely hold, but liquidity/forwards can reflect heightened risk if disruption persists."
       ],
       "Rates": [
-        "Safe-haven demand can support core bonds, but persistent energy-driven inflation risks may reprice breakevens and delay easing expectations (rates_credit_spreads).",
-        "Credit spreads can widen for shipping, airlines, and energy-intensive sectors as insurance and financing conditions tighten."
+        "Safe-haven demand can support core bonds, but energy-driven inflation risks may keep policy expectations tighter (rates_credit_spreads).",
+        "Credit spreads can widen for shipping, airlines, and energy-intensive sectors."
       ],
       "Equities": [
-        "Risk-off pressure on global equities; relative outperformance bias toward upstream energy/defense; underperformance in transport/logistics and consumer cyclicals (risk_off_flows).",
-        "Volatility elevated; headlines around shipping and energy infrastructure attacks can drive sharp sector rotations."
+        "Risk-off pressure on global equities; relative tailwind for upstream energy/defense; headwind for transport/logistics (risk_off_flows).",
+        "Volatility elevated; shipping and infrastructure headlines can drive sharp sector rotations."
       ]
     },
     "sources": [
@@ -51,6 +48,12 @@
         "published_at": "2026-03-02T00:00:00Z"
       },
       {
+        "title": "COSCO Shipping suspends bookings for Middle East routes amid conflict",
+        "url": "https://www.reuters.com/world/middle-east/cosco-shipping-suspends-bookings-middle-east-routes-amid-conflict-2026-03-04/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-04T08:37:00Z"
+      },
+      {
         "title": "Israel orders evacuation of swathe of south Lebanon",
         "url": "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/",
         "publisher": "Reuters",
@@ -64,6 +67,126 @@
       }
     ]
   },
-  "events": [],
-  "links": []
+  "events": [
+    {
+      "event_type": "strike",
+      "severity": 90,
+      "confidence": "high",
+      "title": "Iranian missile strikes on commercial vessels",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Iran",
+        "Commercial Shipping Companies"
+      ],
+      "implication": "Commercial-vessel strike risk raises odds of prolonged Hormuz disruption and higher war-risk premia.",
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/3/2/iran-says-will-attack-any-ship-trying-to-pass-through-strait-of-hormuz",
+        "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 85,
+      "confidence": "high",
+      "title": "Suspension of shipping operations through the Strait of Hormuz",
+      "timestamp_utc": "2026-03-02T00:00:00Z",
+      "location_name": "Strait of Hormuz",
+      "actors": [
+        "Maersk",
+        "MSC",
+        "Hapag-Lloyd",
+        "CMA CGM"
+      ],
+      "implication": "Carrier suspensions and traffic restrictions tighten effective supply of freight capacity and slow Gulf energy exports.",
+      "source_urls": [
+        "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 70,
+      "confidence": "high",
+      "title": "COSCO Shipping suspends new bookings for Middle East routes",
+      "timestamp_utc": "2026-03-04T08:37:00Z",
+      "location_name": "Beijing, China",
+      "actors": [
+        "COSCO Shipping Lines"
+      ],
+      "implication": "Booking suspensions reflect escalating operational constraints that can compound trade delays and freight inflation.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/cosco-shipping-suspends-bookings-middle-east-routes-amid-conflict-2026-03-04/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 80,
+      "confidence": "high",
+      "title": "Israel orders evacuation across parts of southern Lebanon amid Hezbollah hostilities",
+      "timestamp_utc": "2026-03-04T02:38:00Z",
+      "location_name": "Tyre, Lebanon",
+      "actors": [
+        "Israel",
+        "Hezbollah",
+        "Lebanon"
+      ],
+      "implication": "A widening Lebanon front increases tail risk of broader regional escalation and additional disruption to Eastern Mediterranean energy/logistics.",
+      "source_urls": [
+        "https://www.reuters.com/world/several-killed-israeli-strike-building-lebanons-baalbek-2026-03-04/"
+      ]
+    },
+    {
+      "event_type": "cyber",
+      "severity": 55,
+      "confidence": "high",
+      "title": "Hackers hit Iranian apps and websites after U.S.-Israeli strikes",
+      "timestamp_utc": "2026-03-01T00:00:00Z",
+      "location_name": "Tehran, Iran",
+      "actors": [
+        "Hackers",
+        "Iran"
+      ],
+      "implication": "Elevated cyber activity can increase operational risk for financial/telecom services and signal escalation beyond kinetic domains.",
+      "source_urls": [
+        "https://www.reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from": "Suspension of shipping operations through the Strait of Hormuz",
+      "to": "oil_up_risk",
+      "relation": "supply_chokepoint",
+      "confidence": "high",
+      "why": "Carrier suspensions/traffic restrictions at a key crude/LNG chokepoint raise expected near-term supply tightness and war-risk premia."
+    },
+    {
+      "from": "Iranian missile strikes on commercial vessels",
+      "to": "risk_off_flows",
+      "relation": "escalation_drives_risk_off",
+      "confidence": "med",
+      "why": "Direct attacks on commercial shipping increase tail risk of broader conflict and can trigger equity de-risking and volatility."
+    },
+    {
+      "from": "COSCO Shipping suspends new bookings for Middle East routes",
+      "to": "rates_credit_spreads",
+      "relation": "logistics_shock",
+      "confidence": "med",
+      "why": "Freight/insurance cost inflation and trade delays can pressure margins and financing conditions for transport/logistics and exposed corporates."
+    },
+    {
+      "from": "Israel orders evacuation across parts of southern Lebanon amid Hezbollah hostilities",
+      "to": "risk_off_flows",
+      "relation": "second_front",
+      "confidence": "med",
+      "why": "A widening Israel-Hezbollah conflict adds a second active front, raising regional escalation risk."
+    },
+    {
+      "from": "Suspension of shipping operations through the Strait of Hormuz",
+      "to": "em_fx_pressure",
+      "relation": "terms_of_trade_shock",
+      "confidence": "med",
+      "why": "Higher delivered energy costs typically pressure EM importer currencies via worsened trade balances and inflation expectations."
+    }
+  ]
 }
