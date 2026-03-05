@@ -1547,11 +1547,3700 @@
       "why": "Threats to target Americans globally increase tail-risk and safe-haven demand."
     },
     {
+      "from": "ec354518f923",
+      "to": "4992928feb8a",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "ec354518f923",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~115km)"
+    },
+    {
+      "from": "e0e25f83ae66",
+      "to": "b24fb98b4b16",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~221km)"
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "b24fb98b4b16",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~222km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "4992928feb8a",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~113km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "ec354518f923",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~112km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "1025bde33b1e",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "1025bde33b1e",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~113km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "1025bde33b1e",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~116km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "1025bde33b1e",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~128km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "1025bde33b1e",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~129km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "4992928feb8a",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~129km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "4992928feb8a",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~130km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "ec354518f923",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~127km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "ec354518f923",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~128km)"
+    },
+    {
+      "from": "1025bde33b1e",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~114km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~115km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Nearby (~113km)"
+    },
+    {
+      "from": "12b9f96e6f1b",
+      "to": "dacd01a8f271",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: sanctions; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "d104c2ee807b",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~469km)"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~470km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~471km)"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~467km)"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~469km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~472km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~469km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "ec354518f923",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~113km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "ec354518f923",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~214km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "ec354518f923",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~215km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "ec354518f923",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~214km)"
+    },
+    {
+      "from": "e0e25f83ae66",
+      "to": "d104c2ee807b",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~469km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "b24fb98b4b16",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~387km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "b24fb98b4b16",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~437km)"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "e0e25f83ae66",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~469km)"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "e0e25f83ae66",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~466km)"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "e0e25f83ae66",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~468km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "e0e25f83ae66",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~471km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "e0e25f83ae66",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~468km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "e0e25f83ae66",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~469km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~468km)"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "985c83ddbd42",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: cyber; Same area: iran; Nearby (~3km)"
+    },
+    {
+      "from": "1025bde33b1e",
+      "to": "b24fb98b4b16",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~388km)"
+    },
+    {
+      "from": "e0e25f83ae66",
+      "to": "1025bde33b1e",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~473km)"
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "1025bde33b1e",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~473km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "1025bde33b1e",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~114km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "e0e25f83ae66",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~474km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "e0e25f83ae66",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~475km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~475km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~475km)"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "e0e25f83ae66",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~172km)"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "ae8f92a1a478",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~172km)"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "b24fb98b4b16",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~451km)"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "4992928feb8a",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~438km)"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "b24fb98b4b16",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~450km)"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "4992928feb8a",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~439km)"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "335a9e6d2327",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: strike; Within 7d; Nearby (~86km)"
+    },
+    {
+      "from": "6724a062db7f",
+      "to": "b24fb98b4b16",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~439km)"
+    },
+    {
+      "from": "e0e25f83ae66",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~469km)"
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Same type: shipping_disruption; Within 72h; Regionally close (~469km)"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "eddc9ab9b226",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~125km)"
+    },
+    {
+      "from": "8d0882d2e488",
+      "to": "b24fb98b4b16",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~178km)"
+    },
+    {
+      "from": "8d0882d2e488",
+      "to": "1025bde33b1e",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~216km)"
+    },
+    {
+      "from": "8d0882d2e488",
+      "to": "4992928feb8a",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~213km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "8d0882d2e488",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~215km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "8d0882d2e488",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "8d0882d2e488",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "8d0882d2e488",
+      "label": "related_to",
+      "confidence": "med",
+      "why": "Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "335a9e6d2327",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "a4f4ebb62609",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "5b025b985429",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "c5914c702d47",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "0cf5c5e47a24",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "c5533488d4ca",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "e403eed12d08",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "a320489030af",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "985c83ddbd42",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same area: iran; Within 72h; Regionally close (~445km); Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "985c83ddbd42",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same area: iran; Within 72h; Regionally close (~444km); Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "d2d14c8af84c",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Regionally close (~499km); Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "d2d14c8af84c",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Regionally close (~499km); Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "d2d14c8af84c",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Regionally close (~499km); Escalation pattern"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "d2d14c8af84c",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Regionally close (~361km); Escalation pattern"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "e403eed12d08",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Regionally close (~251km); Escalation pattern"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "5b025b985429",
+      "to": "335a9e6d2327",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0cf5c5e47a24",
+      "to": "335a9e6d2327",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "335a9e6d2327",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "0cf5c5e47a24",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "0cf5c5e47a24",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "0cf5c5e47a24",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "0cf5c5e47a24",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "7eb8e16afdd2",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "d2d14c8af84c",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "d2d14c8af84c",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "d2d14c8af84c",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "d2d14c8af84c",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c5533488d4ca",
+      "to": "335a9e6d2327",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "c5533488d4ca",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "c5533488d4ca",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "c5533488d4ca",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "c5533488d4ca",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "335a9e6d2327",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "335a9e6d2327",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "0cf5c5e47a24",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "0cf5c5e47a24",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "c5533488d4ca",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "c5533488d4ca",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "7eb8e16afdd2",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "a4f4ebb62609",
+      "to": "335a9e6d2327",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "5b025b985429",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0cf5c5e47a24",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c5533488d4ca",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "med",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
       "from": "d2b973c80894",
       "to": "rates_credit_spreads",
       "label": "increases_risk_of",
       "confidence": "med",
       "why": "Lower perceived constraints on US operations may extend conflict duration uncertainty, widening risk premia in credit."
+    },
+    {
+      "from": "23ef53063b4d",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "6724a062db7f",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "eddc9ab9b226",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "ab82cc82258c",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "em_fx_pressure",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Sanctions can pressure EM FX via trade/flows expectations"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "em_fx_pressure",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Sanctions can pressure EM FX via trade/flows expectations"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "em_fx_pressure",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Sanctions can pressure EM FX via trade/flows expectations"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "em_fx_pressure",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Sanctions can pressure EM FX via trade/flows expectations"
+    },
+    {
+      "from": "12b9f96e6f1b",
+      "to": "em_fx_pressure",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Sanctions can pressure EM FX via trade/flows expectations"
+    },
+    {
+      "from": "d104c2ee807b",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "a4f4ebb62609",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "23ef53063b4d",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "b24fb98b4b16",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "c5914c702d47",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "6724a062db7f",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "1025bde33b1e",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "e0e25f83ae66",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "eddc9ab9b226",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "e403eed12d08",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "8495e350d05c",
+      "to": "rates_credit_spreads",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Cyber incidents can widen credit risk perceptions"
+    },
+    {
+      "from": "c3163702047d",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "094e555f2820",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "985c83ddbd42",
+      "to": "rates_credit_spreads",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Cyber incidents can widen credit risk perceptions"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "rates_credit_spreads",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Cyber incidents can widen credit risk perceptions"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "rates_credit_spreads",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Cyber incidents can widen credit risk perceptions"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "rates_credit_spreads",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Cyber incidents can widen credit risk perceptions"
+    },
+    {
+      "from": "ab82cc82258c",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Sanctions uncertainty can add to risk-off sentiment"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Sanctions uncertainty can add to risk-off sentiment"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Sanctions uncertainty can add to risk-off sentiment"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Sanctions uncertainty can add to risk-off sentiment"
+    },
+    {
+      "from": "12b9f96e6f1b",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Sanctions uncertainty can add to risk-off sentiment"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "rates_credit_spreads",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Cyber incidents can widen credit risk perceptions"
+    },
+    {
+      "from": "d104c2ee807b",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "335a9e6d2327",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "a4f4ebb62609",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "23ef53063b4d",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "b24fb98b4b16",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "5b025b985429",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "c5914c702d47",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "0cf5c5e47a24",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "c5533488d4ca",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "6724a062db7f",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "1025bde33b1e",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "e0e25f83ae66",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "eddc9ab9b226",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "c3163702047d",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "094e555f2820",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "7557abd37533",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "ec354518f923",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "577ce6091237",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "risk_off_flows",
+      "label": "can_trigger",
+      "confidence": "med",
+      "why": "Escalation risk increases demand for safe havens."
+    },
+    {
+      "from": "d104c2ee807b",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "335a9e6d2327",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "a4f4ebb62609",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "23ef53063b4d",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "b24fb98b4b16",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "5b025b985429",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "c5914c702d47",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "0cf5c5e47a24",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "c5533488d4ca",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "6724a062db7f",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "1025bde33b1e",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "e0e25f83ae66",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "eddc9ab9b226",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "c3163702047d",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "094e555f2820",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "7557abd37533",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "ec354518f923",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "577ce6091237",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "em_fx_pressure",
+      "label": "adds_pressure",
+      "confidence": "med",
+      "why": "Risk-off and higher energy import costs pressure EM FX."
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "5b025b985429",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "5b025b985429",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "5b025b985429",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran, commercial shipping; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran, commercial shipping; Within 72h"
+    },
+    {
+      "from": "1e14b27c2286",
+      "to": "7bc1b19b96a2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Nearby (~85km)"
+    },
+    {
+      "from": "1e14b27c2286",
+      "to": "bc21c04c76a8",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Nearby (~85km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "e0e25f83ae66",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: qatar; Within 7d; Regionally close (~326km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "e0e25f83ae66",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: qatar; Within 7d; Regionally close (~326km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "e0e25f83ae66",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: qatar; Within 7d; Regionally close (~326km)"
+    },
+    {
+      "from": "335a9e6d2327",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "1025bde33b1e",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Same type: strike; Within 7d"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Same type: strike; Within 7d"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "0cf5c5e47a24",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "0cf5c5e47a24",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "0cf5c5e47a24",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: saudi aramco; Within 72h"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 7d"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "c5533488d4ca",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "c5533488d4ca",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "c5533488d4ca",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Within 72h"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 7d"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 7d"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 72h"
+    },
+    {
+      "from": "a4f4ebb62609",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "b24fb98b4b16",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike; Within 7d"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "c5914c702d47",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "c5914c702d47",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "c5914c702d47",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "86d13423ef26",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "86d13423ef26",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "e403eed12d08",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "e403eed12d08",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "e403eed12d08",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: israel; Same type: strike; Within 7d"
+    },
+    {
+      "from": "d2b973c80894",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "d2b973c80894",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "d2b973c80894",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "7bc1b19b96a2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "7bc1b19b96a2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "7bc1b19b96a2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "e6adac2c9511",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "e6adac2c9511",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "e6adac2c9511",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "bc21c04c76a8",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "bc21c04c76a8",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "bc21c04c76a8",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "2808cac09609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "2808cac09609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "2808cac09609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "a320489030af",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "a320489030af",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "a320489030af",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "2d225419208f",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "2d225419208f",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "2d225419208f",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "7bc1b19b96a2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "e6adac2c9511",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "bc21c04c76a8",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "2808cac09609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "a320489030af",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "2d225419208f",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "dacd01a8f271",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Nearby (~1km)"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "3455e3aaca32",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "c8be23761aba",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "3455e3aaca32",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "c8be23761aba",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "3455e3aaca32",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "c8be23761aba",
+      "to": "0219dcc6bccb",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "c8be23761aba",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "c8be23761aba",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "a320489030af",
+      "to": "c8be23761aba",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 72h"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Within 7d"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "577ce6091237",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "e6adac2c9511",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "2808cac09609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "2d225419208f",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "1e14b27c2286",
+      "to": "a320489030af",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Regionally close (~417km)"
+    },
+    {
+      "from": "1e14b27c2286",
+      "to": "1cd2e6b94e64",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Regionally close (~417km)"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "577ce6091237",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "e6adac2c9511",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "2808cac09609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "2d225419208f",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "1e14b27c2286",
+      "to": "cfd5266bbcf1",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Regionally close (~419km)"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 7d"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 7d"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 7d"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "577ce6091237",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "7bc1b19b96a2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Same type: strike"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "e6adac2c9511",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "bc21c04c76a8",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Same type: strike"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "2808cac09609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "a320489030af",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Same type: strike"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "2d225419208f",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "cfd5266bbcf1",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "1cd2e6b94e64",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states, iran; Same type: strike"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 7d"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "335a9e6d2327",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Within 7d"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "86d13423ef26",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "86d13423ef26",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "86d13423ef26",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: strike"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "d2b973c80894",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 7d"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "d2b973c80894",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 7d"
+    },
+    {
+      "from": "a320489030af",
+      "to": "d2b973c80894",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: united states; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "86d13423ef26",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "86d13423ef26",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "86d13423ef26",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "577ce6091237",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "577ce6091237",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "577ce6091237",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "d30071455b59",
+      "to": "67120a4038b2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "67120a4038b2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "67120a4038b2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "1e14b27c2286",
+      "to": "67120a4038b2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Regionally close (~419km)"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "1e14b27c2286",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Regionally close (~419km)"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "7eb8e16afdd2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "86d13423ef26",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "577ce6091237",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "67120a4038b2",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "3455e3aaca32",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
+      "from": "d2b973c80894",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
+      "from": "c8be23761aba",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
+      "from": "1e14b27c2286",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
+      "from": "c5914c702d47",
+      "to": "335a9e6d2327",
+      "label": "possible_retaliation",
+      "confidence": "low",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c5914c702d47",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "low",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "low",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "c5914c702d47",
+      "label": "possible_retaliation",
+      "confidence": "low",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "c5914c702d47",
+      "label": "possible_retaliation",
+      "confidence": "low",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "c5914c702d47",
+      "label": "possible_retaliation",
+      "confidence": "low",
+      "why": "Same type: strike; Within 72h; Escalation pattern"
     },
     {
       "from": "181c0e3ebaf9",
@@ -1561,18 +5250,2727 @@
       "why": "Internal instability and cyber escalation can raise perceived regional risk and pressure EM FX during risk-off episodes."
     },
     {
-      "from": "1cd2e6b94e64",
+      "from": "0b671ab43eae",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "low",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "a4f4ebb62609",
+      "label": "actor_link",
+      "confidence": "low",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "low",
+      "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "9e5270105c9a",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "4ef988b3cb13",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "9c3dfb6c2829",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "12812d18ac72",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "9e5270105c9a",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~15km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "9e5270105c9a",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~15km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "4ef988b3cb13",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~15km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "4ef988b3cb13",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "9c3dfb6c2829",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "9c3dfb6c2829",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~17km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "3036f9f4e41c",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "3036f9f4e41c",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
+    },
+    {
+      "from": "6724a062db7f",
+      "to": "d104c2ee807b",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~14km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~15km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "d104c2ee807b",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 7d; Nearby (~2km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "7557abd37533",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "b6f1342b1331",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "577ce6091237",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "d104c2ee807b",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 7d; Nearby (~13km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "d104c2ee807b",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same type: shipping_disruption; Same area: strait of hormuz; Within 7d; Nearby (~14km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "7557abd37533",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~13km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "7557abd37533",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~13km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "b6f1342b1331",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~12km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "b6f1342b1331",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~13km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "577ce6091237",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~15km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "577ce6091237",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~15km)"
+    },
+    {
+      "from": "eddc9ab9b226",
+      "to": "335a9e6d2327",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: iraq; Within 72h; Nearby (~38km)"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "6724a062db7f",
+      "label": "related_to",
+      "confidence": "high",
+      "why": "Same area: strait of hormuz; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "d104c2ee807b",
       "to": "oil_up_risk",
       "label": "raises",
       "confidence": "high",
-      "why": "Reuters described intensified economic impact and ongoing Hormuz-related disruption risk alongside the strike campaign."
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "23ef53063b4d",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "b24fb98b4b16",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "6724a062db7f",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "1025bde33b1e",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "e0e25f83ae66",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "eddc9ab9b226",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "c3163702047d",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "094e555f2820",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "ec354518f923",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "ab82cc82258c",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "high",
+      "why": "Physical supply / transit risk typically lifts crude risk premium."
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "7bc1b19b96a2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Within 72h; Nearby (~0km); Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "e6adac2c9511",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran, bahrain; Same type: strike; Same area: uae; Within 72h; Nearby (~0km); Escalation pattern"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran, islamic revolutionary guard corps; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~2km); Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~2km); Escalation pattern"
+    },
+    {
+      "from": "0cf5c5e47a24",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+    },
+    {
+      "from": "c5533488d4ca",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
+    },
+    {
+      "from": "c5533488d4ca",
+      "to": "0cf5c5e47a24",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+    },
+    {
+      "from": "c5914c702d47",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+    },
+    {
+      "from": "0cf5c5e47a24",
+      "to": "c5914c702d47",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: hezbollah, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
+    },
+    {
+      "from": "c5533488d4ca",
+      "to": "c5914c702d47",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+    },
+    {
+      "from": "e403eed12d08",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~124km); Escalation pattern"
+    },
+    {
+      "from": "e403eed12d08",
+      "to": "c5914c702d47",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
+    },
+    {
+      "from": "e403eed12d08",
+      "to": "0cf5c5e47a24",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
+    },
+    {
+      "from": "e403eed12d08",
+      "to": "c5533488d4ca",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~124km); Escalation pattern"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "67120a4038b2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran, hackers; Same type: cyber; Same area: iran; Within 72h; Nearby (~1km); Escalation pattern"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "67120a4038b2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran, hackers; Same type: cyber; Same area: iran; Within 72h; Nearby (~0km); Escalation pattern"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "0b671ab43eae",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran, hackers; Same type: cyber; Same area: iran; Within 72h; Nearby (~1km); Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "7bc1b19b96a2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Within 72h; Regionally close (~445km); Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "bc21c04c76a8",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Within 72h; Regionally close (~445km); Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "67120a4038b2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Within 72h; Nearby (~2km); Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "e6adac2c9511",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran, bahrain; Same type: strike; Within 72h; Nearby (~0km); Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "2808cac09609",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran, bahrain; Same type: strike; Within 72h; Nearby (~1km); Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "0b671ab43eae",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Within 72h; Nearby (~2km); Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "c7d242853d96",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Within 72h; Nearby (~2km); Escalation pattern"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: saudi arabia; Same type: strike; Same area: saudi arabia; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "67120a4038b2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Within 72h; Regionally close (~447km); Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "67120a4038b2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Within 72h; Regionally close (~447km); Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "577ce6091237",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Regionally close (~286km); Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "577ce6091237",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Regionally close (~287km); Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "577ce6091237",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Regionally close (~285km); Escalation pattern"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "0b671ab43eae",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Within 72h; Regionally close (~447km); Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "0b671ab43eae",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Within 72h; Regionally close (~446km); Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Regionally close (~288km); Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Regionally close (~289km); Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Regionally close (~287km); Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Regionally close (~289km); Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Regionally close (~289km); Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Regionally close (~288km); Escalation pattern"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "c7d242853d96",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Within 72h; Regionally close (~448km); Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "c7d242853d96",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Within 72h; Regionally close (~447km); Escalation pattern"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "577ce6091237",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "577ce6091237",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "577ce6091237",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "7bc1b19b96a2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "7bc1b19b96a2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "7bc1b19b96a2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "e6adac2c9511",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "e6adac2c9511",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "bc21c04c76a8",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "bc21c04c76a8",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "2808cac09609",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "a320489030af",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "985c83ddbd42",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Same type: cyber; Same area: iran; Within 72h; Nearby (~2km); Escalation pattern"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "985c83ddbd42",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Same type: cyber; Same area: iran; Within 72h; Nearby (~2km); Escalation pattern"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "985c83ddbd42",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Same type: cyber; Same area: iran; Within 72h; Nearby (~2km); Escalation pattern"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "7eb8e16afdd2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "7eb8e16afdd2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "7eb8e16afdd2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: united states; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: united states; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: united states; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "0219dcc6bccb",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: united states; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "a4f4ebb62609",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "7eb8e16afdd2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "86d13423ef26",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: kuwait, iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: kuwait, iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: kuwait, iran; Same type: strike; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~419km); Escalation pattern"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~419km); Escalation pattern"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "c9b504ccd071",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~420km); Escalation pattern"
+    },
+    {
+      "from": "a320489030af",
+      "to": "985c83ddbd42",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Same area: iran; Within 72h; Nearby (~0km); Escalation pattern"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "5b025b985429",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Same type: strike; Within 72h; Nearby (~137km); Escalation pattern"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "0cf5c5e47a24",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Same type: strike; Within 72h; Nearby (~135km); Escalation pattern"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "c5533488d4ca",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Same type: strike; Within 72h; Nearby (~137km); Escalation pattern"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "c5914c702d47",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Same type: strike; Within 72h; Nearby (~135km); Escalation pattern"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "7eb8e16afdd2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "67120a4038b2",
+      "to": "577ce6091237",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "67120a4038b2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "67120a4038b2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "67120a4038b2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "7eb8e16afdd2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "0b671ab43eae",
+      "to": "577ce6091237",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "0b671ab43eae",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "0b671ab43eae",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "0b671ab43eae",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "7eb8e16afdd2",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "7557abd37533",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "b6f1342b1331",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "86d13423ef26",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "c7d242853d96",
+      "to": "577ce6091237",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "c7d242853d96",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "c7d242853d96",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "c7d242853d96",
+      "label": "possible_retaliation",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Escalation pattern"
     },
     {
       "from": "9e5270105c9a",
       "to": "oil_up_risk",
       "label": "drives",
       "confidence": "high",
-      "why": "Reduced tanker transit through Hormuz constrains supply routes and raises war-risk premia, supporting crude upside risk."
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "d104c2ee807b",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "b24fb98b4b16",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "1025bde33b1e",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "e0e25f83ae66",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "c3163702047d",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "094e555f2820",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "12812d18ac72",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "335a9e6d2327",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "5b025b985429",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "0cf5c5e47a24",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "c5533488d4ca",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "c9b504ccd071",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "7eb8e16afdd2",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "a320489030af",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "08c2b21df68d",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, islamic revolutionary guard corps; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+    },
+    {
+      "from": "ae8f92a1a478",
+      "to": "e0e25f83ae66",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: qatarenergy; Same type: shipping_disruption; Same area: qatar; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "ed0dc6b1bd91",
+      "to": "12812d18ac72",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: msc, maersk; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "12812d18ac72",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: msc, maersk; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~17km)"
+    },
+    {
+      "from": "62a1a6f17887",
+      "to": "ed0dc6b1bd91",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: msc, maersk; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "094e555f2820",
+      "to": "c3163702047d",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: saudi aramco, saudi arabia; Same type: shipping_disruption; Same area: saudi arabia; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "c0da90f52d24",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Same area: oman; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "c0da90f52d24",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Same area: oman; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "dc4fa5e13f1d",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Same area: oman; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "6724a062db7f",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states navy; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 7d; Nearby (~0km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "577ce6091237",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping companies; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, islamic revolutionary guard corps; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, islamic revolutionary guard corps; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, islamic revolutionary guard corps; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, islamic revolutionary guard corps; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Nearby (~116km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Nearby (~114km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Nearby (~113km)"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Nearby (~115km)"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Nearby (~113km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Nearby (~116km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Nearby (~113km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Nearby (~112km)"
+    },
+    {
+      "from": "1025bde33b1e",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Nearby (~115km)"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Nearby (~114km)"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Nearby (~114km)"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Nearby (~113km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "804f81835db3",
+      "to": "d30071455b59",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, ofac; Same type: sanctions; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "d30071455b59",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, ofac; Same type: sanctions; Within 72h; Nearby (~1km)"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "804f81835db3",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, ofac; Same type: sanctions; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "a320489030af",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Nearby (~0km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: strait of hormuz; Within 7d; Nearby (~1km)"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 7d; Nearby (~0km)"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 7d; Nearby (~1km)"
+    },
+    {
+      "from": "d2b973c80894",
+      "to": "3455e3aaca32",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states; Same type: diplomacy; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "a320489030af",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, israel; Same type: strike; Same area: iran; Nearby (~3km)"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "cfd5266bbcf1",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, israel; Same type: strike; Same area: iran; Nearby (~2km)"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "67120a4038b2",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: cyber; Same area: iran; Nearby (~1km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 7d; Nearby (~114km)"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Nearby (~116km)"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Nearby (~117km)"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Regionally close (~439km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Nearby (~115km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "7557abd37533",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Within 72h; Nearby (~115km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "b6f1342b1331",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Within 72h; Nearby (~115km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: marine insurers, commercial shipping; Same type: shipping_disruption; Within 72h; Regionally close (~440km)"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "0b671ab43eae",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: cyber; Same area: iran; Nearby (~1km)"
+    },
+    {
+      "from": "b24fb98b4b16",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Regionally close (~439km)"
+    },
+    {
+      "from": "9e5270105c9a",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Regionally close (~439km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Regionally close (~386km)"
+    },
+    {
+      "from": "4ef988b3cb13",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Regionally close (~437km)"
+    },
+    {
+      "from": "9c3dfb6c2829",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Regionally close (~438km)"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Regionally close (~449km)"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h; Regionally close (~439km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "e0e25f83ae66",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: qatar; Same type: shipping_disruption; Within 72h; Regionally close (~471km)"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "c7d242853d96",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: cyber; Same area: iran; Nearby (~1km)"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Within 72h; Nearby (~116km)"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Within 72h; Nearby (~116km)"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Regionally close (~440km)"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states, iran; Same type: strike; Within 7d; Nearby (~84km)"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states, iran; Same type: strike; Within 7d; Nearby (~84km)"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Regionally close (~439km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "c0da90f52d24",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Regionally close (~440km)"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Regionally close (~440km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "dc4fa5e13f1d",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h; Regionally close (~441km)"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "7bc1b19b96a2",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Regionally close (~445km)"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "bc21c04c76a8",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Regionally close (~445km)"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "7bc1b19b96a2",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, israel; Same type: strike; Same area: iran; Regionally close (~447km)"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "bc21c04c76a8",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, israel; Same type: strike; Same area: iran; Regionally close (~447km)"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "c3163702047d",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: saudi aramco, saudi arabia; Same area: saudi arabia; Within 72h"
+    },
+    {
+      "from": "d2d14c8af84c",
+      "to": "094e555f2820",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: saudi aramco, saudi arabia; Same area: saudi arabia; Within 72h"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "c3163702047d",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: saudi arabia; Same area: saudi arabia; Within 72h"
+    },
+    {
+      "from": "0219dcc6bccb",
+      "to": "094e555f2820",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: saudi arabia; Same area: saudi arabia; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "3036f9f4e41c",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "67120a4038b2",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Nearby (~1km)"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "67120a4038b2",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Nearby (~1km)"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "a320489030af",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Nearby (~3km)"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "cfd5266bbcf1",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Nearby (~0km)"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "1cd2e6b94e64",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Nearby (~2km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~285km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~286km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~284km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~285km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~286km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~285km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~367km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~367km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~368km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~288km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~288km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~287km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: qatar, iran; Within 7d; Nearby (~213km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: qatar, iran; Within 7d; Nearby (~213km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "4992928feb8a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: qatar, iran; Within 7d; Nearby (~212km)"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "0b671ab43eae",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Nearby (~0km)"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "0b671ab43eae",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Nearby (~2km)"
+    },
+    {
+      "from": "7557abd37533",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~440km)"
+    },
+    {
+      "from": "b6f1342b1331",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~440km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~438km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 7d; Nearby (~178km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 7d; Nearby (~178km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "b24fb98b4b16",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 7d; Nearby (~179km)"
+    },
+    {
+      "from": "cfd5266bbcf1",
+      "to": "c7d242853d96",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Nearby (~1km)"
+    },
+    {
+      "from": "1cd2e6b94e64",
+      "to": "c7d242853d96",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Nearby (~2km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "c3163702047d",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: saudi aramco; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "094e555f2820",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: saudi aramco; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "1025bde33b1e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "4337a45a340f",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "4337a45a340f",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: marine insurers, commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "4337a45a340f",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: marine insurers, commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "a320489030af",
+      "to": "c9b504ccd071",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states, iran; Same type: strike; Within 7d; Regionally close (~417km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "eddc9ab9b226",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iraq; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "4337a45a340f",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "4337a45a340f",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Within 72h"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "d30071455b59",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, ofac; Same type: sanctions; Within 72h"
+    },
+    {
+      "from": "dacd01a8f271",
+      "to": "804f81835db3",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, ofac; Same type: sanctions; Within 72h"
+    },
+    {
+      "from": "434b905bbab0",
+      "to": "dacd01a8f271",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, ofac; Same type: sanctions; Within 72h"
+    },
+    {
+      "from": "c8be23761aba",
+      "to": "3455e3aaca32",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states; Same type: diplomacy; Within 72h"
+    },
+    {
+      "from": "c8be23761aba",
+      "to": "d2b973c80894",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states; Same type: diplomacy; Within 72h"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 7d"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "a320489030af",
+      "to": "4ef988b3cb13",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "a320489030af",
+      "to": "9c3dfb6c2829",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "a320489030af",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "7bc1b19b96a2",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "bc21c04c76a8",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "a320489030af",
+      "to": "3036f9f4e41c",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "7bc1b19b96a2",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Regionally close (~448km)"
+    },
+    {
+      "from": "181c0e3ebaf9",
+      "to": "bc21c04c76a8",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: iran; Regionally close (~447km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 7d; Regionally close (~288km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 7d; Regionally close (~288km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "d104c2ee807b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 7d; Regionally close (~287km)"
+    },
+    {
+      "from": "e6adac2c9511",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 7d; Regionally close (~287km)"
+    },
+    {
+      "from": "2808cac09609",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 7d; Regionally close (~287km)"
+    },
+    {
+      "from": "2d225419208f",
+      "to": "9e5270105c9a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 7d; Regionally close (~286km)"
+    },
+    {
+      "from": "577ce6091237",
+      "to": "0bf4127eee6a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h"
     }
   ]
 }
