@@ -2,6 +2,7 @@ import os
 import json
 import time
 import hashlib
+import math
 import subprocess
 from datetime import datetime, timezone, timedelta
 from typing import Any, Dict, List, Optional, Set, Tuple
@@ -17,9 +18,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 # ==========================
 # CONFIG
 # ==========================
-# Use GPT-5.2 (set by workflow env OPENAI_MODEL=gpt-5.2)
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.2")
-
 FETCH_TIMEOUT = int(os.getenv("FETCH_TIMEOUT", "25"))
 
 # Output files (repo root)
@@ -38,9 +37,13 @@ NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 NOMINATIM_USER_AGENT = os.getenv("NOMINATIM_USER_AGENT", "SensingInsightsTracker/1.0 (github-actions)")
 NOMINATIM_MIN_DELAY_SEC = float(os.getenv("NOMINATIM_MIN_DELAY_SEC", "1.2"))
 
-# Accumulation behavior
-# Keep up to N most-recent events in events.geojson (prevents infinite growth)
+# Accumulation caps (prevent infinite growth)
 MAX_ACCUMULATED_EVENTS = int(os.getenv("MAX_ACCUMULATED_EVENTS", "1500"))
+MAX_GRAPH_EVENT_NODES = int(os.getenv("MAX_GRAPH_EVENT_NODES", "250"))
+MAX_GRAPH_EDGES = int(os.getenv("MAX_GRAPH_EDGES", "1200"))
+
+# Deterministic map jitter for stacked markers (degrees; ~0.02 ≈ a couple km)
+JITTER_DEG = float(os.getenv("JITTER_DEG", "0.02"))
 
 # Fallback centroids (lon, lat)
 CENTROIDS: Dict[str, Tuple[float, float]] = {
@@ -64,7 +67,7 @@ CENTROIDS: Dict[str, Tuple[float, float]] = {
     "red sea": (38.0, 20.0),
     "strait of hormuz": (56.25, 26.58),
     "bab el-mandeb": (43.33, 12.64),
-    # extra safe fallback so events never disappear
+    # safe fallback so events never disappear
     "middle east": (45.0, 29.5),
 }
 
@@ -76,6 +79,9 @@ MARKET_NODES = [
 ]
 
 
+# ==========================
+# TIME + ID
+# ==========================
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
@@ -85,13 +91,13 @@ def ist_now_iso() -> str:
 
 
 def stable_id(*parts: str) -> str:
-    """
-    Deterministic 12-char id used by UI (properties.id) and graph mapping.
-    """
     s = "|".join([p or "" for p in parts])
     return hashlib.sha1(s.encode("utf-8")).hexdigest()[:12]
 
 
+# ==========================
+# FILE I/O
+# ==========================
 def write_json(path: str, obj: Any) -> None:
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
@@ -110,14 +116,9 @@ def safe_read_json(path: str, default: Any) -> Any:
         return default
 
 
-def safe_read_text(path: str, default: str = "") -> str:
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return f.read()
-    except Exception:
-        return default
-
-
+# ==========================
+# GEO FALLBACKS + GEOCODER
+# ==========================
 def centroid_fallback(location_name: str) -> Optional[Tuple[float, float, str]]:
     if not location_name:
         return None
@@ -193,8 +194,10 @@ class Geocoder:
             return None
 
 
+# ==========================
+# GRAPH HELPERS
+# ==========================
 def normalize_links(raw_links: Any) -> List[Dict[str, Any]]:
-    # Strictly keep objects only; ignore strings/mixed to avoid crashes.
     if not isinstance(raw_links, list):
         return []
     out: List[Dict[str, Any]] = []
@@ -221,20 +224,229 @@ def ensure_graph_nodes(nodes: List[Dict[str, Any]], edges: List[Dict[str, Any]])
     return nodes
 
 
-def run_openplanter(workspace: str) -> None:
-    """
-    Calls OpenPlanter to produce ./op_extract.json in repo root.
+def load_existing_features() -> List[Dict[str, Any]]:
+    existing = safe_read_json(OUT_GEOJSON, {})
+    if isinstance(existing, dict) and existing.get("type") == "FeatureCollection":
+        feats = existing.get("features")
+        if isinstance(feats, list):
+            return [f for f in feats if isinstance(f, dict)]
+    return []
 
-    IMPORTANT:
-    - We force --reasoning-effort none to prevent OpenAI HTTP 400
-      (OpenPlanter sending 'reasoning_effort' on Chat Completions).
-    - Model is GPT-5.2 via env OPENAI_MODEL=gpt-5.2.
+
+def feature_ts(f: Dict[str, Any]) -> str:
+    p = f.get("properties") or {}
+    return str(p.get("timestamp_utc") or "")
+
+
+def merge_features(existing: List[Dict[str, Any]], new: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    merged: Dict[str, Dict[str, Any]] = {}
+
+    def get_id(feat: Dict[str, Any]) -> str:
+        p = feat.get("properties") or {}
+        return str(p.get("id") or "")
+
+    for f in existing:
+        fid = get_id(f)
+        if fid:
+            merged[fid] = f
+
+    for f in new:
+        fid = get_id(f)
+        if not fid:
+            continue
+        if fid not in merged:
+            merged[fid] = f
+        else:
+            if feature_ts(f) >= feature_ts(merged[fid]):
+                merged[fid] = f
+
+    out = list(merged.values())
+    out.sort(key=feature_ts, reverse=True)
+    return out[:MAX_ACCUMULATED_EVENTS]
+
+
+def build_event_nodes_from_features(features: List[Dict[str, Any]], cap: int) -> Tuple[List[Dict[str, Any]], Dict[str, str]]:
+    sorted_feats = sorted(features, key=feature_ts, reverse=True)
+    nodes: List[Dict[str, Any]] = []
+    title_to_id: Dict[str, str] = {}
+
+    for f in sorted_feats[:cap]:
+        p = f.get("properties") or {}
+        eid = p.get("id")
+        title = p.get("title") or ""
+        if not eid:
+            continue
+
+        if title and title not in title_to_id:
+            title_to_id[title] = eid
+
+        nodes.append({
+            "id": eid,
+            "label": (title[:80] if title else str(eid)),
+            "group": "event",
+            "severity": int(p.get("severity", 0) or 0),
+            "confidence": p.get("confidence", "low"),
+            "event_type": p.get("event_type", "other"),
+            "timestamp_utc": p.get("timestamp_utc"),
+            "location_name": p.get("location_name", ""),
+        })
+
+    return nodes, title_to_id
+
+
+def load_existing_graph() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    g = safe_read_json(OUT_GRAPH, {})
+    if not isinstance(g, dict):
+        return [], []
+    nodes = g.get("nodes") if isinstance(g.get("nodes"), list) else []
+    edges = g.get("edges") if isinstance(g.get("edges"), list) else []
+    nodes = [n for n in nodes if isinstance(n, dict) and n.get("id")]
+    edges = [e for e in edges if isinstance(e, dict) and e.get("from") and e.get("to")]
+    return nodes, edges
+
+
+def merge_edges(existing: List[Dict[str, Any]], new: List[Dict[str, Any]], node_ids: Set[str]) -> List[Dict[str, Any]]:
     """
-    # Slightly smarter prompt (NO schema changes). Push geocodable locations + recency + dedupe.
+    Accumulate graph edges across runs.
+    Key = (from,to,label). Keep latest 'why/confidence' when duplicate occurs.
+    Filter to edges whose endpoints exist in node_ids (or are market ids).
+    """
+    def edge_key(e: Dict[str, Any]) -> Tuple[str, str, str]:
+        return (str(e.get("from")), str(e.get("to")), str(e.get("label") or ""))
+
+    merged: Dict[Tuple[str, str, str], Dict[str, Any]] = {}
+
+    def accept(e: Dict[str, Any]) -> bool:
+        frm = str(e.get("from") or "")
+        to = str(e.get("to") or "")
+        if not frm or not to:
+            return False
+        # allow market concept ids always (they're in MARKET_NODES anyway)
+        return (frm in node_ids or any(frm == m["id"] for m in MARKET_NODES)) and (to in node_ids or any(to == m["id"] for m in MARKET_NODES))
+
+    for e in existing:
+        if accept(e):
+            merged[edge_key(e)] = e
+
+    for e in new:
+        if accept(e):
+            merged[edge_key(e)] = e
+
+    out = list(merged.values())
+    # keep deterministic ordering (optional) — prefer edges with higher "confidence" lexical
+    out.sort(key=lambda x: (str(x.get("confidence") or ""), str(x.get("label") or "")), reverse=True)
+    return out[:MAX_GRAPH_EDGES]
+
+
+# ==========================
+# LATEST ROBUSTNESS
+# ==========================
+def is_latest_weak(latest: Dict[str, Any]) -> bool:
+    if not isinstance(latest, dict):
+        return True
+    risk = int(latest.get("risk_score", 0) or 0)
+    headlines = latest.get("headline_summary") or []
+    sources = latest.get("sources") or []
+    # weak if it basically contains nothing
+    return (risk == 0) and (len(headlines) == 0) and (len(sources) == 0)
+
+
+def make_fallback_latest_from_events(events: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    If agent returns weak latest, create a minimal usable latest from events.
+    Keeps UI populated without changing schema.
+    """
+    # pick top events by severity
+    evs = [e for e in events if isinstance(e, dict)]
+    evs.sort(key=lambda x: int(x.get("severity", 0) or 0), reverse=True)
+
+    headlines: List[str] = []
+    sources: List[Dict[str, Any]] = []
+    drivers: List[str] = []
+
+    for e in evs[:10]:
+        title = str(e.get("title") or "").strip()
+        sev = int(e.get("severity", 0) or 0)
+        et = str(e.get("event_type") or "").strip()
+        loc = str(e.get("location_name") or "").strip()
+        if title:
+            headlines.append(f"{title} ({et}, sev {sev}) — {loc}".strip(" —"))
+
+        urls = e.get("source_urls") or []
+        if isinstance(urls, list) and urls:
+            u0 = str(urls[0] or "")
+            if u0:
+                sources.append({"title": title or u0, "url": u0, "publisher": "", "published_at": ""})
+
+        if et and et not in drivers:
+            drivers.append(et)
+
+    # crude risk estimate
+    top_sev = int(evs[0].get("severity", 0) or 0) if evs else 0
+    risk_score = max(0, min(100, top_sev))
+
+    return {
+        "headline_summary": headlines[:10],
+        "risk_score": risk_score,
+        "risk_drivers": drivers[:8],
+        "market_implications": {"Energy": [], "FX": [], "Rates": [], "Equities": []},
+        "sources": sources[:12],
+        "generated_at_utc": utc_now_iso(),
+        "generated_at_ist": ist_now_iso(),
+    }
+
+
+# ==========================
+# MAP VISIBILITY: DETERMINISTIC JITTER FOR STACKED POINTS
+# ==========================
+def deterministic_jitter(lon: float, lat: float, key: str, scale: float) -> Tuple[float, float]:
+    """
+    Spread points with identical coordinates so 144 doesn't look like 20.
+    Deterministic based on event id key.
+    """
+    h = hashlib.sha1(key.encode("utf-8")).hexdigest()
+    a = int(h[:8], 16) / 0xFFFFFFFF  # 0..1
+    b = int(h[8:16], 16) / 0xFFFFFFFF
+    # angle + radius
+    angle = 2 * math.pi * a
+    radius = scale * (0.2 + 0.8 * b)
+    dlon = radius * math.cos(angle)
+    dlat = radius * math.sin(angle)
+    return lon + dlon, lat + dlat
+
+
+def apply_jitter_to_stacked_features(features: List[Dict[str, Any]], scale: float) -> List[Dict[str, Any]]:
+    buckets: Dict[Tuple[float, float], List[Dict[str, Any]]] = {}
+    for f in features:
+        g = f.get("geometry") or {}
+        coords = g.get("coordinates") or None
+        if not (isinstance(coords, list) and len(coords) == 2):
+            continue
+        lon, lat = float(coords[0]), float(coords[1])
+        buckets.setdefault((lon, lat), []).append(f)
+
+    for (lon, lat), group in buckets.items():
+        if len(group) <= 1:
+            continue
+        for f in group:
+            p = f.get("properties") or {}
+            eid = str(p.get("id") or "")
+            if not eid:
+                continue
+            jlon, jlat = deterministic_jitter(lon, lat, eid, scale)
+            f["geometry"]["coordinates"] = [jlon, jlat]
+
+    return features
+
+
+# ==========================
+# OPENPLANTER RUNNER
+# ==========================
+def run_openplanter(workspace: str) -> None:
     task = f"""
 You are an OSINT + markets tracking agent.
 
-Goal: Track Middle East events and market implications, and infer relationships between events.
+Goal: Track Middle East events related to US, Israel & Iran war, and market implications, and infer relationships between events. Do not miss any event.
 
 TIME / RECENCY:
 - Prefer events from the last 24–72 hours.
@@ -264,17 +476,17 @@ events array: each item has
 - timestamp_utc (ISO-8601 or null)
 - location_name (geocodable string; if unsure use country/strait)
 
-LOCATION RULES (VERY IMPORTANT):
+LOCATION RULES:
 - location_name MUST be geocodable and specific.
 - Prefer "City, Country". If not possible, use "Country" or "Strait/Sea name, near Country".
-- Do NOT use vague regions like "border area", "the region", "Middle East" unless nothing else is known.
+- Avoid vague regions.
 
 - actors (array of strings)
 - implication (1-2 lines)
 - source_urls (array of urls)
 
 EVENT QUALITY RULES:
-- Avoid duplicates/near-duplicates. If the same story is reported by multiple sources, merge into ONE event with multiple source_urls.
+- Avoid duplicates/near-duplicates. Merge multi-report into one event with multiple source_urls.
 
 links array: infer relationships between events AND event->market concepts.
 Each link is an object with:
@@ -292,7 +504,7 @@ Market concept ids you may use:
 
 Rules:
 - Use ONLY credible sources you can cite in source_urls.
-- Produce at least 54 events, but do not add filler: every event must have a real source_urls.
+- Produce at least 54 events; no filler.
 - links must be objects only (no strings).
 """.strip()
 
@@ -309,64 +521,9 @@ Rules:
     subprocess.run(cmd, check=True)
 
 
-def load_existing_features() -> List[Dict[str, Any]]:
-    """
-    Read existing events.geojson and return its features list if present.
-    """
-    existing = safe_read_json(OUT_GEOJSON, {})
-    if isinstance(existing, dict) and existing.get("type") == "FeatureCollection":
-        feats = existing.get("features")
-        if isinstance(feats, list):
-            # keep only valid feature dicts
-            return [f for f in feats if isinstance(f, dict)]
-    return []
-
-
-def feature_ts(f: Dict[str, Any]) -> str:
-    """
-    Used to decide which duplicate to keep.
-    ISO strings sort okay; empty string sorts last.
-    """
-    p = f.get("properties") or {}
-    ts = p.get("timestamp_utc") or ""
-    return str(ts)
-
-
-def merge_features(existing: List[Dict[str, Any]], new: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    Dedup by properties.id (your UI uses this).
-    Keep newer timestamp_utc when duplicates exist.
-    """
-    merged: Dict[str, Dict[str, Any]] = {}
-
-    def get_id(feat: Dict[str, Any]) -> str:
-        p = feat.get("properties") or {}
-        return str(p.get("id") or "")
-
-    # load existing
-    for f in existing:
-        fid = get_id(f)
-        if fid:
-            merged[fid] = f
-
-    # merge new
-    for f in new:
-        fid = get_id(f)
-        if not fid:
-            continue
-        if fid not in merged:
-            merged[fid] = f
-        else:
-            # choose the one with the "newer" timestamp
-            if feature_ts(f) >= feature_ts(merged[fid]):
-                merged[fid] = f
-
-    out = list(merged.values())
-    out.sort(key=feature_ts, reverse=True)
-
-    return out[:MAX_ACCUMULATED_EVENTS]
-
-
+# ==========================
+# MAIN
+# ==========================
 def main() -> None:
     if not EXA_API_KEY:
         raise SystemExit("Missing EXA_API_KEY")
@@ -386,22 +543,27 @@ def main() -> None:
     events = out.get("events") if isinstance(out.get("events"), list) else []
     links = normalize_links(out.get("links"))
 
-    # add timestamps used by UI
+    # Load previous latest to avoid "empty right panel" on weak runs
+    prev_latest = safe_read_json(OUT_LATEST, {})
+    if is_latest_weak(latest):
+        # try fallback from events; if even that is empty, keep previous
+        fallback_latest = make_fallback_latest_from_events([e for e in events if isinstance(e, dict)])
+        if not is_latest_weak(fallback_latest):
+            latest = fallback_latest
+        elif isinstance(prev_latest, dict) and prev_latest:
+            latest = prev_latest
+
+    # Ensure timestamps used by UI exist
     latest["generated_at_utc"] = latest.get("generated_at_utc") or utc_now_iso()
     latest["generated_at_ist"] = latest.get("generated_at_ist") or ist_now_iso()
 
     geocoder = Geocoder(OUT_GEOCODE_CACHE)
 
-    # Build new features from THIS run (then we'll merge into accumulated store)
+    # Build new features from THIS run
     new_features: List[Dict[str, Any]] = []
-    event_nodes: List[Dict[str, Any]] = []
-
-    # map event title -> event_id so graph edges can reference titles safely
-    title_to_id: Dict[str, str] = {}
 
     dropped_missing_loc = 0
-    dropped_no_geo = 0
-    used_hard_fallback = 0
+    hard_fallback_used = 0
 
     for e in events:
         if not isinstance(e, dict):
@@ -412,7 +574,7 @@ def main() -> None:
         etype = (e.get("event_type") or "other").strip()
         ts = e.get("timestamp_utc") or ""
 
-        # If location missing, try actor fallback to avoid dropping the event completely
+        # If location missing, try actor-based centroid keyword
         if not loc:
             actors = e.get("actors") or []
             for a in actors:
@@ -425,36 +587,22 @@ def main() -> None:
             dropped_missing_loc += 1
             continue
 
-        # Stable id (UI relies on properties.id)
-        # Prefer anchoring id with a source url (helps dedupe across runs even if loc wording shifts slightly)
         src_urls = e.get("source_urls") or []
-        src0 = ""
-        if isinstance(src_urls, list) and src_urls:
-            src0 = str(src_urls[0] or "")
+        src0 = str(src_urls[0] or "") if isinstance(src_urls, list) and src_urls else ""
         eid = stable_id(title, loc, ts, etype, src0)
-        title_to_id[title] = eid
 
         geo = geocoder.geocode(loc)
         if geo is None:
             geo = centroid_fallback(loc)
-
         if geo is None:
-            # last attempt: centroid based on any actor
             for a in (e.get("actors") or []):
                 fb = centroid_fallback(str(a))
                 if fb:
                     geo = fb
                     break
-
         if geo is None:
-            # HARD FALLBACK: do not drop — place at a generic Middle East centroid
-            # This ensures 54 extracted can still be plotted (even if clustered)
             geo = centroid_fallback("middle east")
-            used_hard_fallback += 1
-
-        if geo is None:
-            dropped_no_geo += 1
-            continue
+            hard_fallback_used += 1
 
         lon, lat, disp = geo
 
@@ -478,38 +626,32 @@ def main() -> None:
             "properties": props,
         })
 
-        event_nodes.append({
-            "id": eid,
-            "label": title[:80],
-            "group": "event",
-            "severity": props["severity"],
-            "confidence": props["confidence"],
-            "event_type": props["event_type"],
-            "timestamp_utc": props["timestamp_utc"],
-            "location_name": props["location_name"],
-        })
-
     geocoder.save()
 
-    # Accumulate: merge previous events.geojson with new run’s features
+    # Accumulate events.geojson
     existing_features = load_existing_features()
     merged_features = merge_features(existing_features, new_features)
 
-    # Graph nodes/edges (keep schema identical)
-    nodes: List[Dict[str, Any]] = MARKET_NODES + event_nodes
-    edges: List[Dict[str, Any]] = []
+    # Jitter stacked markers so "144 events" are actually visible
+    merged_features = apply_jitter_to_stacked_features(merged_features, JITTER_DEG)
 
+    # ==========================
+    # ACCUMULATED GRAPH BEHAVIOR
+    # ==========================
+    # Build nodes from accumulated events, not only this run
+    event_nodes, title_to_id = build_event_nodes_from_features(merged_features, cap=MAX_GRAPH_EVENT_NODES)
+    node_ids = set(n["id"] for n in event_nodes) | set(m["id"] for m in MARKET_NODES)
+
+    # Build new edges from current links, mapping event titles -> ids using accumulated mapping
+    new_edges: List[Dict[str, Any]] = []
     for l in links:
         frm_raw = str(l.get("from") or "").strip()
         to_raw = str(l.get("to") or "").strip()
         if not frm_raw or not to_raw:
             continue
-
-        # Convert event titles to event ids when possible
         frm = title_to_id.get(frm_raw, frm_raw)
         to = title_to_id.get(to_raw, to_raw)
-
-        edges.append({
+        new_edges.append({
             "from": frm,
             "to": to,
             "label": str(l.get("relation") or "causes"),
@@ -517,12 +659,19 @@ def main() -> None:
             "why": str(l.get("why") or ""),
         })
 
-    nodes = ensure_graph_nodes(nodes, edges)
+    # Merge edges with previous graph.json (accumulation)
+    prev_nodes, prev_edges = load_existing_graph()
+    # We rebuild nodes from accumulated features, but we DO accumulate edges:
+    merged_edges = merge_edges(prev_edges, new_edges, node_ids=node_ids)
 
-    # Write outputs consumed by index.html (same filenames/schema)
+    nodes: List[Dict[str, Any]] = MARKET_NODES + event_nodes
+    nodes = ensure_graph_nodes(nodes, merged_edges)
+
+    # Write outputs (schemas unchanged, index.html unchanged)
     write_json(OUT_GEOJSON, {"type": "FeatureCollection", "features": merged_features})
-    write_json(OUT_GRAPH, {"nodes": nodes, "edges": edges})
+    write_json(OUT_GRAPH, {"nodes": nodes, "edges": merged_edges})
     write_json(OUT_LATEST, latest)
+
     append_jsonl(OUT_HISTORY, {
         "generated_at_utc": latest["generated_at_utc"],
         "generated_at_ist": latest["generated_at_ist"],
@@ -535,11 +684,10 @@ def main() -> None:
         f"events_extracted={len(events)}",
         f"events_new_plotted={len(new_features)}",
         f"events_total_accumulated={len(merged_features)}",
+        f"graph_nodes={len(nodes)}",
+        f"graph_edges={len(merged_edges)}",
         f"dropped_missing_loc={dropped_missing_loc}",
-        f"dropped_no_geo={dropped_no_geo}",
-        f"hard_fallback_used={used_hard_fallback}",
-        f"nodes={len(nodes)}",
-        f"edges={len(edges)}",
+        f"hard_fallback_used={hard_fallback_used}",
     )
 
 
