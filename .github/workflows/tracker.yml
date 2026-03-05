@@ -2,7 +2,7 @@ name: Run tracker
 
 on:
   schedule:
-    - cron: "0 */7 * * *"  # every 3 hours
+    - cron: "0 */12 * * *"  # every 3 hours
   workflow_dispatch:
 
 permissions:
