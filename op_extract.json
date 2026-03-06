@@ -822,58 +822,6 @@
       ]
     },
     {
-      "event_type": "sanctions",
-      "severity": 65,
-      "confidence": "high",
-      "title": "US expands Iran-related sanctions targeting shadow fleet and supply networks",
-      "timestamp_utc": "2026-02-25T00:00:00Z",
-      "location_name": "United States",
-      "actors": [
-        "U.S. Treasury",
-        "OFAC",
-        "Iran"
-      ],
-      "implication": "Tightens enforcement risk around Iranian petroleum logistics and procurement; can redirect flows and increase compliance costs for shippers/traders.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
-        "https://home.treasury.gov/news/press-releases/sb0405"
-      ]
-    },
-    {
-      "event_type": "sanctions",
-      "severity": 60,
-      "confidence": "high",
-      "title": "U.S. expands Iran-related sanctions targeting shadow fleet vessels and networks enabling illicit petroleum sales and weapons programs",
-      "timestamp_utc": "2026-02-25T00:00:00Z",
-      "location_name": "Washington, DC, United States",
-      "actors": [
-        "U.S. Treasury",
-        "OFAC",
-        "Iran"
-      ],
-      "implication": "Sanctions tightening can constrain marginal Iranian oil/logistics capacity and elevate compliance/insurance risk.",
-      "source_urls": [
-        "http://reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/",
-        "https://ofac.treasury.gov/recent-actions/20260225"
-      ]
-    },
-    {
-      "event_type": "sanctions",
-      "severity": 60,
-      "confidence": "high",
-      "title": "U.S. Treasury issues new Iran-related sanctions (non-proliferation/related designations)",
-      "timestamp_utc": "2026-02-25T00:00:00Z",
-      "location_name": "Washington, DC, United States",
-      "actors": [
-        "U.S. Department of the Treasury (OFAC)"
-      ],
-      "implication": "Sanctions raise compliance costs and constrain Iran-linked shipping and oil logistics.",
-      "source_urls": [
-        "https://ofac.treasury.gov/recent-actions/20260225",
-        "http://reuters.com/world/middle-east/us-treasury-issues-fresh-iran-related-sanctions-website-shows-2026-02-25/"
-      ]
-    },
-    {
       "event_type": "strike",
       "severity": 84,
       "confidence": "med",
