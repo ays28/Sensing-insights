@@ -1,32 +1,32 @@
 {
   "headline_summary": [
-    "US-Israeli air campaign against Iran entered day six with intensified strikes reported in Tehran",
-    "Iran threatened retaliation beyond the Gulf after the US said it sank an Iranian warship off Sri Lanka",
-    "Iranian state TV was hacked to air opposition figure Reza Pahlavi, highlighting intensifying information operations",
-    "Strait of Hormuz disruption risk remains central for energy prices, tanker availability, and war-risk insurance premia",
-    "US military signaled strikes will expand deeper inland in Iran as Iran’s missile launch tempo reportedly declines"
+    "US–Israel strikes on Iran continued with expanded target sets and reports of intensified attacks in Tehran",
+    "Strait of Hormuz shipping disruption risk remained elevated, with tanker availability and war-risk insurance premia rising",
+    "Major carriers and shipowners adjusted routes/bookings amid security concerns, tightening global freight capacity",
+    "Cyber/information operations increased alongside kinetic operations, raising miscalculation and escalation risk",
+    "Markets remained focused on oil supply and shipping chokepoint risk translating into broader risk-off conditions"
   ],
   "risk_score": 87,
   "risk_drivers": [
-    "Escalatory US/Israel strike tempo and stated intent to expand targets inland",
-    "Iran retaliation threats against Americans globally",
-    "Persistent shipping/insurance disruption risk around the Strait of Hormuz",
-    "Domestic instability in Iran after the killing of Supreme Leader Ali Khamenei and uncertain succession",
-    "Cyber/information operations increasing miscalculation risk"
+    "Escalatory strike tempo and widening target sets",
+    "Persistent Strait of Hormuz disruption/insurance risk",
+    "Potential spillover to regional states and bases",
+    "Retaliation threats against international shipping and overseas assets",
+    "Cyber/information operations increasing uncertainty"
   ],
   "market_implications": {
     "Energy": [
-      "Upside skew to crude and refined products on Hormuz disruption and tanker insurance constraints (oil_up_risk)",
-      "Higher freight and war-risk premia for tankers/LNG cargoes; potential rationing effects for import-dependent Asia"
+      "Upside skew for crude and refined products on Hormuz chokepoint and tanker insurance constraints (oil_up_risk)",
+      "Higher freight/war-risk premia for tankers and LNG; supply chain delays feed energy-price volatility"
     ],
     "FX": [
-      "Risk-off episodes likely to support USD and safe-haven FX; pressure on EM/high-beta FX (em_fx_pressure, risk_off_flows)"
+      "Risk-off supports USD and safe-haven FX; pressure on EM/high-beta FX (em_fx_pressure, risk_off_flows)"
     ],
     "Rates": [
-      "Flight-to-quality can pull core yields lower; oil shock raises inflation-risk and credit spread sensitivity (rates_credit_spreads)"
+      "Flight-to-quality can compress core yields while oil-shock inflation risk and uncertainty widen credit spreads (rates_credit_spreads)"
     ],
     "Equities": [
-      "Higher energy and shipping costs weigh on transport/consumer cyclicals; defense/energy may outperform"
+      "Higher energy and freight costs weigh on cyclicals/transport; relative support for energy and defense"
     ]
   },
   "sources": [
@@ -41,8 +41,14 @@
       "url": "https://www.reuters.com/world/asia-pacific/us-says-iran-firing-fewer-missiles-us-strikes-expand-inland-2026-03-04/",
       "publisher": "Reuters",
       "published_at": "2026-03-04"
+    },
+    {
+      "title": "Strait of Hormuz crisis: shipping, trade and oil markets",
+      "url": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+      "publisher": "CNBC",
+      "published_at": "2026-03-02"
     }
   ],
-  "generated_at_utc": "2026-03-07T01:15:59.788212Z",
-  "generated_at_ist": "2026-03-07T06:45:59.788227+05:30"
+  "generated_at_utc": "2026-03-07T12:31:43.601807Z",
+  "generated_at_ist": "2026-03-07T18:01:43.601825+05:30"
 }

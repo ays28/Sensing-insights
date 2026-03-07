@@ -223,5 +223,10 @@
     "lat": 30.1586699,
     "display_name": "Khor al-Zubair, Umm Qasr, Umm Qasr Subdistrict, Al-Zubair District, Basra Governorate, Iraq"
   },
-  "indian ocean, off sri lanka": null
+  "indian ocean, off sri lanka": null,
+  "dubai, united arab emirates": {
+    "lon": 55.1885387,
+    "lat": 25.0742823,
+    "display_name": "Dubai Emirate, Dubai, United Arab Emirates"
+  }
 }
