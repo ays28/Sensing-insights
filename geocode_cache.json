@@ -228,5 +228,42 @@
     "lon": 55.1885387,
     "lat": 25.0742823,
     "display_name": "Dubai Emirate, Dubai, United Arab Emirates"
+  },
+  "bab el-mandeb strait, near yemen": null,
+  "strait of hormuz, near united arab emirates": null,
+  "muscat, oman": {
+    "lon": 58.5938134,
+    "lat": 23.6123628,
+    "display_name": "Muscat, Muscat Province, Muscat Governorate, Oman"
+  },
+  "ras laffan industrial city, qatar": {
+    "lon": 51.5331527,
+    "lat": 25.8976567,
+    "display_name": "Ras Laffan Industrial City, Qatar"
+  },
+  "beirut, lebanon": {
+    "lon": 35.5025585,
+    "lat": 33.8892265,
+    "display_name": "Beirut, Basta Tahta, Bashura, Beirut Governorate, Lebanon"
+  },
+  "baghdad, iraq": {
+    "lon": 44.3872213,
+    "lat": 33.3061701,
+    "display_name": "Baghdad, Green Zone Municipality, Baghdad Governorate, Iraq"
+  },
+  "moscow, russia": {
+    "lon": 37.6063916,
+    "lat": 55.625578,
+    "display_name": "Moscow, Central Federal District, Russia"
+  },
+  "ankara, turkey": {
+    "lon": 32.8540497,
+    "lat": 39.9207759,
+    "display_name": "Ankara, Çankaya, Ankara, Central Anatolia Region, 06420, Turkey"
+  },
+  "houston, united states": {
+    "lon": -95.3676974,
+    "lat": 29.7589382,
+    "display_name": "Houston, Harris County, Texas, United States"
   }
 }

@@ -6,6 +6,92 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          35.49667721600103,
+          33.90709470769638
+        ]
+      },
+      "properties": {
+        "id": "b1fb0b4f7f04",
+        "event_type": "strike",
+        "severity": 76,
+        "confidence": "high",
+        "title": "Beirut hotel strike kills four; Israel says it targeted Iranian commanders",
+        "timestamp_utc": "2026-03-08T00:00:00Z",
+        "location_name": "Beirut, Lebanon",
+        "location_resolved": "Beirut, Basta Tahta, Bashura, Beirut Governorate, Lebanon",
+        "actors": [
+          "Israel",
+          "Iran (commanders)",
+          "Lebanon"
+        ],
+        "implication": "Targeted strikes in Beirut increase probability of Hezbollah retaliation and wider disruption risk.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/least-two-killed-strike-hotel-building-central-beirut-security-source-says-2026-03-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3872213,
+          33.3061701
+        ]
+      },
+      "properties": {
+        "id": "3f8e254b6f69",
+        "event_type": "strike",
+        "severity": 68,
+        "confidence": "high",
+        "title": "Katyusha rockets target US embassy in Baghdad, security sources say",
+        "timestamp_utc": "2026-03-07T00:00:00Z",
+        "location_name": "Baghdad, Iraq",
+        "location_resolved": "Baghdad, Green Zone Municipality, Baghdad Governorate, Iraq",
+        "actors": [
+          "Unknown militants",
+          "United States Embassy Baghdad"
+        ],
+        "implication": "Attacks on US facilities in Iraq raise risk of US retaliation and additional sanctions/force deployments, reinforcing risk-off.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/katyusha-rockets-target-us-embassy-baghdad-security-sources-say-2026-03-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2313667,
+          25.4147357
+        ]
+      },
+      "properties": {
+        "id": "fb45636fee2a",
+        "event_type": "other",
+        "severity": 78,
+        "confidence": "high",
+        "title": "Maritime war-risk insurance premiums surge (some >1000%) as Gulf conflict widens and Hormuz traffic is paralyzed",
+        "timestamp_utc": "2026-03-06T00:00:00Z",
+        "location_name": "Fujairah, United Arab Emirates",
+        "location_resolved": "الفجيرة, الإمارات العربية المتحدة",
+        "actors": [
+          "Marine insurers",
+          "Reinsurers",
+          "Shipowners"
+        ],
+        "implication": "Insurance and security costs can become a de facto supply constraint, sustaining higher delivered energy prices and inflation pressure.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/maritime-insurance-premiums-surge-iran-conflict-widens-2026-03-06/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           56.20873605587019,
           26.454797182976307
         ]
@@ -169,6 +255,33 @@
         "implication": "Domestic political constraints can shape conflict duration and perceived escalation risk; market impact via risk premium.",
         "source_urls": [
           "https://www.reuters.com/world/asia-pacific/iran-launches-wave-missiles-israel-us-republicans-block-measure-halt-us-air-2026-03-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3676974,
+          29.7589382
+        ]
+      },
+      "properties": {
+        "id": "7fa0a299e70e",
+        "event_type": "other",
+        "severity": 58,
+        "confidence": "high",
+        "title": "Oil prices settle up around 5% on supply concerns as Iran conflict widens",
+        "timestamp_utc": "2026-03-05T00:00:00Z",
+        "location_name": "Houston, United States",
+        "location_resolved": "Houston, Harris County, Texas, United States",
+        "actors": [
+          "Oil market participants"
+        ],
+        "implication": "Energy price spike feeds inflation expectations and can pressure EM FX and widen credit spreads.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05/"
         ]
       }
     },
@@ -797,6 +910,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          51.5331527,
+          25.8976567
+        ]
+      },
+      "properties": {
+        "id": "b2dabbcee737",
+        "event_type": "shipping_disruption",
+        "severity": 85,
+        "confidence": "high",
+        "title": "Qatar shuts gas liquefaction and declares force majeure on LNG exports; restart expected to take weeks",
+        "timestamp_utc": "2026-03-04T00:00:00Z",
+        "location_name": "Ras Laffan Industrial City, Qatar",
+        "location_resolved": "Ras Laffan Industrial City, Qatar",
+        "actors": [
+          "QatarEnergy",
+          "Qatar"
+        ],
+        "implication": "Loss of ~20% global LNG supply risks European/Asian gas price spikes and raises broader inflation/industrial risk.",
+        "source_urls": [
+          "http://reuters.com/business/energy/qatar-shuts-gas-liquefaction-will-take-weeks-restart-sources-say-2026-03-04/",
+          "https://today.reuters.com/business/energy/there-is-little-us-lng-producers-can-do-immediately-replace-lost-qatari-cargoes-2026-03-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -77.03910113048559,
           38.88755065460704
         ]
@@ -825,8 +967,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.0060152,
-          40.7127281
+          -73.99124846885482,
+          40.706922129570856
         ]
       },
       "properties": {
@@ -1018,6 +1160,121 @@
         "source_urls": [
           "https://www.reuters.com/world/middle-east/us-orders-non-emergency-staff-leave-bahrain-iraq-jordan-2026-03-03/",
           "http://mobile.reuters.com/world/middle-east/us-orders-non-emergency-staff-leave-bahrain-iraq-jordan-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.6340004,
+          19.6230411
+        ]
+      },
+      "properties": {
+        "id": "3a20fac360f7",
+        "event_type": "strike",
+        "severity": 72,
+        "confidence": "high",
+        "title": "Drone attack hits fuel tank at Duqm port",
+        "timestamp_utc": "2026-03-03T00:00:00Z",
+        "location_name": "Duqm, Oman",
+        "location_resolved": "الدقم, ولاية الدقم, محافظة الوسطى, عمان",
+        "actors": [
+          "Oman",
+          "Unmanned aircraft (suspected Iranian-linked)"
+        ],
+        "implication": "Port/energy infrastructure attacks broaden the conflict footprint and increase downside risks to regional logistics and refined products.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/drone-hits-fuel-tank-omans-duqm-port-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.49375493547281,
+          33.88671815493789
+        ]
+      },
+      "properties": {
+        "id": "eae6ca2ded8b",
+        "event_type": "strike",
+        "severity": 80,
+        "confidence": "high",
+        "title": "Hezbollah launches missiles/drones at Israel; Israel sends troops into south Lebanon and strikes Beirut",
+        "timestamp_utc": "2026-03-03T00:00:00Z",
+        "location_name": "Beirut, Lebanon",
+        "location_resolved": "Beirut, Basta Tahta, Bashura, Beirut Governorate, Lebanon",
+        "actors": [
+          "Hezbollah",
+          "Israel"
+        ],
+        "implication": "Northern front escalation raises multi-theatre tail risk and complicates de-escalation pathways; supports risk-off and regional asset volatility.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/lebanon-sucked-deeper-into-war-hezbollah-israel-trade-blows-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99679476346647,
+          40.702750021530804
+        ]
+      },
+      "properties": {
+        "id": "58d6c23fa516",
+        "event_type": "cyber",
+        "severity": 55,
+        "confidence": "high",
+        "title": "US banks put on high alert for potential Iranian cyberattacks as war escalates",
+        "timestamp_utc": "2026-03-03T00:00:00Z",
+        "location_name": "New York, United States",
+        "location_resolved": "New York, United States",
+        "actors": [
+          "U.S. banks",
+          "U.S. government",
+          "Iran-aligned cyber actors"
+        ],
+        "implication": "Elevated cyber risk can tighten financial conditions and amplify equity volatility if disruptions occur.",
+        "source_urls": [
+          "https://www.reuters.com/business/finance/us-banks-high-alert-cyberattacks-iran-war-escalates-2026-03-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8540497,
+          39.9207759
+        ]
+      },
+      "properties": {
+        "id": "3f0cf2d27f7f",
+        "event_type": "diplomacy",
+        "severity": 45,
+        "confidence": "high",
+        "title": "Turkey says it's engaging with all sides to end Iran war and resume diplomacy",
+        "timestamp_utc": "2026-03-03T00:00:00Z",
+        "location_name": "Ankara, Turkey",
+        "location_resolved": "Ankara, Çankaya, Ankara, Central Anatolia Region, 06420, Turkey",
+        "actors": [
+          "Turkey",
+          "Iran",
+          "United States",
+          "Israel"
+        ],
+        "implication": "Regional mediation attempts suggest off-ramps, but ongoing strikes keep risk elevated.",
+        "source_urls": [
+          "https://reuters.com/world/middle-east/turkey-says-its-engaging-with-all-sides-end-iran-war-resume-diplomacy-2026-03-03/"
         ]
       }
     },
@@ -1537,6 +1794,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          55.9233,
+          21.4735
+        ]
+      },
+      "properties": {
+        "id": "86b8f9498592",
+        "event_type": "shipping_disruption",
+        "severity": 97,
+        "confidence": "high",
+        "title": "Iran says Strait of Hormuz is closed; IRGC warns it will fire on any ship attempting transit",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Iran Revolutionary Guard Corps (IRGC)",
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "Explicit closure threat raises immediate disruption risk for ~20% of global oil flows and elevates risk premia across energy and risk assets.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6063916,
+          55.625578
+        ]
+      },
+      "properties": {
+        "id": "ff91dc7c82d0",
+        "event_type": "diplomacy",
+        "severity": 50,
+        "confidence": "high",
+        "title": "Putin offers to use Russia ties to Iran to help restore calm; calls with Gulf leaders emphasize ceasefire",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Moscow, Russia",
+        "location_resolved": "Moscow, Central Federal District, Russia",
+        "actors": [
+          "Russia",
+          "Iran",
+          "Saudi Arabia",
+          "United Arab Emirates",
+          "Bahrain",
+          "Qatar"
+        ],
+        "implication": "Diplomatic engagement may cap worst-case outcomes, but also signals conflict seen as high-risk by major stakeholders.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/kremlin-says-it-is-constant-contact-with-iranian-leadership-over-outright-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           51.397497451381895,
           35.67244647246939
         ]
@@ -1624,8 +1942,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.25,
-          26.58
+          56.243035967808325,
+          26.573174761622024
         ]
       },
       "properties": {
@@ -1730,6 +2048,149 @@
         "implication": "Elevated cyber activity can increase operational risk for financial/telecom services and signal escalation beyond kinetic domains.",
         "source_urls": [
           "https://www.reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.51218721931387,
+          15.55109823366628
+        ]
+      },
+      "properties": {
+        "id": "92cd075ad8ac",
+        "event_type": "shipping_disruption",
+        "severity": 82,
+        "confidence": "high",
+        "title": "Maersk pauses Bab el-Mandeb/Suez transits and suspends Strait of Hormuz crossings amid escalation",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Bab el-Mandeb Strait, near Yemen",
+        "location_resolved": "Centroid: yemen",
+        "actors": [
+          "Maersk"
+        ],
+        "implication": "Container line rerouting signals broader trade/logistics shock and compounds Middle East maritime risk beyond crude flows.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/maersk-pauses-sailings-through-suez-canal-bab-el-mandeb-strait-citing-escalating-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.25898885089281,
+          26.582636173047216
+        ]
+      },
+      "properties": {
+        "id": "0020a47afb9e",
+        "event_type": "strike",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Three tankers damaged near Strait of Hormuz; one seafarer killed as risks to shipping surge",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Strait of Hormuz, near United Arab Emirates",
+        "location_resolved": "Centroid: strait of hormuz",
+        "actors": [
+          "Commercial shipping",
+          "Iran",
+          "United States"
+        ],
+        "implication": "Multiple vessel damage incidents intensify war-risk repricing and can restrict effective oil/LNG tanker availability.",
+        "source_urls": [
+          "http://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.5938134,
+          23.6123628
+        ]
+      },
+      "properties": {
+        "id": "03681a283819",
+        "event_type": "strike",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Projectile hits product tanker MKD VYOM off Muscat; crew member killed",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Muscat, Oman",
+        "location_resolved": "Muscat, Muscat Province, Muscat Governorate, Oman",
+        "actors": [
+          "MKD VYOM",
+          "V.Ships",
+          "Commercial shipping"
+        ],
+        "implication": "Fatal strike reinforces insurer/shipowner avoidance behavior and increases freight rates for Gulf-adjacent routes.",
+        "source_urls": [
+          "https://www.reuters.com/world/crew-member-killed-after-projectile-hits-mkd-vyom-tanker-off-oman-manager-says-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3896004,
+          35.6892523
+        ]
+      },
+      "properties": {
+        "id": "41f56c2cca74",
+        "event_type": "cyber",
+        "severity": 62,
+        "confidence": "high",
+        "title": "Hackers hit Iranian apps and websites alongside strikes; connectivity drops reported",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Tehran, Iran",
+        "location_resolved": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran",
+        "actors": [
+          "Cybersecurity researchers",
+          "Iranian apps/websites"
+        ],
+        "implication": "Cyber operations increase escalation pathways and raise operational risk for regional/Western firms, including potential spillover to finance/energy.",
+        "source_urls": [
+          "https://www.reuters.com/business/media-telecom/hackers-hit-iranian-apps-websites-after-us-israeli-strikes-2026-03-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3912972,
+          39.9057136
+        ]
+      },
+      "properties": {
+        "id": "ca07d78205a9",
+        "event_type": "diplomacy",
+        "severity": 48,
+        "confidence": "high",
+        "title": "China condemns attacks on Iran and urges immediate ceasefire and talks",
+        "timestamp_utc": "2026-03-01T00:00:00Z",
+        "location_name": "Beijing, China",
+        "location_resolved": "Beijing, China",
+        "actors": [
+          "China",
+          "United States",
+          "Israel",
+          "Iran"
+        ],
+        "implication": "Major-power calls for ceasefire underline systemic energy/trade risk; potential for UN/security council activity.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/china-urges-immediate-ceasefire-after-us-israel-strike-iran-2026-03-01/"
         ]
       }
     },
@@ -1918,8 +2379,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.5164,
-          15.5527
+          48.51651741009416,
+          15.547609392353197
         ]
       },
       "properties": {

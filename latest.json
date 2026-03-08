@@ -1,89 +1,66 @@
 {
   "headline_summary": [
-    "Iran declares Strait of Hormuz closed and threatens ships attempting to transit (shipping_disruption, sev 97) — Strait of Hormuz",
-    "Iran declares Strait of Hormuz closed and threatens ships attempting to transit (shipping_disruption, sev 97) — Strait of Hormuz",
-    "Vessel traffic through Strait of Hormuz nearly halted; ~300 tankers stranded (shipping_disruption, sev 92) — Strait of Hormuz",
-    "Vessel traffic through Strait of Hormuz nearly halted; tankers reported stranded (shipping_disruption, sev 92) — Strait of Hormuz",
-    "Strait of Hormuz vessel traffic sharply reduced; US discusses naval escorts for tankers (shipping_disruption, sev 92) — Strait of Hormuz",
-    "Shipping through the Strait of Hormuz grinds to near halt; large backlog of tankers and cargo vessels (shipping_disruption, sev 92) — Strait of Hormuz, near Oman",
-    "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported (shipping_disruption, sev 92) — Strait of Hormuz",
-    "US and Israel launch pre-emptive strikes on Iran (strike, sev 92) — Iran",
-    "US and Israel launch pre-emptive strikes on Iran (strike, sev 92) — Iran",
-    "US and Israel launch pre-emptive strikes on Iran (strike, sev 92) — Tehran, Iran"
+    "Iran says Strait of Hormuz is closed; IRGC warns it will fire on any ship attempting transit",
+    "Qatar shuts gas liquefaction and declares force majeure on LNG exports; restart expected to take weeks",
+    "Maritime war-risk insurance premiums surge (some >1000%) as Gulf conflict widens and Hormuz traffic is paralyzed",
+    "Hezbollah launches missiles/drones at Israel; Israel sends troops into south Lebanon and strikes Beirut",
+    "Katyusha rockets target US embassy in Baghdad, security sources say"
   ],
-  "risk_score": 97,
+  "risk_score": 92,
   "risk_drivers": [
-    "shipping_disruption",
-    "strike"
+    "Explicit Strait of Hormuz closure threat / de facto traffic paralysis",
+    "Attacks on tankers, ports, and energy infrastructure across Gulf",
+    "LNG supply shock from Qatar force majeure",
+    "Multi-theatre escalation (Lebanon/Israel; Iraq attacks on US facilities)",
+    "Surging maritime insurance and cyber-retaliation risk"
   ],
   "market_implications": {
-    "Energy": [],
-    "FX": [],
-    "Rates": [],
-    "Equities": []
+    "Energy": [
+      "Higher crude risk premium; backwardation/volatility risk if Hormuz disruption persists.",
+      "LNG/European gas upside risk due to Qatari supply outage and constrained rerouting."
+    ],
+    "FX": [
+      "EM oil-importer FX downside risk; USD/JPY and CHF bid on risk-off; Gulf pegs watched for reserve drawdowns."
+    ],
+    "Rates": [
+      "Inflation shock risk lifts breakevens; front-end cuts repriced; credit spreads can widen on risk-off."
+    ],
+    "Equities": [
+      "Risk-off tilt: energy/defense outperform; airlines/chemicals/transport underperform; higher vol."
+    ]
   },
   "sources": [
     {
-      "title": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
+      "title": "Iran vows to attack any ship trying to pass through Strait of Hormuz",
       "url": "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/",
-      "publisher": "",
-      "published_at": ""
+      "publisher": "Reuters",
+      "published_at": "2026-03-02"
     },
     {
-      "title": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
-      "url": "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/",
-      "publisher": "",
-      "published_at": ""
+      "title": "Exclusive: Qatar shuts gas liquefaction, will take weeks to restart, sources say",
+      "url": "http://reuters.com/business/energy/qatar-shuts-gas-liquefaction-will-take-weeks-restart-sources-say-2026-03-04/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-04"
     },
     {
-      "title": "Vessel traffic through Strait of Hormuz nearly halted; ~300 tankers stranded",
-      "url": "http://reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05/",
-      "publisher": "",
-      "published_at": ""
+      "title": "Maritime insurance premiums surge as Iran conflict widens",
+      "url": "https://www.reuters.com/world/middle-east/maritime-insurance-premiums-surge-iran-conflict-widens-2026-03-06/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-06"
     },
     {
-      "title": "Vessel traffic through Strait of Hormuz nearly halted; tankers reported stranded",
-      "url": "http://reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05/",
-      "publisher": "",
-      "published_at": ""
+      "title": "Lebanon sucked deeper into war as Hezbollah, Israel trade blows",
+      "url": "https://www.reuters.com/world/middle-east/lebanon-sucked-deeper-into-war-hezbollah-israel-trade-blows-2026-03-03/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-03"
     },
     {
-      "title": "Strait of Hormuz vessel traffic sharply reduced; US discusses naval escorts for tankers",
-      "url": "https://reuters.com/world/middle-east/iran-conflicts-impact-energy-temporary-small-price-us-energy-secretary-says-2026-03-05/",
-      "publisher": "",
-      "published_at": ""
-    },
-    {
-      "title": "Shipping through the Strait of Hormuz grinds to near halt; large backlog of tankers and cargo vessels",
-      "url": "http://www.reuters.com/business/energy/iran-conflict-disrupts-global-shipping-tankers-are-stranded-damaged-2026-03-02/",
-      "publisher": "",
-      "published_at": ""
-    },
-    {
-      "title": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported",
-      "url": "https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/",
-      "publisher": "",
-      "published_at": ""
-    },
-    {
-      "title": "US and Israel launch pre-emptive strikes on Iran",
-      "url": "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/",
-      "publisher": "",
-      "published_at": ""
-    },
-    {
-      "title": "US and Israel launch pre-emptive strikes on Iran",
-      "url": "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/",
-      "publisher": "",
-      "published_at": ""
-    },
-    {
-      "title": "US and Israel launch pre-emptive strikes on Iran",
-      "url": "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/",
-      "publisher": "",
-      "published_at": ""
+      "title": "Katyusha rockets target US embassy in Baghdad, security sources say",
+      "url": "https://www.reuters.com/world/middle-east/katyusha-rockets-target-us-embassy-baghdad-security-sources-say-2026-03-07/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-07"
     }
   ],
-  "generated_at_utc": "2026-03-08T01:22:22.983658Z",
-  "generated_at_ist": "2026-03-08T06:52:22.983675+05:30"
+  "generated_at_utc": "2026-03-08T12:35:06.998308Z",
+  "generated_at_ist": "2026-03-08T18:05:06.998327+05:30"
 }
