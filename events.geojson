@@ -6,6 +6,236 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          55.1722705408171,
+          25.06997253696827
+        ]
+      },
+      "properties": {
+        "id": "478e03e2533d",
+        "event_type": "other",
+        "severity": 35,
+        "confidence": "high",
+        "title": "Gulf stock markets slip as Houthis enter conflict; Brent ends Friday up sharply",
+        "timestamp_utc": "2026-03-29T00:00:00Z",
+        "location_name": "Dubai, United Arab Emirates",
+        "location_resolved": "Dubai Emirate, Dubai, United Arab Emirates",
+        "actors": [
+          "Investors",
+          "Gulf stock markets"
+        ],
+        "implication": "Shows market transmission channel: equities risk-off and elevated energy prices feeding broader risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/most-gulf-markets-ease-fears-broader-iran-conflict-2026-03-29/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6852475,
+          24.7358465
+        ]
+      },
+      "properties": {
+        "id": "1ece962c7606",
+        "event_type": "strike",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Iranian missile and drone attacks damage Emirates Global Aluminium Al Taweelah base",
+        "timestamp_utc": "2026-03-28T00:00:00Z",
+        "location_name": "Al Taweelah, United Arab Emirates",
+        "location_resolved": "Al Taweelah, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "Iran",
+          "Emirates Global Aluminium (EGA)",
+          "United Arab Emirates"
+        ],
+        "implication": "Shows conflict spillover into UAE industrial assets; raises regional risk premium and supply-chain disruption beyond energy.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/emirates-global-aluminium-reports-significant-damage-iranian-strikes-2026-03-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.96467561796604,
+          29.385681042371505
+        ]
+      },
+      "properties": {
+        "id": "bcdfaaaf3c5d",
+        "event_type": "strike",
+        "severity": 65,
+        "confidence": "high",
+        "title": "Drone attacks damage radar system at Kuwait International Airport, authorities say",
+        "timestamp_utc": "2026-03-28T00:00:00Z",
+        "location_name": "Kuwait City, Kuwait",
+        "location_resolved": "Kuwait City, Qibla, Capital Governorate, 15005, Kuwait",
+        "actors": [
+          "Kuwait Civil Aviation Authority",
+          "Kuwait"
+        ],
+        "implication": "Highlights widening target set to Gulf aviation and critical infrastructure; increases operational disruption and insurance costs.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/kuwait-international-airport-suffers-significant-radar-system-damage-after-drone-2026-03-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.37335786656243,
+          24.454018110667715
+        ]
+      },
+      "properties": {
+        "id": "5933af7a8ba7",
+        "event_type": "strike",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Debris from missile interception near KEZAD sparks fires and injures five in Abu Dhabi",
+        "timestamp_utc": "2026-03-28T00:00:00Z",
+        "location_name": "Abu Dhabi, United Arab Emirates",
+        "location_resolved": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "United Arab Emirates",
+          "Iran"
+        ],
+        "implication": "Even successful intercepts create domestic disruption; reinforces escalation risk for Gulf hubs and ports.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/five-injured-abu-dhabi-after-missile-intercepted-near-kezad-authorities-say-2026-03-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2,
+          15.35
+        ]
+      },
+      "properties": {
+        "id": "fbf87c9d06f0",
+        "event_type": "strike",
+        "severity": 55,
+        "confidence": "high",
+        "title": "Yemen's Houthis confirm launching first missile attack on Israel in current war",
+        "timestamp_utc": "2026-03-28T00:00:00Z",
+        "location_name": "Sanaa, Yemen",
+        "location_resolved": "Amanat Al Asimah, Yemen",
+        "actors": [
+          "Houthis",
+          "Israel",
+          "Yemen"
+        ],
+        "implication": "Marks Houthi entry into the Iran-linked conflict; raises probability of renewed Red Sea and Bab el-Mandeb shipping attacks.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/yemens-houthis-confirm-launching-attack-israel-first-time-current-war-2026-03-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.92580476930498,
+          21.457660336894435
+        ]
+      },
+      "properties": {
+        "id": "a45ef1a7571d",
+        "event_type": "shipping_disruption",
+        "severity": 85,
+        "confidence": "high",
+        "title": "Two Chinese COSCO container ships abort first Gulf exit attempt via Strait of Hormuz",
+        "timestamp_utc": "2026-03-27T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "COSCO Shipping",
+          "China",
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "Demonstrates safe-passage assurances are not restoring traffic; prolongs effective shipping paralysis and supports oil/LNG risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/world/china/chinese-ships-halt-attempt-exit-hormuz-despite-iran-safe-passage-assurances-2026-03-27/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0280575940222,
+          38.90298586075515
+        ]
+      },
+      "properties": {
+        "id": "90a0f53f1328",
+        "event_type": "other",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Reuters: US can only confirm about a third of Iran's missile arsenal destroyed",
+        "timestamp_utc": "2026-03-27T00:00:00Z",
+        "location_name": "Washington, DC, United States",
+        "location_resolved": "Washington, District of Columbia, United States",
+        "actors": [
+          "United States",
+          "Iran",
+          "Israel"
+        ],
+        "implication": "Suggests Iran retains meaningful strike capacity; supports tail-risk of prolonged conflict and further infrastructure hits.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/us-can-only-confirm-about-third-irans-missile-arsenal-destroyed-sources-say-2026-03-27/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0337406506229,
+          38.880537052187236
+        ]
+      },
+      "properties": {
+        "id": "9c76b0b84698",
+        "event_type": "sanctions",
+        "severity": 40,
+        "confidence": "high",
+        "title": "US issues 30-day waiver allowing sale/delivery of Iranian-origin oil loaded at sea",
+        "timestamp_utc": "2026-03-20T00:00:00Z",
+        "location_name": "Washington, DC, United States",
+        "location_resolved": "Washington, District of Columbia, United States",
+        "actors": [
+          "U.S. Treasury",
+          "United States",
+          "Iran"
+        ],
+        "implication": "Signals US willingness to use sanctions flexibility to manage oil prices; may partially offset supply shock but underscores severity of disruption.",
+        "source_urls": [
+          "http://reuters.com/business/energy/us-authorizes-temporary-delivery-sale-oil-originating-iran-2026-03-20/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           35.49667721600103,
           33.90709470769638
         ]
@@ -460,8 +690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.1885387,
-          25.0742823
+          55.207002772942985,
+          25.067655912248792
         ]
       },
       "properties": {
@@ -1511,8 +1741,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.3774014,
-          24.4538352
+          54.373296148225634,
+          24.453846886224962
         ]
       },
       "properties": {
@@ -1539,8 +1769,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.9734174,
-          29.3796532
+          47.97771452751063,
+          29.380642339889334
         ]
       },
       "properties": {
@@ -1794,8 +2024,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.9233,
-          21.4735
+          55.91907935702708,
+          21.455473127440378
         ]
       },
       "properties": {

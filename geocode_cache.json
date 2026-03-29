@@ -265,5 +265,15 @@
     "lon": -95.3676974,
     "lat": 29.7589382,
     "display_name": "Houston, Harris County, Texas, United States"
+  },
+  "al taweelah, united arab emirates": {
+    "lon": 54.6852475,
+    "lat": 24.7358465,
+    "display_name": "Al Taweelah, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates"
+  },
+  "sanaa, yemen": {
+    "lon": 44.2,
+    "lat": 15.35,
+    "display_name": "Amanat Al Asimah, Yemen"
   }
 }
