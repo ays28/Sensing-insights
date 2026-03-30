@@ -6,6 +6,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.12457744048983066,
+          51.511089906498654
+        ]
+      },
+      "properties": {
+        "id": "89a5a13cab76",
+        "event_type": "other",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Oil prices extend gains as conflict and chokepoint risk persist; Brent set for record monthly rise",
+        "timestamp_utc": "2026-03-30T00:00:00Z",
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "Oil markets",
+          "United States",
+          "Iran",
+          "Israel"
+        ],
+        "implication": "Rising crude prices signal tight supply expectations; increases inflation risks and can worsen EM FX and credit conditions.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/oil-prices-jump-after-yemeni-houthis-attack-israel-widening-iran-conflict-2026-03-29/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           55.1722705408171,
           25.06997253696827
         ]
@@ -34,8 +64,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.6852475,
-          24.7358465
+          55.916982666327634,
+          21.45776442049333
+        ]
+      },
+      "properties": {
+        "id": "c29200fab051",
+        "event_type": "shipping_disruption",
+        "severity": 90,
+        "confidence": "high",
+        "title": "Strait of Hormuz shipping largely halted; limited ‘non-hostile’ transits continue under coordination",
+        "timestamp_utc": "2026-03-29T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Iran",
+          "Commercial shipping",
+          "India"
+        ],
+        "implication": "Sustained chokepoint constraint supports a large oil risk premium and elevates energy-supply and freight risks globally.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/two-india-bound-lpg-tankers-clear-strait-hormuz-government-says-2026-03-29/",
+          "https://www.reuters.com/business/energy/oil-prices-jump-after-yemeni-houthis-attack-israel-widening-iran-conflict-2026-03-29/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06859765586512,
+          33.70481551059625
+        ]
+      },
+      "properties": {
+        "id": "93739b4ec40f",
+        "event_type": "diplomacy",
+        "severity": 65,
+        "confidence": "high",
+        "title": "Pakistan hosts Turkey, Egypt and Saudi Arabia on proposals to reopen Strait of Hormuz and end Iran war",
+        "timestamp_utc": "2026-03-29T00:00:00Z",
+        "location_name": "Islamabad, Pakistan",
+        "location_resolved": "Islamabad, Zone 1, Islamabad Capital Territory, 44000, Pakistan",
+        "actors": [
+          "Pakistan",
+          "Turkey",
+          "Egypt",
+          "Saudi Arabia",
+          "Iran",
+          "United States",
+          "China"
+        ],
+        "implication": "Diplomatic channel aimed at reducing shipping disruption; any credible reopening mechanism would reduce oil and risk-off pressure.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/pakistan-hosts-regional-powers-iran-talks-with-focus-hormuz-proposals-2026-03-29/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.69054952889093,
+          24.741458510427442
         ]
       },
       "properties": {
@@ -1658,8 +1751,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1277653,
-          51.5074456
+          -0.1264745237630413,
+          51.49954541482446
         ]
       },
       "properties": {
@@ -2286,8 +2379,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.5164,
-          15.5527
+          48.51218721931387,
+          15.55109823366628
         ]
       },
       "properties": {
@@ -5124,6 +5217,349 @@
         "implication": "Information operations raise instability/miscalculation risk and can accompany kinetic escalation.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/iranian-state-tv-hacked-opposition-figure-aired-2026-03-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.87598975683348,
+          30.803609756554977
+        ]
+      },
+      "properties": {
+        "id": "e920cf79218a",
+        "event_type": "strike",
+        "severity": 60,
+        "confidence": "med",
+        "title": "Houthi missile attack toward Israel revives fears of renewed Red Sea shipping strikes",
+        "timestamp_utc": null,
+        "location_name": "Israel",
+        "location_resolved": "Israel",
+        "actors": [
+          "Houthis",
+          "Israel"
+        ],
+        "implication": "Heightens probability of renewed risk to Bab el-Mandeb/Red Sea routes and adds an incremental geopolitical premium to oil and freight.",
+        "source_urls": [
+          "https://apnews.com/article/iran-israel-us-houthis-yemen-dba2e2e2309f08547a3cbfdc2c367897"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.50601711597038,
+          15.549061832089311
+        ]
+      },
+      "properties": {
+        "id": "567a45932f56",
+        "event_type": "shipping_disruption",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Houthis signal readiness to strike Bab el-Mandeb/Red Sea shipping if Iran war escalates",
+        "timestamp_utc": null,
+        "location_name": "Bab el-Mandeb Strait, near Yemen",
+        "location_resolved": "Centroid: yemen",
+        "actors": [
+          "Houthi movement",
+          "Iran"
+        ],
+        "implication": "Raises probability of renewed Red Sea attacks and diversions around the Cape, increasing freight and energy price upside risk.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/yemens-houthis-ready-join-iran-war-if-needed-raising-new-shipping-risk-2026-03-26/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0651511,
+          33.6938118
+        ]
+      },
+      "properties": {
+        "id": "d340da125083",
+        "event_type": "diplomacy",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Pakistan hosts Turkey, Egypt and Saudi Arabia talks on proposals to reopen Strait of Hormuz",
+        "timestamp_utc": null,
+        "location_name": "Islamabad, Pakistan",
+        "location_resolved": "Islamabad, Zone 1, Islamabad Capital Territory, 44000, Pakistan",
+        "actors": [
+          "Pakistan",
+          "Turkey",
+          "Egypt",
+          "Saudi Arabia",
+          "Iran",
+          "United States",
+          "China"
+        ],
+        "implication": "Regional diplomacy centers on mechanisms (fees/consortium) to restore Hormuz shipping; any progress could reduce energy tail risk.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/pakistan-hosts-regional-powers-iran-talks-with-focus-hormuz-proposals-2026-03-29/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.92285591790928,
+          21.467959372286572
+        ]
+      },
+      "properties": {
+        "id": "82ff9bc5f1de",
+        "event_type": "shipping_disruption",
+        "severity": 62,
+        "confidence": "med",
+        "title": "Iran agrees to allow limited Pakistani-flagged vessel transits through Strait of Hormuz, Pakistan says",
+        "timestamp_utc": null,
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Iran",
+          "Pakistan"
+        ],
+        "implication": "Partial/conditional transit arrangements suggest continued friction and potential tolling, keeping war-risk premia elevated.",
+        "source_urls": [
+          "https://www.aljazeera.com/news/2026/3/28/pakistan-secures-iran-deal-to-send-20-ships-through-strait-of-hormuz"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5540150325011,
+          34.123893781021394
+        ]
+      },
+      "properties": {
+        "id": "d984a51bcbd2",
+        "event_type": "strike",
+        "severity": 66,
+        "confidence": "high",
+        "title": "Israel orders expansion of operations in southern Lebanon amid Hezbollah rocket fire",
+        "timestamp_utc": null,
+        "location_name": "Southern Lebanon, Lebanon",
+        "location_resolved": "New Lebanon Southern Methodist Church, New Lebanon Road, Blue Springs, Blount County, Alabama, 35031, United States",
+        "actors": [
+          "Israel",
+          "Hezbollah"
+        ],
+        "implication": "Increases risk of wider Israel-Hezbollah conflict alongside Iran war dynamics, supporting risk-off pricing.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/netanyahu-orders-expansion-security-buffer-zone-southern-lebanon-2026-03-29/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.220447263647394,
+          26.45370582691416
+        ]
+      },
+      "properties": {
+        "id": "6d4fb0d7f73b",
+        "event_type": "shipping_disruption",
+        "severity": 62,
+        "confidence": "high",
+        "title": "Two India-bound LPG tankers (BW Tyr, BW Elm) transit the Strait of Hormuz under coordination",
+        "timestamp_utc": null,
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "India",
+          "BW LPG",
+          "Iran"
+        ],
+        "implication": "Selective clearances indicate a partial, controlled reopening for 'non-hostile' vessels, but overall throughput remains constrained.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/two-india-bound-lpg-tankers-clear-strait-hormuz-government-says-2026-03-29/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.21989130412531,
+          26.459305080633477
+        ]
+      },
+      "properties": {
+        "id": "35ecdaa29b75",
+        "event_type": "shipping_disruption",
+        "severity": 68,
+        "confidence": "high",
+        "title": "Chinese-operated container ships turn back from attempted Hormuz exit despite Iran assurances",
+        "timestamp_utc": null,
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "COSCO Shipping",
+          "Iran",
+          "IRGC Navy"
+        ],
+        "implication": "Turn-backs and reported IRGC warnings signal continued uncertainty and operational risk for commercial shipping even for 'friendly' flags.",
+        "source_urls": [
+          "https://www.reuters.com/world/china/chinese-ships-halt-attempt-exit-hormuz-despite-iran-safe-passage-assurances-2026-03-27/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.69895787326323,
+          24.745123494943556
+        ]
+      },
+      "properties": {
+        "id": "e6274567f555",
+        "event_type": "strike",
+        "severity": 75,
+        "confidence": "high",
+        "title": "Emirates Global Aluminium reports significant damage at Al Taweelah from Iranian missile/drone attacks",
+        "timestamp_utc": null,
+        "location_name": "Al Taweelah, Abu Dhabi, United Arab Emirates",
+        "location_resolved": "Al Taweelah, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "Iran",
+          "Emirates Global Aluminium"
+        ],
+        "implication": "Strike expansion into UAE raises escalation risk and disrupts metals supply; reinforces risk-off and higher insurance/logistics costs in Gulf.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/emirates-global-aluminium-reports-significant-damage-iranian-strikes-2026-03-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2357257,
+          30.0443879
+        ]
+      },
+      "properties": {
+        "id": "6e8932e3bb91",
+        "event_type": "other",
+        "severity": 45,
+        "confidence": "high",
+        "title": "Egypt announces temporary cuts to fuel allocations and slowdown of high-diesel state projects",
+        "timestamp_utc": null,
+        "location_name": "Cairo, Egypt",
+        "location_resolved": "Cairo, Egypt",
+        "actors": [
+          "Egypt"
+        ],
+        "implication": "Energy-cost shock transmits to fiscal/real-economy measures in major MENA importer, raising sovereign and inflation sensitivity.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/egypt-slow-down-some-state-projects-two-months-amid-iran-war-prime-minister-says-2026-03-28/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0365427,
+          38.8950368
+        ]
+      },
+      "properties": {
+        "id": "f190a83df5a2",
+        "event_type": "diplomacy",
+        "severity": 66,
+        "confidence": "high",
+        "title": "US says it will pause attacks on Iran's energy plants for 10 days as indirect talks continue",
+        "timestamp_utc": null,
+        "location_name": "Washington, DC, United States",
+        "location_resolved": "Washington, District of Columbia, United States",
+        "actors": [
+          "United States",
+          "Iran",
+          "Pakistan"
+        ],
+        "implication": "Temporary pause is a de-escalation signal but fragile; negotiation outcomes directly affect Hormuz navigation and energy supply risk.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/iran-says-it-is-reviewing-us-ceasefire-plan-no-talks-trump-says-tehran-leaders-2026-03-26/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.848127819106885,
+          30.81778490023996
+        ]
+      },
+      "properties": {
+        "id": "599d109f06c4",
+        "event_type": "strike",
+        "severity": 72,
+        "confidence": "med",
+        "title": "Markets report: Yemen's Houthis launch first attacks on Israel since war began, widening conflict",
+        "timestamp_utc": null,
+        "location_name": "Israel",
+        "location_resolved": "Israel",
+        "actors": [
+          "Houthis",
+          "Israel"
+        ],
+        "implication": "Conflict widening raises risk of additional shipping/energy disruptions and supports a higher geopolitical premium in crude.",
+        "source_urls": [
+          "https://www.reuters.com/world/india/gold-falls-houthi-attack-lifts-oil-fed-rate-cut-hopes-dim-2026-03-30/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.54162684532254,
+          34.112556883318945
+        ]
+      },
+      "properties": {
+        "id": "f8e16fb499a3",
+        "event_type": "strike",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Israel orders expansion of operations in southern Lebanon to halt Hezbollah rockets",
+        "timestamp_utc": null,
+        "location_name": "Southern Lebanon, Lebanon",
+        "location_resolved": "New Lebanon Southern Methodist Church, New Lebanon Road, Blue Springs, Blount County, Alabama, 35031, United States",
+        "actors": [
+          "Israel",
+          "Hezbollah"
+        ],
+        "implication": "Expanded operations increase multi-front escalation risk, potentially affecting regional risk premia and broader risk-off positioning.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/netanyahu-orders-expansion-security-buffer-zone-southern-lebanon-2026-03-29/"
         ]
       }
     }

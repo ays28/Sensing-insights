@@ -1,1 +1,231 @@
-{"latest":{"headline_summary":[],"risk_score":0,"risk_drivers":[],"market_implications":{"Energy":[],"FX":[],"Rates":[],"Equities":[]},"sources":[]},"events":[],"links":[]}
+{
+  "latest": {
+    "headline_summary": [
+      "Pakistan hosts Turkey/Egypt/Saudi talks on proposals to reopen Strait of Hormuz shipping (Reuters, Mar 29)",
+      "Two India-bound LPG tankers (BW Tyr, BW Elm) safely transit the Strait of Hormuz amid restrictions (Reuters, Mar 29)",
+      "Israel orders expansion of operations/security zone in southern Lebanon amid Hezbollah rocket fire (Reuters, Mar 29)",
+      "Chinese-operated container ships CSCL Indian Ocean and CSCL Arctic Ocean turn back from Hormuz after attempted exit; IRGC warnings reported (Reuters, Mar 27)",
+      "UAE's Emirates Global Aluminium reports significant damage at Al Taweelah site from Iranian missile/drone attacks (Reuters, Mar 28)",
+      "Egypt announces temporary austerity/remote-work measures to cope with economic fallout from Iran war and higher energy costs (Reuters, Mar 28)",
+      "Trump says US will pause attacks on Iran's energy plants for 10 days; indirect talks via Pakistan continue, per Reuters (Mar 26)",
+      "Markets: Reuters notes oil gains after Yemen's Houthis launch first attacks on Israel since war began, widening conflict (Mar 30)"
+    ],
+    "risk_score": 82,
+    "risk_drivers": [
+      "Strait of Hormuz transit restrictions and ad-hoc clearance regime",
+      "Regional spillover (Lebanon/Hezbollah front) alongside Iran-US/Israel conflict",
+      "Expanded strike footprint (UAE industrial facilities hit)",
+      "Diplomatic uncertainty around ceasefire proposals and maritime reopening mechanisms",
+      "Potential further widening (Houthis entering Israel strike set)"
+    ],
+    "market_implications": {
+      "Energy": [
+        "Elevated crude/LNG risk premia persist while Hormuz passage depends on case-by-case clearances; any convoy/consortium plan could reduce tail risk but is not operational yet.",
+        "Higher freight, insurance and rerouting costs likely endure; industrial supply chains (e.g., Gulf aluminium shipments) face disruption if exports remain constrained."
+      ],
+      "FX": [
+        "Oil-importer EM FX (e.g., parts of Asia/MENA) faces renewed pressure if energy prices stay bid; safe-haven demand supports USD in risk-off episodes.",
+        "Gulf FX pegs may see reserve draw sensitivity if export receipts are constrained for longer."
+      ],
+      "Rates": [
+        "Sticky energy-driven inflation risk can keep global rate-cut expectations constrained; wider credit spreads possible for high energy-import exposure sovereigns.",
+        "Any credible de-escalation/maritime reopening signal would likely tighten risk premia and support duration."
+      ],
+      "Equities": [
+        "Risk-off rotations likely favor energy/defense while pressuring airlines, shipping, and energy-intensive industrials (e.g., metals) as supply/logistics costs rise.",
+        "Middle East regional equities face higher geopolitical discount; global cyclicals sensitive to shipping/energy disruptions."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Pakistan hosts regional powers for Iran talks, with focus on Hormuz proposals",
+        "url": "https://www.reuters.com/world/asia-pacific/pakistan-hosts-regional-powers-iran-talks-with-focus-hormuz-proposals-2026-03-29/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-29"
+      },
+      {
+        "title": "Two India-bound LPG tankers clear Strait of Hormuz, government says",
+        "url": "https://www.reuters.com/business/energy/two-india-bound-lpg-tankers-clear-strait-hormuz-government-says-2026-03-29/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-29"
+      },
+      {
+        "title": "Israel's Netanyahu orders expansion of southern Lebanon operations to halt Hezbollah rockets",
+        "url": "https://www.reuters.com/world/middle-east/netanyahu-orders-expansion-security-buffer-zone-southern-lebanon-2026-03-29/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-29"
+      },
+      {
+        "title": "Chinese ships halt attempt to exit Hormuz despite Iran safe passage assurances",
+        "url": "https://www.reuters.com/world/china/chinese-ships-halt-attempt-exit-hormuz-despite-iran-safe-passage-assurances-2026-03-27/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-27"
+      },
+      {
+        "title": "Emirates Global Aluminium reports 'significant damage' from Iranian strikes",
+        "url": "https://www.reuters.com/world/middle-east/emirates-global-aluminium-reports-significant-damage-iranian-strikes-2026-03-28/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-28"
+      },
+      {
+        "title": "Egypt to slow down some state projects for two months amid Iran war, prime minister says",
+        "url": "https://www.reuters.com/business/energy/egypt-slow-down-some-state-projects-two-months-amid-iran-war-prime-minister-says-2026-03-28/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-28"
+      },
+      {
+        "title": "Trump pauses attacks on Iran's energy plants, says talks 'going well'",
+        "url": "https://www.reuters.com/world/asia-pacific/iran-says-it-is-reviewing-us-ceasefire-plan-no-talks-trump-says-tehran-leaders-2026-03-26/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-26"
+      },
+      {
+        "title": "Gold rises as investors buy the dip, while fading rate-cut bets cap upside",
+        "url": "https://www.reuters.com/world/india/gold-falls-houthi-attack-lifts-oil-fed-rate-cut-hopes-dim-2026-03-30/",
+        "publisher": "Reuters",
+        "published_at": "2026-03-30"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_type": "diplomacy",
+      "severity": 70,
+      "confidence": "high",
+      "title": "Pakistan hosts Turkey, Egypt and Saudi Arabia talks on proposals to reopen Strait of Hormuz",
+      "timestamp_utc": null,
+      "location_name": "Islamabad, Pakistan",
+      "actors": ["Pakistan", "Turkey", "Egypt", "Saudi Arabia", "Iran", "United States", "China"],
+      "implication": "Regional diplomacy centers on mechanisms (fees/consortium) to restore Hormuz shipping; any progress could reduce energy tail risk.",
+      "source_urls": ["https://www.reuters.com/world/asia-pacific/pakistan-hosts-regional-powers-iran-talks-with-focus-hormuz-proposals-2026-03-29/"]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 62,
+      "confidence": "high",
+      "title": "Two India-bound LPG tankers (BW Tyr, BW Elm) transit the Strait of Hormuz under coordination",
+      "timestamp_utc": null,
+      "location_name": "Strait of Hormuz",
+      "actors": ["India", "BW LPG", "Iran"],
+      "implication": "Selective clearances indicate a partial, controlled reopening for 'non-hostile' vessels, but overall throughput remains constrained.",
+      "source_urls": ["https://www.reuters.com/business/energy/two-india-bound-lpg-tankers-clear-strait-hormuz-government-says-2026-03-29/"]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 68,
+      "confidence": "high",
+      "title": "Chinese-operated container ships turn back from attempted Hormuz exit despite Iran assurances",
+      "timestamp_utc": null,
+      "location_name": "Strait of Hormuz",
+      "actors": ["COSCO Shipping", "Iran", "IRGC Navy"],
+      "implication": "Turn-backs and reported IRGC warnings signal continued uncertainty and operational risk for commercial shipping even for 'friendly' flags.",
+      "source_urls": ["https://www.reuters.com/world/china/chinese-ships-halt-attempt-exit-hormuz-despite-iran-safe-passage-assurances-2026-03-27/"]
+    },
+    {
+      "event_type": "strike",
+      "severity": 75,
+      "confidence": "high",
+      "title": "Emirates Global Aluminium reports significant damage at Al Taweelah from Iranian missile/drone attacks",
+      "timestamp_utc": null,
+      "location_name": "Al Taweelah, Abu Dhabi, United Arab Emirates",
+      "actors": ["Iran", "Emirates Global Aluminium"],
+      "implication": "Strike expansion into UAE raises escalation risk and disrupts metals supply; reinforces risk-off and higher insurance/logistics costs in Gulf.",
+      "source_urls": ["https://www.reuters.com/world/middle-east/emirates-global-aluminium-reports-significant-damage-iranian-strikes-2026-03-28/"]
+    },
+    {
+      "event_type": "other",
+      "severity": 45,
+      "confidence": "high",
+      "title": "Egypt announces temporary cuts to fuel allocations and slowdown of high-diesel state projects",
+      "timestamp_utc": null,
+      "location_name": "Cairo, Egypt",
+      "actors": ["Egypt"],
+      "implication": "Energy-cost shock transmits to fiscal/real-economy measures in major MENA importer, raising sovereign and inflation sensitivity.",
+      "source_urls": ["https://www.reuters.com/business/energy/egypt-slow-down-some-state-projects-two-months-amid-iran-war-prime-minister-says-2026-03-28/"]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 66,
+      "confidence": "high",
+      "title": "US says it will pause attacks on Iran's energy plants for 10 days as indirect talks continue",
+      "timestamp_utc": null,
+      "location_name": "Washington, DC, United States",
+      "actors": ["United States", "Iran", "Pakistan"],
+      "implication": "Temporary pause is a de-escalation signal but fragile; negotiation outcomes directly affect Hormuz navigation and energy supply risk.",
+      "source_urls": ["https://www.reuters.com/world/asia-pacific/iran-says-it-is-reviewing-us-ceasefire-plan-no-talks-trump-says-tehran-leaders-2026-03-26/"]
+    },
+    {
+      "event_type": "strike",
+      "severity": 72,
+      "confidence": "med",
+      "title": "Markets report: Yemen's Houthis launch first attacks on Israel since war began, widening conflict",
+      "timestamp_utc": null,
+      "location_name": "Israel",
+      "actors": ["Houthis", "Israel"],
+      "implication": "Conflict widening raises risk of additional shipping/energy disruptions and supports a higher geopolitical premium in crude.",
+      "source_urls": ["https://www.reuters.com/world/india/gold-falls-houthi-attack-lifts-oil-fed-rate-cut-hopes-dim-2026-03-30/"]
+    },
+    {
+      "event_type": "strike",
+      "severity": 60,
+      "confidence": "high",
+      "title": "Israel orders expansion of operations in southern Lebanon to halt Hezbollah rockets",
+      "timestamp_utc": null,
+      "location_name": "Southern Lebanon, Lebanon",
+      "actors": ["Israel", "Hezbollah"],
+      "implication": "Expanded operations increase multi-front escalation risk, potentially affecting regional risk premia and broader risk-off positioning.",
+      "source_urls": ["https://www.reuters.com/world/middle-east/netanyahu-orders-expansion-security-buffer-zone-southern-lebanon-2026-03-29/"]
+    }
+  ],
+  "links": [
+    {
+      "from": "US says it will pause attacks on Iran's energy plants for 10 days as indirect talks continue",
+      "to": "Pakistan hosts Turkey, Egypt and Saudi Arabia talks on proposals to reopen Strait of Hormuz",
+      "relation": "enables_diplomatic_track",
+      "confidence": "med",
+      "why": "A temporary pause in strikes may create space for regional intermediaries to advance ceasefire/shipping proposals."
+    },
+    {
+      "from": "Pakistan hosts Turkey, Egypt and Saudi Arabia talks on proposals to reopen Strait of Hormuz",
+      "to": "Two India-bound LPG tankers (BW Tyr, BW Elm) transit the Strait of Hormuz under coordination",
+      "relation": "signals_partial_opening",
+      "confidence": "med",
+      "why": "Diplomacy focused on reopening Hormuz aligns with reports of selective transits under coordination."
+    },
+    {
+      "from": "Chinese-operated container ships turn back from attempted Hormuz exit despite Iran assurances",
+      "to": "oil_up_risk",
+      "relation": "increases_risk",
+      "confidence": "high",
+      "why": "Turn-backs imply shipping unreliability at a key energy chokepoint, sustaining oil risk premium."
+    },
+    {
+      "from": "Emirates Global Aluminium reports significant damage at Al Taweelah from Iranian missile/drone attacks",
+      "to": "risk_off_flows",
+      "relation": "triggers",
+      "confidence": "med",
+      "why": "Strike expansion into the UAE increases perceived regional escalation and can drive risk-off positioning."
+    },
+    {
+      "from": "Markets report: Yemen's Houthis launch first attacks on Israel since war began, widening conflict",
+      "to": "oil_up_risk",
+      "relation": "increases_risk",
+      "confidence": "med",
+      "why": "A wider conflict footprint tends to raise the probability of additional supply/logistics disruptions."
+    },
+    {
+      "from": "oil_up_risk",
+      "to": "em_fx_pressure",
+      "relation": "pressures",
+      "confidence": "high",
+      "why": "Higher oil prices worsen import bills and inflation for net oil importers, pressuring EM FX."
+    },
+    {
+      "from": "oil_up_risk",
+      "to": "rates_credit_spreads",
+      "relation": "widens",
+      "confidence": "med",
+      "why": "Energy inflation risk can keep policy restrictive and widen credit spreads for vulnerable sovereigns/corporates."
+    }
+  ]
+}

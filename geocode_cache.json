@@ -275,5 +275,25 @@
     "lon": 44.2,
     "lat": 15.35,
     "display_name": "Amanat Al Asimah, Yemen"
+  },
+  "islamabad, pakistan": {
+    "lon": 73.0651511,
+    "lat": 33.6938118,
+    "display_name": "Islamabad, Zone 1, Islamabad Capital Territory, 44000, Pakistan"
+  },
+  "southern lebanon, lebanon": {
+    "lon": -86.545813,
+    "lat": 34.1289767,
+    "display_name": "New Lebanon Southern Methodist Church, New Lebanon Road, Blue Springs, Blount County, Alabama, 35031, United States"
+  },
+  "al taweelah, abu dhabi, united arab emirates": {
+    "lon": 54.6852475,
+    "lat": 24.7358465,
+    "display_name": "Al Taweelah, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates"
+  },
+  "cairo, egypt": {
+    "lon": 31.2357257,
+    "lat": 30.0443879,
+    "display_name": "Cairo, Egypt"
   }
 }

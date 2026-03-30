@@ -21,6 +21,16 @@
       "group": "market"
     },
     {
+      "id": "89a5a13cab76",
+      "label": "Oil prices extend gains as conflict and chokepoint risk persist; Brent set for r",
+      "group": "event",
+      "severity": 70,
+      "confidence": "high",
+      "event_type": "other",
+      "timestamp_utc": "2026-03-30T00:00:00Z",
+      "location_name": "London, United Kingdom"
+    },
+    {
       "id": "478e03e2533d",
       "label": "Gulf stock markets slip as Houthis enter conflict; Brent ends Friday up sharply",
       "group": "event",
@@ -29,6 +39,26 @@
       "event_type": "other",
       "timestamp_utc": "2026-03-29T00:00:00Z",
       "location_name": "Dubai, United Arab Emirates"
+    },
+    {
+      "id": "c29200fab051",
+      "label": "Strait of Hormuz shipping largely halted; limited ‘non-hostile’ transits continu",
+      "group": "event",
+      "severity": 90,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-03-29T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman"
+    },
+    {
+      "id": "93739b4ec40f",
+      "label": "Pakistan hosts Turkey, Egypt and Saudi Arabia on proposals to reopen Strait of H",
+      "group": "event",
+      "severity": 65,
+      "confidence": "high",
+      "event_type": "diplomacy",
+      "timestamp_utc": "2026-03-29T00:00:00Z",
+      "location_name": "Islamabad, Pakistan"
     },
     {
       "id": "1ece962c7606",
@@ -1919,6 +1949,126 @@
       "event_type": "cyber",
       "timestamp_utc": null,
       "location_name": "Tehran, Iran"
+    },
+    {
+      "id": "e920cf79218a",
+      "label": "Houthi missile attack toward Israel revives fears of renewed Red Sea shipping st",
+      "group": "event",
+      "severity": 60,
+      "confidence": "med",
+      "event_type": "strike",
+      "timestamp_utc": null,
+      "location_name": "Israel"
+    },
+    {
+      "id": "567a45932f56",
+      "label": "Houthis signal readiness to strike Bab el-Mandeb/Red Sea shipping if Iran war es",
+      "group": "event",
+      "severity": 70,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": null,
+      "location_name": "Bab el-Mandeb Strait, near Yemen"
+    },
+    {
+      "id": "d340da125083",
+      "label": "Pakistan hosts Turkey, Egypt and Saudi Arabia talks on proposals to reopen Strai",
+      "group": "event",
+      "severity": 70,
+      "confidence": "high",
+      "event_type": "diplomacy",
+      "timestamp_utc": null,
+      "location_name": "Islamabad, Pakistan"
+    },
+    {
+      "id": "82ff9bc5f1de",
+      "label": "Iran agrees to allow limited Pakistani-flagged vessel transits through Strait of",
+      "group": "event",
+      "severity": 62,
+      "confidence": "med",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": null,
+      "location_name": "Strait of Hormuz, near Oman"
+    },
+    {
+      "id": "d984a51bcbd2",
+      "label": "Israel orders expansion of operations in southern Lebanon amid Hezbollah rocket ",
+      "group": "event",
+      "severity": 66,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": null,
+      "location_name": "Southern Lebanon, Lebanon"
+    },
+    {
+      "id": "6d4fb0d7f73b",
+      "label": "Two India-bound LPG tankers (BW Tyr, BW Elm) transit the Strait of Hormuz under ",
+      "group": "event",
+      "severity": 62,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": null,
+      "location_name": "Strait of Hormuz"
+    },
+    {
+      "id": "35ecdaa29b75",
+      "label": "Chinese-operated container ships turn back from attempted Hormuz exit despite Ir",
+      "group": "event",
+      "severity": 68,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": null,
+      "location_name": "Strait of Hormuz"
+    },
+    {
+      "id": "e6274567f555",
+      "label": "Emirates Global Aluminium reports significant damage at Al Taweelah from Iranian",
+      "group": "event",
+      "severity": 75,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": null,
+      "location_name": "Al Taweelah, Abu Dhabi, United Arab Emirates"
+    },
+    {
+      "id": "6e8932e3bb91",
+      "label": "Egypt announces temporary cuts to fuel allocations and slowdown of high-diesel s",
+      "group": "event",
+      "severity": 45,
+      "confidence": "high",
+      "event_type": "other",
+      "timestamp_utc": null,
+      "location_name": "Cairo, Egypt"
+    },
+    {
+      "id": "f190a83df5a2",
+      "label": "US says it will pause attacks on Iran's energy plants for 10 days as indirect ta",
+      "group": "event",
+      "severity": 66,
+      "confidence": "high",
+      "event_type": "diplomacy",
+      "timestamp_utc": null,
+      "location_name": "Washington, DC, United States"
+    },
+    {
+      "id": "599d109f06c4",
+      "label": "Markets report: Yemen's Houthis launch first attacks on Israel since war began, ",
+      "group": "event",
+      "severity": 72,
+      "confidence": "med",
+      "event_type": "strike",
+      "timestamp_utc": null,
+      "location_name": "Israel"
+    },
+    {
+      "id": "f8e16fb499a3",
+      "label": "Israel orders expansion of operations in southern Lebanon to halt Hezbollah rock",
+      "group": "event",
+      "severity": 60,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": null,
+      "location_name": "Southern Lebanon, Lebanon"
     }
   ],
   "edges": [
@@ -1934,7 +2084,7 @@
       "to": "rates_credit_spreads",
       "label": "widens",
       "confidence": "med",
-      "why": "Energy-driven inflation shock can push yields/breakevens up and widen credit spreads on growth concerns."
+      "why": "Energy inflation risk can keep policy restrictive and widen credit spreads for vulnerable sovereigns/corporates."
     },
     {
       "from": "cfd5266bbcf1",
@@ -1958,6 +2108,20 @@
       "why": "Sustained strikes increase tail-risk of regional escalation, prompting de-risking."
     },
     {
+      "from": "567a45932f56",
+      "to": "risk_off_flows",
+      "label": "triggers",
+      "confidence": "med",
+      "why": "An expanded maritime theater typically lifts geopolitical risk premium and drives defensive positioning."
+    },
+    {
+      "from": "e6274567f555",
+      "to": "risk_off_flows",
+      "label": "triggers",
+      "confidence": "med",
+      "why": "Strike expansion into the UAE increases perceived regional escalation and can drive risk-off positioning."
+    },
+    {
       "from": "fbf87c9d06f0",
       "to": "oil_up_risk",
       "label": "threatens_shipping_routes",
@@ -1970,6 +2134,20 @@
       "label": "supports",
       "confidence": "med",
       "why": "Signals widening target set and conflict duration uncertainty."
+    },
+    {
+      "from": "d340da125083",
+      "to": "6d4fb0d7f73b",
+      "label": "signals_partial_opening",
+      "confidence": "med",
+      "why": "Diplomacy focused on reopening Hormuz aligns with reports of selective transits under coordination."
+    },
+    {
+      "from": "e920cf79218a",
+      "to": "oil_up_risk",
+      "label": "shipping_route_threat_extends_risk_premium",
+      "confidence": "med",
+      "why": "AP reports the attack raising fears for Red Sea shipping; disruption risk at Bab el-Mandeb can tighten supply logistics."
     },
     {
       "from": "ec354518f923",
@@ -2707,6 +2885,13 @@
       "why": "Diplomacy can reduce near-term risk-off pressure"
     },
     {
+      "from": "d340da125083",
+      "to": "oil_up_risk",
+      "label": "reduces",
+      "confidence": "med",
+      "why": "Credible de-escalation and reopening mechanisms would lower immediate supply disruption risk premia."
+    },
+    {
       "from": "1cd2e6b94e64",
       "to": "oil_up_risk",
       "label": "raises",
@@ -2967,6 +3152,41 @@
     },
     {
       "from": "5933af7a8ba7",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "e920cf79218a",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "d984a51bcbd2",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "e6274567f555",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "599d109f06c4",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "f8e16fb499a3",
       "to": "oil_up_risk",
       "label": "raises",
       "confidence": "med",
@@ -3351,6 +3571,13 @@
       "why": "Sanctions flexibility can add barrels, partially offsetting disruption-driven price pressures."
     },
     {
+      "from": "89a5a13cab76",
+      "to": "rates_credit_spreads",
+      "label": "inflation_and_uncertainty_widen_spreads",
+      "confidence": "med",
+      "why": "Large energy price increases can lift inflation expectations while uncertainty widens credit spreads."
+    },
+    {
       "from": "d2b973c80894",
       "to": "rates_credit_spreads",
       "label": "increases_risk_of",
@@ -3365,11 +3592,46 @@
       "why": "Qatari LNG outage tightens global gas and can spill over into oil product substitution and broader energy risk premia."
     },
     {
+      "from": "599d109f06c4",
+      "to": "oil_up_risk",
+      "label": "increases_risk",
+      "confidence": "med",
+      "why": "A wider conflict footprint tends to raise the probability of additional supply/logistics disruptions."
+    },
+    {
+      "from": "d984a51bcbd2",
+      "to": "risk_off_flows",
+      "label": "increases",
+      "confidence": "med",
+      "why": "Additional front with Hezbollah raises regional escalation risk and uncertainty."
+    },
+    {
+      "from": "risk_off_flows",
+      "to": "em_fx_pressure",
+      "label": "increases",
+      "confidence": "med",
+      "why": "Risk-off episodes often pressure higher-beta EM FX, especially alongside higher energy costs."
+    },
+    {
+      "from": "89a5a13cab76",
+      "to": "risk_off_flows",
+      "label": "geopolitical_shock_drives_risk_aversion",
+      "confidence": "med",
+      "why": "Reuters notes escalation and large oil move; such shocks commonly trigger de-risking across assets."
+    },
+    {
       "from": "fbf87c9d06f0",
       "to": "risk_off_flows",
       "label": "escalation_risk",
       "confidence": "med",
       "why": "Additional front increases uncertainty and tends to trigger risk-off positioning."
+    },
+    {
+      "from": "f190a83df5a2",
+      "to": "d340da125083",
+      "label": "enables_diplomatic_track",
+      "confidence": "med",
+      "why": "A temporary pause in strikes may create space for regional intermediaries to advance ceasefire/shipping proposals."
     },
     {
       "from": "23ef53063b4d",
@@ -3475,6 +3737,41 @@
       "label": "drives",
       "confidence": "med",
       "why": "Attacks on US facilities raise retaliation risk and uncertainty, typically triggering risk-off positioning."
+    },
+    {
+      "from": "567a45932f56",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "82ff9bc5f1de",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "6d4fb0d7f73b",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "35ecdaa29b75",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "93739b4ec40f",
+      "to": "oil_up_risk",
+      "label": "deescalation_channel_can_reduce_premium",
+      "confidence": "med",
+      "why": "Reuters reports proposals focused on unblocking Hormuz; progress would directly mitigate the primary supply chokepoint risk."
     },
     {
       "from": "d104c2ee807b",
@@ -3909,6 +4206,69 @@
       "label": "contributes_to",
       "confidence": "med",
       "why": "Sanctions uncertainty can add to risk-off sentiment"
+    },
+    {
+      "from": "c29200fab051",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "e920cf79218a",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "567a45932f56",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "82ff9bc5f1de",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "d984a51bcbd2",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "6d4fb0d7f73b",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "35ecdaa29b75",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "599d109f06c4",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "f8e16fb499a3",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Kinetic escalation can trigger risk-off positioning"
     },
     {
       "from": "d104c2ee807b",
@@ -6736,7 +7096,7 @@
       "to": "fbf87c9d06f0",
       "label": "actor_link",
       "confidence": "med",
-      "why": "Shared actor: yemen, houthis; Same area: yemen; Regionally close (~463km)"
+      "why": "Shared actor: houthis, yemen; Same area: yemen; Regionally close (~463km)"
     },
     {
       "from": "b24fb98b4b16",
@@ -6772,6 +7132,34 @@
       "label": "actor_link",
       "confidence": "med",
       "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Regionally close (~441km)"
+    },
+    {
+      "from": "4992928feb8a",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Regionally close (~440km)"
+    },
+    {
+      "from": "ec354518f923",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Regionally close (~441km)"
+    },
+    {
+      "from": "b24fb98b4b16",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Regionally close (~450km)"
+    },
+    {
+      "from": "58d23fc291ff",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "med",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Regionally close (~450km)"
     },
     {
       "from": "bcdfaaaf3c5d",
@@ -6810,6 +7198,27 @@
     },
     {
       "from": "dc3a2c2b34aa",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
+      "from": "93739b4ec40f",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
+      "from": "d340da125083",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
+      "from": "f190a83df5a2",
       "to": "risk_off_flows",
       "label": "reduces",
       "confidence": "low",
@@ -6891,6 +7300,13 @@
       "label": "actor_link",
       "confidence": "low",
       "why": "Shared actor: iran; Within 7d"
+    },
+    {
+      "from": "c29200fab051",
+      "to": "oil_up_risk",
+      "label": "supply_chokepoint_adds_risk_premium",
+      "confidence": "high",
+      "why": "Reuters describes Hormuz effectively closed and a key conduit for global oil/gas; reduced flows lift crude risk premium."
     },
     {
       "from": "12812d18ac72",
@@ -7541,28 +7957,28 @@
       "to": "em_fx_pressure",
       "label": "pressures",
       "confidence": "high",
-      "why": "Higher energy import bills and inflation typically weaken EM FX, especially net oil importers."
+      "why": "Higher oil prices worsen import bills and inflation for net oil importers, pressuring EM FX."
     },
     {
       "from": "bc21c04c76a8",
       "to": "7bc1b19b96a2",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: strike; Same area: iran; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: united states, israel; Same type: strike; Same area: iran; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "2808cac09609",
       "to": "e6adac2c9511",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: kuwait, qatar; Same type: strike; Same area: uae; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: uae, bahrain; Same type: strike; Same area: uae; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "b6f1342b1331",
       "to": "7557abd37533",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: islamic revolutionary guard corps, commercial shipping; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "577ce6091237",
@@ -7583,42 +7999,42 @@
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "c5533488d4ca",
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "c5533488d4ca",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "c5914c702d47",
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "0cf5c5e47a24",
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: hezbollah, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "c5533488d4ca",
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "e403eed12d08",
@@ -7632,14 +8048,14 @@
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
     },
     {
       "from": "e403eed12d08",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
     },
     {
       "from": "e403eed12d08",
@@ -7674,14 +8090,14 @@
       "to": "7bc1b19b96a2",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: strike; Same area: iran; Within 72h; Regionally close (~445km); Escalation pattern"
+      "why": "Shared actor: united states, israel; Same type: strike; Same area: iran; Within 72h; Regionally close (~445km); Escalation pattern"
     },
     {
       "from": "a320489030af",
       "to": "bc21c04c76a8",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: strike; Same area: iran; Within 72h; Regionally close (~445km); Escalation pattern"
+      "why": "Shared actor: united states, israel; Same type: strike; Same area: iran; Within 72h; Regionally close (~445km); Escalation pattern"
     },
     {
       "from": "a320489030af",
@@ -7695,14 +8111,14 @@
       "to": "e6adac2c9511",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: kuwait, qatar; Same type: strike; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: uae, bahrain; Same type: strike; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "2d225419208f",
       "to": "2808cac09609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: kuwait, qatar; Same type: strike; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: uae, bahrain; Same type: strike; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "a320489030af",
@@ -8815,28 +9231,28 @@
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
       "to": "c5533488d4ca",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
@@ -9081,7 +9497,7 @@
       "to": "1ece962c7606",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: united arab emirates, iran; Same type: strike; Within 72h; Nearby (~44km); Escalation pattern"
+      "why": "Shared actor: united arab emirates, iran; Same type: strike; Within 72h; Nearby (~45km); Escalation pattern"
     },
     {
       "from": "86b8f9498592",
@@ -9089,6 +9505,20 @@
       "label": "increases_risk",
       "confidence": "high",
       "why": "Hormuz closure threatens a large share of seaborne oil exports, lifting crude risk premium."
+    },
+    {
+      "from": "35ecdaa29b75",
+      "to": "oil_up_risk",
+      "label": "increases_risk",
+      "confidence": "high",
+      "why": "Turn-backs imply shipping unreliability at a key energy chokepoint, sustaining oil risk premium."
+    },
+    {
+      "from": "567a45932f56",
+      "to": "oil_up_risk",
+      "label": "increases",
+      "confidence": "high",
+      "why": "Bab el-Mandeb disruption would raise freight/insurance costs and threaten flows via the Suez route, supporting crude/product upside risk."
     },
     {
       "from": "a45ef1a7571d",
@@ -9294,6 +9724,13 @@
       "why": "Shipping disruption increases energy risk"
     },
     {
+      "from": "c29200fab051",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "high",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
       "from": "335a9e6d2327",
       "to": "risk_off_flows",
       "label": "contributes_to",
@@ -9483,6 +9920,13 @@
       "why": "Kinetic escalation can trigger risk-off positioning"
     },
     {
+      "from": "e6274567f555",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "high",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
       "from": "risk_off_flows",
       "to": "em_fx_pressure",
       "label": "causes",
@@ -9515,7 +9959,7 @@
       "to": "4ef988b3cb13",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+      "why": "Shared actor: islamic revolutionary guard corps, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
     },
     {
       "from": "9e5270105c9a",
@@ -9585,21 +10029,21 @@
       "to": "12812d18ac72",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
+      "why": "Shared actor: hapag-lloyd, maersk; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
     },
     {
       "from": "62a1a6f17887",
       "to": "12812d18ac72",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
+      "why": "Shared actor: hapag-lloyd, maersk; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
     },
     {
       "from": "62a1a6f17887",
       "to": "ed0dc6b1bd91",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
+      "why": "Shared actor: hapag-lloyd, maersk; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
     },
     {
       "from": "094e555f2820",
@@ -9690,28 +10134,28 @@
       "to": "4ef988b3cb13",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: islamic revolutionary guard corps, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "b6f1342b1331",
       "to": "4ef988b3cb13",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: islamic revolutionary guard corps, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "7557abd37533",
       "to": "9c3dfb6c2829",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: islamic revolutionary guard corps, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "b6f1342b1331",
       "to": "9c3dfb6c2829",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: islamic revolutionary guard corps, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "3036f9f4e41c",
@@ -9844,7 +10288,7 @@
       "to": "a320489030af",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: strike; Same area: iran; Nearby (~0km)"
+      "why": "Shared actor: united states, israel; Same type: strike; Same area: iran; Nearby (~0km)"
     },
     {
       "from": "577ce6091237",
@@ -10089,14 +10533,14 @@
       "to": "7bc1b19b96a2",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: strike; Same area: iran; Regionally close (~445km)"
+      "why": "Shared actor: united states, israel; Same type: strike; Same area: iran; Regionally close (~445km)"
     },
     {
       "from": "1cd2e6b94e64",
       "to": "bc21c04c76a8",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: strike; Same area: iran; Regionally close (~445km)"
+      "why": "Shared actor: united states, israel; Same type: strike; Same area: iran; Regionally close (~445km)"
     },
     {
       "from": "cfd5266bbcf1",
@@ -10726,7 +11170,7 @@
       "to": "12812d18ac72",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: hapag-lloyd, maersk; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "574ac3242a06",
@@ -10754,14 +11198,14 @@
       "to": "cebe39a5adb6",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
+      "why": "Shared actor: hapag-lloyd, maersk; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
     },
     {
       "from": "62a1a6f17887",
       "to": "cebe39a5adb6",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
+      "why": "Shared actor: hapag-lloyd, maersk; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
     },
     {
       "from": "3036f9f4e41c",
@@ -10775,7 +11219,7 @@
       "to": "3de946e7413b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: strike; Same area: iran; Within 7d; Nearby (~1km)"
+      "why": "Shared actor: united states, israel; Same type: strike; Same area: iran; Within 7d; Nearby (~1km)"
     },
     {
       "from": "202ab9c72210",
@@ -10915,14 +11359,14 @@
       "to": "3de946e7413b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: strike; Same area: iran; Within 7d; Regionally close (~447km)"
+      "why": "Shared actor: united states, israel; Same type: strike; Same area: iran; Within 7d; Regionally close (~447km)"
     },
     {
       "from": "bc21c04c76a8",
       "to": "3de946e7413b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: strike; Same area: iran; Within 7d; Regionally close (~447km)"
+      "why": "Shared actor: united states, israel; Same type: strike; Same area: iran; Within 7d; Regionally close (~447km)"
     },
     {
       "from": "7557abd37533",
@@ -11314,7 +11758,7 @@
       "to": "e0e25f83ae66",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: qatar, qatarenergy; Same type: shipping_disruption; Same area: qatar; Within 72h; Nearby (~1km)"
+      "why": "Shared actor: qatarenergy, qatar; Same type: shipping_disruption; Same area: qatar; Within 72h; Nearby (~1km)"
     },
     {
       "from": "b2dabbcee737",
@@ -11384,7 +11828,7 @@
       "to": "b1fb0b4f7f04",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 7d; Nearby (~77km)"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 7d; Nearby (~77km)"
     },
     {
       "from": "c5533488d4ca",
@@ -11405,14 +11849,14 @@
       "to": "b1fb0b4f7f04",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 7d; Nearby (~77km)"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 7d; Nearby (~77km)"
     },
     {
       "from": "e403eed12d08",
       "to": "b1fb0b4f7f04",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 7d; Nearby (~66km)"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 7d; Nearby (~66km)"
     },
     {
       "from": "0020a47afb9e",
@@ -11524,21 +11968,21 @@
       "to": "fb45636fee2a",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: shipowners, marine insurers; Within 72h; Nearby (~110km)"
+      "why": "Shared actor: marine insurers, shipowners; Within 72h; Nearby (~110km)"
     },
     {
       "from": "3f0cf2d27f7f",
       "to": "a4f4ebb62609",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: turkey, iran; Same area: turkey; Within 72h; Regionally close (~383km)"
+      "why": "Shared actor: iran, turkey; Same area: turkey; Within 72h; Regionally close (~383km)"
     },
     {
       "from": "3f0cf2d27f7f",
       "to": "5f132135a0dd",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: turkey, iran; Same area: turkey; Within 72h; Regionally close (~383km)"
+      "why": "Shared actor: iran, turkey; Same area: turkey; Within 72h; Regionally close (~383km)"
     },
     {
       "from": "86b8f9498592",
@@ -11748,7 +12192,7 @@
       "to": "3f0cf2d27f7f",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: israel, united states; Same type: diplomacy; Within 72h"
+      "why": "Shared actor: united states, israel; Same type: diplomacy; Within 72h"
     },
     {
       "from": "86b8f9498592",
@@ -11846,56 +12290,56 @@
       "to": "1ece962c7606",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran; Within 72h; Regionally close (~385km)"
+      "why": "Shared actor: iran; Within 72h; Regionally close (~386km)"
     },
     {
       "from": "7557abd37533",
       "to": "1ece962c7606",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Nearby (~245km)"
+      "why": "Shared actor: iran; Same type: strike; Nearby (~244km)"
     },
     {
       "from": "b6f1342b1331",
       "to": "1ece962c7606",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Nearby (~245km)"
+      "why": "Shared actor: iran; Same type: strike; Nearby (~244km)"
     },
     {
       "from": "577ce6091237",
       "to": "1ece962c7606",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Nearby (~243km)"
+      "why": "Shared actor: iran; Same type: strike; Nearby (~242km)"
     },
     {
       "from": "202ab9c72210",
       "to": "1ece962c7606",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Nearby (~243km)"
+      "why": "Shared actor: iran; Same type: strike; Nearby (~242km)"
     },
     {
       "from": "e6adac2c9511",
       "to": "1ece962c7606",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Nearby (~43km)"
+      "why": "Shared actor: iran; Same type: strike; Nearby (~44km)"
     },
     {
       "from": "2808cac09609",
       "to": "1ece962c7606",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Nearby (~44km)"
+      "why": "Shared actor: iran; Same type: strike; Nearby (~45km)"
     },
     {
       "from": "2d225419208f",
       "to": "1ece962c7606",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Nearby (~42km)"
+      "why": "Shared actor: iran; Same type: strike; Nearby (~43km)"
     },
     {
       "from": "a45ef1a7571d",
@@ -11952,6 +12396,125 @@
       "label": "actor_link",
       "confidence": "high",
       "why": "Shared actor: us treasury, iran; Same type: sanctions; Nearby (~1km)"
+    },
+    {
+      "from": "a45ef1a7571d",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: oman; Within 72h; Nearby (~0km)"
+    },
+    {
+      "from": "0bf4127eee6a",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: oman; Nearby (~1km)"
+    },
+    {
+      "from": "86b8f9498592",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: oman; Nearby (~0km)"
+    },
+    {
+      "from": "c0da90f52d24",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Same area: oman; Nearby (~2km)"
+    },
+    {
+      "from": "dc4fa5e13f1d",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same type: shipping_disruption; Same area: oman; Nearby (~0km)"
+    },
+    {
+      "from": "1ece962c7606",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~386km)"
+    },
+    {
+      "from": "90a0f53f1328",
+      "to": "89a5a13cab76",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: united states, israel; Same type: other; Within 72h"
+    },
+    {
+      "from": "5933af7a8ba7",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Within 72h; Regionally close (~368km)"
+    },
+    {
+      "from": "03681a283819",
+      "to": "c29200fab051",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: commercial shipping; Same area: oman; Regionally close (~364km)"
+    },
+    {
+      "from": "35ecdaa29b75",
+      "to": "6d4fb0d7f73b",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: shipping_disruption; Same area: strait of hormuz; Nearby (~0km)"
+    },
+    {
+      "from": "599d109f06c4",
+      "to": "e920cf79218a",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: houthis, israel; Same type: strike; Same area: israel; Nearby (~3km)"
+    },
+    {
+      "from": "f8e16fb499a3",
+      "to": "d984a51bcbd2",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Nearby (~1km)"
+    },
+    {
+      "from": "35ecdaa29b75",
+      "to": "0020a47afb9e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: strait of hormuz; Nearby (~13km)"
+    },
+    {
+      "from": "6d4fb0d7f73b",
+      "to": "0020a47afb9e",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same area: strait of hormuz; Nearby (~14km)"
+    },
+    {
+      "from": "e6274567f555",
+      "to": "e6adac2c9511",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Nearby (~45km)"
+    },
+    {
+      "from": "e6274567f555",
+      "to": "2808cac09609",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Nearby (~45km)"
+    },
+    {
+      "from": "e6274567f555",
+      "to": "2d225419208f",
+      "label": "actor_link",
+      "confidence": "high",
+      "why": "Shared actor: iran; Same type: strike; Nearby (~44km)"
     }
   ]
 }
