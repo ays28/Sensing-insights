@@ -1,69 +1,89 @@
 {
   "headline_summary": [
-    "Hormuz shipping remains constrained as major operators fail to complete transits despite Iranian assurances.",
-    "Conflict spillover hits Gulf infrastructure: drone attacks damage Kuwait airport radar and missile-intercept debris sparks fires in Abu Dhabi.",
-    "Iran-linked Houthis launch first attack on Israel in this war, raising risk of renewed Red Sea disruption.",
-    "Industrial assets in the UAE report significant damage from Iranian strikes, widening economic exposure.",
-    "US policy signals price-management focus via temporary sanctions waiver allowing Iranian oil sales at sea."
+    "Iran declares Strait of Hormuz closed and threatens ships attempting to transit (shipping_disruption, sev 97) — Strait of Hormuz",
+    "Iran declares Strait of Hormuz closed and threatens ships attempting to transit (shipping_disruption, sev 97) — Strait of Hormuz",
+    "Iran says Strait of Hormuz is closed; IRGC warns it will fire on any ship attempting transit (shipping_disruption, sev 97) — Strait of Hormuz, near Oman",
+    "Vessel traffic through Strait of Hormuz nearly halted; ~300 tankers stranded (shipping_disruption, sev 92) — Strait of Hormuz",
+    "Vessel traffic through Strait of Hormuz nearly halted; tankers reported stranded (shipping_disruption, sev 92) — Strait of Hormuz",
+    "Strait of Hormuz vessel traffic sharply reduced; US discusses naval escorts for tankers (shipping_disruption, sev 92) — Strait of Hormuz",
+    "Shipping through the Strait of Hormuz grinds to near halt; large backlog of tankers and cargo vessels (shipping_disruption, sev 92) — Strait of Hormuz, near Oman",
+    "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported (shipping_disruption, sev 92) — Strait of Hormuz",
+    "US and Israel launch pre-emptive strikes on Iran (strike, sev 92) — Iran",
+    "US and Israel launch pre-emptive strikes on Iran (strike, sev 92) — Iran"
   ],
-  "risk_score": 88,
+  "risk_score": 97,
   "risk_drivers": [
-    "Strait of Hormuz transit unreliability / shipping paralysis",
-    "Expansion of strikes to Gulf airports/ports/industrial zones",
-    "New front opened by Houthis (Yemen) with potential Red Sea spillover",
-    "Unclear degradation of Iran's remaining missile/drone inventory",
-    "Policy uncertainty (US operational escalation vs. price-management tools)"
+    "shipping_disruption",
+    "strike"
   ],
   "market_implications": {
-    "Energy": [
-      "Upside tail-risk for Brent due to persistent Hormuz transit failures; tanker availability and insurance constraints remain binding.",
-      "Red Sea risk could reintroduce container and product shipping delays, widening energy logistics premia."
-    ],
-    "FX": [
-      "Risk-off episodes favor USD/CHF/JPY; EM oil importers face renewed pressure if energy prices stay elevated.",
-      "Gulf asset sentiment sensitive to infrastructure hits despite pegs; watch reserve/liquidity signals."
-    ],
-    "Rates": [
-      "Higher energy-driven inflation risk keeps breakevens supported; risk-off can steepen credit spreads.",
-      "Event risk may increase demand for duration hedges even as supply shocks complicate policy expectations."
-    ],
-    "Equities": [
-      "Gulf equities show sensitivity to escalation headlines; global equities likely rotate toward energy/defense while transport suffers.",
-      "Higher volatility regime persists while conflict expands to additional theatres and infrastructure."
-    ]
+    "Energy": [],
+    "FX": [],
+    "Rates": [],
+    "Equities": []
   },
   "sources": [
     {
-      "title": "Most Gulf markets ease on fears of broader Iran conflict",
-      "url": "https://www.reuters.com/world/middle-east/most-gulf-markets-ease-fears-broader-iran-conflict-2026-03-29/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-29"
+      "title": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
+      "url": "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/",
+      "publisher": "",
+      "published_at": ""
     },
     {
-      "title": "Yemen's Houthis confirm launching attack on Israel for first time in current war",
-      "url": "https://www.reuters.com/world/middle-east/yemens-houthis-confirm-launching-attack-israel-first-time-current-war-2026-03-28/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-28"
+      "title": "Iran declares Strait of Hormuz closed and threatens ships attempting to transit",
+      "url": "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/",
+      "publisher": "",
+      "published_at": ""
     },
     {
-      "title": "Chinese ships halt attempt to exit Hormuz despite Iran safe passage assurances",
-      "url": "https://www.reuters.com/world/china/chinese-ships-halt-attempt-exit-hormuz-despite-iran-safe-passage-assurances-2026-03-27/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-27"
+      "title": "Iran says Strait of Hormuz is closed; IRGC warns it will fire on any ship attempting transit",
+      "url": "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/",
+      "publisher": "",
+      "published_at": ""
     },
     {
-      "title": "Kuwait international airport suffers 'significant' radar system damage after drone attacks",
-      "url": "https://www.reuters.com/world/middle-east/kuwait-international-airport-suffers-significant-radar-system-damage-after-drone-2026-03-28/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-28"
+      "title": "Vessel traffic through Strait of Hormuz nearly halted; ~300 tankers stranded",
+      "url": "http://reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05/",
+      "publisher": "",
+      "published_at": ""
     },
     {
-      "title": "Emirates Global Aluminium reports 'significant damage' from Iranian strikes",
-      "url": "https://www.reuters.com/world/middle-east/emirates-global-aluminium-reports-significant-damage-iranian-strikes-2026-03-28/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-28"
+      "title": "Vessel traffic through Strait of Hormuz nearly halted; tankers reported stranded",
+      "url": "http://reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05/",
+      "publisher": "",
+      "published_at": ""
+    },
+    {
+      "title": "Strait of Hormuz vessel traffic sharply reduced; US discusses naval escorts for tankers",
+      "url": "https://reuters.com/world/middle-east/iran-conflicts-impact-energy-temporary-small-price-us-energy-secretary-says-2026-03-05/",
+      "publisher": "",
+      "published_at": ""
+    },
+    {
+      "title": "Shipping through the Strait of Hormuz grinds to near halt; large backlog of tankers and cargo vessels",
+      "url": "http://www.reuters.com/business/energy/iran-conflict-disrupts-global-shipping-tankers-are-stranded-damaged-2026-03-02/",
+      "publisher": "",
+      "published_at": ""
+    },
+    {
+      "title": "Commercial shipping disrupted as Iran says navigation through Strait of Hormuz halted; multiple tanker incidents reported",
+      "url": "https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/",
+      "publisher": "",
+      "published_at": ""
+    },
+    {
+      "title": "US and Israel launch pre-emptive strikes on Iran",
+      "url": "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/",
+      "publisher": "",
+      "published_at": ""
+    },
+    {
+      "title": "US and Israel launch pre-emptive strikes on Iran",
+      "url": "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/",
+      "publisher": "",
+      "published_at": ""
     }
   ],
-  "generated_at_utc": "2026-03-29T12:39:05.436139Z",
-  "generated_at_ist": "2026-03-29T18:09:05.436159+05:30"
+  "generated_at_utc": "2026-03-30T01:50:06.615915Z",
+  "generated_at_ist": "2026-03-30T07:20:06.615931+05:30"
 }

@@ -4482,14 +4482,14 @@
       "to": "7557abd37533",
       "label": "actor_link",
       "confidence": "med",
-      "why": "Shared actor: iran, commercial shipping; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Within 72h"
     },
     {
       "from": "0bf4127eee6a",
       "to": "b6f1342b1331",
       "label": "actor_link",
       "confidence": "med",
-      "why": "Shared actor: iran, commercial shipping; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Within 72h"
     },
     {
       "from": "1e14b27c2286",
@@ -6659,14 +6659,14 @@
       "to": "7557abd37533",
       "label": "actor_link",
       "confidence": "med",
-      "why": "Shared actor: iran, commercial shipping; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Within 72h"
     },
     {
       "from": "86b8f9498592",
       "to": "b6f1342b1331",
       "label": "actor_link",
       "confidence": "med",
-      "why": "Shared actor: iran, commercial shipping; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Within 72h"
     },
     {
       "from": "0020a47afb9e",
@@ -6736,7 +6736,7 @@
       "to": "fbf87c9d06f0",
       "label": "actor_link",
       "confidence": "med",
-      "why": "Shared actor: houthis, yemen; Same area: yemen; Regionally close (~463km)"
+      "why": "Shared actor: yemen, houthis; Same area: yemen; Regionally close (~463km)"
     },
     {
       "from": "b24fb98b4b16",
@@ -7555,14 +7555,14 @@
       "to": "e6adac2c9511",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: qatar, bahrain; Same type: strike; Same area: uae; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: kuwait, qatar; Same type: strike; Same area: uae; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "b6f1342b1331",
       "to": "7557abd37533",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, islamic revolutionary guard corps; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: iran, commercial shipping; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "577ce6091237",
@@ -7695,14 +7695,14 @@
       "to": "e6adac2c9511",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: qatar, bahrain; Same type: strike; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: kuwait, qatar; Same type: strike; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "2d225419208f",
       "to": "2808cac09609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: qatar, bahrain; Same type: strike; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: kuwait, qatar; Same type: strike; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "a320489030af",
@@ -8437,7 +8437,7 @@
       "to": "a4f4ebb62609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: nato, turkey; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: nato, iran; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "67120a4038b2",
@@ -9515,42 +9515,42 @@
       "to": "4ef988b3cb13",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, islamic revolutionary guard corps; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
     },
     {
       "from": "9e5270105c9a",
       "to": "d104c2ee807b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
     },
     {
       "from": "4ef988b3cb13",
       "to": "d104c2ee807b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
     },
     {
       "from": "9c3dfb6c2829",
       "to": "d104c2ee807b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
     },
     {
       "from": "4ef988b3cb13",
       "to": "9e5270105c9a",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "9c3dfb6c2829",
       "to": "9e5270105c9a",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~1km)"
     },
     {
       "from": "3036f9f4e41c",
@@ -9585,21 +9585,21 @@
       "to": "12812d18ac72",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: hapag-lloyd, cma cgm; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
+      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
     },
     {
       "from": "62a1a6f17887",
       "to": "12812d18ac72",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: hapag-lloyd, cma cgm; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
+      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~16km)"
     },
     {
       "from": "62a1a6f17887",
       "to": "ed0dc6b1bd91",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: hapag-lloyd, cma cgm; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
+      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
     },
     {
       "from": "094e555f2820",
@@ -9676,42 +9676,42 @@
       "to": "9e5270105c9a",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+      "why": "Shared actor: commercial shipping, iran; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
     },
     {
       "from": "b6f1342b1331",
       "to": "9e5270105c9a",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+      "why": "Shared actor: commercial shipping, iran; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
     },
     {
       "from": "7557abd37533",
       "to": "4ef988b3cb13",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, islamic revolutionary guard corps; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "b6f1342b1331",
       "to": "4ef988b3cb13",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, islamic revolutionary guard corps; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "7557abd37533",
       "to": "9c3dfb6c2829",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, islamic revolutionary guard corps; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "b6f1342b1331",
       "to": "9c3dfb6c2829",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, islamic revolutionary guard corps; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "3036f9f4e41c",
@@ -9858,14 +9858,14 @@
       "to": "d104c2ee807b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 7d; Nearby (~0km)"
+      "why": "Shared actor: commercial shipping, iran; Same area: strait of hormuz; Within 7d; Nearby (~0km)"
     },
     {
       "from": "b6f1342b1331",
       "to": "d104c2ee807b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 7d; Nearby (~1km)"
+      "why": "Shared actor: commercial shipping, iran; Same area: strait of hormuz; Within 7d; Nearby (~1km)"
     },
     {
       "from": "d2b973c80894",
@@ -9949,7 +9949,7 @@
       "to": "0bf4127eee6a",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: marine insurers, commercial shipping; Same type: shipping_disruption; Within 72h; Regionally close (~440km)"
+      "why": "Shared actor: commercial shipping, marine insurers; Same type: shipping_disruption; Within 72h; Regionally close (~440km)"
     },
     {
       "from": "181c0e3ebaf9",
@@ -10145,21 +10145,21 @@
       "to": "9e5270105c9a",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 72h"
     },
     {
       "from": "0bf4127eee6a",
       "to": "4ef988b3cb13",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 72h"
     },
     {
       "from": "0bf4127eee6a",
       "to": "9c3dfb6c2829",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 72h"
     },
     {
       "from": "3036f9f4e41c",
@@ -10425,14 +10425,14 @@
       "to": "4337a45a340f",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: marine insurers, commercial shipping; Same type: shipping_disruption; Within 72h"
+      "why": "Shared actor: commercial shipping, marine insurers; Same type: shipping_disruption; Within 72h"
     },
     {
       "from": "ec354518f923",
       "to": "4337a45a340f",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: marine insurers, commercial shipping; Same type: shipping_disruption; Within 72h"
+      "why": "Shared actor: commercial shipping, marine insurers; Same type: shipping_disruption; Within 72h"
     },
     {
       "from": "a320489030af",
@@ -10544,7 +10544,7 @@
       "to": "d104c2ee807b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 7d"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 7d"
     },
     {
       "from": "7bc1b19b96a2",
@@ -10698,35 +10698,35 @@
       "to": "d104c2ee807b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: united states, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
+      "why": "Shared actor: commercial shipping, united states; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~2km)"
     },
     {
       "from": "9e5270105c9a",
       "to": "42dd3c621862",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "4ef988b3cb13",
       "to": "42dd3c621862",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~0km)"
     },
     {
       "from": "9c3dfb6c2829",
       "to": "42dd3c621862",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "cebe39a5adb6",
       "to": "12812d18ac72",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: hapag-lloyd, cma cgm; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
+      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~3km)"
     },
     {
       "from": "574ac3242a06",
@@ -10754,14 +10754,14 @@
       "to": "cebe39a5adb6",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: hapag-lloyd, cma cgm; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
+      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
     },
     {
       "from": "62a1a6f17887",
       "to": "cebe39a5adb6",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: hapag-lloyd, cma cgm; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
+      "why": "Shared actor: cma cgm, msc; Same type: shipping_disruption; Same area: strait of hormuz; Within 72h; Nearby (~13km)"
     },
     {
       "from": "3036f9f4e41c",
@@ -10929,14 +10929,14 @@
       "to": "42dd3c621862",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 7d; Nearby (~3km)"
+      "why": "Shared actor: commercial shipping, iran; Same area: strait of hormuz; Within 7d; Nearby (~3km)"
     },
     {
       "from": "b6f1342b1331",
       "to": "42dd3c621862",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same area: strait of hormuz; Within 7d; Nearby (~3km)"
+      "why": "Shared actor: commercial shipping, iran; Same area: strait of hormuz; Within 7d; Nearby (~3km)"
     },
     {
       "from": "7bc1b19b96a2",
@@ -11209,7 +11209,7 @@
       "to": "42dd3c621862",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 7d"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 7d"
     },
     {
       "from": "3de946e7413b",
@@ -11307,7 +11307,7 @@
       "to": "0bf4127eee6a",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: oman; Within 72h; Nearby (~1km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: oman; Within 72h; Nearby (~1km)"
     },
     {
       "from": "b2dabbcee737",
@@ -11419,14 +11419,14 @@
       "to": "d104c2ee807b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: united states, commercial shipping; Same area: strait of hormuz; Within 7d; Nearby (~14km)"
+      "why": "Shared actor: commercial shipping, united states; Same area: strait of hormuz; Within 7d; Nearby (~14km)"
     },
     {
       "from": "0020a47afb9e",
       "to": "42dd3c621862",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: united states, commercial shipping; Same area: strait of hormuz; Within 7d; Nearby (~15km)"
+      "why": "Shared actor: commercial shipping, united states; Same area: strait of hormuz; Within 7d; Nearby (~15km)"
     },
     {
       "from": "03681a283819",
@@ -11545,21 +11545,21 @@
       "to": "4ef988b3cb13",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 72h"
     },
     {
       "from": "86b8f9498592",
       "to": "9c3dfb6c2829",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 72h"
     },
     {
       "from": "86b8f9498592",
       "to": "9e5270105c9a",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 72h"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 72h"
     },
     {
       "from": "3036f9f4e41c",
@@ -11755,14 +11755,14 @@
       "to": "d104c2ee807b",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 7d"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 7d"
     },
     {
       "from": "86b8f9498592",
       "to": "42dd3c621862",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Within 7d"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Within 7d"
     },
     {
       "from": "7bc1b19b96a2",
@@ -11811,14 +11811,14 @@
       "to": "a45ef1a7571d",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: oman; Nearby (~2km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: oman; Nearby (~2km)"
     },
     {
       "from": "86b8f9498592",
       "to": "a45ef1a7571d",
       "label": "actor_link",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: shipping_disruption; Same area: oman; Nearby (~0km)"
+      "why": "Shared actor: commercial shipping, iran; Same type: shipping_disruption; Same area: oman; Nearby (~0km)"
     },
     {
       "from": "c0da90f52d24",
