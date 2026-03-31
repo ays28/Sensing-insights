@@ -295,5 +295,15 @@
     "lon": 31.2357257,
     "lat": 30.0443879,
     "display_name": "Cairo, Egypt"
+  },
+  "shanghai, china": {
+    "lon": 121.4700152,
+    "lat": 31.2312707,
+    "display_name": "Shanghai, China"
+  },
+  "hatay, turkey": {
+    "lon": 36.0748022,
+    "lat": 36.3451332,
+    "display_name": "Hatay, Mediterranean Region, Turkey"
   }
 }
