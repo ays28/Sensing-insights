@@ -305,5 +305,37 @@
     "lon": 36.0748022,
     "lat": 36.3451332,
     "display_name": "Hatay, Mediterranean Region, Turkey"
-  }
+  },
+  "ottawa, canada": {
+    "lon": -75.6901106,
+    "lat": 45.4208777,
+    "display_name": "Ottawa, Eastern Ontario, Ontario, Canada"
+  },
+  "united nations headquarters, new york, united states": {
+    "lon": -73.96739,
+    "lat": 40.7496292,
+    "display_name": "United Nations Headquarters, 405, FDR Drive, United Nations, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States"
+  },
+  "bab al-mandab strait": null,
+  "washington, d.c., united states": {
+    "lon": -77.0363849,
+    "lat": 38.8950982,
+    "display_name": "Washington, District of Columbia, United States"
+  },
+  "damascus, syria": {
+    "lon": 36.3095814,
+    "lat": 33.5130695,
+    "display_name": "Damascus, Ancient City of Damascus Municipality, Damascus Subdistrict, Damascus District, Damascus Governorate, Syria"
+  },
+  "al-hasakah, syria": {
+    "lon": 40.5269124,
+    "lat": 36.413182,
+    "display_name": "Al-Hasaka Governorate, Syria"
+  },
+  "haifa, israel": {
+    "lon": 34.9983856,
+    "lat": 32.8191218,
+    "display_name": "Haifa, Haifa Subdistrict, Haifa District, Israel"
+  },
+  "bab al-mandab strait, near yemen": null
 }
