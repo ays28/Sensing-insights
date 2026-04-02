@@ -1,38 +1,38 @@
 {
   "headline_summary": [
     "IEA chief says Middle East oil supply disruptions will rise in April as Strait of Hormuz closure bites; diesel and jet fuel shortages flagged (Reuters, Apr 1)",
-    "Bahrain circulates revised UN Security Council draft on protecting shipping in/around Strait of Hormuz; keeps 'all necessary means' language but drops explicit Chapter VII enforcement reference (Reuters, Apr 1)",
-    "Iran tells UN/IMO that 'non-hostile' vessels may transit Hormuz if coordinated with Iranian authorities, while US/Israel-linked vessels do not qualify (Reuters, Mar 24)",
+    "Bahrain circulates revised UN Security Council draft on protecting shipping in/around Strait of Hormuz; China, Russia and France raise issues (Reuters, Apr 1)",
+    "US LNG exports hit record in March as Middle East war disrupts global supply and takes ~20% of global LNG supply offline (Reuters, Apr 1)",
+    "Trump says US will be out of Iran 'pretty quickly' and could return for 'spot hits'; NATO frictions noted (Reuters, Apr 1)",
+    "Dubai crude benchmark faces stress as Hormuz export halts disrupt deliverable grades and pricing mechanisms (Reuters, Apr 1)",
+    "Kenya tea exports hit as shipping disruption forces reroutes and leaves stocks piling up in Mombasa (Reuters, Apr 1)",
+    "Oil prices slide after Trump de-escalation comments, but uncertainty over reopening supply chains persists (Reuters, Apr 1)",
+    "OPEC oil output plunges in March as Hormuz closure forces export cuts, Reuters survey finds (Reuters, Mar 31)",
     "Explosions heard in Damascus attributed by Syrian state TV to Israel intercepting Iranian missiles (Reuters, Mar 31)",
-    "Syrian army says drone attacks targeted bases near Iraqi border; says it is assessing response options (Reuters, Mar 30)",
-    "Haifa oil refinery site hit by debris from intercepted missile; fire contained and fuel supply not affected, Israel says (Reuters, Mar 30)",
-    "Israel orders expanded operations in southern Lebanon to push Hezbollah rocket/ATGM threat away from border (Reuters, Mar 29)",
-    "Lebanon prepares for potential long-term displacement as Israeli control plans extend to Litani river, minister says (Reuters, Mar 31)",
-    "Houthis signal readiness to reopen Red Sea/Bab al-Mandab shipping front if Iran needs support; Bab al-Mandab highlighted as chokepoint if Hormuz shut (Reuters, Mar 26)",
-    "Houthis enter Iran war with attacks on Israel as additional US forces arrive, raising multi-front escalation and shipping risk (Reuters, Mar 28)"
+    "Israel expands operations in southern Lebanon; Lebanon braces for long-term displacement crisis (Reuters, Mar 29-31)"
   ],
-  "risk_score": 90,
+  "risk_score": 92,
   "risk_drivers": [
-    "Strait of Hormuz traffic remains near-halted with contested rules for 'safe passage'",
-    "UN-level debate over maritime protection underscores elevated risk of direct confrontation at sea",
-    "Spillover into Levant (Israel-Lebanon) and Syria air-defense activity increases regional escalation pathways",
-    "Potential second chokepoint risk at Bab al-Mandab if Houthis re-open Red Sea attacks",
-    "Refined products shortages (diesel/jet) and European vulnerability as disruptions rise in April",
-    "Persistent drone/missile incidents increase tail-risk for energy and logistics infrastructure"
+    "Strait of Hormuz remains effectively shut/near-halted; contested rules for safe passage",
+    "No UN consensus yet on authorizing maritime protection; escalation risk at sea remains elevated",
+    "Refined-products (diesel/jet) shortages and LNG outages add inflation and growth risks",
+    "Potential second chokepoint exposure at Bab al-Mandab if Yemen's Houthis target Red Sea shipping",
+    "Cross-border drone/missile incidents across Gulf/Levant keep tail-risk high for energy and logistics infrastructure",
+    "Benchmark/market-function stress (Dubai crude pricing) increases volatility and hedging dislocations"
   ],
   "market_implications": {
     "Energy": [
-      "Upside skew to crude and refined product cracks as April disruption projections increase and diesel/jet scarcity emerges (Reuters, Apr 1).",
-      "Higher probability of a two-chokepoint shock (Hormuz + Bab al-Mandab) if Houthis re-enter maritime campaign, raising delivered energy costs."
+      "Crude and refined products retain upside risk premium while Hormuz is constrained; diesel/jet cracks and LNG spreads likely stay elevated (Reuters, Apr 1).",
+      "Volatility increases due to policy headlines (UN draft, US drawdown rhetoric) vs physical constraints (OPEC export cuts, benchmark disruption)."
     ],
     "FX": [
-      "Oil-importer EM FX remains vulnerable to higher energy import bills and risk-off sentiment; USD support likely in acute escalation."
+      "Risk-off plus higher energy import bills can pressure oil-importer EM FX; USD tends to benefit during acute escalation (Reuters context: energy shock)."
     ],
     "Rates": [
-      "Energy-driven inflation risk keeps breakevens supported and can delay easing expectations; wider credit spreads for energy-intensive and transport sectors."
+      "Energy-driven inflation risk supports breakevens; higher uncertainty can widen credit spreads and keep front-end rate cuts priced more cautiously."
     ],
     "Equities": [
-      "Risk-off flows favor energy/defense while airlines, shipping, and industrials with Middle East supply-chain exposure face margin pressure."
+      "Energy/defense beneficiaries vs airlines, shipping, chemicals and energy-intensive industries facing margin pressure; broader EM equity risk premium elevated."
     ]
   },
   "sources": [
@@ -43,60 +43,48 @@
       "published_at": "2026-04-01"
     },
     {
-      "title": "Bahrain circulates revised UN Hormuz draft, drops binding enforcement",
+      "title": "Bahrain's Hormuz resolution runs into fresh obstacles at UN",
       "url": "https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/",
       "publisher": "Reuters",
       "published_at": "2026-04-01"
     },
     {
-      "title": "Iran tells UN: 'non-hostile' ships can transit Strait of Hormuz",
-      "url": "https://www.reuters.com/world/middle-east/iran-says-non-hostile-ships-can-transit-strait-hormuz-ft-reports-2026-03-24/",
+      "title": "US LNG exports break record high as Middle East war disrupts global supply",
+      "url": "https://www.reuters.com/business/energy/us-lng-exports-break-record-high-middle-east-war-disrupts-global-supply-2026-04-01/",
       "publisher": "Reuters",
-      "published_at": "2026-03-24"
+      "published_at": "2026-04-01"
     },
     {
-      "title": "Explosions heard in Syria's Damascus result of Israel intercepting Iranian missiles, state TV says",
-      "url": "https://www.reuters.com/world/middle-east/explosions-heard-syrias-damascus-result-israel-intercepting-iranian-missiles-2026-03-31/",
+      "title": "US to leave Iran 'pretty quickly' and return if needed, Trump tells Reuters",
+      "url": "https://www.reuters.com/world/middle-east/us-leave-iran-pretty-quickly-return-if-needed-trump-tells-reuters-2026-04-01/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-01"
+    },
+    {
+      "title": "Iran war puts Middle East Dubai oil benchmark under stress as prices soar",
+      "url": "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-01"
+    },
+    {
+      "title": "Kenya tea exports hit by Iran conflict as stocks pile up",
+      "url": "https://www.reuters.com/world/africa/kenya-tea-exports-hit-by-iran-conflict-stocks-pile-up-2026-04-01/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-01"
+    },
+    {
+      "title": "Oil slides after Trump says US will end its war on Iran soon",
+      "url": "https://www.reuters.com/business/energy/front-month-brent-oil-futures-extend-gains-after-record-monthly-rise-march-2026-04-01/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-01"
+    },
+    {
+      "title": "OPEC oil output plunges in March as war forces export cuts, Reuters survey finds",
+      "url": "https://www.reuters.com/business/energy/opec-oil-output-plunges-march-war-forces-export-cuts-reuters-survey-finds-2026-03-31/",
       "publisher": "Reuters",
       "published_at": "2026-03-31"
-    },
-    {
-      "title": "Syrian army says drone attacks targeted its bases near Iraq",
-      "url": "https://www.reuters.com/world/middle-east/syrian-army-says-drone-attacks-targeted-its-bases-near-iraq-2026-03-30/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-30"
-    },
-    {
-      "title": "Missile hits fuel tanker at Israel's Oil Refineries",
-      "url": "https://www.reuters.com/world/middle-east/missile-hits-fuel-tanker-israels-oil-refineries-2026-03-30/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-30"
-    },
-    {
-      "title": "Israel's Netanyahu orders expansion of southern Lebanon operations to halt Hezbollah rockets",
-      "url": "https://www.reuters.com/world/middle-east/netanyahu-orders-expansion-security-buffer-zone-southern-lebanon-2026-03-29/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-29"
-    },
-    {
-      "title": "Lebanon preparing for displacement crisis amid funding crunch, minister says",
-      "url": "https://www.reuters.com/world/middle-east/lebanon-preparing-displacement-crisis-amid-funding-crunch-minister-says-2026-03-31/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-31"
-    },
-    {
-      "title": "Yemen's Houthis ready to join Iran war if needed, raising new shipping risk",
-      "url": "https://www.reuters.com/world/middle-east/yemens-houthis-ready-join-iran-war-if-needed-raising-new-shipping-risk-2026-03-26/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-26"
-    },
-    {
-      "title": "Yemen's Houthis enter Iran war with attack on Israel, while US Marines arrive in region",
-      "url": "https://www.reuters.com/world/asia-pacific/rubio-sees-us-action-iran-completed-weeks-airstrikes-rumble-2026-03-28/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-28"
     }
   ],
-  "generated_at_utc": "2026-04-01T13:07:10.992746Z",
-  "generated_at_ist": "2026-04-01T18:37:10.992761+05:30"
+  "generated_at_utc": "2026-04-02T01:31:02.529211Z",
+  "generated_at_ist": "2026-04-02T07:01:02.529228+05:30"
 }

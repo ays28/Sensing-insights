@@ -337,5 +337,35 @@
     "lat": 32.8191218,
     "display_name": "Haifa, Haifa Subdistrict, Haifa District, Israel"
   },
-  "bab al-mandab strait, near yemen": null
+  "bab al-mandab strait, near yemen": null,
+  "vienna, austria": {
+    "lon": 16.3725042,
+    "lat": 48.2083537,
+    "display_name": "Vienna, Austria"
+  },
+  "deir ez-zor, syria": {
+    "lon": 40.1499999,
+    "lat": 35.3333335,
+    "display_name": "Deir ez-Zor, Deir ez-Zor Subdistrict, Deir ez-Zor District, Deir ez-Zor Governorate, Syria"
+  },
+  "mombasa, kenya": {
+    "lon": 39.667169,
+    "lat": -4.05052,
+    "display_name": "Mombasa, Tononoka ward, Mvita, Mombasa County, 80100, Kenya"
+  },
+  "gaza strip": {
+    "lon": 34.360007,
+    "lat": 31.4432234,
+    "display_name": "Gaza Strip, Palestinian Territories"
+  },
+  "jerusalem, israel": {
+    "lon": 35.2257856,
+    "lat": 31.7788472,
+    "display_name": "Jerusalem, Jerusalem Subdistrict, Jerusalem District, Israel"
+  },
+  "sofia, bulgaria": {
+    "lon": 23.3217359,
+    "lat": 42.6977028,
+    "display_name": "Sofia, Sredec, Sofia City, Sofia-City, Bulgaria"
+  }
 }

@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.19604588169008,
-          26.464489105534593
+          56.2027702,
+          26.4494061
         ]
       },
       "properties": {
@@ -21,9 +21,9 @@
         "location_resolved": "مضیق هرمز, عمان",
         "actors": [
           "International Energy Agency",
-          "Fatih Birol"
+          "Iran"
         ],
-        "implication": "Signals worsening physical disruption into April and highlights refined product (diesel/jet) scarcity risk; supports elevated energy risk premia.",
+        "implication": "April disruptions and refined fuel shortages raise inflation and growth risks, keeping energy risk premia elevated.",
         "source_urls": [
           "https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/"
         ]
@@ -63,8 +63,189 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.1885387,
-          25.0742823
+          -73.96739,
+          40.7496292
+        ]
+      },
+      "properties": {
+        "id": "47ca5dad8347",
+        "event_type": "diplomacy",
+        "severity": 72,
+        "confidence": "high",
+        "title": "Bahrain circulates revised UN draft to protect Hormuz shipping; objections persist",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "United Nations Headquarters, New York, United States",
+        "location_resolved": "United Nations Headquarters, 405, FDR Drive, United Nations, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+        "actors": [
+          "Bahrain",
+          "UN Security Council",
+          "China",
+          "Russia",
+          "France",
+          "United States"
+        ],
+        "implication": "Lack of UN consensus delays multinational maritime security framework; confrontation risk at sea remains.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.19240592197701,
+          25.081694197080918
+        ]
+      },
+      "properties": {
+        "id": "545ad6d6104d",
+        "event_type": "shipping_disruption",
+        "severity": 65,
+        "confidence": "high",
+        "title": "Dubai crude benchmark pricing strained as Hormuz export halts disrupt deliverable grades",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Dubai, United Arab Emirates",
+        "location_resolved": "Dubai Emirate, Dubai, United Arab Emirates",
+        "actors": [
+          "S&P Global Platts",
+          "UAE",
+          "Oman",
+          "Qatar",
+          "Asian refiners"
+        ],
+        "implication": "Benchmark dislocation increases volatility and basis risk for Asia-linked crude pricing and hedging.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.42764405377639,
+          39.776190475195
+        ]
+      },
+      "properties": {
+        "id": "130b49e83dad",
+        "event_type": "shipping_disruption",
+        "severity": 75,
+        "confidence": "high",
+        "title": "US LNG exports hit record in March as Middle East outages and rerouting reshape flows",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "United States",
+        "location_resolved": "United States",
+        "actors": [
+          "Cheniere Energy",
+          "Golden Pass LNG",
+          "QatarEnergy",
+          "LSEG"
+        ],
+        "implication": "Reduced Middle East LNG availability pulls incremental US cargoes to Europe/Asia, tightening global gas balances.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-lng-exports-break-record-high-middle-east-war-disrupts-global-supply-2026-04-01/",
+          "https://www.reuters.com/business/energy/iran-attack-damage-wipes-out-17-qatars-lng-capacity-three-five-years-qatarenergy-2026-03-19/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0363849,
+          38.8950982
+        ]
+      },
+      "properties": {
+        "id": "73ad16ad3d75",
+        "event_type": "diplomacy",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Trump says US will be out of Iran 'pretty quickly' and could return for 'spot hits'",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Washington, D.C., United States",
+        "location_resolved": "Washington, District of Columbia, United States",
+        "actors": [
+          "United States",
+          "Donald Trump",
+          "NATO"
+        ],
+        "implication": "Headlines can compress risk premium short-term, but intermittent strikes keep uncertainty elevated.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/us-leave-iran-pretty-quickly-return-if-needed-trump-tells-reuters-2026-04-01/",
+          "https://www.reuters.com/business/energy/front-month-brent-oil-futures-extend-gains-after-record-monthly-rise-march-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.667169,
+          -4.05052
+        ]
+      },
+      "properties": {
+        "id": "98d0bd6d451d",
+        "event_type": "shipping_disruption",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Kenya tea exports hit as Middle East shipping disruption leaves stocks piling up in Mombasa",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Mombasa, Kenya",
+        "location_resolved": "Mombasa, Tononoka ward, Mvita, Mombasa County, 80100, Kenya",
+        "actors": [
+          "East Africa Tea Traders Association",
+          "Shipping companies"
+        ],
+        "implication": "Rerouting and surcharges disrupt trade flows and add to global goods inflation pressures.",
+        "source_urls": [
+          "https://www.reuters.com/world/africa/kenya-tea-exports-hit-by-iran-conflict-stocks-pile-up-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3217359,
+          42.6977028
+        ]
+      },
+      "properties": {
+        "id": "5cd325c04652",
+        "event_type": "diplomacy",
+        "severity": 40,
+        "confidence": "high",
+        "title": "Iranian authorities warned Bulgaria not to let US use airports, Bulgarian foreign ministry says",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Sofia, Bulgaria",
+        "location_resolved": "Sofia, Sredec, Sofia City, Sofia-City, Bulgaria",
+        "actors": [
+          "Iran",
+          "Bulgaria",
+          "United States"
+        ],
+        "implication": "Signals Iranian intent to deter allied basing/overflight support, raising NATO alliance-management risk.",
+        "source_urls": [
+          "https://www.reuters.com/world/iranian-authorities-warned-bulgaria-not-let-us-use-airports-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.19373755041979,
+          25.065756321522834
         ]
       },
       "properties": {
@@ -151,8 +332,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.3095814,
-          33.5130695
+          36.31265867209545,
+          33.52048109614456
         ]
       },
       "properties": {
@@ -180,8 +361,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.5025585,
-          33.8892265
+          35.50365539693666,
+          33.89468651917116
         ]
       },
       "properties": {
@@ -200,6 +381,123 @@
         "implication": "Humanitarian and political stress can prolong conflict dynamics and complicate de-escalation.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/lebanon-preparing-displacement-crisis-amid-funding-crunch-minister-says-2026-03-31/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3725042,
+          48.2083537
+        ]
+      },
+      "properties": {
+        "id": "693664ec2733",
+        "event_type": "shipping_disruption",
+        "severity": 78,
+        "confidence": "high",
+        "title": "OPEC output plunges in March as Hormuz closure forces export cuts",
+        "timestamp_utc": "2026-03-31T00:00:00Z",
+        "location_name": "Vienna, Austria",
+        "location_resolved": "Vienna, Austria",
+        "actors": [
+          "OPEC",
+          "Saudi Arabia",
+          "United Arab Emirates",
+          "Iraq",
+          "Kuwait"
+        ],
+        "implication": "Forced export cuts reduce effective supply and deepen backwardation/volatility in crude and products.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/opec-oil-output-plunges-march-war-forces-export-cuts-reuters-survey-finds-2026-03-31/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29878390557891,
+          33.52689178278902
+        ]
+      },
+      "properties": {
+        "id": "2776231450cc",
+        "event_type": "strike",
+        "severity": 58,
+        "confidence": "high",
+        "title": "Explosions in Damascus attributed to Israel intercepting Iranian missiles, Syrian state TV says",
+        "timestamp_utc": "2026-03-31T00:00:00Z",
+        "location_name": "Damascus, Syria",
+        "location_resolved": "Damascus, Ancient City of Damascus Municipality, Damascus Subdistrict, Damascus District, Damascus Governorate, Syria",
+        "actors": [
+          "Israel",
+          "Iran",
+          "Syria"
+        ],
+        "implication": "Air-defense activity underscores spillover pathways into Syria/Levant, raising escalation tail-risk.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/explosions-heard-syrias-damascus-result-israel-intercepting-iranian-missiles-2026-03-31/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.48648810205239,
+          33.89564826108363
+        ]
+      },
+      "properties": {
+        "id": "dbafcdc57654",
+        "event_type": "other",
+        "severity": 55,
+        "confidence": "high",
+        "title": "Lebanon prepares for long-term displacement crisis as fighting expands in the south",
+        "timestamp_utc": "2026-03-31T00:00:00Z",
+        "location_name": "Beirut, Lebanon",
+        "location_resolved": "Beirut, Basta Tahta, Bashura, Beirut Governorate, Lebanon",
+        "actors": [
+          "Lebanon government",
+          "UN agencies"
+        ],
+        "implication": "Humanitarian strain raises political risk and potential for domestic unrest amid prolonged conflict.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/lebanon-preparing-displacement-crisis-amid-funding-crunch-minister-says-2026-03-31/",
+          "http://www.reuters.com/business/aerospace-defense/war-between-hezbollah-israel-deepens-fractures-lebanon-2026-03-27/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.360007,
+          31.4432234
+        ]
+      },
+      "properties": {
+        "id": "39ee1bbdf74c",
+        "event_type": "strike",
+        "severity": 52,
+        "confidence": "high",
+        "title": "Israeli strikes kill six in Gaza Strip, medics say",
+        "timestamp_utc": "2026-03-31T00:00:00Z",
+        "location_name": "Gaza Strip",
+        "location_resolved": "Gaza Strip, Palestinian Territories",
+        "actors": [
+          "Israel",
+          "Hamas"
+        ],
+        "implication": "Renewed violence adds another front of instability and complicates regional diplomacy.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israeli-strikes-kill-five-gaza-strip-medics-say-2026-03-31/"
         ]
       }
     },
@@ -297,20 +595,47 @@
       "properties": {
         "id": "6b940b9067e5",
         "event_type": "strike",
-        "severity": 58,
+        "severity": 60,
         "confidence": "high",
         "title": "Haifa oil refinery area hit by debris from intercepted missile; fire contained",
         "timestamp_utc": "2026-03-30T00:00:00Z",
         "location_name": "Haifa, Israel",
         "location_resolved": "Haifa, Haifa Subdistrict, Haifa District, Israel",
         "actors": [
-          "Israel Fire and Rescue Service",
-          "Oil Refineries Ltd",
-          "Israel"
+          "Israel",
+          "Iran"
         ],
-        "implication": "Demonstrates infrastructure vulnerability and operational risk premium for Israeli energy assets despite limited immediate supply impact.",
+        "implication": "Even limited damage near refining assets can lift product risk premia and reinforces infrastructure vulnerability.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/missile-hits-fuel-tanker-israels-oil-refineries-2026-03-30/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.1499999,
+          35.3333335
+        ]
+      },
+      "properties": {
+        "id": "eeeaef800189",
+        "event_type": "strike",
+        "severity": 62,
+        "confidence": "high",
+        "title": "Syrian army says drone attacks targeted bases near Iraq",
+        "timestamp_utc": "2026-03-30T00:00:00Z",
+        "location_name": "Deir ez-Zor, Syria",
+        "location_resolved": "Deir ez-Zor, Deir ez-Zor Subdistrict, Deir ez-Zor District, Deir ez-Zor Governorate, Syria",
+        "actors": [
+          "Syrian Arab Army",
+          "Unidentified drones"
+        ],
+        "implication": "Persistent drone activity near the Iraq border increases risk to logistics corridors and US/allied assets.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/syrian-army-says-drone-attacks-targeted-its-bases-near-iraq-2026-03-30/"
         ]
       }
     },
@@ -728,8 +1053,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.545813,
-          34.1289767
+          -86.54987720864284,
+          34.1238922848313
         ]
       },
       "properties": {
@@ -748,6 +1073,65 @@
         "implication": "Increases likelihood of sustained cross-border exchanges and displacement; adds to regional risk-off backdrop.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/netanyahu-orders-expansion-security-buffer-zone-southern-lebanon-2026-03-29/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.53522096609022,
+          34.13965335181231
+        ]
+      },
+      "properties": {
+        "id": "b87f5be375d9",
+        "event_type": "other",
+        "severity": 68,
+        "confidence": "high",
+        "title": "Israel expands southern Lebanon operations aiming for buffer zone to the Litani River",
+        "timestamp_utc": "2026-03-29T00:00:00Z",
+        "location_name": "Southern Lebanon, Lebanon",
+        "location_resolved": "New Lebanon Southern Methodist Church, New Lebanon Road, Blue Springs, Blount County, Alabama, 35031, United States",
+        "actors": [
+          "Israel",
+          "Hezbollah",
+          "Lebanon"
+        ],
+        "implication": "Ground escalation increases regional spillover risk and complicates de-escalation pathways.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/netanyahu-orders-expansion-security-buffer-zone-southern-lebanon-2026-03-29/",
+          "https://www.reuters.com/world/middle-east/israels-campaign-sever-southern-lebanon-new-buffer-zone-2026-03-27/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2257856,
+          31.7788472
+        ]
+      },
+      "properties": {
+        "id": "1e0842ed3dbb",
+        "event_type": "other",
+        "severity": 45,
+        "confidence": "high",
+        "title": "Israel blocks Catholic cardinal from Holy Sepulchre on Palm Sunday, then eases access",
+        "timestamp_utc": "2026-03-29T00:00:00Z",
+        "location_name": "Jerusalem, Israel",
+        "location_resolved": "Jerusalem, Jerusalem Subdistrict, Jerusalem District, Israel",
+        "actors": [
+          "Israel Police",
+          "Latin Patriarchate of Jerusalem",
+          "Benjamin Netanyahu"
+        ],
+        "implication": "Security tightening in Jerusalem increases risk of localized unrest and international diplomatic friction.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israeli-police-block-catholic-cardinal-jerusalems-holy-sepulchre-palm-sunday-2026-03-29/"
         ]
       }
     },
@@ -3904,8 +4288,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.445882,
-          39.7837304
+          -100.46291375154945,
+          39.7915116518261
         ]
       },
       "properties": {
