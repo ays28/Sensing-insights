@@ -367,5 +367,25 @@
     "lon": 23.3217359,
     "lat": 42.6977028,
     "display_name": "Sofia, Sredec, Sofia City, Sofia-City, Bulgaria"
+  },
+  "seoul, south korea": {
+    "lon": 126.9782914,
+    "lat": 37.5666791,
+    "display_name": "Seoul, South Korea"
+  },
+  "manila, philippines": {
+    "lon": 120.9803621,
+    "lat": 14.5904492,
+    "display_name": "Manila, Capital District, Metro Manila, Philippines"
+  },
+  "oslo, norway": {
+    "lon": 10.7389701,
+    "lat": 59.9133301,
+    "display_name": "Oslo, Norway"
+  },
+  "new york, ny, united states": {
+    "lon": -74.0060152,
+    "lat": 40.7127281,
+    "display_name": "New York, United States"
   }
 }

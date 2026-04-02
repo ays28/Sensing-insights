@@ -6,6 +6,151 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.1277653,
+          51.5074456
+        ]
+      },
+      "properties": {
+        "id": "1a4cf3e3a3f3",
+        "event_type": "diplomacy",
+        "severity": 72,
+        "confidence": "high",
+        "title": "UK hosts coalition talks with ~35 countries on reopening the Strait of Hormuz",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "United Kingdom",
+          "France",
+          "Germany",
+          "Italy",
+          "Canada",
+          "United Arab Emirates"
+        ],
+        "implication": "Signals widening diplomatic effort to restore navigation post-ceasefire; minesweeping and tanker protection planning suggests prolonged disruption risk.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uk-host-talks-with-35-countries-reopening-strait-hormuz-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05040661716254,
+          38.88356085703089
+        ]
+      },
+      "properties": {
+        "id": "2917d733faad",
+        "event_type": "strike",
+        "severity": 87,
+        "confidence": "high",
+        "title": "Trump vows intensified strikes on Iran over next 2-3 weeks; markets turn risk-off",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Washington, DC, United States",
+        "location_resolved": "Washington, District of Columbia, United States",
+        "actors": [
+          "United States",
+          "Iran"
+        ],
+        "implication": "Escalatory guidance increases tail risk of further hits to Iranian energy infrastructure; supports oil risk premium and risk-off cross-asset moves.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
+          "https://www.reuters.com/world/us/takeaways-trumps-speech-iran-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98412935952406,
+          37.562596112393216
+        ]
+      },
+      "properties": {
+        "id": "aac381b058f9",
+        "event_type": "diplomacy",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Macron says opening Strait of Hormuz by force is unrealistic",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Seoul, South Korea",
+        "location_resolved": "Seoul, South Korea",
+        "actors": [
+          "France",
+          "United States"
+        ],
+        "implication": "Highlights allied reluctance to pursue forced reopening; raises probability of extended disruption and higher required risk premia until ceasefire/negotiation.",
+        "source_urls": [
+          "https://www.reuters.com/world/macron-says-it-is-unrealistic-open-hormuz-strait-by-force-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9803621,
+          14.5904492
+        ]
+      },
+      "properties": {
+        "id": "cd877da3c740",
+        "event_type": "diplomacy",
+        "severity": 55,
+        "confidence": "high",
+        "title": "Philippines says Iran assured safe passage for Philippine-flagged ships and energy cargoes",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Manila, Philippines",
+        "location_resolved": "Manila, Capital District, Metro Manila, Philippines",
+        "actors": [
+          "Philippines",
+          "Iran"
+        ],
+        "implication": "Selective assurances may reduce immediate disruption risk for specific flags but underscores fragmented, politicized access to the chokepoint.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96850119341349,
+          37.57642959431799
+        ]
+      },
+      "properties": {
+        "id": "1ec8d4d3e4bf",
+        "event_type": "diplomacy",
+        "severity": 48,
+        "confidence": "high",
+        "title": "South Korea denies report it is considering paying Iran transit fees for Hormuz passage",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Seoul, South Korea",
+        "location_resolved": "Seoul, South Korea",
+        "actors": [
+          "South Korea",
+          "Iran"
+        ],
+        "implication": "Denial suggests limited appetite to normalize payment for access; ongoing uncertainty for importers about costs/conditions of transit.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/south-korea-denies-report-it-is-considering-paying-iran-hormuz-transit-fees-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           56.2027702,
           26.4494061
         ]
@@ -236,6 +381,65 @@
         "implication": "Signals Iranian intent to deter allied basing/overflight support, raising NATO alliance-management risk.",
         "source_urls": [
           "https://www.reuters.com/world/iranian-authorities-warned-bulgaria-not-let-us-use-airports-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7389701,
+          59.9133301
+        ]
+      },
+      "properties": {
+        "id": "6a06ea598443",
+        "event_type": "other",
+        "severity": 78,
+        "confidence": "high",
+        "title": "IEA warns Middle East oil disruptions will rise in April and start hitting Europe",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Oslo, Norway",
+        "location_resolved": "Oslo, Norway",
+        "actors": [
+          "International Energy Agency"
+        ],
+        "implication": "Official warning of worsening supply losses and refined product shortages supports elevated energy inflation risks and tighter policy trade-offs.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99742708656964,
+          40.719256380507616
+        ]
+      },
+      "properties": {
+        "id": "d69ff4077897",
+        "event_type": "diplomacy",
+        "severity": 66,
+        "confidence": "high",
+        "title": "Bahrain's UN Security Council draft to protect Hormuz shipping hits obstacles",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "New York, NY, United States",
+        "location_resolved": "New York, United States",
+        "actors": [
+          "Bahrain",
+          "United Nations Security Council",
+          "China",
+          "Russia",
+          "France",
+          "United States"
+        ],
+        "implication": "Lack of consensus on authorizing force weakens near-term prospects of a UN-backed maritime protection mission; prolongs shipping disruption uncertainty.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/"
         ]
       }
     },
@@ -4093,8 +4297,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.0060152,
-          40.7127281
+          -74.02263373569764,
+          40.716673929799846
         ]
       },
       "properties": {
@@ -4231,8 +4435,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0365427,
-          38.8950368
+          -77.03448874963526,
+          38.90515810866308
         ]
       },
       "properties": {

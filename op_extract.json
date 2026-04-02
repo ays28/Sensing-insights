@@ -1,42 +1,74 @@
 {
   "latest": {
     "headline_summary": [
-      "IEA chief says Middle East oil supply disruptions will rise in April as Strait of Hormuz closure bites; diesel and jet fuel shortages flagged (Reuters, Apr 1)",
-      "Bahrain circulates revised UN Security Council draft on protecting shipping in/around Strait of Hormuz; China, Russia and France raise issues (Reuters, Apr 1)",
-      "US LNG exports hit record in March as Middle East war disrupts global supply and takes ~20% of global LNG supply offline (Reuters, Apr 1)",
-      "Trump says US will be out of Iran 'pretty quickly' and could return for 'spot hits'; NATO frictions noted (Reuters, Apr 1)",
-      "Dubai crude benchmark faces stress as Hormuz export halts disrupt deliverable grades and pricing mechanisms (Reuters, Apr 1)",
-      "Kenya tea exports hit as shipping disruption forces reroutes and leaves stocks piling up in Mombasa (Reuters, Apr 1)",
-      "Oil prices slide after Trump de-escalation comments, but uncertainty over reopening supply chains persists (Reuters, Apr 1)",
-      "OPEC oil output plunges in March as Hormuz closure forces export cuts, Reuters survey finds (Reuters, Mar 31)",
-      "Explosions heard in Damascus attributed by Syrian state TV to Israel intercepting Iranian missiles (Reuters, Mar 31)",
-      "Israel expands operations in southern Lebanon; Lebanon braces for long-term displacement crisis (Reuters, Mar 29-31)"
+      "UK hosts virtual talks with ~35 countries on reopening the Strait of Hormuz after a ceasefire; mines and tanker protection discussed (Reuters, Apr 2)",
+      "Trump vows more aggressive strikes on Iran over the next 2-3 weeks; oil jumps, stocks slide and USD strengthens (Reuters, Apr 2)",
+      "France's Macron says opening Strait of Hormuz by force is unrealistic; calls for consultation with Iran (Reuters, Apr 2)",
+      "Philippines says Iran assured safe passage for Philippine-flagged vessels and seafarers through Hormuz (Reuters, Apr 2)",
+      "South Korea denies considering paying Iran transit fees for Hormuz passage amid supply concerns (Reuters, Apr 2)",
+      "IEA chief warns Middle East oil supply disruptions will rise in April; diesel/jet shortages flagged (Reuters, Apr 1)",
+      "Bahrain circulates revised UN Security Council draft on protecting shipping around Hormuz; obstacles remain (Reuters, Apr 1)",
+      "US LNG exports hit a record in March as Middle East war disrupts global supply (Reuters, Apr 1)",
+      "Dubai crude benchmark faces deliverability/pricing stress as Hormuz export halts disrupt grades (Reuters, Apr 1)",
+      "OPEC oil output plunged in March as war forced export cuts, Reuters survey finds (Reuters, Mar 31)"
     ],
-    "risk_score": 92,
+    "risk_score": 95,
     "risk_drivers": [
-      "Strait of Hormuz remains effectively shut/near-halted; contested rules for safe passage",
-      "No UN consensus yet on authorizing maritime protection; escalation risk at sea remains elevated",
-      "Refined-products (diesel/jet) shortages and LNG outages add inflation and growth risks",
-      "Potential second chokepoint exposure at Bab al-Mandab if Yemen's Houthis target Red Sea shipping",
-      "Cross-border drone/missile incidents across Gulf/Levant keep tail-risk high for energy and logistics infrastructure",
-      "Benchmark/market-function stress (Dubai crude pricing) increases volatility and hedging dislocations"
+      "Strait of Hormuz remains effectively shut or severely constrained, elevating global crude/refined product risk premia",
+      "Escalation risk from US threats of intensified strikes on Iran, including potential strikes on energy infrastructure",
+      "No unified mandate/enforcement for maritime protection despite UN and coalition discussions",
+      "Refined product and LNG market tightness amplifies inflation risk and volatility",
+      "Policy uncertainty and mixed signals complicate risk pricing and keep volatility elevated"
     ],
     "market_implications": {
       "Energy": [
-        "Crude and refined products retain upside risk premium while Hormuz is constrained; diesel/jet cracks and LNG spreads likely stay elevated (Reuters, Apr 1).",
-        "Volatility increases due to policy headlines (UN draft, US drawdown rhetoric) vs physical constraints (OPEC export cuts, benchmark disruption)."
+        "Higher and more volatile oil prices with upside tail-risk while Hormuz access and minesweeping remain unresolved.",
+        "Refined-product cracks (diesel/jet) and LNG spreads likely stay elevated on supply tightness and rerouting costs."
       ],
       "FX": [
-        "Risk-off plus higher energy import bills can pressure oil-importer EM FX; USD tends to benefit during acute escalation (Reuters context: energy shock)."
+        "Risk-off episodes and higher energy import bills can pressure EM FX; USD tends to benefit during acute escalation.",
+        "Oil-exporter FX sensitivity is more policy/flow-driven than terms-of-trade while exports are constrained by shipping disruptions."
       ],
       "Rates": [
-        "Energy-driven inflation risk supports breakevens; higher uncertainty can widen credit spreads and keep front-end rate cuts priced more cautiously."
+        "Energy-driven inflation risk can lift breakevens and term premia; uncertainty can widen credit spreads and keep easing expectations cautious.",
+        "Safe-haven demand can compress core yields intraday even as risk premia rise in credit/EM funding markets."
       ],
       "Equities": [
-        "Energy/defense beneficiaries vs airlines, shipping, chemicals and energy-intensive industries facing margin pressure; broader EM equity risk premium elevated."
+        "Energy and defense can outperform; airlines, transport, chemicals, and energy-intensive sectors face margin pressure.",
+        "Higher geopolitical risk premium weighs on EM equities and global cyclicals; elevated volatility supports defensive tilts."
       ]
     },
     "sources": [
+      {
+        "title": "UK to host talks with 35 countries on reopening Strait of Hormuz",
+        "url": "https://www.reuters.com/world/europe/uk-host-talks-with-35-countries-reopening-strait-hormuz-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02"
+      },
+      {
+        "title": "Hopes dim for swift end to Iran war after Trump speech, oil prices surge anew",
+        "url": "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02"
+      },
+      {
+        "title": "Macron says it is unrealistic to open Hormuz Strait by force",
+        "url": "https://www.reuters.com/world/macron-says-it-is-unrealistic-open-hormuz-strait-by-force-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02"
+      },
+      {
+        "title": "Iran to allow safe passage of Philippine ships, fuel supply through Strait of Hormuz, says Manila",
+        "url": "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02"
+      },
+      {
+        "title": "South Korea denies report it is considering paying Iran Hormuz transit fees",
+        "url": "https://www.reuters.com/business/energy/south-korea-denies-report-it-is-considering-paying-iran-hormuz-transit-fees-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02"
+      },
       {
         "title": "Middle East oil supply disruptions to rise in April and hit Europe, IEA chief says",
         "url": "https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/",
@@ -48,378 +80,123 @@
         "url": "https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/",
         "publisher": "Reuters",
         "published_at": "2026-04-01"
-      },
-      {
-        "title": "US LNG exports break record high as Middle East war disrupts global supply",
-        "url": "https://www.reuters.com/business/energy/us-lng-exports-break-record-high-middle-east-war-disrupts-global-supply-2026-04-01/",
-        "publisher": "Reuters",
-        "published_at": "2026-04-01"
-      },
-      {
-        "title": "US to leave Iran 'pretty quickly' and return if needed, Trump tells Reuters",
-        "url": "https://www.reuters.com/world/middle-east/us-leave-iran-pretty-quickly-return-if-needed-trump-tells-reuters-2026-04-01/",
-        "publisher": "Reuters",
-        "published_at": "2026-04-01"
-      },
-      {
-        "title": "Iran war puts Middle East Dubai oil benchmark under stress as prices soar",
-        "url": "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/",
-        "publisher": "Reuters",
-        "published_at": "2026-04-01"
-      },
-      {
-        "title": "Kenya tea exports hit by Iran conflict as stocks pile up",
-        "url": "https://www.reuters.com/world/africa/kenya-tea-exports-hit-by-iran-conflict-stocks-pile-up-2026-04-01/",
-        "publisher": "Reuters",
-        "published_at": "2026-04-01"
-      },
-      {
-        "title": "Oil slides after Trump says US will end its war on Iran soon",
-        "url": "https://www.reuters.com/business/energy/front-month-brent-oil-futures-extend-gains-after-record-monthly-rise-march-2026-04-01/",
-        "publisher": "Reuters",
-        "published_at": "2026-04-01"
-      },
-      {
-        "title": "OPEC oil output plunges in March as war forces export cuts, Reuters survey finds",
-        "url": "https://www.reuters.com/business/energy/opec-oil-output-plunges-march-war-forces-export-cuts-reuters-survey-finds-2026-03-31/",
-        "publisher": "Reuters",
-        "published_at": "2026-03-31"
       }
     ]
   },
   "events": [
     {
-      "event_type": "shipping_disruption",
-      "severity": 88,
-      "confidence": "high",
-      "title": "IEA warns Middle East oil disruptions will rise in April as Hormuz closure hits Europe",
-      "timestamp_utc": "2026-04-01T00:00:00Z",
-      "location_name": "Strait of Hormuz",
-      "actors": [
-        "International Energy Agency",
-        "Iran"
-      ],
-      "implication": "April disruptions and refined fuel shortages raise inflation and growth risks, keeping energy risk premia elevated.",
-      "source_urls": [
-        "https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/"
-      ]
-    },
-    {
       "event_type": "diplomacy",
       "severity": 72,
       "confidence": "high",
-      "title": "Bahrain circulates revised UN draft to protect Hormuz shipping; objections persist",
-      "timestamp_utc": "2026-04-01T00:00:00Z",
-      "location_name": "United Nations Headquarters, New York, United States",
-      "actors": [
-        "Bahrain",
-        "UN Security Council",
-        "China",
-        "Russia",
-        "France",
-        "United States"
-      ],
-      "implication": "Lack of UN consensus delays multinational maritime security framework; confrontation risk at sea remains.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/"
-      ]
+      "title": "UK hosts coalition talks with ~35 countries on reopening the Strait of Hormuz",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "London, United Kingdom",
+      "actors": ["United Kingdom", "France", "Germany", "Italy", "Canada", "United Arab Emirates"],
+      "implication": "Signals widening diplomatic effort to restore navigation post-ceasefire; minesweeping and tanker protection planning suggests prolonged disruption risk.",
+      "source_urls": ["https://www.reuters.com/world/europe/uk-host-talks-with-35-countries-reopening-strait-hormuz-2026-04-02/"]
     },
     {
-      "event_type": "shipping_disruption",
-      "severity": 65,
+      "event_type": "strike",
+      "severity": 87,
       "confidence": "high",
-      "title": "Dubai crude benchmark pricing strained as Hormuz export halts disrupt deliverable grades",
-      "timestamp_utc": "2026-04-01T00:00:00Z",
-      "location_name": "Dubai, United Arab Emirates",
-      "actors": [
-        "S&P Global Platts",
-        "UAE",
-        "Oman",
-        "Qatar",
-        "Asian refiners"
-      ],
-      "implication": "Benchmark dislocation increases volatility and basis risk for Asia-linked crude pricing and hedging.",
-      "source_urls": [
-        "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/"
-      ]
-    },
-    {
-      "event_type": "shipping_disruption",
-      "severity": 75,
-      "confidence": "high",
-      "title": "US LNG exports hit record in March as Middle East outages and rerouting reshape flows",
-      "timestamp_utc": "2026-04-01T00:00:00Z",
-      "location_name": "United States",
-      "actors": [
-        "Cheniere Energy",
-        "Golden Pass LNG",
-        "QatarEnergy",
-        "LSEG"
-      ],
-      "implication": "Reduced Middle East LNG availability pulls incremental US cargoes to Europe/Asia, tightening global gas balances.",
-      "source_urls": [
-        "https://www.reuters.com/business/energy/us-lng-exports-break-record-high-middle-east-war-disrupts-global-supply-2026-04-01/",
-        "https://www.reuters.com/business/energy/iran-attack-damage-wipes-out-17-qatars-lng-capacity-three-five-years-qatarenergy-2026-03-19/"
-      ]
+      "title": "Trump vows intensified strikes on Iran over next 2-3 weeks; markets turn risk-off",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Washington, DC, United States",
+      "actors": ["United States", "Iran"],
+      "implication": "Escalatory guidance increases tail risk of further hits to Iranian energy infrastructure; supports oil risk premium and risk-off cross-asset moves.",
+      "source_urls": ["https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/", "https://www.reuters.com/world/us/takeaways-trumps-speech-iran-2026-04-02/"]
     },
     {
       "event_type": "diplomacy",
       "severity": 60,
       "confidence": "high",
-      "title": "Trump says US will be out of Iran 'pretty quickly' and could return for 'spot hits'",
-      "timestamp_utc": "2026-04-01T00:00:00Z",
-      "location_name": "Washington, D.C., United States",
-      "actors": [
-        "United States",
-        "Donald Trump",
-        "NATO"
-      ],
-      "implication": "Headlines can compress risk premium short-term, but intermittent strikes keep uncertainty elevated.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/us-leave-iran-pretty-quickly-return-if-needed-trump-tells-reuters-2026-04-01/",
-        "https://www.reuters.com/business/energy/front-month-brent-oil-futures-extend-gains-after-record-monthly-rise-march-2026-04-01/"
-      ]
+      "title": "Macron says opening Strait of Hormuz by force is unrealistic",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Seoul, South Korea",
+      "actors": ["France", "United States"],
+      "implication": "Highlights allied reluctance to pursue forced reopening; raises probability of extended disruption and higher required risk premia until ceasefire/negotiation.",
+      "source_urls": ["https://www.reuters.com/world/macron-says-it-is-unrealistic-open-hormuz-strait-by-force-2026-04-02/"]
     },
     {
-      "event_type": "shipping_disruption",
-      "severity": 78,
-      "confidence": "high",
-      "title": "OPEC output plunges in March as Hormuz closure forces export cuts",
-      "timestamp_utc": "2026-03-31T00:00:00Z",
-      "location_name": "Vienna, Austria",
-      "actors": [
-        "OPEC",
-        "Saudi Arabia",
-        "United Arab Emirates",
-        "Iraq",
-        "Kuwait"
-      ],
-      "implication": "Forced export cuts reduce effective supply and deepen backwardation/volatility in crude and products.",
-      "source_urls": [
-        "https://www.reuters.com/business/energy/opec-oil-output-plunges-march-war-forces-export-cuts-reuters-survey-finds-2026-03-31/"
-      ]
-    },
-    {
-      "event_type": "strike",
-      "severity": 58,
-      "confidence": "high",
-      "title": "Explosions in Damascus attributed to Israel intercepting Iranian missiles, Syrian state TV says",
-      "timestamp_utc": "2026-03-31T00:00:00Z",
-      "location_name": "Damascus, Syria",
-      "actors": [
-        "Israel",
-        "Iran",
-        "Syria"
-      ],
-      "implication": "Air-defense activity underscores spillover pathways into Syria/Levant, raising escalation tail-risk.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/explosions-heard-syrias-damascus-result-israel-intercepting-iranian-missiles-2026-03-31/"
-      ]
-    },
-    {
-      "event_type": "strike",
-      "severity": 62,
-      "confidence": "high",
-      "title": "Syrian army says drone attacks targeted bases near Iraq",
-      "timestamp_utc": "2026-03-30T00:00:00Z",
-      "location_name": "Deir ez-Zor, Syria",
-      "actors": [
-        "Syrian Arab Army",
-        "Unidentified drones"
-      ],
-      "implication": "Persistent drone activity near the Iraq border increases risk to logistics corridors and US/allied assets.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/syrian-army-says-drone-attacks-targeted-its-bases-near-iraq-2026-03-30/"
-      ]
-    },
-    {
-      "event_type": "strike",
-      "severity": 60,
-      "confidence": "high",
-      "title": "Haifa oil refinery area hit by debris from intercepted missile; fire contained",
-      "timestamp_utc": "2026-03-30T00:00:00Z",
-      "location_name": "Haifa, Israel",
-      "actors": [
-        "Israel",
-        "Iran"
-      ],
-      "implication": "Even limited damage near refining assets can lift product risk premia and reinforces infrastructure vulnerability.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/missile-hits-fuel-tanker-israels-oil-refineries-2026-03-30/"
-      ]
-    },
-    {
-      "event_type": "other",
-      "severity": 68,
-      "confidence": "high",
-      "title": "Israel expands southern Lebanon operations aiming for buffer zone to the Litani River",
-      "timestamp_utc": "2026-03-29T00:00:00Z",
-      "location_name": "Southern Lebanon, Lebanon",
-      "actors": [
-        "Israel",
-        "Hezbollah",
-        "Lebanon"
-      ],
-      "implication": "Ground escalation increases regional spillover risk and complicates de-escalation pathways.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/netanyahu-orders-expansion-security-buffer-zone-southern-lebanon-2026-03-29/",
-        "https://www.reuters.com/world/middle-east/israels-campaign-sever-southern-lebanon-new-buffer-zone-2026-03-27/"
-      ]
-    },
-    {
-      "event_type": "other",
+      "event_type": "diplomacy",
       "severity": 55,
       "confidence": "high",
-      "title": "Lebanon prepares for long-term displacement crisis as fighting expands in the south",
-      "timestamp_utc": "2026-03-31T00:00:00Z",
-      "location_name": "Beirut, Lebanon",
-      "actors": [
-        "Lebanon government",
-        "UN agencies"
-      ],
-      "implication": "Humanitarian strain raises political risk and potential for domestic unrest amid prolonged conflict.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/lebanon-preparing-displacement-crisis-amid-funding-crunch-minister-says-2026-03-31/",
-        "http://www.reuters.com/business/aerospace-defense/war-between-hezbollah-israel-deepens-fractures-lebanon-2026-03-27/"
-      ]
-    },
-    {
-      "event_type": "shipping_disruption",
-      "severity": 70,
-      "confidence": "high",
-      "title": "Kenya tea exports hit as Middle East shipping disruption leaves stocks piling up in Mombasa",
-      "timestamp_utc": "2026-04-01T00:00:00Z",
-      "location_name": "Mombasa, Kenya",
-      "actors": [
-        "East Africa Tea Traders Association",
-        "Shipping companies"
-      ],
-      "implication": "Rerouting and surcharges disrupt trade flows and add to global goods inflation pressures.",
-      "source_urls": [
-        "https://www.reuters.com/world/africa/kenya-tea-exports-hit-by-iran-conflict-stocks-pile-up-2026-04-01/"
-      ]
-    },
-    {
-      "event_type": "strike",
-      "severity": 52,
-      "confidence": "high",
-      "title": "Israeli strikes kill six in Gaza Strip, medics say",
-      "timestamp_utc": "2026-03-31T00:00:00Z",
-      "location_name": "Gaza Strip",
-      "actors": [
-        "Israel",
-        "Hamas"
-      ],
-      "implication": "Renewed violence adds another front of instability and complicates regional diplomacy.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/israeli-strikes-kill-five-gaza-strip-medics-say-2026-03-31/"
-      ]
-    },
-    {
-      "event_type": "other",
-      "severity": 45,
-      "confidence": "high",
-      "title": "Israel blocks Catholic cardinal from Holy Sepulchre on Palm Sunday, then eases access",
-      "timestamp_utc": "2026-03-29T00:00:00Z",
-      "location_name": "Jerusalem, Israel",
-      "actors": [
-        "Israel Police",
-        "Latin Patriarchate of Jerusalem",
-        "Benjamin Netanyahu"
-      ],
-      "implication": "Security tightening in Jerusalem increases risk of localized unrest and international diplomatic friction.",
-      "source_urls": [
-        "https://www.reuters.com/world/middle-east/israeli-police-block-catholic-cardinal-jerusalems-holy-sepulchre-palm-sunday-2026-03-29/"
-      ]
+      "title": "Philippines says Iran assured safe passage for Philippine-flagged ships and energy cargoes",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Manila, Philippines",
+      "actors": ["Philippines", "Iran"],
+      "implication": "Selective assurances may reduce immediate disruption risk for specific flags but underscores fragmented, politicized access to the chokepoint.",
+      "source_urls": ["https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-2026-04-02/"]
     },
     {
       "event_type": "diplomacy",
-      "severity": 40,
+      "severity": 48,
       "confidence": "high",
-      "title": "Iranian authorities warned Bulgaria not to let US use airports, Bulgarian foreign ministry says",
+      "title": "South Korea denies report it is considering paying Iran transit fees for Hormuz passage",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Seoul, South Korea",
+      "actors": ["South Korea", "Iran"],
+      "implication": "Denial suggests limited appetite to normalize payment for access; ongoing uncertainty for importers about costs/conditions of transit.",
+      "source_urls": ["https://www.reuters.com/business/energy/south-korea-denies-report-it-is-considering-paying-iran-hormuz-transit-fees-2026-04-02/"]
+    },
+    {
+      "event_type": "other",
+      "severity": 78,
+      "confidence": "high",
+      "title": "IEA warns Middle East oil disruptions will rise in April and start hitting Europe",
       "timestamp_utc": "2026-04-01T00:00:00Z",
-      "location_name": "Sofia, Bulgaria",
-      "actors": [
-        "Iran",
-        "Bulgaria",
-        "United States"
-      ],
-      "implication": "Signals Iranian intent to deter allied basing/overflight support, raising NATO alliance-management risk.",
-      "source_urls": [
-        "https://www.reuters.com/world/iranian-authorities-warned-bulgaria-not-let-us-use-airports-2026-04-01/"
-      ]
+      "location_name": "Oslo, Norway",
+      "actors": ["International Energy Agency"],
+      "implication": "Official warning of worsening supply losses and refined product shortages supports elevated energy inflation risks and tighter policy trade-offs.",
+      "source_urls": ["https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/"]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 66,
+      "confidence": "high",
+      "title": "Bahrain's UN Security Council draft to protect Hormuz shipping hits obstacles",
+      "timestamp_utc": "2026-04-01T00:00:00Z",
+      "location_name": "New York, NY, United States",
+      "actors": ["Bahrain", "United Nations Security Council", "China", "Russia", "France", "United States"],
+      "implication": "Lack of consensus on authorizing force weakens near-term prospects of a UN-backed maritime protection mission; prolongs shipping disruption uncertainty.",
+      "source_urls": ["https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/"]
     }
   ],
   "links": [
     {
-      "from": "IEA warns Middle East oil disruptions will rise in April as Hormuz closure hits Europe",
+      "from": "Trump vows intensified strikes on Iran over next 2-3 weeks; markets turn risk-off",
       "to": "oil_up_risk",
-      "relation": "supports_risk_premium",
+      "relation": "raises_tail_risk_premium",
       "confidence": "high",
-      "why": "IEA flags rising disruption and shortages, which typically increase crude/product risk premia."
+      "why": "Reuters reports oil jumped after Trump promised more aggressive strikes and left open attacks on energy infrastructure."
     },
     {
-      "from": "OPEC output plunges in March as Hormuz closure forces export cuts",
+      "from": "UK hosts coalition talks with ~35 countries on reopening the Strait of Hormuz",
       "to": "oil_up_risk",
-      "relation": "tightens_supply",
-      "confidence": "high",
-      "why": "Lower OPEC output and forced export cuts reduce available barrels."
-    },
-    {
-      "from": "Dubai crude benchmark pricing strained as Hormuz export halts disrupt deliverable grades",
-      "to": "oil_up_risk",
-      "relation": "increases_volatility",
+      "relation": "signals_prolonged_disruption_risk",
       "confidence": "med",
-      "why": "Benchmark dysfunction increases hedging dislocations and can amplify price swings."
+      "why": "Discussion of minesweeping and tanker protection implies the chokepoint may not normalize quickly even with a ceasefire."
     },
     {
-      "from": "Bahrain circulates revised UN draft to protect Hormuz shipping; objections persist",
-      "to": "IEA warns Middle East oil disruptions will rise in April as Hormuz closure hits Europe",
-      "relation": "delays_mitigation",
-      "confidence": "med",
-      "why": "UN divisions imply slower implementation of protections that could ease disruptions."
-    },
-    {
-      "from": "Trump says US will be out of Iran 'pretty quickly' and could return for 'spot hits'",
-      "to": "oil_up_risk",
-      "relation": "may_temper",
-      "confidence": "med",
-      "why": "De-escalation rhetoric can compress premiums, but conditional 'spot hits' keeps risk elevated."
-    },
-    {
-      "from": "US LNG exports hit record in March as Middle East outages and rerouting reshape flows",
-      "to": "rates_credit_spreads",
-      "relation": "adds_inflation_growth_risk",
-      "confidence": "med",
-      "why": "Higher gas prices and supply tightness can raise inflation uncertainty and pressure spreads."
-    },
-    {
-      "from": "Kenya tea exports hit as Middle East shipping disruption leaves stocks piling up in Mombasa",
-      "to": "em_fx_pressure",
-      "relation": "trade_terms_shock",
-      "confidence": "low",
-      "why": "Shipping disruptions can weaken export receipts and add local inflation pressure in affected EMs."
-    },
-    {
-      "from": "oil_up_risk",
+      "from": "Bahrain's UN Security Council draft to protect Hormuz shipping hits obstacles",
       "to": "risk_off_flows",
-      "relation": "drives",
+      "relation": "adds_policy_uncertainty",
       "confidence": "med",
-      "why": "Energy shocks often trigger broader risk-off positioning."
+      "why": "Stalled UN mandate keeps enforcement uncertain, sustaining geopolitical risk premium."
     },
     {
-      "from": "risk_off_flows",
-      "to": "em_fx_pressure",
-      "relation": "pressures",
-      "confidence": "high",
-      "why": "Risk-off typically widens EM risk premia and pressures EM FX."
-    },
-    {
-      "from": "risk_off_flows",
+      "from": "IEA warns Middle East oil disruptions will rise in April and start hitting Europe",
       "to": "rates_credit_spreads",
-      "relation": "widens",
+      "relation": "inflation_growth_shock",
       "confidence": "med",
-      "why": "Risk-off can widen corporate spreads and push safe-haven bid in rates."
+      "why": "IEA flagged inflation and growth impacts from supply losses; this can widen spreads and complicate easing."
+    },
+    {
+      "from": "Trump vows intensified strikes on Iran over next 2-3 weeks; markets turn risk-off",
+      "to": "em_fx_pressure",
+      "relation": "supports_usd_risk_off",
+      "confidence": "med",
+      "why": "Reuters notes dollar gained as stocks slid after escalation rhetoric, a typical channel for EM FX pressure."
     }
   ]
 }
