@@ -1,58 +1,47 @@
 {
   "headline_summary": [
-    "UK hosts virtual talks with ~35 countries on reopening the Strait of Hormuz after a ceasefire; mines and tanker protection discussed (Reuters, Apr 2)",
-    "Trump vows more aggressive strikes on Iran over the next 2-3 weeks; oil jumps, stocks slide and USD strengthens (Reuters, Apr 2)",
-    "France's Macron says opening Strait of Hormuz by force is unrealistic; calls for consultation with Iran (Reuters, Apr 2)",
-    "Philippines says Iran assured safe passage for Philippine-flagged vessels and seafarers through Hormuz (Reuters, Apr 2)",
-    "South Korea denies considering paying Iran transit fees for Hormuz passage amid supply concerns (Reuters, Apr 2)",
-    "IEA chief warns Middle East oil supply disruptions will rise in April; diesel/jet shortages flagged (Reuters, Apr 1)",
-    "Bahrain circulates revised UN Security Council draft on protecting shipping around Hormuz; obstacles remain (Reuters, Apr 1)",
-    "US LNG exports hit a record in March as Middle East war disrupts global supply (Reuters, Apr 1)",
-    "Dubai crude benchmark faces deliverability/pricing stress as Hormuz export halts disrupt grades (Reuters, Apr 1)",
-    "OPEC oil output plunged in March as war forced export cuts, Reuters survey finds (Reuters, Mar 31)"
+    "UN Security Council scheduled a vote on a Bahrain-drafted resolution on protecting commercial shipping around the Strait of Hormuz; China opposed any authorization of force (Reuters, 2026-04-02).",
+    "UK hosted virtual talks with about 35 countries on options to reopen the Strait of Hormuz, including minesweeping and tanker protection (Reuters, 2026-04-02).",
+    "Iran gave the Philippines assurances of safe passage for Philippine-flagged vessels and energy cargoes through the Strait of Hormuz (Reuters, 2026-04-02).",
+    "IEA chief warned Middle East oil supply disruptions were expected to rise in April and hit Europe, reinforcing upside risk to crude and shipping costs (Reuters, 2026-04-01).",
+    "US LNG exports hit record highs as buyers sought to replace Middle East supplies amid the disruption (Reuters, 2026-04-01)."
   ],
-  "risk_score": 95,
+  "risk_score": 88,
   "risk_drivers": [
-    "Strait of Hormuz remains effectively shut or severely constrained, elevating global crude/refined product risk premia",
-    "Escalation risk from US threats of intensified strikes on Iran, including potential strikes on energy infrastructure",
-    "No unified mandate/enforcement for maritime protection despite UN and coalition discussions",
-    "Refined product and LNG market tightness amplifies inflation risk and volatility",
-    "Policy uncertainty and mixed signals complicate risk pricing and keep volatility elevated"
+    "Strait of Hormuz access/security uncertainty and timeline for reopening",
+    "UN mandate/use-of-force disagreement among major powers",
+    "Elevated war-risk insurance, rerouting, and shipping capacity constraints",
+    "Oil and gas supply displacement (Europe/Asia) increasing price volatility",
+    "Potential for escalation affecting energy and maritime assets"
   ],
   "market_implications": {
     "Energy": [
-      "Higher and more volatile oil prices with upside tail-risk while Hormuz access and minesweeping remain unresolved.",
-      "Refined-product cracks (diesel/jet) and LNG spreads likely stay elevated on supply tightness and rerouting costs."
+      "Upside and volatility risk in crude while Hormuz security and clearance operations remain uncertain.",
+      "Higher freight/insurance costs can tighten refined products and LNG differentials; replacement flows (e.g., higher US exports) only partially offset disruption."
     ],
     "FX": [
-      "Risk-off episodes and higher energy import bills can pressure EM FX; USD tends to benefit during acute escalation.",
-      "Oil-exporter FX sensitivity is more policy/flow-driven than terms-of-trade while exports are constrained by shipping disruptions."
+      "Risk-off moves tend to support USD and pressure energy-importing EM FX via higher import bills and transport costs.",
+      "GCC pegs limit spot FX moves but prolonged disruption can transmit through liquidity conditions and credit risk."
     ],
     "Rates": [
-      "Energy-driven inflation risk can lift breakevens and term premia; uncertainty can widen credit spreads and keep easing expectations cautious.",
-      "Safe-haven demand can compress core yields intraday even as risk premia rise in credit/EM funding markets."
+      "Energy-driven inflation uncertainty can lift breakevens/term premia even as safe-haven demand can compress core yields during acute escalation.",
+      "Credit spreads may widen for EM sovereigns and for transport/industrials exposed to higher fuel and shipping costs."
     ],
     "Equities": [
-      "Energy and defense can outperform; airlines, transport, chemicals, and energy-intensive sectors face margin pressure.",
-      "Higher geopolitical risk premium weighs on EM equities and global cyclicals; elevated volatility supports defensive tilts."
+      "Energy and defense may outperform; airlines/shipping-intensive sectors face margin headwinds.",
+      "Higher geopolitical risk premium can favor defensives and volatility strategies; EM equities remain sensitive to oil and USD strength."
     ]
   },
   "sources": [
     {
+      "title": "UN to vote on Hormuz resolution as China opposes authorization of force",
+      "url": "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-02"
+    },
+    {
       "title": "UK to host talks with 35 countries on reopening Strait of Hormuz",
       "url": "https://www.reuters.com/world/europe/uk-host-talks-with-35-countries-reopening-strait-hormuz-2026-04-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-04-02"
-    },
-    {
-      "title": "Hopes dim for swift end to Iran war after Trump speech, oil prices surge anew",
-      "url": "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-04-02"
-    },
-    {
-      "title": "Macron says it is unrealistic to open Hormuz Strait by force",
-      "url": "https://www.reuters.com/world/macron-says-it-is-unrealistic-open-hormuz-strait-by-force-2026-04-02/",
       "publisher": "Reuters",
       "published_at": "2026-04-02"
     },
@@ -63,24 +52,18 @@
       "published_at": "2026-04-02"
     },
     {
-      "title": "South Korea denies report it is considering paying Iran Hormuz transit fees",
-      "url": "https://www.reuters.com/business/energy/south-korea-denies-report-it-is-considering-paying-iran-hormuz-transit-fees-2026-04-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-04-02"
-    },
-    {
       "title": "Middle East oil supply disruptions to rise in April and hit Europe, IEA chief says",
       "url": "https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/",
       "publisher": "Reuters",
       "published_at": "2026-04-01"
     },
     {
-      "title": "Bahrain's Hormuz resolution runs into fresh obstacles at UN",
-      "url": "https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/",
+      "title": "US LNG exports break record high as Middle East war disrupts global supply",
+      "url": "https://www.reuters.com/business/energy/us-lng-exports-break-record-high-middle-east-war-disrupts-global-supply-2026-04-01/",
       "publisher": "Reuters",
       "published_at": "2026-04-01"
     }
   ],
-  "generated_at_utc": "2026-04-02T12:56:56.315116Z",
-  "generated_at_ist": "2026-04-02T18:26:56.315129+05:30"
+  "generated_at_utc": "2026-04-03T01:41:15.591594Z",
+  "generated_at_ist": "2026-04-03T07:11:15.591615+05:30"
 }

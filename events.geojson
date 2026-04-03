@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1277653,
-          51.5074456
+          -0.14227970399898246,
+          51.500815635061294
         ]
       },
       "properties": {
@@ -95,8 +95,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.9803621,
-          14.5904492
+          120.97714082500597,
+          14.601676798297815
         ]
       },
       "properties": {
@@ -151,8 +151,190 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.2027702,
-          26.4494061
+          -0.12839523336221723,
+          51.49888899860632
+        ]
+      },
+      "properties": {
+        "id": "2990fc045ff8",
+        "event_type": "diplomacy",
+        "severity": 70,
+        "confidence": "high",
+        "title": "UK hosts virtual talks with ~35 countries on reopening the Strait of Hormuz",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "United Kingdom",
+          "France",
+          "Germany",
+          "Italy",
+          "Canada",
+          "United Arab Emirates"
+        ],
+        "implication": "Coalition planning suggests phased reopening (minesweeping then tanker protection), implying prolonged shipping constraints and elevated energy transport risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uk-host-talks-with-35-countries-reopening-strait-hormuz-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98026439004688,
+          40.759229224398204
+        ]
+      },
+      "properties": {
+        "id": "24854fc71e5f",
+        "event_type": "diplomacy",
+        "severity": 65,
+        "confidence": "high",
+        "title": "UN Security Council to vote on Bahrain-drafted resolution on protecting shipping around the Strait of Hormuz",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "United Nations Headquarters, New York, United States",
+        "location_resolved": "United Nations Headquarters, 405, FDR Drive, United Nations, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+        "actors": [
+          "United Nations Security Council",
+          "Bahrain",
+          "China"
+        ],
+        "implication": "Disagreement over authorizing force increases uncertainty about enforcement capacity, prolonging navigation risk and keeping an oil/shipping risk premium.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.907687406474366,
+          21.473846648720578
+        ]
+      },
+      "properties": {
+        "id": "2bc8e5830129",
+        "event_type": "shipping_disruption",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Iran signals safe passage for Philippine ships and fuel supply through the Strait of Hormuz, Manila says",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Iran",
+          "Philippines"
+        ],
+        "implication": "Selective passage assurances underscore ad-hoc, state-by-state arrangements rather than a broad reopening, leaving systemic disruption risk largely intact.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-manila-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9782914,
+          37.5666791
+        ]
+      },
+      "properties": {
+        "id": "710e34e68a58",
+        "event_type": "other",
+        "severity": 35,
+        "confidence": "high",
+        "title": "South Korea denies report it is considering paying Iran Hormuz transit fees",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Seoul, South Korea",
+        "location_resolved": "Seoul, South Korea",
+        "actors": [
+          "South Korea",
+          "Iran"
+        ],
+        "implication": "Shows pressure on major importers to seek alternative arrangements; even unconfirmed fee concepts highlight elevated transaction/insurance costs for energy flows.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/south-korea-denies-report-it-is-considering-paying-iran-hormuz-transit-fees-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95108301948338,
+          40.751696977498774
+        ]
+      },
+      "properties": {
+        "id": "37405d9395b2",
+        "event_type": "diplomacy",
+        "severity": 75,
+        "confidence": "high",
+        "title": "UN Security Council to vote on Bahrain-drafted resolution to protect shipping around the Strait of Hormuz",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "United Nations Headquarters, New York, United States",
+        "location_resolved": "United Nations Headquarters, 405, FDR Drive, United Nations, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+        "actors": [
+          "United Nations Security Council",
+          "Bahrain",
+          "China",
+          "United States",
+          "Russia",
+          "France",
+          "United Kingdom"
+        ],
+        "implication": "Potential authorization for defensive measures could change escalation dynamics and maritime risk pricing; veto threats highlight great-power disagreement.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12642356777134311,
+          51.511474112612
+        ]
+      },
+      "properties": {
+        "id": "2cf1beb5e27b",
+        "event_type": "diplomacy",
+        "severity": 65,
+        "confidence": "high",
+        "title": "UK convenes ~35-country talks on coalition options to reopen the Strait of Hormuz (minesweeping, tanker protection)",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "United Kingdom",
+          "France",
+          "Germany",
+          "Italy",
+          "Canada",
+          "United Arab Emirates"
+        ],
+        "implication": "Signals coordinated planning to restore navigation; near-term supports risk of higher naval presence and shipping/insurance premia while plans are debated.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uk-host-talks-with-35-countries-reopening-strait-hormuz-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.19604588169008,
+          26.464489105534593
         ]
       },
       "properties": {
@@ -208,8 +390,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.96739,
-          40.7496292
+          -73.96948341777092,
+          40.74441215806498
         ]
       },
       "properties": {
@@ -448,6 +630,171 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.3476725455677725,
+          48.86662457161729
+        ]
+      },
+      "properties": {
+        "id": "7279749a95dd",
+        "event_type": "other",
+        "severity": 55,
+        "confidence": "high",
+        "title": "IEA warns Middle East oil supply disruptions set to rise in April and hit Europe",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Paris, France",
+        "location_resolved": "Paris, Ile-de-France, Metropolitan France, France",
+        "actors": [
+          "International Energy Agency"
+        ],
+        "implication": "Near-term supply shortfalls increase inflation and recession-tail risks in Europe and amplify sensitivity to any Hormuz reopening delay.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.193099176766836,
+          25.088974582394663
+        ]
+      },
+      "properties": {
+        "id": "db3503c55fa6",
+        "event_type": "other",
+        "severity": 50,
+        "confidence": "high",
+        "title": "Dubai crude benchmark faces stress as Iran war disrupts Middle East oil flows",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Dubai, United Arab Emirates",
+        "location_resolved": "Dubai Emirate, Dubai, United Arab Emirates",
+        "actors": [
+          "Oil market participants"
+        ],
+        "implication": "Benchmark strain indicates physical-market dysfunction and basis risk, potentially feeding into broader commodity volatility and hedging costs.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.44533614048338,
+          39.79673995626653
+        ]
+      },
+      "properties": {
+        "id": "a2256cf19e00",
+        "event_type": "other",
+        "severity": 45,
+        "confidence": "high",
+        "title": "US LNG exports hit record as Middle East war disrupts global supply",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "United States",
+        "location_resolved": "United States",
+        "actors": [
+          "United States"
+        ],
+        "implication": "Record LNG exports suggest emergency replacement flows, supporting global gas prices and affecting European/Asian energy and inflation dynamics.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-lng-exports-break-record-high-middle-east-war-disrupts-global-supply-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.43485396572746,
+          39.789277272594795
+        ]
+      },
+      "properties": {
+        "id": "98c31b361449",
+        "event_type": "other",
+        "severity": 40,
+        "confidence": "high",
+        "title": "US fuel exports hit record in March as Asia and Europe sought to replace Middle East supplies",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "United States",
+        "location_resolved": "United States",
+        "actors": [
+          "United States"
+        ],
+        "implication": "Refined-product replacement demand can tighten product balances and raise transportation costs globally, feeding into broader inflation risk.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-fuel-exports-hit-record-march-asia-europe-sought-replace-middle-east-supplies-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.36427502477961,
+          48.19820347840181
+        ]
+      },
+      "properties": {
+        "id": "f45faf281ef8",
+        "event_type": "other",
+        "severity": 50,
+        "confidence": "high",
+        "title": "OPEC March output falls as war forces Middle East export cuts",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Vienna, Austria",
+        "location_resolved": "Vienna, Austria",
+        "actors": [
+          "OPEC"
+        ],
+        "implication": "Lower production and constrained exports compound shipping disruption, reinforcing upside risks to crude and refining margins.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/opec-oil-output-falls-march-war-forces-export-cuts-survey-finds-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.19166249453424,
+          25.063633557446305
+        ]
+      },
+      "properties": {
+        "id": "16d7d07d131f",
+        "event_type": "other",
+        "severity": 55,
+        "confidence": "high",
+        "title": "Analysis: A war meant to break Iran could leave Tehran stronger and Gulf exposed",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Dubai, United Arab Emirates",
+        "location_resolved": "Dubai Emirate, Dubai, United Arab Emirates",
+        "actors": [
+          "United States",
+          "Iran",
+          "Israel",
+          "Gulf states"
+        ],
+        "implication": "Strategic analysis emphasizes persistent leverage over Hormuz and shipping lanes even after any ceasefire, keeping medium-term geopolitical risk premia elevated.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/war-meant-break-iran-could-leave-tehran-stronger-gulf-exposed-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           55.19373755041979,
           25.065756321522834
         ]
@@ -593,8 +940,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3725042,
-          48.2083537
+          16.3837944811601,
+          48.20583383431824
         ]
       },
       "properties": {
@@ -702,6 +1049,34 @@
         "implication": "Renewed violence adds another front of instability and complicates regional diplomacy.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/israeli-strikes-kill-five-gaza-strip-medics-say-2026-03-31/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0365427,
+          38.8950368
+        ]
+      },
+      "properties": {
+        "id": "50ed760e1ba8",
+        "event_type": "other",
+        "severity": 45,
+        "confidence": "high",
+        "title": "US says it is ready to thwart Iran attacks after IRGC threats to American firms",
+        "timestamp_utc": "2026-03-31T00:00:00Z",
+        "location_name": "Washington, DC, United States",
+        "location_resolved": "Washington, District of Columbia, United States",
+        "actors": [
+          "United States",
+          "Iran Revolutionary Guards"
+        ],
+        "implication": "Heightened threat posture increases tail-risk of escalation and reinforces risk-off positioning across energy, EM FX, and broader cyclicals.",
+        "source_urls": [
+          "https://www.reuters.com/business/aerospace-defense/us-ready-thwart-iran-attacks-after-irgc-threats-american-firms-2026-03-31/"
         ]
       }
     },
@@ -5398,6 +5773,65 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          56.19310233762632,
+          26.46290585573788
+        ]
+      },
+      "properties": {
+        "id": "f4e62ccbeccb",
+        "event_type": "strike",
+        "severity": 90,
+        "confidence": "high",
+        "title": "Iran says it will attack ships attempting to pass through the Strait of Hormuz; multiple commercial vessels hit (reported)",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "Direct kinetic risk to shipping underpins tanker market dislocation and oil upside tail-risk.",
+        "source_urls": [
+          "https://www.aljazeera.com/news/2026/3/2/iran-says-will-attack-any-ship-trying-to-pass-through-strait-of-hormuz",
+          "https://gcaptain.com/strait-of-hormuz-enters-active-crisis-five-ships-hit-traffic-collapses-tanker-markets-brace-for-historic-shock/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.20450475925159,
+          26.4539324855709
+        ]
+      },
+      "properties": {
+        "id": "00fa4da4acfe",
+        "event_type": "shipping_disruption",
+        "severity": 85,
+        "confidence": "high",
+        "title": "Major container carriers suspend or avoid transits through the Strait of Hormuz",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Maersk",
+          "MSC",
+          "Hapag-Lloyd",
+          "CMA CGM"
+        ],
+        "implication": "Carrier avoidance elevates freight and insurance costs and worsens delivery times; increases second-round inflation and supply-chain risk.",
+        "source_urls": [
+          "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           51.397497451381895,
           35.67244647246939
         ]
@@ -5655,8 +6089,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.5938134,
-          23.6123628
+          58.58693850727845,
+          23.61644151288872
         ]
       },
       "properties": {
@@ -9089,6 +9523,690 @@
         "implication": "Policy carve-out can reduce near-term legal/settlement uncertainty for specific cargoes; may modestly ease flows at the margin.",
         "source_urls": [
           "https://ofac.treasury.gov/recent-actions/20260320_33"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12237753836942013,
+          51.50843654543104
+        ]
+      },
+      "properties": {
+        "id": "2137e77053bd",
+        "event_type": "diplomacy",
+        "severity": 72,
+        "confidence": "high",
+        "title": "UK hosts ~35-country virtual talks on reopening the Strait of Hormuz (minesweeping then tanker protection)",
+        "timestamp_utc": null,
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "United Kingdom",
+          "France",
+          "Germany",
+          "Italy",
+          "Canada",
+          "United Arab Emirates"
+        ],
+        "implication": "Coalition planning for post-ceasefire maritime security; coordination gaps can prolong energy/shipping risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uk-host-talks-with-35-countries-reopening-strait-hormuz-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3896004,
+          35.6892523
+        ]
+      },
+      "properties": {
+        "id": "23aa4727218b",
+        "event_type": "strike",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Trump says U.S. will hit Iran 'extremely hard' over the next 2-3 weeks; reports of U.S. strike on Tehran-Karaj bridge",
+        "timestamp_utc": null,
+        "location_name": "Tehran, Iran",
+        "location_resolved": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran",
+        "actors": [
+          "United States",
+          "Iran"
+        ],
+        "implication": "Increases escalation and retaliation risk, sustaining a high oil/shipping risk premium and tightening global financial conditions.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.932665333600724,
+          21.476207673150498
+        ]
+      },
+      "properties": {
+        "id": "46e2333c4875",
+        "event_type": "shipping_disruption",
+        "severity": 90,
+        "confidence": "high",
+        "title": "Iran says Strait of Hormuz remains closed long-term to U.S. and Israel; global push to restart energy shipments continues",
+        "timestamp_utc": null,
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Iran",
+          "United States",
+          "Israel"
+        ],
+        "implication": "Sustains severe supply-chain disruption risk across crude, products, and LNG; keeps freight and insurance costs elevated.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
+          "https://www.reuters.com/world/europe/uk-host-talks-with-35-countries-reopening-strait-hormuz-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.58065172249048,
+          23.612648117708996
+        ]
+      },
+      "properties": {
+        "id": "32ae34853b8e",
+        "event_type": "diplomacy",
+        "severity": 66,
+        "confidence": "high",
+        "title": "Iran says it is drafting a Hormuz transit protocol with Oman requiring permits/licences for ships",
+        "timestamp_utc": null,
+        "location_name": "Muscat, Oman",
+        "location_resolved": "Muscat, Muscat Province, Muscat Governorate, Oman",
+        "actors": [
+          "Iran",
+          "Oman"
+        ],
+        "implication": "Introduces selective/conditional access risk and legal uncertainty for shipping, potentially prolonging disruption even after a ceasefire.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.334681632245341,
+          50.84707189119428
+        ]
+      },
+      "properties": {
+        "id": "9c71cac44e26",
+        "event_type": "diplomacy",
+        "severity": 55,
+        "confidence": "high",
+        "title": "EU foreign policy chief rejects 'pay-to-pass' schemes for Hormuz transit amid Iranian permit plan",
+        "timestamp_utc": null,
+        "location_name": "Brussels, Belgium",
+        "location_resolved": "Brussels, Brussels-Capital, Belgium",
+        "actors": [
+          "European Union",
+          "Iran"
+        ],
+        "implication": "Raises risk of stalled negotiations and contested maritime governance; may delay normalization of shipping and energy flows.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99742005994752,
+          40.72470861448688
+        ]
+      },
+      "properties": {
+        "id": "5e8899a0f973",
+        "event_type": "sanctions",
+        "severity": 48,
+        "confidence": "high",
+        "title": "Bahrain circulates revised UN Security Council draft on protecting shipping around Hormuz; binding enforcement language dropped",
+        "timestamp_utc": null,
+        "location_name": "New York, United States",
+        "location_resolved": "New York, United States",
+        "actors": [
+          "Bahrain",
+          "United Nations Security Council"
+        ],
+        "implication": "Highlights international divisions and limited enforcement capacity, keeping insurers/shippers cautious and elevating risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3556100211549684,
+          48.84207260394606
+        ]
+      },
+      "properties": {
+        "id": "61829ca32395",
+        "event_type": "other",
+        "severity": 60,
+        "confidence": "high",
+        "title": "IEA chief warns Middle East oil supply disruptions set to rise in April; diesel/jet tightness flagged",
+        "timestamp_utc": null,
+        "location_name": "Paris, France",
+        "location_resolved": "Paris, Ile-de-France, Metropolitan France, France",
+        "actors": [
+          "International Energy Agency"
+        ],
+        "implication": "Points to second-round inflation and growth risks via refined products and logistics, supporting higher volatility across rates and credit.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97971543685006,
+          14.582209657800039
+        ]
+      },
+      "properties": {
+        "id": "fa139f905785",
+        "event_type": "diplomacy",
+        "severity": 52,
+        "confidence": "high",
+        "title": "Philippines says Iran assured safe passage for Philippine ships and seafarers through Hormuz",
+        "timestamp_utc": null,
+        "location_name": "Manila, Philippines",
+        "location_resolved": "Manila, Capital District, Metro Manila, Philippines",
+        "actors": [
+          "Philippines",
+          "Iran"
+        ],
+        "implication": "Suggests potential for selective corridors/assurances; underscores uneven risk for different flags and cargoes.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99495549549222,
+          37.56111626363208
+        ]
+      },
+      "properties": {
+        "id": "7a7499b227ac",
+        "event_type": "diplomacy",
+        "severity": 52,
+        "confidence": "high",
+        "title": "South Korea denies considering paying Iran transit fees for Hormuz passage",
+        "timestamp_utc": null,
+        "location_name": "Seoul, South Korea",
+        "location_resolved": "Seoul, South Korea",
+        "actors": [
+          "South Korea",
+          "Iran"
+        ],
+        "implication": "Pushback against ‘pay-to-pass’ frameworks suggests negotiations/terms remain unresolved, prolonging uncertainty for Asian importers and tanker chartering.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/south-korea-denies-report-it-is-considering-paying-iran-hormuz-transit-fees-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04289837864911,
+          38.89836782850261
+        ]
+      },
+      "properties": {
+        "id": "5e6911b5731b",
+        "event_type": "other",
+        "severity": 88,
+        "confidence": "high",
+        "title": "U.S. signals intent to intensify strikes on Iran over next 2–3 weeks; oil jumps on escalation risk",
+        "timestamp_utc": null,
+        "location_name": "Washington, DC, United States",
+        "location_resolved": "Washington, District of Columbia, United States",
+        "actors": [
+          "United States",
+          "Iran"
+        ],
+        "implication": "Escalation risk raises tail-risk of retaliation and broader supply disruption; supports higher oil volatility and risk-off positioning.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3545920699178575,
+          48.83987143228582
+        ]
+      },
+      "properties": {
+        "id": "c44523cd1303",
+        "event_type": "diplomacy",
+        "severity": 55,
+        "confidence": "high",
+        "title": "France says opening the Strait of Hormuz by force is unrealistic; urges consultation with Iran",
+        "timestamp_utc": null,
+        "location_name": "Paris, France",
+        "location_resolved": "Paris, Ile-de-France, Metropolitan France, France",
+        "actors": [
+          "France",
+          "Iran"
+        ],
+        "implication": "Signals limited appetite for forced reopening, implying prolonged disruption risk and slower normalization of tanker flows.",
+        "source_urls": [
+          "https://www.reuters.com/world/macron-says-it-is-unrealistic-open-hormuz-strait-by-force-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99044563493727,
+          14.589578278774312
+        ]
+      },
+      "properties": {
+        "id": "fae68cc3dbb8",
+        "event_type": "diplomacy",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Philippines says Iran assured safe passage for Philippine ships through the Strait of Hormuz",
+        "timestamp_utc": null,
+        "location_name": "Manila, Philippines",
+        "location_resolved": "Manila, Capital District, Metro Manila, Philippines",
+        "actors": [
+          "Philippines",
+          "Iran"
+        ],
+        "implication": "Selective safe-passage assurances highlight fragmentation risk (some flags/shipowners face higher risk), keeping freight and insurance premia elevated.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99092454583739,
+          40.71462904825626
+        ]
+      },
+      "properties": {
+        "id": "3c5ee4c591b4",
+        "event_type": "diplomacy",
+        "severity": 58,
+        "confidence": "high",
+        "title": "Bahrain circulates revised UN Security Council draft on protecting shipping around Hormuz; binding enforcement dropped",
+        "timestamp_utc": null,
+        "location_name": "New York, NY, United States",
+        "location_resolved": "New York, United States",
+        "actors": [
+          "Bahrain",
+          "United Nations Security Council"
+        ],
+        "implication": "Weaker enforcement language lowers confidence in near-term security guarantees, sustaining risk premia in energy and shipping.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.362741725853512,
+          48.86357820692324
+        ]
+      },
+      "properties": {
+        "id": "4b9b0acd594a",
+        "event_type": "other",
+        "severity": 64,
+        "confidence": "high",
+        "title": "IEA chief warns Middle East oil supply disruptions set to rise in April; refined products flagged",
+        "timestamp_utc": null,
+        "location_name": "Paris, France",
+        "location_resolved": "Paris, Ile-de-France, Metropolitan France, France",
+        "actors": [
+          "International Energy Agency"
+        ],
+        "implication": "Refined-product tightness increases inflation pass-through risk; supports higher energy complex volatility and wider macro uncertainty.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97314551105548,
+          40.74462349550792
+        ]
+      },
+      "properties": {
+        "id": "524f7a54bb21",
+        "event_type": "diplomacy",
+        "severity": 66,
+        "confidence": "high",
+        "title": "Bahrain circulates revised UN draft on Strait of Hormuz (binding enforcement language dropped)",
+        "timestamp_utc": null,
+        "location_name": "United Nations Headquarters, New York, United States",
+        "location_resolved": "United Nations Headquarters, 405, FDR Drive, United Nations, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+        "actors": [
+          "Bahrain",
+          "United Nations"
+        ],
+        "implication": "Weaker enforcement reduces near-term confidence in safe-passage guarantees; keeps war-risk premia elevated.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-circulates-revised-un-hormuz-draft-drops-binding-enforcement-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3497836431382906,
+          48.84040534882606
+        ]
+      },
+      "properties": {
+        "id": "f8650d535faf",
+        "event_type": "other",
+        "severity": 74,
+        "confidence": "high",
+        "title": "IEA chief warns Middle East oil supply disruptions set to rise in April and hit Europe",
+        "timestamp_utc": null,
+        "location_name": "Paris, France",
+        "location_resolved": "Paris, Ile-de-France, Metropolitan France, France",
+        "actors": [
+          "International Energy Agency"
+        ],
+        "implication": "Signals potential physical tightness and higher freight/insurance transmission into European energy prices and inflation.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/middle-east-oil-supply-disruptions-rise-april-hit-europe-iea-chief-says-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99415596140328,
+          14.582481283220261
+        ]
+      },
+      "properties": {
+        "id": "7c9d69bc4dd7",
+        "event_type": "diplomacy",
+        "severity": 62,
+        "confidence": "high",
+        "title": "Iran says it will allow safe passage of Philippine ships and fuel supply via the Strait of Hormuz (per Manila)",
+        "timestamp_utc": null,
+        "location_name": "Manila, Philippines",
+        "location_resolved": "Manila, Capital District, Metro Manila, Philippines",
+        "actors": [
+          "Iran",
+          "Philippines"
+        ],
+        "implication": "Selective safe-passage assurances may fragment access and keep uncertainty high for global shipping/energy flows.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-manila-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97078710462624,
+          37.55794983081276
+        ]
+      },
+      "properties": {
+        "id": "a7a59b2ad59f",
+        "event_type": "other",
+        "severity": 58,
+        "confidence": "high",
+        "title": "South Korea denies report it is considering paying Iran Strait of Hormuz transit fees",
+        "timestamp_utc": null,
+        "location_name": "Seoul, South Korea",
+        "location_resolved": "Seoul, South Korea",
+        "actors": [
+          "South Korea",
+          "Iran"
+        ],
+        "implication": "Highlights uncertainty around any prospective 'permit/fee' regime for passage; keeps shipping cost expectations elevated.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/south-korea-denies-report-it-is-considering-paying-iran-hormuz-transit-fees-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.368599170612939,
+          50.84423497151275
+        ]
+      },
+      "properties": {
+        "id": "b04427cfc8e0",
+        "event_type": "diplomacy",
+        "severity": 55,
+        "confidence": "high",
+        "title": "More countries sign joint statement on Strait of Hormuz reopening framework",
+        "timestamp_utc": null,
+        "location_name": "Brussels, Belgium",
+        "location_resolved": "Brussels, Brussels-Capital, Belgium",
+        "actors": [
+          "European nations",
+          "Japan"
+        ],
+        "implication": "Broader alignment can support de-escalation expectations, but operational security steps (minesweeping/escorts) remain gating items for flows.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/joint-statement-strait-hormuz-by-european-nations-japan-2026-03-19/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12130631527889764,
+          51.492597127662705
+        ]
+      },
+      "properties": {
+        "id": "841afefca8c0",
+        "event_type": "other",
+        "severity": 53,
+        "confidence": "high",
+        "title": "UK PM calls for closer EU partnerships as Iran war volatility raises security and economic risks",
+        "timestamp_utc": null,
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "United Kingdom",
+          "European Union"
+        ],
+        "implication": "Political push for coordination amid elevated geopolitical volatility; may influence policy response but does not quickly resolve shipping risk premia.",
+        "source_urls": [
+          "https://www.reuters.com/world/uk/uk-requires-closer-eu-partnerships-due-volatile-world-starmer-says-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03098972930462,
+          38.91108231214406
+        ]
+      },
+      "properties": {
+        "id": "1ee47aa1e216",
+        "event_type": "other",
+        "severity": 60,
+        "confidence": "high",
+        "title": "U.S. says it is ready to thwart Iranian attacks after IRGC threats to American firms",
+        "timestamp_utc": null,
+        "location_name": "Washington, DC, United States",
+        "location_resolved": "Washington, District of Columbia, United States",
+        "actors": [
+          "United States",
+          "IRGC"
+        ],
+        "implication": "Elevates perceived cyber/kinetic retaliation risk against U.S.-linked assets; can amplify risk-off moves and widen credit spreads.",
+        "source_urls": [
+          "https://www.reuters.com/business/aerospace-defense/us-ready-thwart-iran-attacks-after-irgc-threats-american-firms-2026-03-31/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96739,
+          40.7496292
+        ]
+      },
+      "properties": {
+        "id": "30580183a7e9",
+        "event_type": "diplomacy",
+        "severity": 72,
+        "confidence": "high",
+        "title": "UN Security Council to vote on Bahrain-drafted resolution to protect commercial shipping in and around the Strait of Hormuz",
+        "timestamp_utc": null,
+        "location_name": "United Nations Headquarters, New York, United States",
+        "location_resolved": "United Nations Headquarters, 405, FDR Drive, United Nations, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+        "actors": [
+          "United Nations Security Council",
+          "Bahrain",
+          "China",
+          "United States",
+          "Russia",
+          "France",
+          "United Kingdom"
+        ],
+        "implication": "UN action could shape the legal/political basis for naval protection of shipping; major-power disagreement keeps enforcement uncertain.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1277653,
+          51.5074456
+        ]
+      },
+      "properties": {
+        "id": "235ebc4b8d36",
+        "event_type": "diplomacy",
+        "severity": 65,
+        "confidence": "high",
+        "title": "UK hosts virtual meeting of about 35 countries to explore reopening the Strait of Hormuz (minesweeping and tanker protection options)",
+        "timestamp_utc": null,
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "United Kingdom",
+          "France",
+          "Germany",
+          "Italy",
+          "Canada",
+          "United Arab Emirates"
+        ],
+        "implication": "Coalition planning for minesweeping/escorts can reduce tail risk but also signals how difficult reopening is without escalation.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uk-host-talks-with-35-countries-reopening-strait-hormuz-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9803621,
+          14.5904492
+        ]
+      },
+      "properties": {
+        "id": "c5d993531969",
+        "event_type": "diplomacy",
+        "severity": 52,
+        "confidence": "high",
+        "title": "Iran assures Philippines of safe passage for Philippine-flagged vessels and energy cargoes through the Strait of Hormuz",
+        "timestamp_utc": null,
+        "location_name": "Manila, Philippines",
+        "location_resolved": "Manila, Capital District, Metro Manila, Philippines",
+        "actors": [
+          "Iran",
+          "Philippines"
+        ],
+        "implication": "Selective safe-passage assurances may ease supply for some importers but underscore fragmented and politicized access to the strait.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-2026-04-02/"
         ]
       }
     }
