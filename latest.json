@@ -1,30 +1,82 @@
 {
   "headline_summary": [
-    "Insufficient credible, citable source coverage available in-session to build the required 30-60 unique Middle East events from the last 24-72 hours.",
-    "Previously present workspace draft contained only 3 Reuters-cited events focused on Strait of Hormuz diplomacy and shipping security; this does not meet required volume.",
-    "To avoid fabricating events or timestamps, this output is an explicit stub pending additional data sources (news feed/API or provided dataset)."
+    "Iran war-related incidents expand into Gulf states: drones hit Kuwait’s Mina al-Ahmadi refinery and a power/water plant; U.S. aircraft are downed over Iran/Gulf.",
+    "Reuters reports U.S. intelligence sees Iran unlikely to ease its effective Strait of Hormuz blockade soon, sustaining disruption to a key oil chokepoint.",
+    "Diplomatic tracks: UK-led talks among ~40 countries explore post-ceasefire coalition options; UN Security Council vote planned on Bahrain-drafted shipping protection resolution with China opposed.",
+    "Selective transit/assurances: Philippines says Iran promised safe passage for Philippine-flagged ships; CMA CGM vessel transits Hormuz after signaling 'Owner France'.",
+    "Oil market structure reflects acute tightness: Reuters reports record WTI prompt backwardation and elevated prices; OPEC+ weighs further output hike contingent on reopening."
   ],
-  "risk_score": 95,
+  "risk_score": 88,
   "risk_drivers": [
-    "Tooling/data limitation: only a small number of citable articles could be retrieved during this run",
-    "Requirement mismatch: 30-60 distinct, non-duplicate events cannot be assembled without broader source ingestion",
-    "High consequence area (Hormuz/shipping/energy) implies potentially severe market risk, but specifics cannot be responsibly enumerated without sources"
+    "Effective closure/constraint of the Strait of Hormuz and uncertainty over reopening timeline",
+    "Direct kinetic spillover into Gulf infrastructure (refinery and utilities hit in Kuwait)",
+    "Air/air-defense incidents involving U.S. aircraft and rescue operations",
+    "Potential for Iran to formalize permit/fee regime for transit, keeping insurance/freight elevated",
+    "Unclear end-state and ongoing escalation rhetoric"
   ],
   "market_implications": {
     "Energy": [
-      "Unquantified upside risk to crude and refined products due to potential shipping disruption; cannot detail without additional sources."
+      "oil_up_risk: sustained supply shock and higher freight/insurance costs while Hormuz remains constrained",
+      "Refined product volatility risk from Gulf refinery disruptions (Kuwait incident)",
+      "Backwardation/near-term tightness may persist until credible reopening/escort plan emerges"
     ],
     "FX": [
-      "Potential risk-off USD strength / EM FX pressure channel; cannot detail without additional sources."
+      "em_fx_pressure: higher energy import bills pressure EM current accounts",
+      "risk_off_flows could support USD and safe havens if Gulf spillover widens"
     ],
     "Rates": [
-      "Potential widening in credit spreads and shifts in term premia during escalation; cannot detail without additional sources."
+      "rates_credit_spreads: higher energy-driven inflation risk can lift term premia while widening credit spreads in risk-off",
+      "Event risk may increase rate volatility around geopolitical headlines"
     ],
     "Equities": [
-      "Potential rotation toward energy/defense and away from shipping- and fuel-intensive sectors; cannot detail without additional sources."
+      "risk_off_flows: broad equity drawdown risk on escalation; relative support for energy/defense vs transports",
+      "Supply-chain and fuel cost headwinds for cyclicals"
     ]
   },
-  "sources": [],
-  "generated_at_utc": "2026-04-03T12:44:09.994086Z",
-  "generated_at_ist": "2026-04-03T18:14:09.994106+05:30"
+  "sources": [
+    {
+      "title": "Exclusive: US intelligence warns Iran unlikely to ease Hormuz Strait chokehold soon, sources say",
+      "url": "https://uk.mobile.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-03T00:00:00Z"
+    },
+    {
+      "title": "Drones hit Kuwait's Mina al-Ahmadi refinery, fires reported, no injuries",
+      "url": "https://www.reuters.com/world/middle-east/drones-hit-kuwaits-mina-al-ahmadi-refinery-fires-reported-no-injuries-2026-04-03/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-03T00:00:00Z"
+    },
+    {
+      "title": "Britain says 40 countries discuss reopening Strait of Hormuz after Iran blockade",
+      "url": "https://www.reuters.com/business/energy/dozens-countries-discuss-coalition-secure-passage-through-strait-hormuz-2026-04-02/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-02T00:00:00Z"
+    },
+    {
+      "title": "UN to vote on Hormuz resolution as China opposes authorization of force",
+      "url": "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-02T00:00:00Z"
+    },
+    {
+      "title": "World anxious to open Hormuz Strait while Trump and Iran trade threats",
+      "url": "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-02T00:00:00Z"
+    },
+    {
+      "title": "Near-term oil prices hit record premium over later deliveries after Trump vows more attacks on Iran",
+      "url": "http://www.reuters.com/business/energy/prompt-oil-prices-hit-record-premium-next-month-delivery-after-trump-vows-keep-2026-04-02/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-02T00:00:00Z"
+    },
+    {
+      "title": "OPEC+ likely to weigh further oil output hike on Sunday, sources say",
+      "url": "https://www.reuters.com/business/energy/opec-likely-weigh-further-oil-output-hike-sunday-sources-say-2026-04-02/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-02T00:00:00Z"
+    }
+  ],
+  "generated_at_utc": "2026-04-04T01:27:58.819272Z",
+  "generated_at_ist": "2026-04-04T06:57:58.819290+05:30"
 }

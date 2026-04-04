@@ -1,32 +1,706 @@
 {
   "latest": {
     "headline_summary": [
-      "Insufficient credible, citable source coverage available in-session to build the required 30-60 unique Middle East events from the last 24-72 hours.",
-      "Previously present workspace draft contained only 3 Reuters-cited events focused on Strait of Hormuz diplomacy and shipping security; this does not meet required volume.",
-      "To avoid fabricating events or timestamps, this output is an explicit stub pending additional data sources (news feed/API or provided dataset)."
+      "Iran war-related incidents expand into Gulf states: drones hit Kuwait\u2019s Mina al-Ahmadi refinery and a power/water plant; U.S. aircraft are downed over Iran/Gulf.",
+      "Reuters reports U.S. intelligence sees Iran unlikely to ease its effective Strait of Hormuz blockade soon, sustaining disruption to a key oil chokepoint.",
+      "Diplomatic tracks: UK-led talks among ~40 countries explore post-ceasefire coalition options; UN Security Council vote planned on Bahrain-drafted shipping protection resolution with China opposed.",
+      "Selective transit/assurances: Philippines says Iran promised safe passage for Philippine-flagged ships; CMA CGM vessel transits Hormuz after signaling 'Owner France'.",
+      "Oil market structure reflects acute tightness: Reuters reports record WTI prompt backwardation and elevated prices; OPEC+ weighs further output hike contingent on reopening."
     ],
-    "risk_score": 95,
+    "risk_score": 88,
     "risk_drivers": [
-      "Tooling/data limitation: only a small number of citable articles could be retrieved during this run",
-      "Requirement mismatch: 30-60 distinct, non-duplicate events cannot be assembled without broader source ingestion",
-      "High consequence area (Hormuz/shipping/energy) implies potentially severe market risk, but specifics cannot be responsibly enumerated without sources"
+      "Effective closure/constraint of the Strait of Hormuz and uncertainty over reopening timeline",
+      "Direct kinetic spillover into Gulf infrastructure (refinery and utilities hit in Kuwait)",
+      "Air/air-defense incidents involving U.S. aircraft and rescue operations",
+      "Potential for Iran to formalize permit/fee regime for transit, keeping insurance/freight elevated",
+      "Unclear end-state and ongoing escalation rhetoric"
     ],
     "market_implications": {
       "Energy": [
-        "Unquantified upside risk to crude and refined products due to potential shipping disruption; cannot detail without additional sources."
+        "oil_up_risk: sustained supply shock and higher freight/insurance costs while Hormuz remains constrained",
+        "Refined product volatility risk from Gulf refinery disruptions (Kuwait incident)",
+        "Backwardation/near-term tightness may persist until credible reopening/escort plan emerges"
       ],
       "FX": [
-        "Potential risk-off USD strength / EM FX pressure channel; cannot detail without additional sources."
+        "em_fx_pressure: higher energy import bills pressure EM current accounts",
+        "risk_off_flows could support USD and safe havens if Gulf spillover widens"
       ],
       "Rates": [
-        "Potential widening in credit spreads and shifts in term premia during escalation; cannot detail without additional sources."
+        "rates_credit_spreads: higher energy-driven inflation risk can lift term premia while widening credit spreads in risk-off",
+        "Event risk may increase rate volatility around geopolitical headlines"
       ],
       "Equities": [
-        "Potential rotation toward energy/defense and away from shipping- and fuel-intensive sectors; cannot detail without additional sources."
+        "risk_off_flows: broad equity drawdown risk on escalation; relative support for energy/defense vs transports",
+        "Supply-chain and fuel cost headwinds for cyclicals"
       ]
     },
-    "sources": []
+    "sources": [
+      {
+        "title": "Exclusive: US intelligence warns Iran unlikely to ease Hormuz Strait chokehold soon, sources say",
+        "url": "https://uk.mobile.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-03T00:00:00Z"
+      },
+      {
+        "title": "Drones hit Kuwait's Mina al-Ahmadi refinery, fires reported, no injuries",
+        "url": "https://www.reuters.com/world/middle-east/drones-hit-kuwaits-mina-al-ahmadi-refinery-fires-reported-no-injuries-2026-04-03/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-03T00:00:00Z"
+      },
+      {
+        "title": "Britain says 40 countries discuss reopening Strait of Hormuz after Iran blockade",
+        "url": "https://www.reuters.com/business/energy/dozens-countries-discuss-coalition-secure-passage-through-strait-hormuz-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02T00:00:00Z"
+      },
+      {
+        "title": "UN to vote on Hormuz resolution as China opposes authorization of force",
+        "url": "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02T00:00:00Z"
+      },
+      {
+        "title": "World anxious to open Hormuz Strait while Trump and Iran trade threats",
+        "url": "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02T00:00:00Z"
+      },
+      {
+        "title": "Near-term oil prices hit record premium over later deliveries after Trump vows more attacks on Iran",
+        "url": "http://www.reuters.com/business/energy/prompt-oil-prices-hit-record-premium-next-month-delivery-after-trump-vows-keep-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02T00:00:00Z"
+      },
+      {
+        "title": "OPEC+ likely to weigh further oil output hike on Sunday, sources say",
+        "url": "https://www.reuters.com/business/energy/opec-likely-weigh-further-oil-output-hike-sunday-sources-say-2026-04-02/",
+        "publisher": "Reuters",
+        "published_at": "2026-04-02T00:00:00Z"
+      }
+    ]
   },
-  "events": [],
-  "links": []
+  "events": [
+    {
+      "event_type": "strike",
+      "severity": 85,
+      "confidence": "high",
+      "title": "Iran shoots down U.S. F-15E over southwestern Iran; one crew member missing",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Khuzestan Province, Iran",
+      "actors": [
+        "Iranian Revolutionary Guard Corps",
+        "United States"
+      ],
+      "implication": "Downing of U.S. aircraft raises escalation risk and could trigger retaliatory strikes impacting Gulf security.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 70,
+      "confidence": "high",
+      "title": "Iranian fire hits U.S. A-10; aircraft crashes over Kuwait after engagement",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Kuwait",
+      "actors": [
+        "Iran",
+        "United States",
+        "Kuwaiti authorities"
+      ],
+      "implication": "Cross-border incident highlights spillover into Gulf states and risk to energy infrastructure.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 60,
+      "confidence": "high",
+      "title": "Iranian fire hits two U.S. Blackhawks during pilot search; helicopters exit Iranian airspace",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Southwestern Iran",
+      "actors": [
+        "Iran",
+        "United States"
+      ],
+      "implication": "Search-and-rescue operations under fire increase likelihood of broader engagement and miscalculation.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 75,
+      "confidence": "high",
+      "title": "Drone strike hits Mina al-Ahmadi refinery; fires reported, no injuries",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Mina Al Ahmadi, Kuwait",
+      "actors": [
+        "Kuwait Petroleum Corporation"
+      ],
+      "implication": "Direct hit on refining assets elevates risk premium in refined products and regional supply reliability.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/drones-hit-kuwaits-mina-al-ahmadi-refinery-fires-reported-no-injuries-2026-04-03/",
+        "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 65,
+      "confidence": "high",
+      "title": "Iran strikes power and water plant in Kuwait, Reuters reports",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Kuwait",
+      "actors": [
+        "Iran"
+      ],
+      "implication": "Attacks on critical infrastructure in Gulf states increase tail-risk to energy exports and domestic stability.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 55,
+      "confidence": "med",
+      "title": "Drone hits Red Crescent relief warehouse in Choghadak, Bushehr province",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Choghadak, Iran",
+      "actors": [
+        "Iranian Red Crescent"
+      ],
+      "implication": "Signals ongoing drone activity and air-defense strain; raises uncertainty around southern Iranian coastal security.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 95,
+      "confidence": "high",
+      "title": "U.S. intelligence assesses Iran unlikely to ease Strait of Hormuz chokehold soon",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman",
+      "actors": [
+        "United States",
+        "Iran"
+      ],
+      "implication": "Prolonged disruption risk to ~20% of global oil transit supports elevated crude risk premium.",
+      "source_urls": [
+        "https://uk.mobile.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 90,
+      "confidence": "high",
+      "title": "Iran uses attacks, mines and passage fees to effectively block Hormuz transit, Reuters reports",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman",
+      "actors": [
+        "Iran",
+        "IRGC"
+      ],
+      "implication": "Reduced insurability and throughput implies supply shock and higher freight/insurance costs.",
+      "source_urls": [
+        "https://uk.mobile.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 60,
+      "confidence": "high",
+      "title": "Philippines says Iran assures safe passage for Philippine-flagged vessels and Filipino seafarers",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Tehran, Iran",
+      "actors": [
+        "Iran",
+        "Philippines"
+      ],
+      "implication": "Selective assurances suggest Iran may calibrate pressure, potentially differentiating shipping risk by flag/state.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 65,
+      "confidence": "high",
+      "title": "CMA CGM-owned container ship Kribi transits Strait of Hormuz; first French-owned vessel since war began",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman",
+      "actors": [
+        "CMA CGM",
+        "France",
+        "Iran"
+      ],
+      "implication": "A successful transit hints at potential de-escalation channels or negotiated exceptions; still high uncertainty.",
+      "source_urls": [
+        "https://www.reuters.com/world/europe/french-owned-cma-cgm-container-ship-passes-strait-hormuz-data-shows-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 55,
+      "confidence": "high",
+      "title": "Vessel changes AIS destination to 'Owner France' before entering Iranian waters, Reuters reports",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman",
+      "actors": [
+        "CMA CGM"
+      ],
+      "implication": "Operational tactics to signal neutrality may proliferate, but also indicate heightened threat environment.",
+      "source_urls": [
+        "https://www.reuters.com/world/europe/french-owned-cma-cgm-container-ship-passes-strait-hormuz-data-shows-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 70,
+      "confidence": "high",
+      "title": "Britain hosts talks with ~40 countries on coalition to reopen Strait of Hormuz",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "London, United Kingdom",
+      "actors": [
+        "United Kingdom",
+        "France",
+        "Germany",
+        "Canada",
+        "United Arab Emirates",
+        "India"
+      ],
+      "implication": "Coalition planning signals potential future escort/mine-clear operations; near-term risk remains high pending ceasefire.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/dozens-countries-discuss-coalition-secure-passage-through-strait-hormuz-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 50,
+      "confidence": "high",
+      "title": "UK to host meeting of military planners next week to discuss mine-clearing and reassurance force",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "London, United Kingdom",
+      "actors": [
+        "United Kingdom"
+      ],
+      "implication": "Planning for mine-countermeasures underscores expectation of a contested maritime environment.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/dozens-countries-discuss-coalition-secure-passage-through-strait-hormuz-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 65,
+      "confidence": "high",
+      "title": "UN Security Council to vote on Bahrain-drafted resolution to protect shipping in and around Hormuz",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "New York, United States",
+      "actors": [
+        "United Nations Security Council",
+        "Bahrain"
+      ],
+      "implication": "Potential authorization for defensive measures affects legal basis for escorts; market sensitive to passage restoration prospects.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 55,
+      "confidence": "high",
+      "title": "China opposes UNSC language authorizing 'all defensive means necessary' in Hormuz",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "New York, United States",
+      "actors": [
+        "China",
+        "United Nations Security Council"
+      ],
+      "implication": "Major-power disagreement reduces probability of a robust UN-mandated maritime mission.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 75,
+      "confidence": "high",
+      "title": "Iran says it is drafting a protocol with Oman requiring ship permits and licenses for Hormuz transit",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Muscat, Oman",
+      "actors": [
+        "Iran",
+        "Oman"
+      ],
+      "implication": "Institutionalizing control over transit can function as de facto restriction and keep insurance/freight elevated.",
+      "source_urls": [
+        "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 80,
+      "confidence": "high",
+      "title": "Iranian military spokesperson says Hormuz closed 'long term' to U.S. and Israel",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman",
+      "actors": [
+        "Iran",
+        "United States",
+        "Israel"
+      ],
+      "implication": "Explicit closure stance sustains crude supply shock and elevates geopolitical risk premia.",
+      "source_urls": [
+        "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 50,
+      "confidence": "high",
+      "title": "EU foreign policy chief says international law doesn't recognize 'pay-to-pass' schemes",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Brussels, Belgium",
+      "actors": [
+        "European Union"
+      ],
+      "implication": "Signals pushback against Iran-controlled fee regime; diplomatic tensions may prolong disruption.",
+      "source_urls": [
+        "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "other",
+      "severity": 60,
+      "confidence": "high",
+      "title": "Trump says U.S. will hit Iran 'extremely hard' over next 2-3 weeks; threatens civilian power plants",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Washington, DC, United States",
+      "actors": [
+        "United States",
+        "Iran"
+      ],
+      "implication": "Signals sustained military campaign; markets likely to price higher probability of regional spillover.",
+      "source_urls": [
+        "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
+        "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 65,
+      "confidence": "high",
+      "title": "U.S. strike hits Tehran\u2013Karaj B1 bridge; Iran state media reports casualties",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Karaj, Iran",
+      "actors": [
+        "United States",
+        "Iran"
+      ],
+      "implication": "Attack on civilian infrastructure increases escalation risk and retaliation incentives.",
+      "source_urls": [
+        "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "other",
+      "severity": 65,
+      "confidence": "med",
+      "title": "Iran warns of 'broader and more destructive' attacks in response to U.S. threats",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Tehran, Iran",
+      "actors": [
+        "Iran"
+      ],
+      "implication": "Forward guidance of retaliation raises tail-risk for Gulf infrastructure and shipping.",
+      "source_urls": [
+        "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "cyber",
+      "severity": 55,
+      "confidence": "med",
+      "title": "Iran-linked actors target an Amazon cloud computing centre in Bahrain, per Reuters report of Iranian media",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Manama, Bahrain",
+      "actors": [
+        "Iran",
+        "Bahrain"
+      ],
+      "implication": "Critical digital infrastructure targeting increases operational risk for logistics and energy firms.",
+      "source_urls": [
+        "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 45,
+      "confidence": "high",
+      "title": "Explosions heard in Damascus; Syrian TV says likely Israeli interception of Iranian missiles",
+      "timestamp_utc": "2026-04-01T00:00:00Z",
+      "location_name": "Damascus, Syria",
+      "actors": [
+        "Israel",
+        "Iran",
+        "Syria"
+      ],
+      "implication": "Regional air-defense engagements keep escalation risk elevated across Levant air corridors.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/explosions-heard-damascus-area-likely-israeli-interception-iranian-missiles-2026-04-01/"
+      ]
+    },
+    {
+      "event_type": "strike",
+      "severity": 55,
+      "confidence": "high",
+      "title": "Missile interception debris causes fires near KEZAD; six injured",
+      "timestamp_utc": "2026-03-28T00:00:00Z",
+      "location_name": "Abu Dhabi, United Arab Emirates",
+      "actors": [
+        "United Arab Emirates"
+      ],
+      "implication": "Demonstrates spillover risk to UAE logistics/industrial zones; supports regional risk premia.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/five-injured-abu-dhabi-after-missile-intercepted-near-kezad-authorities-say-2026-03-28/"
+      ]
+    },
+    {
+      "event_type": "other",
+      "severity": 50,
+      "confidence": "high",
+      "title": "U.S. intelligence can only confirm about one-third of Iran's missile arsenal destroyed, sources say",
+      "timestamp_utc": "2026-03-27T00:00:00Z",
+      "location_name": "Washington, DC, United States",
+      "actors": [
+        "United States",
+        "Iran"
+      ],
+      "implication": "Residual Iranian strike capacity increases duration/uncertainty of conflict and infrastructure risk.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/us-can-only-confirm-about-third-irans-missile-arsenal-destroyed-sources-say-2026-03-27/"
+      ]
+    },
+    {
+      "event_type": "other",
+      "severity": 55,
+      "confidence": "high",
+      "title": "WTI front-month backwardation hits record as traders scramble for prompt barrels amid Iran war",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Houston, TX, United States",
+      "actors": [
+        "Oil market participants"
+      ],
+      "implication": "Extreme backwardation signals acute near-term supply tightness and supports oil_up_risk.",
+      "source_urls": [
+        "http://www.reuters.com/business/energy/prompt-oil-prices-hit-record-premium-next-month-delivery-after-trump-vows-keep-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "other",
+      "severity": 45,
+      "confidence": "high",
+      "title": "WTI May peaks at $113.97 and settles at $111.42, Reuters reports",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "New York, NY, United States",
+      "actors": [
+        "Oil market participants"
+      ],
+      "implication": "High prices feed inflation expectations and can pressure risk assets.",
+      "source_urls": [
+        "http://www.reuters.com/business/energy/prompt-oil-prices-hit-record-premium-next-month-delivery-after-trump-vows-keep-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "other",
+      "severity": 60,
+      "confidence": "high",
+      "title": "OPEC+ considers further output hike contingent on Hormuz reopening, sources say",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Vienna, Austria",
+      "actors": [
+        "OPEC+",
+        "Saudi Arabia",
+        "Russia"
+      ],
+      "implication": "Policy signaling may cap medium-term prices if reopening occurs; near-term constrained by export routes.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/opec-likely-weigh-further-oil-output-hike-sunday-sources-say-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "other",
+      "severity": 40,
+      "confidence": "high",
+      "title": "Saudi exports via Yanbu near capacity as it reroutes crude to bypass Hormuz, Reuters reports",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Yanbu, Saudi Arabia",
+      "actors": [
+        "Saudi Arabia"
+      ],
+      "implication": "Bypass constraints limit ability to fully offset Hormuz disruption; supports elevated crude differentials.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/opec-likely-weigh-further-oil-output-hike-sunday-sources-say-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "other",
+      "severity": 40,
+      "confidence": "high",
+      "title": "UAE exports from Fujairah rise as Hormuz bypass route used, Reuters cites Kpler",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Fujairah, United Arab Emirates",
+      "actors": [
+        "United Arab Emirates"
+      ],
+      "implication": "Higher Fujairah flows partially mitigate disruption but may tighten regional condensate supply.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/opec-likely-weigh-further-oil-output-hike-sunday-sources-say-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "shipping_disruption",
+      "severity": 30,
+      "confidence": "high",
+      "title": "Russian mariner detained after 2025 Houthi sinking departs Sanaa for Russia after treatment",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Sanaa, Yemen",
+      "actors": [
+        "Houthi movement",
+        "Russia",
+        "United Nations"
+      ],
+      "implication": "Reminds market of persistent Red Sea security overhang and potential for renewed shipping disruptions.",
+      "source_urls": [
+        "https://www.reuters.com/world/russian-mariner-held-after-houthi-red-sea-attack-leaves-yemen-home-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 35,
+      "confidence": "high",
+      "title": "Hamas tells mediators it won't discuss disarmament without guarantees of full Israeli withdrawal from Gaza",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Cairo, Egypt",
+      "actors": [
+        "Hamas",
+        "Egypt",
+        "Qatar",
+        "Turkey",
+        "Israel"
+      ],
+      "implication": "Stalled Gaza disarmament talks can prolong regional tensions and intersect with broader Iran-linked escalation dynamics.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/hamas-wants-guarantees-israeli-troop-withdrawal-before-disarmament-talks-sources-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 45,
+      "confidence": "med",
+      "title": "Macron says military seizure of Hormuz is unrealistic; reopening must be via diplomacy",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Seoul, South Korea",
+      "actors": [
+        "France"
+      ],
+      "implication": "Reduces likelihood of near-term forced reopening; supports sustained oil risk premium.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/dozens-countries-discuss-coalition-secure-passage-through-strait-hormuz-2026-04-02/",
+        "https://www.reuters.com/world/europe/french-owned-cma-cgm-container-ship-passes-strait-hormuz-data-shows-2026-04-03/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 40,
+      "confidence": "med",
+      "title": "Trump calls on Gulf oil-dependent countries and NATO allies to take lead in reopening Hormuz, Reuters reports",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Washington, DC, United States",
+      "actors": [
+        "United States",
+        "NATO"
+      ],
+      "implication": "Burden-shifting could delay effective escort operations, keeping disruption risk elevated.",
+      "source_urls": [
+        "https://uk.mobile.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/",
+        "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+      ]
+    },
+    {
+      "event_type": "diplomacy",
+      "severity": 35,
+      "confidence": "med",
+      "title": "Military planners to consider intelligence sharing and air/sea coordination for Hormuz reassurance force",
+      "timestamp_utc": "2026-04-02T00:00:00Z",
+      "location_name": "Paris, France",
+      "actors": [
+        "France",
+        "United Kingdom"
+      ],
+      "implication": "Coordination needs underline complexity; any delays maintain higher energy and freight costs.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/dozens-countries-discuss-coalition-secure-passage-through-strait-hormuz-2026-04-02/"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from": "U.S. intelligence assesses Iran unlikely to ease Strait of Hormuz chokehold soon",
+      "to": "oil_up_risk",
+      "relation": "supports",
+      "confidence": "high",
+      "why": "Prolonged constraint on a chokepoint carrying ~20% of global oil trade implies sustained supply risk."
+    },
+    {
+      "from": "Drone strike hits Mina al-Ahmadi refinery; fires reported, no injuries",
+      "to": "oil_up_risk",
+      "relation": "amplifies",
+      "confidence": "high",
+      "why": "Direct hit to refining capacity adds outage risk premium to crude/refined markets."
+    },
+    {
+      "from": "Iran shoots down U.S. F-15E over southwestern Iran; one crew member missing",
+      "to": "risk_off_flows",
+      "relation": "triggers",
+      "confidence": "med",
+      "why": "Escalation involving U.S. aircraft raises tail risk and can drive safe-haven flows."
+    },
+    {
+      "from": "Britain hosts talks with ~40 countries on coalition to reopen Strait of Hormuz",
+      "to": "oil_up_risk",
+      "relation": "mitigates_future",
+      "confidence": "med",
+      "why": "Coalition planning may lower medium-term disruption risk but depends on ceasefire and execution."
+    },
+    {
+      "from": "Iran says it is drafting a protocol with Oman requiring ship permits and licenses for Hormuz transit",
+      "to": "rates_credit_spreads",
+      "relation": "feeds",
+      "confidence": "low",
+      "why": "If permits/fees persist, energy/freight inflation can tighten financial conditions and widen spreads."
+    },
+    {
+      "from": "WTI front-month backwardation hits record as traders scramble for prompt barrels amid Iran war",
+      "to": "oil_up_risk",
+      "relation": "signals",
+      "confidence": "high",
+      "why": "Record prompt premium reflects acute near-term supply tightness."
+    },
+    {
+      "from": "Drone strike hits Mina al-Ahmadi refinery; fires reported, no injuries",
+      "to": "em_fx_pressure",
+      "relation": "contributes",
+      "confidence": "med",
+      "why": "Higher refined prices and supply insecurity can worsen import costs for energy-importing EMs."
+    },
+    {
+      "from": "UN Security Council to vote on Bahrain-drafted resolution to protect shipping in and around Hormuz",
+      "to": "oil_up_risk",
+      "relation": "could_reduce",
+      "confidence": "low",
+      "why": "Authorization could enable defensive measures, but outcome/implementation uncertain."
+    }
+  ]
 }

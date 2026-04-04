@@ -397,5 +397,36 @@
     "lon": 2.3483915,
     "lat": 48.8534951,
     "display_name": "Paris, Ile-de-France, Metropolitan France, France"
+  },
+  "khuzestan province, iran": {
+    "lon": 49.0058885,
+    "lat": 31.5563051,
+    "display_name": "Khuzestan Province, Iran"
+  },
+  "kuwait": {
+    "lon": 47.4979476,
+    "lat": 29.2733964,
+    "display_name": "Kuwait"
+  },
+  "southwestern iran": null,
+  "mina al ahmadi, kuwait": {
+    "lon": 48.1107906,
+    "lat": 28.9498148,
+    "display_name": "International Veterinary Hospital Kuwait IVH, Wafra Road, Mina Abdulla, Ahmadi Governorate, 44001, Kuwait"
+  },
+  "choghadak, iran": {
+    "lon": 51.0357975,
+    "lat": 28.9880011,
+    "display_name": "Chaghadak, Bakhsh-e-Markazi of Bushehr County, Bushehr County, Bushehr Province, Iran"
+  },
+  "karaj, iran": {
+    "lon": 50.9904681,
+    "lat": 35.8224892,
+    "display_name": "Karaj, Karaj Central District, Karaj County, Alborz Province, Iran"
+  },
+  "houston, tx, united states": {
+    "lon": -95.3676974,
+    "lat": 29.7589382,
+    "display_name": "Houston, Harris County, Texas, United States"
   }
 }
