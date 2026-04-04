@@ -428,5 +428,20 @@
     "lon": -95.3676974,
     "lat": 29.7589382,
     "display_name": "Houston, Harris County, Texas, United States"
+  },
+  "mina al-ahmadi, kuwait": {
+    "lon": 48.139741,
+    "lat": 28.9251967,
+    "display_name": "Kuwait Motor Town, King Fahad Bin Abdul Aziz Road, Mina Abdulla, Ali Subah Al Salem, Ahmadi Governorate, 44001, Kuwait"
+  },
+  "singapore": {
+    "lon": 103.8194992,
+    "lat": 1.357107,
+    "display_name": "Singapore"
+  },
+  "suez canal, egypt": {
+    "lon": 32.3331003,
+    "lat": 30.6052767,
+    "display_name": "Suez Canal, Al Ismailiya, Egypt"
   }
 }

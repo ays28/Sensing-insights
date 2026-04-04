@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.0058885,
-          31.5563051
+          49.02218897440561,
+          31.550804502845786
         ]
       },
       "properties": {
@@ -23,7 +23,7 @@
           "Iranian Revolutionary Guard Corps",
           "United States"
         ],
-        "implication": "Downing of U.S. aircraft raises escalation risk and could trigger retaliatory strikes impacting Gulf security.",
+        "implication": "Downing of U.S. aircraft increases escalation and retaliation risk, elevating threat to regional assets.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
         ]
@@ -48,11 +48,10 @@
         "location_name": "Kuwait",
         "location_resolved": "Kuwait",
         "actors": [
-          "Iran",
           "United States",
-          "Kuwaiti authorities"
+          "Iran"
         ],
-        "implication": "Cross-border incident highlights spillover into Gulf states and risk to energy infrastructure.",
+        "implication": "Highlights risk to coalition air operations and bases in Gulf states; may trigger additional strikes.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
         ]
@@ -133,9 +132,10 @@
         "location_name": "Kuwait",
         "location_resolved": "Kuwait",
         "actors": [
-          "Iran"
+          "Iran",
+          "Kuwait"
         ],
-        "implication": "Attacks on critical infrastructure in Gulf states increase tail-risk to energy exports and domestic stability.",
+        "implication": "Utilities/desalination vulnerability raises broader Gulf stability risk beyond energy assets.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
         ]
@@ -154,15 +154,16 @@
         "id": "d1f6ea8ad0fd",
         "event_type": "strike",
         "severity": 55,
-        "confidence": "med",
+        "confidence": "high",
         "title": "Drone hits Red Crescent relief warehouse in Choghadak, Bushehr province",
         "timestamp_utc": "2026-04-03T00:00:00Z",
         "location_name": "Choghadak, Iran",
         "location_resolved": "Chaghadak, Bakhsh-e-Markazi of Bushehr County, Bushehr County, Bushehr Province, Iran",
         "actors": [
-          "Iranian Red Crescent"
+          "Iran",
+          "Unspecified attackers"
         ],
-        "implication": "Signals ongoing drone activity and air-defense strain; raises uncertainty around southern Iranian coastal security.",
+        "implication": "Signals expanding strike set inside Iran; raises risk of further asymmetric retaliation.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
         ]
@@ -250,6 +251,176 @@
         "source_urls": [
           "https://uk.mobile.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/",
           "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.21810518644328,
+          26.440692646243228
+        ]
+      },
+      "properties": {
+        "id": "7ce0f691d4bc",
+        "event_type": "shipping_disruption",
+        "severity": 95,
+        "confidence": "high",
+        "title": "U.S. intelligence assesses Iran unlikely to ease Strait of Hormuz chokehold soon",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "United States",
+          "Iran"
+        ],
+        "implication": "Signals prolonged chokepoint disruption; keeps oil/LNG freight and insurance elevated.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.21239960441184,
+          26.450179998268148
+        ]
+      },
+      "properties": {
+        "id": "1eec834fabf1",
+        "event_type": "shipping_disruption",
+        "severity": 90,
+        "confidence": "high",
+        "title": "Iran uses attacks, mines and passage fees to effectively block Hormuz transit, Reuters reports",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Iranian Revolutionary Guard Corps",
+          "Commercial shipping"
+        ],
+        "implication": "Physical and economic barriers reinforce de facto closure; raises risk of further incidents at sea.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.139741,
+          28.9251967
+        ]
+      },
+      "properties": {
+        "id": "d9f760bb926c",
+        "event_type": "strike",
+        "severity": 75,
+        "confidence": "high",
+        "title": "Drone strike hits Mina al-Ahmadi refinery; fires reported, no injuries",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Mina al-Ahmadi, Kuwait",
+        "location_resolved": "Kuwait Motor Town, King Fahad Bin Abdul Aziz Road, Mina Abdulla, Ali Subah Al Salem, Ahmadi Governorate, 44001, Kuwait",
+        "actors": [
+          "Kuwait Petroleum Corporation",
+          "Iran"
+        ],
+        "implication": "Adds tail risk to Gulf refining capacity and product exports; supports higher crack spreads.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/drones-hit-kuwaits-mina-al-ahmadi-refinery-fires-reported-no-injuries-2026-04-03/",
+          "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.99921303156574,
+          31.56097391115213
+        ]
+      },
+      "properties": {
+        "id": "4bd224642aa4",
+        "event_type": "strike",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Iranian fire hits two U.S. Blackhawks during missing pilot search; helicopters exit Iran airspace",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Khuzestan Province, Iran",
+        "location_resolved": "Khuzestan Province, Iran",
+        "actors": [
+          "United States",
+          "Iran"
+        ],
+        "implication": "Search-and-rescue operations face elevated attrition risk; may expand U.S. target set.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5025585,
+          33.8892265
+        ]
+      },
+      "properties": {
+        "id": "92c6045af408",
+        "event_type": "strike",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Israel strikes Beirut after warning residents to flee; U.S. warns Iran-aligned groups may target Lebanese universities",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Beirut, Lebanon",
+        "location_resolved": "Beirut, Basta Tahta, Bashura, Beirut Governorate, Lebanon",
+        "actors": [
+          "Israel",
+          "Hezbollah",
+          "United States"
+        ],
+        "implication": "Sustains multi-theatre conflict risk; increases probability of further regional spillover and risk-off moves.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-strikes-beirut-us-warns-iran-may-hit-lebanese-universities-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.357197793408038,
+          48.860585793181286
+        ]
+      },
+      "properties": {
+        "id": "45bb7ee2942b",
+        "event_type": "diplomacy",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Macron says opening Strait of Hormuz by force is unrealistic; reopening must be via diplomacy",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Paris, France",
+        "location_resolved": "Paris, Ile-de-France, Metropolitan France, France",
+        "actors": [
+          "France",
+          "Emmanuel Macron"
+        ],
+        "implication": "Signals limited appetite for military seizure; implies reopening likely slower and dependent on negotiation.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/french-owned-cma-cgm-container-ship-passes-strait-hormuz-data-shows-2026-04-03/"
         ]
       }
     },
@@ -952,8 +1123,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.5822436,
-          26.2235041
+          50.575278011459446,
+          26.23089369182007
         ]
       },
       "properties": {
@@ -980,8 +1151,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.3676974,
-          29.7589382
+          -95.36000337264679,
+          29.74293386290401
         ]
       },
       "properties": {
@@ -1034,8 +1205,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3725042,
-          48.2083537
+          16.368064679416864,
+          48.21257183479017
         ]
       },
       "properties": {
@@ -1063,8 +1234,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.0687076,
-          24.089019
+          38.06172479360569,
+          24.095478816487887
         ]
       },
       "properties": {
@@ -1205,8 +1376,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.3483915,
-          48.8534951
+          2.332719302922686,
+          48.86049011493797
         ]
       },
       "properties": {
@@ -1225,6 +1396,269 @@
         "implication": "Coordination needs underline complexity; any delays maintain higher energy and freight costs.",
         "source_urls": [
           "https://www.reuters.com/business/energy/dozens-countries-discuss-coalition-secure-passage-through-strait-hormuz-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1277653,
+          51.5074456
+        ]
+      },
+      "properties": {
+        "id": "92ae6b471ffb",
+        "event_type": "diplomacy",
+        "severity": 72,
+        "confidence": "high",
+        "title": "Britain says ~40 countries discuss coalition options to reopen Strait of Hormuz after blockade",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "United Kingdom",
+          "France",
+          "Germany",
+          "Canada",
+          "United Arab Emirates",
+          "India"
+        ],
+        "implication": "Coalition planning (incl. mine-clearing/reassurance force) could reduce shipping risk but depends on end of hostilities.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/dozens-countries-discuss-coalition-secure-passage-through-strait-hormuz-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97708647285623,
+          40.742312296346725
+        ]
+      },
+      "properties": {
+        "id": "aac1216a1b0f",
+        "event_type": "diplomacy",
+        "severity": 75,
+        "confidence": "high",
+        "title": "UN Security Council to vote on Bahrain-drafted resolution to protect commercial shipping around Hormuz",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "United Nations Headquarters, New York, United States",
+        "location_resolved": "United Nations Headquarters, 405, FDR Drive, United Nations, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+        "actors": [
+          "United Nations Security Council",
+          "Bahrain",
+          "China",
+          "United States",
+          "Russia",
+          "France"
+        ],
+        "implication": "If passed, could enable expanded maritime protection; great-power disagreement raises uncertainty and delays.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97437467736617,
+          40.76060316817474
+        ]
+      },
+      "properties": {
+        "id": "6254a7014695",
+        "event_type": "diplomacy",
+        "severity": 55,
+        "confidence": "high",
+        "title": "China opposes UNSC language authorizing 'all defensive means necessary' in Hormuz resolution",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "United Nations Headquarters, New York, United States",
+        "location_resolved": "United Nations Headquarters, 405, FDR Drive, United Nations, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+        "actors": [
+          "China",
+          "United Nations Security Council"
+        ],
+        "implication": "Increases odds of watered-down mandate; reduces probability of rapid, force-backed reopening framework.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99508480444536,
+          14.600314423757146
+        ]
+      },
+      "properties": {
+        "id": "fcccdb6a9753",
+        "event_type": "diplomacy",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Philippines says Iran assures safe passage for Philippine-flagged vessels and energy supplies through Hormuz",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Manila, Philippines",
+        "location_resolved": "Manila, Capital District, Metro Manila, Philippines",
+        "actors": [
+          "Philippines",
+          "Iran"
+        ],
+        "implication": "Shows Iran may allow selective transits, but does not resolve broader insurance and security constraints.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.21349285234558,
+          26.44171720466726
+        ]
+      },
+      "properties": {
+        "id": "2233ced89fc2",
+        "event_type": "shipping_disruption",
+        "severity": 65,
+        "confidence": "high",
+        "title": "French-owned CMA CGM container ship Kribi transits Strait of Hormuz after signaling 'Owner France'",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "CMA CGM",
+          "France",
+          "Iran"
+        ],
+        "implication": "Demonstrates possible deconfliction/neutrality signaling; may encourage limited traffic but doesn’t normalize flows.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/french-owned-cma-cgm-container-ship-passes-strait-hormuz-data-shows-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36162452154144,
+          29.75895228707381
+        ]
+      },
+      "properties": {
+        "id": "84549bc325dc",
+        "event_type": "other",
+        "severity": 60,
+        "confidence": "high",
+        "title": "WTI front-month backwardation hits record as traders scramble for prompt barrels",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Houston, United States",
+        "location_resolved": "Houston, Harris County, Texas, United States",
+        "actors": [
+          "Oil market participants"
+        ],
+        "implication": "Signals acute near-term tightness; raises volatility and margin/collateral needs for hedgers.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/prompt-oil-prices-hit-record-premium-next-month-delivery-after-trump-vows-keep-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.381980828770953,
+          48.19785498601263
+        ]
+      },
+      "properties": {
+        "id": "798543043b49",
+        "event_type": "other",
+        "severity": 60,
+        "confidence": "high",
+        "title": "OPEC+ likely to weigh further output hike contingent on Hormuz reopening",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Vienna, Austria",
+        "location_resolved": "Vienna, Austria",
+        "actors": [
+          "OPEC+",
+          "Saudi Arabia",
+          "Russia",
+          "Iraq",
+          "United Arab Emirates",
+          "Kuwait"
+        ],
+        "implication": "Adds ‘paper’ supply optionality, but physical flows depend on chokepoint access; supports front-end volatility.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/opec-likely-weigh-further-oil-output-hike-sunday-sources-say-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.58621902775297,
+          26.23464813981338
+        ]
+      },
+      "properties": {
+        "id": "48fa34c450f8",
+        "event_type": "cyber",
+        "severity": 55,
+        "confidence": "med",
+        "title": "Iran's Revolutionary Guard says it began attacks on Amazon cloud computing facility in Bahrain (ISNA report cited by Reuters)",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Manama, Bahrain",
+        "location_resolved": "Manama, Capital Governorate, 308, Bahrain",
+        "actors": [
+          "Iranian Revolutionary Guard Corps",
+          "Amazon Web Services"
+        ],
+        "implication": "Raises regional cyber escalation risk and potential business interruption for cloud-dependent operations.",
+        "source_urls": [
+          "https://jp.reuters.com/world/security/54DKZUCGQVKCFDGRDVI3MUJNOY-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3896004,
+          35.6892523
+        ]
+      },
+      "properties": {
+        "id": "3a53ed894eb6",
+        "event_type": "other",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Iran warns it will broaden attacks in response to U.S. threats, Reuters reports",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Tehran, Iran",
+        "location_resolved": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran",
+        "actors": [
+          "Iran"
+        ],
+        "implication": "Escalatory messaging increases headline-driven volatility and raises probability of attacks on third-country assets.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
         ]
       }
     },
@@ -1414,8 +1848,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.667169,
-          -4.05052
+          39.66767011202681,
+          -4.043709802452616
         ]
       },
       "properties": {
@@ -1724,6 +2158,144 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          103.8245013017579,
+          1.3589524514009674
+        ]
+      },
+      "properties": {
+        "id": "d5f0a02d2486",
+        "event_type": "other",
+        "severity": 65,
+        "confidence": "high",
+        "title": "Iran war strains Dubai oil benchmark as Hormuz export halts disrupt deliverable supply",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Singapore",
+        "location_resolved": "Singapore",
+        "actors": [
+          "S&P Global Commodity Insights",
+          "Oil market participants"
+        ],
+        "implication": "Benchmark/basis risk rises; Asian refiners face hedging and margin stress; may shift pricing to Brent-based benchmarks.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36683578028706,
+          29.75351243551476
+        ]
+      },
+      "properties": {
+        "id": "52f9a937cf78",
+        "event_type": "other",
+        "severity": 75,
+        "confidence": "high",
+        "title": "US LNG exports hit record high in March as Middle East war disrupts global supply",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Houston, United States",
+        "location_resolved": "Houston, Harris County, Texas, United States",
+        "actors": [
+          "United States",
+          "Cheniere Energy",
+          "Golden Pass LNG"
+        ],
+        "implication": "Global gas rebalancing accelerates; higher Asia prices pull flexible cargoes, tightening tanker availability.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-lng-exports-break-record-high-middle-east-war-disrupts-global-supply-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.349183227466662,
+          48.848393728034004
+        ]
+      },
+      "properties": {
+        "id": "bbec2e7c91b7",
+        "event_type": "shipping_disruption",
+        "severity": 88,
+        "confidence": "high",
+        "title": "IEA warns Middle East oil disruptions set to rise in April as Hormuz closure hits supply",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Paris, France",
+        "location_resolved": "Paris, Ile-de-France, Metropolitan France, France",
+        "actors": [
+          "International Energy Agency"
+        ],
+        "implication": "Official warning reinforces expectation of sustained supply shortfall; supports higher oil volatility.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/prompt-oil-prices-hit-record-premium-next-month-delivery-after-trump-vows-keep-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.3331003,
+          30.6052767
+        ]
+      },
+      "properties": {
+        "id": "67e8294659f8",
+        "event_type": "shipping_disruption",
+        "severity": 75,
+        "confidence": "high",
+        "title": "More than 1 million tons of U.S. LNG idles or signals near Suez Canal amid rerouting",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Suez Canal, Egypt",
+        "location_resolved": "Suez Canal, Al Ismailiya, Egypt",
+        "actors": [
+          "LNG shipping companies"
+        ],
+        "implication": "Rerouting/idle behavior tightens tanker availability and can amplify regional price spreads.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-lng-exports-break-record-high-middle-east-war-disrupts-global-supply-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82416729367279,
+          1.3695953725891477
+        ]
+      },
+      "properties": {
+        "id": "fb25583498ff",
+        "event_type": "other",
+        "severity": 65,
+        "confidence": "high",
+        "title": "Middle East crude prices surge toward $170/bbl as Hormuz loading constraints intensify, Reuters reports",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Singapore",
+        "location_resolved": "Singapore",
+        "actors": [
+          "Oil market participants"
+        ],
+        "implication": "Higher absolute prices amplify inflation shock and margin stress for refiners; increases risk of demand destruction.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           55.19373755041979,
           25.065756321522834
         ]
@@ -2014,6 +2586,94 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          39.66678412351749,
+          -4.045919327847674
+        ]
+      },
+      "properties": {
+        "id": "67de95ac10f7",
+        "event_type": "shipping_disruption",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Kenya tea exports hit by Iran conflict-linked shipping disruption as stocks pile up in Mombasa",
+        "timestamp_utc": "2026-03-31T00:00:00Z",
+        "location_name": "Mombasa, Kenya",
+        "location_resolved": "Mombasa, Tononoka ward, Mvita, Mombasa County, 80100, Kenya",
+        "actors": [
+          "Kenya",
+          "Tea exporters",
+          "Shipping companies"
+        ],
+        "implication": "Illustrates non-energy trade impacts (delays, inventory build); adds to EM macro stress where export earnings fall.",
+        "source_urls": [
+          "https://www.reuters.com/world/africa/kenya-tea-exports-hit-by-iran-conflict-stocks-pile-up-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1885387,
+          25.0742823
+        ]
+      },
+      "properties": {
+        "id": "52a8e1c309b7",
+        "event_type": "strike",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Iran strikes fully loaded oil tanker at anchorage off Dubai, Reuters reports",
+        "timestamp_utc": "2026-03-31T00:00:00Z",
+        "location_name": "Dubai, United Arab Emirates",
+        "location_resolved": "Dubai Emirate, Dubai, United Arab Emirates",
+        "actors": [
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "Tankers at anchor and port approaches become higher-risk; increases freight premiums and potential force majeure.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37690084506912,
+          48.199552458530064
+        ]
+      },
+      "properties": {
+        "id": "fccc64f2176e",
+        "event_type": "shipping_disruption",
+        "severity": 78,
+        "confidence": "high",
+        "title": "OPEC output plunges in March as Hormuz closure forces export cuts",
+        "timestamp_utc": "2026-03-31T00:00:00Z",
+        "location_name": "Vienna, Austria",
+        "location_resolved": "Vienna, Austria",
+        "actors": [
+          "OPEC",
+          "Saudi Arabia",
+          "Iraq",
+          "Kuwait",
+          "United Arab Emirates"
+        ],
+        "implication": "Production/export reductions deepen near-term supply tightness; supports backwardation and inventory draws.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/opec-likely-weigh-further-oil-output-hike-sunday-sources-say-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.12457744048983066,
           51.511089906498654
         ]
@@ -2144,6 +2804,34 @@
         "implication": "Persistent drone activity near the Iraq border increases risk to logistics corridors and US/allied assets.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/syrian-army-says-drone-attacks-targeted-its-bases-near-iraq-2026-03-30/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.063069171133826,
+          24.088365408413154
+        ]
+      },
+      "properties": {
+        "id": "d4ca830d1d2b",
+        "event_type": "shipping_disruption",
+        "severity": 65,
+        "confidence": "high",
+        "title": "Saudi crude exports from Yanbu approach capacity as kingdom reroutes to bypass Hormuz",
+        "timestamp_utc": "2026-03-30T00:00:00Z",
+        "location_name": "Yanbu, Saudi Arabia",
+        "location_resolved": "Yanbu`, Yanbu, Medina Province, 46424, Saudi Arabia",
+        "actors": [
+          "Saudi Aramco",
+          "Saudi Arabia"
+        ],
+        "implication": "Bypass flows partially mitigate supply loss but are capacity-capped; supports persistent price and freight pressure.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/saudi-crude-exports-yanbu-approach-capacity-hormuz-workaround-2026-03-30/"
         ]
       }
     },
@@ -2648,6 +3336,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          56.186746511290806,
+          26.46122883531711
+        ]
+      },
+      "properties": {
+        "id": "ee6fa95d8581",
+        "event_type": "shipping_disruption",
+        "severity": 92,
+        "confidence": "high",
+        "title": "Vessel traffic through Strait of Hormuz nearly halted; large backlog of tankers reported",
+        "timestamp_utc": "2026-03-29T00:00:00Z",
+        "location_name": "Strait of Hormuz",
+        "location_resolved": "مضیق هرمز, عمان",
+        "actors": [
+          "Commercial shipping",
+          "Iran"
+        ],
+        "implication": "Near-cessation of traffic amplifies global supply shock; raises probability of rationing and emergency releases.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           54.69054952889093,
           24.741458510427442
         ]
@@ -3060,6 +3776,33 @@
         "implication": "Residual Iranian strike capacity increases duration/uncertainty of conflict and infrastructure risk.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/us-can-only-confirm-about-third-irans-missile-arsenal-destroyed-sources-say-2026-03-27/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82869607129199,
+          1.3551815911219938
+        ]
+      },
+      "properties": {
+        "id": "a660d27c1e13",
+        "event_type": "other",
+        "severity": 55,
+        "confidence": "high",
+        "title": "Asian refiners switch from Dubai to Brent-based benchmarks for pricing U.S. crude amid dislocation",
+        "timestamp_utc": "2026-03-27T00:00:00Z",
+        "location_name": "Singapore",
+        "location_resolved": "Singapore",
+        "actors": [
+          "Asian refiners"
+        ],
+        "implication": "Pricing regime shift can alter hedge correlations and basis; may raise volatility in Brent spreads.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/"
         ]
       }
     },
@@ -11106,8 +11849,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.96739,
-          40.7496292
+          -73.96359375111595,
+          40.733722946055856
         ]
       },
       "properties": {
@@ -11171,8 +11914,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.9803621,
-          14.5904492
+          120.97713763466858,
+          14.596249284862274
         ]
       },
       "properties": {
