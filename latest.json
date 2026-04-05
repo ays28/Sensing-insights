@@ -1,49 +1,57 @@
 {
   "headline_summary": [
-    "Iran war-related incidents expand into Gulf states: drones hit Kuwait’s Mina al-Ahmadi refinery and a power/water plant; U.S. aircraft are downed over Iran/Gulf.",
-    "Reuters reports U.S. intelligence sees Iran unlikely to ease its effective Strait of Hormuz chokehold soon, sustaining disruption to a key oil chokepoint.",
-    "Diplomacy accelerates: UK-led talks among ~40 countries explore a coalition to reopen Hormuz; UN Security Council vote planned on Bahrain-drafted shipping protection resolution with China opposing force authorization.",
-    "Selective transit/assurances emerge even as disruption persists (Philippines says Iran promised safe passage for Philippine-flagged ships; CMA CGM vessel transits Hormuz after signaling ‘Owner France’).",
-    "Oil market structure signals acute near-term tightness (record WTI prompt backwardation) while OPEC+ weighs further output hikes contingent on reopening.",
-    "Regional spillover continues: Israel strikes Beirut; U.S. embassy warns Iran-aligned groups may target Lebanese universities."
+    "Reuters (Apr 4): Trump issues a 48-hour ultimatum for Iran to open the Strait of Hormuz; Israel signals readiness to strike Iranian energy facilities, raising near-term escalation risk.",
+    "Reuters (Apr 4): Iran authorizes passage for vessels carrying essential goods to Iranian ports via Hormuz under coordination/protocols, implying managed/conditional transits rather than full reopening.",
+    "Reuters (Apr 3): U.S. intelligence assesses Iran is unlikely to ease its effective Strait of Hormuz chokehold soon, sustaining disruption risk at a key oil chokepoint.",
+    "Reuters (Apr 3): Drone attack hits Kuwait’s Mina al-Ahmadi refinery; UK deploys Rapid Sentry air defence system to Kuwait amid heightened Gulf infrastructure risk.",
+    "Reuters (Apr 1): UKMTO reports a tanker struck off Doha; multi-front attacks (Kuwait, Bahrain) underline maritime and infrastructure vulnerability.",
+    "Reuters (Apr 3): First Japan-linked LNG tanker crosses the Strait of Hormuz since the war began; dozens of Japan-linked vessels remain stranded, indicating selective transits.",
+    "Reuters (Apr 2): Countries and the EU push back on any 'pay-to-pass' regime and seek reopening plans; diplomacy continues alongside threats.",
+    "Reuters (Apr 2): Legal/political backlash grows in the U.S. over strikes on Iran, adding constraints/uncertainty around campaign duration and escalation pathways."
   ],
   "risk_score": 88,
   "risk_drivers": [
-    "Effective closure/constraint of the Strait of Hormuz and uncertainty over reopening timeline",
-    "Kinetic spillover to Gulf infrastructure (Kuwait refinery/utilities drone attacks)",
-    "U.S.-Iran air incidents (downed aircraft, rescue operations) increasing escalation/retaliation risk",
-    "Shipping insurance/freight dislocations and potential Iranian permit/fee regime for transit",
-    "Spillover into Lebanon/Israel theatre with heightened strike risk"
+    "Strait of Hormuz managed-closure risk (permits, fees, intermittent transit) and uncertain duration",
+    "Rising probability of strikes on Iranian energy/power infrastructure following ultimatum dynamics",
+    "Gulf energy and transport infrastructure exposure (Kuwait refinery/airport; Bahrain facility fires)",
+    "Maritime security incidents (tanker hit off Doha; vessel fires in/near Hormuz) and insurance/freight shocks",
+    "Air incidents/search-and-rescue friction (downed aircraft, missing crew) increasing escalation risk"
   ],
   "market_implications": {
     "Energy": [
-      "oil_up_risk: elevated risk premium while Hormuz remains constrained; freight/insurance costs reinforce higher delivered prices",
-      "Refined product volatility risk if Gulf refining/utilities attacks recur (e.g., Mina al-Ahmadi incident)",
-      "Benchmark dislocations (Dubai/Oman/Murban deliverability issues) can raise hedging basis risk and margin calls"
+      "oil_up_risk: elevated geopolitical premium persists while Hormuz access remains constrained/conditional",
+      "Prompt spreads/backwardation risk if physical flows tighten or insurers further restrict cover",
+      "Refined products risk: Gulf refinery outages or power disruptions can lift cracks and raise regional product volatility"
     ],
     "FX": [
-      "em_fx_pressure: higher energy import bills can pressure EM current accounts and local inflation",
-      "risk_off_flows: flight-to-quality can support USD/JPY/CHF if escalation widens"
+      "em_fx_pressure: higher energy import bills pressure energy-importer EM FX and can widen current-account concerns",
+      "risk_off_flows: escalation headlines support USD/CHF/JPY; pressure on high-beta and MENA frontier markets"
     ],
     "Rates": [
-      "rates_credit_spreads: geopolitics-driven inflation risk can lift term premia while widening credit spreads under risk-off",
-      "Headline risk can raise rate volatility and swap spread volatility around major diplomatic/military updates"
+      "rates_credit_spreads: risk-off and inflation uncertainty can widen HY/EM spreads; oil-linked breakevens may rise",
+      "Term premia can reprice higher if energy-driven inflation shocks appear persistent"
     ],
     "Equities": [
-      "risk_off_flows: broader equity drawdown risk on renewed strikes/shipping disruption; relative support for energy/defense vs transports",
-      "Higher input/fuel costs pressure consumer and industrial margins; shipping/airlines face route and insurance risks"
+      "risk_off_flows: downside for cyclicals, airlines, shipping/transport cost-exposed sectors; relative support for energy/defense",
+      "Regional equity volatility rises in GCC markets amid infrastructure-strike risk"
     ]
   },
   "sources": [
     {
-      "title": "Exclusive: US intelligence warns Iran unlikely to ease Hormuz Strait chokehold soon, sources say",
-      "url": "https://www.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/",
+      "title": "Trump, Israel pressure Iran ahead of deadline as hunt goes on for missing US crew member",
+      "url": "https://www.reuters.com/world/asia-pacific/downed-planes-spell-new-peril-trump-tehran-hunts-missing-us-pilot-2026-04-04/",
       "publisher": "Reuters",
-      "published_at": "2026-04-03T00:00:00Z"
+      "published_at": "2026-04-04T00:00:00Z"
     },
     {
-      "title": "Downed planes raise new perils for Trump as Tehran hunts for missing US pilot",
-      "url": "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/",
+      "title": "Iran allows essential goods vessels to its ports via Hormuz strait, Tasnim says",
+      "url": "https://reut.rs/4v8KpRo",
+      "publisher": "Reuters",
+      "published_at": "2026-04-04T00:00:00Z"
+    },
+    {
+      "title": "Exclusive: US intelligence warns Iran unlikely to ease Hormuz Strait chokehold soon, sources say",
+      "url": "https://www.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/",
       "publisher": "Reuters",
       "published_at": "2026-04-03T00:00:00Z"
     },
@@ -54,72 +62,36 @@
       "published_at": "2026-04-03T00:00:00Z"
     },
     {
-      "title": "Britain says 40 countries discuss reopening Strait of Hormuz after Iran blockade",
-      "url": "https://www.reuters.com/business/energy/dozens-countries-discuss-coalition-secure-passage-through-strait-hormuz-2026-04-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-04-02T00:00:00Z"
-    },
-    {
-      "title": "UN to vote on Hormuz resolution as China opposes authorization of force",
-      "url": "https://www.reuters.com/world/middle-east/bahrain-hopes-vote-revised-hormuz-resolution-friday-2026-04-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-04-02T00:00:00Z"
-    },
-    {
-      "title": "Iran to allow safe passage of Philippine ships, fuel supply through Strait of Hormuz, says Manila",
-      "url": "https://www.reuters.com/business/energy/iran-allow-safe-passage-philippine-ships-fuel-supply-through-strait-hormuz-says-2026-04-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-04-02T00:00:00Z"
-    },
-    {
-      "title": "French-owned CMA CGM container ship passes Strait of Hormuz, data shows",
-      "url": "https://www.reuters.com/world/europe/french-owned-cma-cgm-container-ship-passes-strait-hormuz-data-shows-2026-04-03/",
+      "title": "UK deploying Rapid Sentry air defence system to Kuwait, PM's office says",
+      "url": "https://www.reuters.com/world/uk/uk-deploying-rapid-sentry-air-defence-system-kuwait-pms-office-says-2026-04-03/",
       "publisher": "Reuters",
       "published_at": "2026-04-03T00:00:00Z"
     },
     {
-      "title": "Near-term oil prices hit record premium over later deliveries after Trump vows more attacks on Iran",
-      "url": "https://www.reuters.com/business/energy/prompt-oil-prices-hit-record-premium-next-month-delivery-after-trump-vows-keep-2026-04-02/",
+      "title": "US eyes swift end to war as fresh attacks hit Gulf states and Iran",
+      "url": "https://reut.rs/4dT311A",
       "publisher": "Reuters",
-      "published_at": "2026-04-02T00:00:00Z"
+      "published_at": "2026-04-01T00:00:00Z"
     },
     {
-      "title": "OPEC+ likely to weigh further oil output hike on Sunday, sources say",
-      "url": "https://www.reuters.com/business/energy/opec-likely-weigh-further-oil-output-hike-sunday-sources-say-2026-04-02/",
-      "publisher": "Reuters",
-      "published_at": "2026-04-02T00:00:00Z"
-    },
-    {
-      "title": "Israel strikes Beirut, US warns Iran may hit Lebanese universities",
-      "url": "https://www.reuters.com/world/middle-east/israel-strikes-beirut-us-warns-iran-may-hit-lebanese-universities-2026-04-03/",
+      "title": "Japanese-owned LNG tanker crosses the Strait of Hormuz",
+      "url": "https://reut.rs/4sX1b4K",
       "publisher": "Reuters",
       "published_at": "2026-04-03T00:00:00Z"
     },
     {
-      "title": "Saudi crude exports from Yanbu approach capacity in Hormuz workaround",
-      "url": "https://www.reuters.com/business/energy/saudi-crude-exports-yanbu-approach-capacity-hormuz-workaround-2026-03-30/",
+      "title": "World anxious to open Hormuz Strait while Trump and Iran trade threats",
+      "url": "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
       "publisher": "Reuters",
-      "published_at": "2026-03-30T00:00:00Z"
+      "published_at": "2026-04-02T00:00:00Z"
     },
     {
-      "title": "Iran war puts Middle East Dubai oil benchmark under stress as prices soar",
-      "url": "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/",
+      "title": "US experts say American strikes on Iran may amount to war crimes",
+      "url": "https://www.reuters.com/world/middle-east/us-experts-say-american-strikes-iran-may-amount-war-crimes-2026-04-02/",
       "publisher": "Reuters",
-      "published_at": "2026-04-01T00:00:00Z"
-    },
-    {
-      "title": "US LNG exports break record high as Middle East war disrupts global supply",
-      "url": "https://www.reuters.com/business/energy/us-lng-exports-break-record-high-middle-east-war-disrupts-global-supply-2026-04-01/",
-      "publisher": "Reuters",
-      "published_at": "2026-04-01T00:00:00Z"
-    },
-    {
-      "title": "Kenya tea exports hit by Iran conflict as stocks pile up",
-      "url": "https://www.reuters.com/world/africa/kenya-tea-exports-hit-by-iran-conflict-stocks-pile-up-2026-04-01/",
-      "publisher": "Reuters",
-      "published_at": "2026-03-31T00:00:00Z"
+      "published_at": "2026-04-02T00:00:00Z"
     }
   ],
-  "generated_at_utc": "2026-04-04T12:43:22.405220Z",
-  "generated_at_ist": "2026-04-04T18:13:22.405241+05:30"
+  "generated_at_utc": "2026-04-05T01:52:45.084515Z",
+  "generated_at_ist": "2026-04-05T07:22:45.084534+05:30"
 }

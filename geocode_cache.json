@@ -443,5 +443,16 @@
     "lon": 32.3331003,
     "lat": 30.6052767,
     "display_name": "Suez Canal, Al Ismailiya, Egypt"
+  },
+  "strait of hormuz, near iran": null,
+  "doha, qatar": {
+    "lon": 51.5081812,
+    "lat": 25.3108807,
+    "display_name": "Doha, Qatar"
+  },
+  "bandar abbas, iran": {
+    "lon": 56.2842212,
+    "lat": 27.1901938,
+    "display_name": "Bandar Abbas, بخش مرکزی شهرستان بندرعباس, Bandar-e-Abbas County, Hormozgan Province, Iran"
   }
 }
