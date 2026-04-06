@@ -11834,7 +11834,7 @@
       "to": "7557abd37533",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: commercial shipping, iran; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: commercial shipping, islamic revolutionary guard corps; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "577ce6091237",
@@ -12681,7 +12681,7 @@
       "to": "3de946e7413b",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: strike; Same area: iran; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "202ab9c72210",
@@ -12702,7 +12702,7 @@
       "to": "335a9e6d2327",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: unknown attackers, commercial shipping; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: commercial shipping, unknown attackers; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "5f132135a0dd",
@@ -12758,14 +12758,14 @@
       "to": "3de946e7413b",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: strike; Within 72h; Regionally close (~419km); Escalation pattern"
+      "why": "Shared actor: united states, iran; Same type: strike; Within 72h; Regionally close (~419km); Escalation pattern"
     },
     {
       "from": "143e1506054f",
       "to": "c9b504ccd071",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: strike; Within 72h; Regionally close (~418km); Escalation pattern"
+      "why": "Shared actor: united states, iran; Same type: strike; Within 72h; Regionally close (~418km); Escalation pattern"
     },
     {
       "from": "577ce6091237",
@@ -13451,7 +13451,7 @@
       "to": "d2d14c8af84c",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: saudi aramco, saudi arabia; Same type: strike; Same area: saudi arabia; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: saudi arabia, saudi aramco; Same type: strike; Same area: saudi arabia; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "222564642de7",
@@ -14151,7 +14151,7 @@
       "to": "640e0829ea1c",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: cyber; Within 72h; Nearby (~2km); Escalation pattern"
+      "why": "Shared actor: united states, iran; Same type: cyber; Within 72h; Nearby (~2km); Escalation pattern"
     },
     {
       "from": "571d5d98b7e2",
@@ -14396,7 +14396,7 @@
       "to": "ce06a268ad20",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, israel; Same type: strike; Same area: syria; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: syria, iran; Same type: strike; Same area: syria; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "5f50d9f40b53",
@@ -14410,7 +14410,7 @@
       "to": "5f50d9f40b53",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: strike; Same area: iran; Within 72h; Regionally close (~450km); Escalation pattern"
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Within 72h; Regionally close (~450km); Escalation pattern"
     },
     {
       "from": "00a33d93e327",
@@ -14501,7 +14501,7 @@
       "to": "5f50d9f40b53",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: strike; Same area: iran; Within 72h; Regionally close (~451km); Escalation pattern"
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Within 72h; Regionally close (~451km); Escalation pattern"
     },
     {
       "from": "52a8e1c309b7",
