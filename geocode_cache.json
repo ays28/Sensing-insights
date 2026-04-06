@@ -454,5 +454,60 @@
     "lon": 56.2842212,
     "lat": 27.1901938,
     "display_name": "Bandar Abbas, بخش مرکزی شهرستان بندرعباس, Bandar-e-Abbas County, Hormozgan Province, Iran"
+  },
+  "tokyo, japan": {
+    "lon": 139.7638947,
+    "lat": 35.6768601,
+    "display_name": "Tokyo, Japan"
+  },
+  "frankfurt, germany": {
+    "lon": 8.6820917,
+    "lat": 50.1106444,
+    "display_name": "Frankfurt, Hesse, Germany"
+  },
+  "geneva, switzerland": {
+    "lon": 6.1466014,
+    "lat": 46.2017559,
+    "display_name": "Geneva, Switzerland"
+  },
+  "new delhi, india": {
+    "lon": 77.2090057,
+    "lat": 28.6138954,
+    "display_name": "New Delhi, Delhi, India"
+  },
+  "jakarta, indonesia": {
+    "lon": 106.827168,
+    "lat": -6.1754049,
+    "display_name": "Special Capital Region of Jakarta, Java, Indonesia"
+  },
+  "chicago, united states": {
+    "lon": -87.6244212,
+    "lat": 41.8755616,
+    "display_name": "Chicago, South Chicago Township, Cook County, Illinois, United States"
+  },
+  "zurich, switzerland": {
+    "lon": 8.5410422,
+    "lat": 47.3744489,
+    "display_name": "Zurich, District Zurich, Zurich, Switzerland"
+  },
+  "berlin, germany": {
+    "lon": 13.3951309,
+    "lat": 52.5173885,
+    "display_name": "Berlin, Germany"
+  },
+  "mumbai, india": {
+    "lon": 72.8692035,
+    "lat": 19.054999,
+    "display_name": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India"
+  },
+  "rotterdam, netherlands": {
+    "lon": 4.47775,
+    "lat": 51.9244424,
+    "display_name": "Rotterdam, South Holland, Netherlands"
+  },
+  "boston, united states": {
+    "lon": -71.0578303,
+    "lat": 42.3588336,
+    "display_name": "Boston, Suffolk County, Massachusetts, United States"
   }
 }

@@ -3021,8 +3021,18 @@
       "location_name": "Bab el-Mandeb Strait, near Yemen"
     },
     {
+      "id": "e749397fb99b",
+      "label": "e749397fb99b",
+      "group": "market"
+    },
+    {
       "id": "61829ca32395",
       "label": "61829ca32395",
+      "group": "market"
+    },
+    {
+      "id": "b1d9062db582",
+      "label": "b1d9062db582",
       "group": "market"
     },
     {
@@ -3196,6 +3206,11 @@
       "group": "market"
     },
     {
+      "id": "57cf9ebe3317",
+      "label": "57cf9ebe3317",
+      "group": "market"
+    },
+    {
       "id": "f190a83df5a2",
       "label": "f190a83df5a2",
       "group": "market"
@@ -3289,9 +3304,26 @@
       "id": "c5d993531969",
       "label": "c5d993531969",
       "group": "market"
+    },
+    {
+      "id": "150c18e6e817",
+      "label": "150c18e6e817",
+      "group": "market"
+    },
+    {
+      "id": "31a9cfd074dc",
+      "label": "31a9cfd074dc",
+      "group": "market"
     }
   ],
   "edges": [
+    {
+      "from": "e749397fb99b",
+      "to": "em_fx_pressure",
+      "label": "worsens_terms_of_trade",
+      "confidence": "med",
+      "why": "Higher delivered energy costs can pressure oil-importer EM balances and currencies."
+    },
     {
       "from": "oil_up_risk",
       "to": "rates_credit_spreads",
@@ -3340,6 +3372,13 @@
       "label": "widens",
       "confidence": "med",
       "why": "Higher energy-driven inflation risk and risk-off conditions typically lift term premia and widen spreads."
+    },
+    {
+      "from": "b1d9062db582",
+      "to": "risk_off_flows",
+      "label": "triggers_risk_aversion",
+      "confidence": "med",
+      "why": "Kinetic incidents can trigger sudden de-risking across equities and credit."
     },
     {
       "from": "cfd5266bbcf1",
@@ -5449,6 +5488,13 @@
       "why": "De-escalation rhetoric can compress premiums, but conditional 'spot hits' keeps risk elevated."
     },
     {
+      "from": "e749397fb99b",
+      "to": "oil_up_risk",
+      "label": "maintains_supply_friction",
+      "confidence": "med",
+      "why": "Conditional transit implies persistent bottlenecks and reversibility, sustaining higher risk premia."
+    },
+    {
       "from": "4ab782eae5f9",
       "to": "251d75072167",
       "label": "interacts_with",
@@ -5587,6 +5633,13 @@
       "label": "feeds",
       "confidence": "med",
       "why": "Higher oil and volatility can lift inflation expectations and widen credit spreads under risk-off."
+    },
+    {
+      "from": "57cf9ebe3317",
+      "to": "oil_up_risk",
+      "label": "extends_disruption_duration",
+      "confidence": "med",
+      "why": "Longer disruption horizon increases expected shortage probability and supports higher forward risk pricing."
     },
     {
       "from": "fbf87c9d06f0",
@@ -10265,6 +10318,13 @@
       "why": "Shipping disruptions can weaken export receipts and add local inflation pressure in affected EMs."
     },
     {
+      "from": "b1d9062db582",
+      "to": "e749397fb99b",
+      "label": "reinforces_security_rationale",
+      "confidence": "low",
+      "why": "Incidents support a narrative/justification for continued controls and restrictions on shipping."
+    },
+    {
       "from": "bcdfaaaf3c5d",
       "to": "em_fx_pressure",
       "label": "regional_risk_premium",
@@ -10650,6 +10710,13 @@
       "why": "Domestic backlash can alter strategy/timing, increasing uncertainty and volatility even absent immediate kinetic escalation."
     },
     {
+      "from": "150c18e6e817",
+      "to": "e749397fb99b",
+      "label": "negotiates_operating_regime",
+      "confidence": "low",
+      "why": "Diplomatic pressure and proposals may influence the scope and conditions of any reopening."
+    },
+    {
       "from": "93739b4ec40f",
       "to": "oil_up_risk",
       "label": "mitigates",
@@ -10662,6 +10729,13 @@
       "label": "mitigates",
       "confidence": "low",
       "why": "If minesweeping/convoys materialize, effective throughput could improve; timing and enforcement remain uncertain."
+    },
+    {
+      "from": "31a9cfd074dc",
+      "to": "rates_credit_spreads",
+      "label": "inflation_uncertainty_widens_spreads",
+      "confidence": "low",
+      "why": "Oil-driven inflation uncertainty can widen credit spreads and complicate rate expectations."
     },
     {
       "from": "cda90a410171",
@@ -11560,6 +11634,13 @@
       "why": "Escalation rhetoric increases probability of retaliation and supply disruption, supporting an oil risk premium."
     },
     {
+      "from": "b1d9062db582",
+      "to": "oil_up_risk",
+      "label": "raises_geopolitical_premium",
+      "confidence": "high",
+      "why": "A reported attack at the main oil chokepoint increases perceived supply disruption risk and war-risk costs."
+    },
+    {
       "from": "d104c2ee807b",
       "to": "oil_up_risk",
       "label": "raises",
@@ -11753,7 +11834,7 @@
       "to": "7557abd37533",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, islamic revolutionary guard corps; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: commercial shipping, iran; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "577ce6091237",
@@ -11774,42 +11855,42 @@
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "c5533488d4ca",
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "c5533488d4ca",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "c5914c702d47",
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "0cf5c5e47a24",
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: hezbollah, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "c5533488d4ca",
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "e403eed12d08",
@@ -11823,14 +11904,14 @@
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
     },
     {
       "from": "e403eed12d08",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
     },
     {
       "from": "e403eed12d08",
@@ -12621,14 +12702,14 @@
       "to": "335a9e6d2327",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: commercial shipping, unknown attackers; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: unknown attackers, commercial shipping; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "5f132135a0dd",
       "to": "a4f4ebb62609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: turkey, iran; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: iran, turkey; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "67120a4038b2",
@@ -13006,28 +13087,28 @@
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
       "to": "c5533488d4ca",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
@@ -13279,7 +13360,7 @@
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "597d896ac5c1",
@@ -13321,35 +13402,35 @@
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
     },
     {
       "from": "4359ad2c806d",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~2km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~2km); Escalation pattern"
     },
     {
       "from": "b366934c5dac",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~77km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~77km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
       "to": "4359ad2c806d",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
     },
     {
       "from": "b366934c5dac",
       "to": "4359ad2c806d",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
     },
     {
       "from": "106a18dbfb4e",
@@ -13363,14 +13444,14 @@
       "to": "eae6ca2ded8b",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "0bca61c8284e",
       "to": "d2d14c8af84c",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: saudi arabia, saudi aramco; Same type: strike; Same area: saudi arabia; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: saudi aramco, saudi arabia; Same type: strike; Same area: saudi arabia; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "222564642de7",
@@ -13384,28 +13465,28 @@
       "to": "4359ad2c806d",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "b366934c5dac",
       "to": "c5533488d4ca",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~75km); Escalation pattern"
     },
     {
       "from": "884fce8c5920",
       "to": "a4f4ebb62609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: turkey, iran; Same type: strike; Same area: turkey; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: iran, turkey; Same type: strike; Same area: turkey; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "884fce8c5920",
       "to": "5f132135a0dd",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: turkey, iran; Same type: strike; Same area: turkey; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: iran, turkey; Same type: strike; Same area: turkey; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "6516bdeb81a0",
@@ -13419,14 +13500,14 @@
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~2km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~2km); Escalation pattern"
     },
     {
       "from": "b366934c5dac",
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~77km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~77km); Escalation pattern"
     },
     {
       "from": "e403eed12d08",
@@ -13811,35 +13892,35 @@
       "to": "5b025b985429",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
     },
     {
       "from": "259a8dc984ca",
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~76km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~76km); Escalation pattern"
     },
     {
       "from": "259a8dc984ca",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~76km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~76km); Escalation pattern"
     },
     {
       "from": "259a8dc984ca",
       "to": "4359ad2c806d",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
     },
     {
       "from": "259a8dc984ca",
       "to": "c5533488d4ca",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~74km); Escalation pattern"
     },
     {
       "from": "259a8dc984ca",
@@ -13853,14 +13934,14 @@
       "to": "eae6ca2ded8b",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "259a8dc984ca",
       "to": "b366934c5dac",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "bcbb6df12b7d",
@@ -13874,14 +13955,14 @@
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~2km); Escalation pattern"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~2km); Escalation pattern"
     },
     {
       "from": "bcbb6df12b7d",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~2km); Escalation pattern"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~2km); Escalation pattern"
     },
     {
       "from": "bcbb6df12b7d",
@@ -13902,7 +13983,7 @@
       "to": "bcbb6df12b7d",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~124km); Escalation pattern"
+      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~124km); Escalation pattern"
     },
     {
       "from": "eae6ca2ded8b",
@@ -13930,21 +14011,21 @@
       "to": "a4f4ebb62609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: turkey, iran; Same type: strike; Same area: turkey; Within 72h; Regionally close (~481km); Escalation pattern"
+      "why": "Shared actor: iran, turkey; Same type: strike; Same area: turkey; Within 72h; Regionally close (~481km); Escalation pattern"
     },
     {
       "from": "83346ca95e43",
       "to": "5f132135a0dd",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: turkey, iran; Same type: strike; Same area: turkey; Within 72h; Regionally close (~480km); Escalation pattern"
+      "why": "Shared actor: iran, turkey; Same type: strike; Same area: turkey; Within 72h; Regionally close (~480km); Escalation pattern"
     },
     {
       "from": "83346ca95e43",
       "to": "884fce8c5920",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: turkey, iran; Same type: strike; Same area: turkey; Within 72h; Regionally close (~480km); Escalation pattern"
+      "why": "Shared actor: iran, turkey; Same type: strike; Same area: turkey; Within 72h; Regionally close (~480km); Escalation pattern"
     },
     {
       "from": "1deb6b0de816",
@@ -14210,14 +14291,14 @@
       "to": "7557abd37533",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: commercial shipping, iran; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "f4e62ccbeccb",
       "to": "b6f1342b1331",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: commercial shipping, iran; Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "f4e62ccbeccb",
@@ -14315,7 +14396,7 @@
       "to": "ce06a268ad20",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: syria, iran; Same type: strike; Same area: syria; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: iran, israel; Same type: strike; Same area: syria; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "5f50d9f40b53",
@@ -14336,7 +14417,7 @@
       "to": "5933af7a8ba7",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: united arab emirates; Same type: strike; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: united arab emirates; Same type: strike; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "6b940b9067e5",
@@ -14427,7 +14508,7 @@
       "to": "892d84dc9a6e",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, commercial shipping; Same type: strike; Within 72h; Nearby (~2km); Escalation pattern"
+      "why": "Shared actor: commercial shipping, iran; Same type: strike; Within 72h; Nearby (~2km); Escalation pattern"
     },
     {
       "from": "d1f6ea8ad0fd",
@@ -14435,62 +14516,6 @@
       "label": "possible_retaliation",
       "confidence": "high",
       "why": "Shared actor: iran; Same type: strike; Same area: iran; Within 72h; Regionally close (~458km); Escalation pattern"
-    },
-    {
-      "from": "4bd224642aa4",
-      "to": "d1f6ea8ad0fd",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Same area: iran; Within 72h; Regionally close (~346km); Escalation pattern"
-    },
-    {
-      "from": "1deb6b0de816",
-      "to": "52a8e1c309b7",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Nearby (~64km); Escalation pattern"
-    },
-    {
-      "from": "1ece962c7606",
-      "to": "52a8e1c309b7",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Nearby (~63km); Escalation pattern"
-    },
-    {
-      "from": "50be9dfa08dd",
-      "to": "52a8e1c309b7",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Nearby (~64km); Escalation pattern"
-    },
-    {
-      "from": "2776231450cc",
-      "to": "92c6045af408",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: israel; Same type: strike; Within 72h; Nearby (~83km); Escalation pattern"
-    },
-    {
-      "from": "d4fdcead0219",
-      "to": "92c6045af408",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: israel; Same type: strike; Within 72h; Nearby (~85km); Escalation pattern"
-    },
-    {
-      "from": "ce06a268ad20",
-      "to": "92c6045af408",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: israel; Same type: strike; Within 72h; Nearby (~85km); Escalation pattern"
-    },
-    {
-      "from": "f7c2d4062fb8",
-      "to": "4bd224642aa4",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: strike; Same area: iran; Within 72h; Escalation pattern"
     }
   ]
 }
