@@ -509,5 +509,20 @@
     "lon": -71.0578303,
     "lat": 42.3588336,
     "display_name": "Boston, Suffolk County, Massachusetts, United States"
+  },
+  "jubail, saudi arabia": {
+    "lon": 49.6532161,
+    "lat": 27.0006968,
+    "display_name": "Al Jubayl, Al Jubayl Governorate, Eastern Province, 35514, Saudi Arabia"
+  },
+  "athens, greece": {
+    "lon": 23.7348324,
+    "lat": 37.9755648,
+    "display_name": "Athens, Municipality of Athens, Regional Unit of Central Athens, Attica, 105 57, Greece"
+  },
+  "copenhagen, denmark": {
+    "lon": 12.5700724,
+    "lat": 55.6867243,
+    "display_name": "Copenhagen, Copenhagen Municipality, Capital Region of Denmark, 1357, Denmark"
   }
 }
