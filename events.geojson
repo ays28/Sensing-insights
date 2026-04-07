@@ -6,6 +6,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          73.0651511,
+          33.6938118
+        ]
+      },
+      "properties": {
+        "id": "0180bd5a9ad3",
+        "event_type": "diplomacy",
+        "severity": 60,
+        "confidence": "med",
+        "title": "Pakistan-mediated two-stage ceasefire framework ('Islamabad Accord') circulated to Iran and the United States",
+        "timestamp_utc": "2026-04-06T00:00:00Z",
+        "location_name": "Islamabad, Pakistan",
+        "location_resolved": "Islamabad, Zone 1, Islamabad Capital Territory, 44000, Pakistan",
+        "actors": [
+          "Pakistan",
+          "Iran",
+          "United States"
+        ],
+        "implication": "Ceasefire proposal explicitly tied to reopening Hormuz; acceptance/rejection is a key driver of near-term energy risk premium.",
+        "source_urls": [
+          "https://www.reuters.com/world/china/iran-us-receive-plan-end-hostilities-immediate-ceasefire-source-says-2026-04-06/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5081812,
+          25.3108807
+        ]
+      },
+      "properties": {
+        "id": "60f37914798c",
+        "event_type": "diplomacy",
+        "severity": 50,
+        "confidence": "low",
+        "title": "Last-ditch 45-day ceasefire talks reported among U.S., Iran and regional mediators",
+        "timestamp_utc": "2026-04-06T00:00:00Z",
+        "location_name": "Doha, Qatar",
+        "location_resolved": "Doha, Qatar",
+        "actors": [
+          "United States",
+          "Iran",
+          "Regional mediators"
+        ],
+        "implication": "A temporary ceasefire could reduce immediate shipping risk premia, but negotiation uncertainty sustains volatility until terms are clear.",
+        "source_urls": [
+          "https://www.cnn.com/2026/04/06/world/video/iran-us-trump-ceasefire-chance-ctw-fst040609aseg2",
+          "https://abcnews.com/Politics/45-day-ceasefire-proposal-war-iran/story?id=131767166",
+          "http://www.guardian.co.uk/world/2026/apr/06/proposals-for-immediate-ceasefire-us-israel-iran-war"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           55.92608367342136,
           21.45830808992487
         ]
@@ -83,6 +143,35 @@
         "implication": "Search-and-rescue dynamics and personnel recovery risks can drive retaliatory actions and further air-defense/strike escalation.",
         "source_urls": [
           "https://www.reuters.com/world/asia-pacific/downed-planes-spell-new-peril-trump-tehran-hunts-missing-us-pilot-2026-04-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.38694137748925,
+          35.6772066647914
+        ]
+      },
+      "properties": {
+        "id": "de7b0a33705c",
+        "event_type": "strike",
+        "severity": 75,
+        "confidence": "med",
+        "title": "Israel preparing potential attacks on Iranian energy sites pending U.S. green light, official says",
+        "timestamp_utc": "2026-04-04T00:00:00Z",
+        "location_name": "Tehran, Iran",
+        "location_resolved": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran",
+        "actors": [
+          "Israel",
+          "United States",
+          "Iran"
+        ],
+        "implication": "Threat to Iranian energy infrastructure raises tail risk of supply disruptions and sharp oil spikes; increases market volatility.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/israel-preparing-attacks-iranian-energy-sites-awaits-us-green-light-official-2026-04-04/"
         ]
       }
     },
@@ -787,6 +876,62 @@
         "implication": "Search-and-rescue operations under fire increase likelihood of broader engagement and miscalculation.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/us-vows-target-more-iranian-infrastructure-nations-seek-open-hormuz-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.40928905384472,
+          35.68981860683515
+        ]
+      },
+      "properties": {
+        "id": "0b910b5e20ab",
+        "event_type": "diplomacy",
+        "severity": 55,
+        "confidence": "med",
+        "title": "Iranian media report Tehran rejected a U.S. 48-hour ceasefire proposal",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Tehran, Iran",
+        "location_resolved": "Tehran, بخش مرکزی شهرستان تهران, Tehran County, Tehran Province, Iran",
+        "actors": [
+          "Iran",
+          "United States"
+        ],
+        "implication": "Ceasefire rejection implies higher probability of continued strikes and maritime disruption; supports risk-off and oil-upside skew.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/tehran-rejected-48-hour-ceasefire-proposal-us-iranian-media-citing-source-says-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.93425754719674,
+          21.47481339402163
+        ]
+      },
+      "properties": {
+        "id": "336f3537e14b",
+        "event_type": "shipping_disruption",
+        "severity": 65,
+        "confidence": "med",
+        "title": "Japanese-owned LNG tanker crosses Strait of Hormuz amid conflict-driven disruption risk",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Japan",
+          "Commercial shipping"
+        ],
+        "implication": "Demonstrates partial continuity of flows but at elevated security/insurance cost; LNG supply chain remains vulnerable to interruption.",
+        "source_urls": [
+          "http://www.reuters.com/business/energy/japanese-owned-lng-tanker-crosses-strait-hormuz-2026-04-03/"
         ]
       }
     },
@@ -1683,8 +1828,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.2357257,
-          30.0443879
+          31.251205207232925,
+          30.035626197095347
         ]
       },
       "properties": {
@@ -2251,6 +2396,33 @@
         "implication": "Markets may maintain risk premium if leverage persists post-conflict, limiting mean reversion in energy prices.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/war-meant-break-iran-could-leave-tehran-stronger-gulf-exposed-2026-04-01/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.67772243193641,
+          32.41273771736689
+        ]
+      },
+      "properties": {
+        "id": "90132efcb634",
+        "event_type": "other",
+        "severity": 70,
+        "confidence": "med",
+        "title": "Oil prices surge anew as hopes dim for swift end to Iran war, Reuters reports",
+        "timestamp_utc": "2026-04-02T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Iran",
+        "location_resolved": "Centroid: iran",
+        "actors": [
+          "Oil market participants"
+        ],
+        "implication": "Energy price reaction embeds a growing geopolitical risk premium; feeds inflation expectations and tightens financial conditions.",
+        "source_urls": [
+          "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
         ]
       }
     },
@@ -2966,6 +3138,33 @@
         "implication": "Port/terminal strikes can constrain logistics and heighten retaliatory maritime actions risk.",
         "source_urls": [
           "https://reut.rs/4dT311A"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.20045157229081,
+          25.07125257335802
+        ]
+      },
+      "properties": {
+        "id": "74ee240c7168",
+        "event_type": "other",
+        "severity": 60,
+        "confidence": "low",
+        "title": "Dubai crude benchmark comes under stress as Iran war pressures Middle East pricing, Reuters says",
+        "timestamp_utc": "2026-04-01T00:00:00Z",
+        "location_name": "Dubai, United Arab Emirates",
+        "location_resolved": "Dubai Emirate, Dubai, United Arab Emirates",
+        "actors": [
+          "Oil traders"
+        ],
+        "implication": "Regional benchmark dislocations can transmit to global crude differentials and refinery margins; increases hedging demand and volatility.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/iran-war-puts-middle-east-dubai-oil-benchmark-under-stress-prices-soar-2026-04-01/"
         ]
       }
     },
@@ -4517,8 +4716,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.5164,
-          15.5527
+          48.5196948131481,
+          15.536516031384012
         ]
       },
       "properties": {
@@ -4537,6 +4736,34 @@
         "implication": "Raises probability of a second maritime chokepoint shock, amplifying freight and energy delivery costs.",
         "source_urls": [
           "https://www.reuters.com/world/middle-east/yemens-houthis-ready-join-iran-war-if-needed-raising-new-shipping-risk-2026-03-26/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.913348968121845,
+          21.472059491334292
+        ]
+      },
+      "properties": {
+        "id": "3d04723f58aa",
+        "event_type": "shipping_disruption",
+        "severity": 55,
+        "confidence": "low",
+        "title": "Industry analysis warns securing Strait of Hormuz would be harder than Red Sea efforts",
+        "timestamp_utc": "2026-03-25T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Western powers",
+          "Shipping industry"
+        ],
+        "implication": "Suggests prolonged disruption potential if conflict persists; supports higher structural freight/insurance costs and oil risk premium.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/western-powers-were-unable-secure-shipping-red-sea-hormuz-will-be-harder-2026-03-25/"
         ]
       }
     },
@@ -8286,6 +8513,34 @@
         "implication": "Carrier avoidance elevates freight and insurance costs and worsens delivery times; increases second-round inflation and supply-chain risk.",
         "source_urls": [
           "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.25,
+          26.58
+        ]
+      },
+      "properties": {
+        "id": "72c88854f15e",
+        "event_type": "shipping_disruption",
+        "severity": 58,
+        "confidence": "low",
+        "title": "Iran conflict disrupts global shipping as tankers are stranded or damaged, Reuters reports",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Strait of Hormuz, near United Arab Emirates",
+        "location_resolved": "Centroid: strait of hormuz",
+        "actors": [
+          "Commercial shipping",
+          "Insurers"
+        ],
+        "implication": "Shipping disruptions and vessel damage amplify effective supply shocks and raise delivered energy costs; negative for global trade and risk assets.",
+        "source_urls": [
+          "http://www.reuters.com/business/energy/iran-conflict-disrupts-global-shipping-tankers-are-stranded-damaged-2026-03-02/"
         ]
       }
     },
@@ -12733,8 +12988,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          53.688,
-          32.4279
+          53.69854769050465,
+          32.4224283343061
         ]
       },
       "properties": {
@@ -12873,8 +13128,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.3896004,
-          35.6892523
+          51.37490812390482,
+          35.700539217700836
         ]
       },
       "properties": {
@@ -14256,8 +14511,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.1885387,
-          25.0742823
+          55.1771272903421,
+          25.062051304698112
         ]
       },
       "properties": {
@@ -15039,6 +15294,123 @@
         "implication": "High diplomatic activity reflects elevated escalation risk; markets remain keyed to headline swings.",
         "source_urls": [
           "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.52509359073923,
+          15.54353101731211
+        ]
+      },
+      "properties": {
+        "id": "88d1b0897160",
+        "event_type": "shipping_disruption",
+        "severity": 45,
+        "confidence": "low",
+        "title": "Maritime advisory warns Red Sea corridor risks could resurface amid wider regional escalation",
+        "timestamp_utc": null,
+        "location_name": "Red Sea, near Yemen",
+        "location_resolved": "Centroid: yemen",
+        "actors": [
+          "Maritime security analysts"
+        ],
+        "implication": "If Red Sea risk re-intensifies alongside Hormuz, global shipping detours would widen inflationary pressures and deepen risk-off moves.",
+        "source_urls": [
+          "https://oceancrew.org/news/red-sea-corridor-slips-back-into-crisis-as-houthi-threats-resurface",
+          "https://maritime-executive.com/article/houthis-attack-on-israel-threatens-red-sea-ceasefire"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.512718090317236,
+          15.563894118047624
+        ]
+      },
+      "properties": {
+        "id": "47711a96e5ee",
+        "event_type": "shipping_disruption",
+        "severity": 40,
+        "confidence": "low",
+        "title": "BBC analysis flags potential Houthi threat to Red Sea shipping as global economic risk",
+        "timestamp_utc": null,
+        "location_name": "Bab el-Mandeb Strait, near Yemen",
+        "location_resolved": "Centroid: yemen",
+        "actors": [
+          "Houthis",
+          "Commercial shipping"
+        ],
+        "implication": "Renewed Red Sea attacks would compound Gulf chokepoint risks and raise shipping/energy costs; bearish for global growth-sensitive assets.",
+        "source_urls": [
+          "http://www.bbc.com/news/articles/cwyvd5z1xjno"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.243022756755,
+          30.035864067626974
+        ]
+      },
+      "properties": {
+        "id": "2d3bb77e0827",
+        "event_type": "diplomacy",
+        "severity": 35,
+        "confidence": "low",
+        "title": "U.S.-Egypt-Qatar joint statement reiterates mediation framework (context for Gaza and regional diplomacy)",
+        "timestamp_utc": null,
+        "location_name": "Cairo, Egypt",
+        "location_resolved": "Cairo, Egypt",
+        "actors": [
+          "United States",
+          "Egypt",
+          "Qatar"
+        ],
+        "implication": "Diplomacy in Gaza can interact with broader regional escalation dynamics and risk sentiment, though direct market impact is second-order.",
+        "source_urls": [
+          "https://eg.usembassy.gov/joint-statement-united-states-egypt-qatar/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4641381,
+          31.5050311
+        ]
+      },
+      "properties": {
+        "id": "ea0f603428cd",
+        "event_type": "diplomacy",
+        "severity": 40,
+        "confidence": "low",
+        "title": "Reports say Gaza ceasefire deal is 'very close' with potential 48-hour window",
+        "timestamp_utc": null,
+        "location_name": "Gaza City, Palestinian Territories",
+        "location_resolved": "Old City, Gaza, Gaza Governorate, Gaza Strip, Palestinian Territories",
+        "actors": [
+          "Israel",
+          "Hamas",
+          "Egypt",
+          "Qatar",
+          "United States"
+        ],
+        "implication": "Any Gaza de-escalation could marginally reduce regional risk premia, but is likely overshadowed by Iran/Hormuz dynamics in markets.",
+        "source_urls": [
+          "https://www.aa.com.tr/en/middle-east/gaza-ceasefire-deal-very-close-could-be-finalized-within-48-hours-reports/3711820",
+          "https://english.ahram.org.eg/News/565273.aspx"
         ]
       }
     }

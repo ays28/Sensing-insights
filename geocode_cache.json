@@ -524,5 +524,10 @@
     "lon": 12.5700724,
     "lat": 55.6867243,
     "display_name": "Copenhagen, Copenhagen Municipality, Capital Region of Denmark, 1357, Denmark"
+  },
+  "gaza city, palestinian territories": {
+    "lon": 34.4641381,
+    "lat": 31.5050311,
+    "display_name": "Old City, Gaza, Gaza Governorate, Gaza Strip, Palestinian Territories"
   }
 }
