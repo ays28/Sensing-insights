@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.3117293,
-          29.2405943
+          50.315579896614764,
+          29.257707248996322
         ]
       },
       "properties": {
@@ -62,6 +62,338 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          50.31552745961767,
+          29.23925128397845
+        ]
+      },
+      "properties": {
+        "id": "7c7b5adf6f4e",
+        "event_type": "strike",
+        "severity": 85,
+        "confidence": "high",
+        "title": "U.S. forces struck targets at/near Iran’s Kharg Island export hub",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Kharg Island, Iran",
+        "location_resolved": "Khark Island, جزیره خارک, بخش خارگ, Bushehr County, Bushehr Province, Iran",
+        "actors": [
+          "United States",
+          "Iran"
+        ],
+        "implication": "Direct risk to Iranian crude export infrastructure; raises tail-risk for Persian Gulf supply disruption and shipping insurance costs.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.19728988108577,
+          27.254797461330455
+        ]
+      },
+      "properties": {
+        "id": "a274f1811507",
+        "event_type": "strike",
+        "severity": 55,
+        "confidence": "med",
+        "title": "Strikes and sabotage risks raised war-risk insurance and triggered rerouting/force majeure across Gulf energy logistics",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Persian Gulf",
+        "location_resolved": "Persian Gulf",
+        "actors": [
+          "Shipping insurers",
+          "Energy exporters"
+        ],
+        "implication": "Non-kinetic constraints can tighten supply as much as production outages; increases delivered cost for crude/products and pressures EM importers.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1277653,
+          51.5074456
+        ]
+      },
+      "properties": {
+        "id": "ab95f473a569",
+        "event_type": "other",
+        "severity": 50,
+        "confidence": "high",
+        "title": "Energy market volatility persisted as Gulf asset risk and shipping constraints dominated pricing",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "Oil traders"
+        ],
+        "implication": "Higher realized volatility lifts option premia and can transmit to broader risk assets via inflation expectations and risk-off positioning.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.691685132540755,
+          32.41791378061257
+        ]
+      },
+      "properties": {
+        "id": "23136d397094",
+        "event_type": "shipping_disruption",
+        "severity": 66,
+        "confidence": "med",
+        "title": "Shipping conditions through Hormuz remained constrained/conditional amid ongoing conflict",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Iran",
+        "location_resolved": "Centroid: iran",
+        "actors": [
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "Sustained constraint keeps crude and products markets tight and heightens risk of sudden stop if attacks escalate.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.502794809758775,
+          29.282333640080896
+        ]
+      },
+      "properties": {
+        "id": "dc1b74b901c3",
+        "event_type": "strike",
+        "severity": 58,
+        "confidence": "med",
+        "title": "Iran-linked attacks expanded target set beyond shipping into refining and petrochemical sites",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Kuwait",
+        "location_resolved": "Kuwait",
+        "actors": [
+          "Iran"
+        ],
+        "implication": "Broader target set raises probability of prolonged outages and increases correlation across oil, products and LNG pricing.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/",
+          "https://www.reuters.com/world/middle-east/kuwait-petroleum-corp-reports-damage-units-after-iran-drone-attack-2026-04-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.18471711549298,
+          27.248288513654135
+        ]
+      },
+      "properties": {
+        "id": "fa121c65bb6b",
+        "event_type": "other",
+        "severity": 45,
+        "confidence": "med",
+        "title": "Reports highlighted knock-on effects on freight and war-risk premiums for Gulf voyages",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Persian Gulf",
+        "location_resolved": "Persian Gulf",
+        "actors": [
+          "Shipowners",
+          "Insurers"
+        ],
+        "implication": "Higher transport and insurance costs can tighten effective supply and flow through to refined product and petrochemical pricing.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.508990432964175,
+          29.263595378050493
+        ]
+      },
+      "properties": {
+        "id": "f94189ae39ad",
+        "event_type": "strike",
+        "severity": 62,
+        "confidence": "med",
+        "title": "Conflict-related damage and recovery uncertainty persisted for multiple Gulf energy assets",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Kuwait",
+        "location_resolved": "Kuwait",
+        "actors": [
+          "Energy operators"
+        ],
+        "implication": "Uncertain repair timelines keep forward curves supported and increase downside risk to regional industrial output.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/",
+          "https://www.reuters.com/world/middle-east/kuwait-petroleum-corp-reports-damage-units-after-iran-drone-attack-2026-04-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.51233772800522,
+          25.3041689388156
+        ]
+      },
+      "properties": {
+        "id": "2934ba070637",
+        "event_type": "other",
+        "severity": 52,
+        "confidence": "med",
+        "title": "Market participants tracked LNG disruption risk tied to Gulf strikes and shipping constraints",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Doha, Qatar",
+        "location_resolved": "Doha, Qatar",
+        "actors": [
+          "LNG market participants"
+        ],
+        "implication": "Potential LNG outages can lift global gas prices and spur fuel-switching, indirectly supporting oil demand.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.182095942673634,
+          25.070851167596967
+        ]
+      },
+      "properties": {
+        "id": "53a624a7c517",
+        "event_type": "other",
+        "severity": 49,
+        "confidence": "med",
+        "title": "Freight and insurance repricing fed through to wider trade costs for Gulf-linked supply chains",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Dubai, United Arab Emirates",
+        "location_resolved": "Dubai Emirate, Dubai, United Arab Emirates",
+        "actors": [
+          "Logistics firms",
+          "Insurers"
+        ],
+        "implication": "Higher trade costs can weigh on regional growth and pressure EM FX via wider import bills and risk-off flows.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.31744120234257,
+          29.247599390846492
+        ]
+      },
+      "properties": {
+        "id": "7393144e4930",
+        "event_type": "other",
+        "severity": 46,
+        "confidence": "med",
+        "title": "Oil and gas disruptions narrative emphasized exposure at export terminals, refineries and petrochemical hubs",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Kharg Island, Iran",
+        "location_resolved": "Khark Island, جزیره خارک, بخش خارگ, Bushehr County, Bushehr Province, Iran",
+        "actors": [
+          "Energy analysts"
+        ],
+        "implication": "Concentrated infrastructure nodes create nonlinear price response to incremental damage reports.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.317826450379115,
+          29.242586632636247
+        ]
+      },
+      "properties": {
+        "id": "9114ab7fd112",
+        "event_type": "strike",
+        "severity": 59,
+        "confidence": "med",
+        "title": "Infrastructure concentration at major export hubs increased sensitivity to new strike headlines",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Kharg Island, Iran",
+        "location_resolved": "Khark Island, جزیره خارک, بخش خارگ, Bushehr County, Bushehr Province, Iran",
+        "actors": [
+          "Iran",
+          "United States"
+        ],
+        "implication": "Markets can gap on incremental damage claims; supports sustained volatility and risk-off cross-asset moves.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "id": "2e0605c4732b",
+        "event_type": "other",
+        "severity": 42,
+        "confidence": "med",
+        "title": "Broader oil/gas disruption reporting reinforced risk-off positioning across macro assets",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "New York, United States",
+        "location_resolved": "New York, United States",
+        "actors": [
+          "Investors"
+        ],
+        "implication": "Higher energy inflation risk and geopolitical uncertainty can widen credit spreads and pressure equities.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           73.0651511,
           33.6938118
         ]
@@ -91,8 +423,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.5081812,
-          25.3108807
+          51.501850556103456,
+          25.318309144239997
         ]
       },
       "properties": {
@@ -122,8 +454,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.1885387,
-          25.0742823
+          55.20440525959046,
+          25.06755193996522
         ]
       },
       "properties": {
@@ -143,6 +475,147 @@
         "implication": "Reinforces that freedom of navigation is central to diplomacy; raises probability of expanded U.S.-led maritime security arrangements.",
         "source_urls": [
           "https://www.reuters.com/world/europe/uae-says-use-hormuz-must-be-guaranteed-any-us-iran-deal-2026-04-06/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.38073315707331,
+          24.458457799528315
+        ]
+      },
+      "properties": {
+        "id": "5e24fec61910",
+        "event_type": "diplomacy",
+        "severity": 62,
+        "confidence": "high",
+        "title": "UAE said the use of the Strait of Hormuz must be guaranteed in any U.S.-Iran deal",
+        "timestamp_utc": "2026-04-06T00:00:00Z",
+        "location_name": "Abu Dhabi, United Arab Emirates",
+        "location_resolved": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "United Arab Emirates",
+          "United States",
+          "Iran"
+        ],
+        "implication": "Signals Gulf states’ priority to de-risk shipping lanes; could shape negotiation pressure and contingency coordination with Western navies.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uae-says-use-hormuz-must-be-guaranteed-any-us-iran-deal-2026-04-06/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.375628871906386,
+          24.446792848959756
+        ]
+      },
+      "properties": {
+        "id": "4a4be9b6b771",
+        "event_type": "diplomacy",
+        "severity": 48,
+        "confidence": "med",
+        "title": "Officials emphasized Hormuz guarantees as central to any de-escalation pathway",
+        "timestamp_utc": "2026-04-06T00:00:00Z",
+        "location_name": "Abu Dhabi, United Arab Emirates",
+        "location_resolved": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "United Arab Emirates"
+        ],
+        "implication": "Adds pressure for naval/security arrangements; market may treat credible guarantees as a catalyst to compress risk premium.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uae-says-use-hormuz-must-be-guaranteed-any-us-iran-deal-2026-04-06/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.37238622483466,
+          24.454666173425
+        ]
+      },
+      "properties": {
+        "id": "59ca724e8d2c",
+        "event_type": "diplomacy",
+        "severity": 44,
+        "confidence": "med",
+        "title": "Diplomatic signaling increased around securing sea lanes as a precondition for broader talks",
+        "timestamp_utc": "2026-04-06T00:00:00Z",
+        "location_name": "Abu Dhabi, United Arab Emirates",
+        "location_resolved": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "United Arab Emirates",
+          "Iran",
+          "United States"
+        ],
+        "implication": "If talks progress, could compress risk premia quickly; if they stall, may amplify risk-off moves during new incident headlines.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uae-says-use-hormuz-must-be-guaranteed-any-us-iran-deal-2026-04-06/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.36039891809735,
+          24.451695204162476
+        ]
+      },
+      "properties": {
+        "id": "1f2812450950",
+        "event_type": "diplomacy",
+        "severity": 41,
+        "confidence": "med",
+        "title": "Regional officials’ comments framed shipping security as critical to restoring normal energy flows",
+        "timestamp_utc": "2026-04-06T00:00:00Z",
+        "location_name": "Abu Dhabi, United Arab Emirates",
+        "location_resolved": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+        "actors": [
+          "United Arab Emirates"
+        ],
+        "implication": "Sustained emphasis may catalyze international naval coordination; markets price de-escalation only on credible enforcement.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uae-says-use-hormuz-must-be-guaranteed-any-us-iran-deal-2026-04-06/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.685714131239514,
+          32.418352295933715
+        ]
+      },
+      "properties": {
+        "id": "5ffe8b6b37a1",
+        "event_type": "shipping_disruption",
+        "severity": 57,
+        "confidence": "med",
+        "title": "Conditional navigation rules and incident risk kept insurers and shipowners cautious on Hormuz transits",
+        "timestamp_utc": "2026-04-06T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Iran",
+        "location_resolved": "Centroid: iran",
+        "actors": [
+          "Insurers",
+          "Shipowners"
+        ],
+        "implication": "Insurance constraints can reduce available tonnage and raise delivered crude costs, tightening markets even without new physical outages.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/uae-says-use-hormuz-must-be-guaranteed-any-us-iran-deal-2026-04-06/",
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
         ]
       }
     },
@@ -409,8 +882,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3725042,
-          48.2083537
+          16.375485589626425,
+          48.21210999451524
         ]
       },
       "properties": {
@@ -426,6 +899,258 @@
           "OPEC+"
         ],
         "implication": "Signals policy readiness to add barrels if shipping normalizes; near-term pricing remains dominated by physical transit and repair constraints.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/opec-debates-theoretical-oil-output-hike-amid-iran-war-paralysis-sources-say-2026-04-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.679806060582706,
+          32.437356522344984
+        ]
+      },
+      "properties": {
+        "id": "7b4706e1dfc7",
+        "event_type": "shipping_disruption",
+        "severity": 88,
+        "confidence": "med",
+        "title": "Iran signaled conditional passage policies for some ships through the Strait of Hormuz",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Iran",
+        "location_resolved": "Centroid: iran",
+        "actors": [
+          "Iran"
+        ],
+        "implication": "Even partial/conditional restrictions can reduce effective throughput, lifting crude differentials, freight and war-risk premia.",
+        "source_urls": [
+          "https://www.aljazeera.com/economy/2026/4/5/iran-says-iraqi-ships-can-pass-strait-of-hormuz-as-transits-tick-up",
+          "https://www.reuters.com/world/europe/uae-says-use-hormuz-must-be-guaranteed-any-us-iran-deal-2026-04-06/",
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.4940290155807,
+          29.26916206496767
+        ]
+      },
+      "properties": {
+        "id": "4c5cce540408",
+        "event_type": "strike",
+        "severity": 78,
+        "confidence": "high",
+        "title": "Kuwait Petroleum reported damage to units after an Iran drone attack",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Kuwait",
+        "location_resolved": "Kuwait",
+        "actors": [
+          "Iran",
+          "Kuwait Petroleum Corporation"
+        ],
+        "implication": "Refining/petrochemical outages reduce regional product supply; can widen crack spreads and support crude prices via risk premium.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/kuwait-petroleum-corp-reports-damage-units-after-iran-drone-attack-2026-04-05/",
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.61921255203213,
+          26.154039613402063
+        ]
+      },
+      "properties": {
+        "id": "c039e7bc34af",
+        "event_type": "strike",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Bahrain’s Gulf Petrochemical Industries said fire was under control after Iran drone attack",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Sitra, Bahrain",
+        "location_resolved": "Sitra, Riffa, Southern Governorate, Bahrain",
+        "actors": [
+          "Iran",
+          "Gulf Petrochemical Industries"
+        ],
+        "implication": "Petrochemical disruptions add to regional energy complex volatility and increase risk for downstream margins and local credit.",
+        "source_urls": [
+          "http://stocks.us.reuters.com/business/energy/bahrains-gulf-petrochemical-industries-says-fire-under-control-units-after-iran-2026-04-05/",
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.368763761367255,
+          48.20485157799097
+        ]
+      },
+      "properties": {
+        "id": "95da6c8a5cf4",
+        "event_type": "other",
+        "severity": 55,
+        "confidence": "med",
+        "title": "OPEC+ discussed boosting output contingent on a reopening/normalization of the Strait of Hormuz",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Vienna, Austria",
+        "location_resolved": "Vienna, Austria",
+        "actors": [
+          "OPEC+"
+        ],
+        "implication": "Adds a policy backstop narrative but does not remove immediate shipping/supply constraints; market may fade headline barrels until passage normalizes.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/opec-debates-theoretical-oil-output-hike-amid-iran-war-paralysis-sources-say-2026-04-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.24804406933983,
+          26.56167417231256
+        ]
+      },
+      "properties": {
+        "id": "faf2aac9b3b1",
+        "event_type": "shipping_disruption",
+        "severity": 67,
+        "confidence": "med",
+        "title": "Reported increases in transits as Iran said Iraqi ships could pass the Strait of Hormuz",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Strait of Hormuz, near United Arab Emirates",
+        "location_resolved": "Centroid: strait of hormuz",
+        "actors": [
+          "Iran",
+          "Iraq"
+        ],
+        "implication": "Marginal improvement in flows may ease near-term shortages, but conditionality keeps risk premium and insurance elevated.",
+        "source_urls": [
+          "https://www.aljazeera.com/economy/2026/4/5/iran-says-iraqi-ships-can-pass-strait-of-hormuz-as-transits-tick-up"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.384017398388785,
+          48.20669689726346
+        ]
+      },
+      "properties": {
+        "id": "b067ecee2939",
+        "event_type": "other",
+        "severity": 40,
+        "confidence": "med",
+        "title": "Analysts said additional OPEC+ supply is largely academic while shipping lanes remain constrained",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Vienna, Austria",
+        "location_resolved": "Vienna, Austria",
+        "actors": [
+          "OPEC+",
+          "Analysts"
+        ],
+        "implication": "Frames market as bottlenecked by logistics/security rather than upstream capacity, maintaining a higher risk premium.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/opec-debates-theoretical-oil-output-hike-amid-iran-war-paralysis-sources-say-2026-04-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.49470807474477,
+          29.27911033417229
+        ]
+      },
+      "properties": {
+        "id": "93fcf353de22",
+        "event_type": "strike",
+        "severity": 54,
+        "confidence": "med",
+        "title": "Kuwait assessed impacts after drone attack; repairs expected to affect output timelines",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Kuwait",
+        "location_resolved": "Kuwait",
+        "actors": [
+          "Kuwait Petroleum Corporation"
+        ],
+        "implication": "Repair uncertainty can support product spreads and add to investor caution on regional industrial names.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/kuwait-petroleum-corp-reports-damage-units-after-iran-drone-attack-2026-04-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.62997287282753,
+          26.166932785039524
+        ]
+      },
+      "properties": {
+        "id": "096a0dabed07",
+        "event_type": "strike",
+        "severity": 50,
+        "confidence": "med",
+        "title": "Bahrain petrochemical operations stabilized after the drone-attack fire was contained",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Sitra, Bahrain",
+        "location_resolved": "Sitra, Riffa, Southern Governorate, Bahrain",
+        "actors": [
+          "Gulf Petrochemical Industries",
+          "Bahrain"
+        ],
+        "implication": "Partial restoration may ease immediate product tightness, but recurring attack risk keeps a structural premium.",
+        "source_urls": [
+          "http://stocks.us.reuters.com/business/energy/bahrains-gulf-petrochemical-industries-says-fire-under-control-units-after-iran-2026-04-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37130383451737,
+          48.194539281999525
+        ]
+      },
+      "properties": {
+        "id": "08087c9d8185",
+        "event_type": "other",
+        "severity": 43,
+        "confidence": "med",
+        "title": "OPEC+ deliberations reflected uncertainty over physical supply vs. logistics constraints",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Vienna, Austria",
+        "location_resolved": "Vienna, Austria",
+        "actors": [
+          "OPEC+"
+        ],
+        "implication": "Policy signals may cap some upside but are unlikely to offset a shipping bottleneck-driven shortage.",
         "source_urls": [
           "https://www.reuters.com/business/energy/opec-debates-theoretical-oil-output-hike-amid-iran-war-paralysis-sources-say-2026-04-05/"
         ]
@@ -596,6 +1321,62 @@
           "Iraq"
         ],
         "implication": "Shows attacks extending to logistics and equipment storage; can increase downtime risk even when production is not immediately hit.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/fire-reported-foreign-oil-companies-storage-facilities-iraq-after-drone-strike-2026-04-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.792185124914845,
+          30.48701333968715
+        ]
+      },
+      "properties": {
+        "id": "0fd97e731962",
+        "event_type": "strike",
+        "severity": 72,
+        "confidence": "high",
+        "title": "Drone strike hit Iraq’s North Rumaila oilfield; workers wounded and facilities affected",
+        "timestamp_utc": "2026-04-04T00:00:00Z",
+        "location_name": "Basra, Iraq",
+        "location_resolved": "Basra, Al-Basrah Central Subdistrict, Al-Basrah District, Basra Governorate, 61001, Iraq",
+        "actors": [
+          "Iran",
+          "Iraq"
+        ],
+        "implication": "Highlights vulnerability of southern Iraq oil infrastructure; increases risk premium for regional production and export logistics.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/fire-reported-foreign-oil-companies-storage-facilities-iraq-after-drone-strike-2026-04-04/",
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.803395837602785,
+          30.479115313213153
+        ]
+      },
+      "properties": {
+        "id": "4b69b1104346",
+        "event_type": "strike",
+        "severity": 53,
+        "confidence": "med",
+        "title": "Iraq energy infrastructure remained a focal point after the North Rumaila strike",
+        "timestamp_utc": "2026-04-04T00:00:00Z",
+        "location_name": "Basra, Iraq",
+        "location_resolved": "Basra, Al-Basrah Central Subdistrict, Al-Basrah District, Basra Governorate, 61001, Iraq",
+        "actors": [
+          "Iraq"
+        ],
+        "implication": "Potential for follow-on incidents increases perceived risk to Iraqi exports and can widen regional energy risk premia.",
         "source_urls": [
           "https://www.reuters.com/business/energy/fire-reported-foreign-oil-companies-storage-facilities-iraq-after-drone-strike-2026-04-04/"
         ]
@@ -1393,8 +2174,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.3774014,
-          24.4538352
+          54.35997419240415,
+          24.445713105817276
         ]
       },
       "properties": {
@@ -1411,6 +2192,61 @@
         ],
         "implication": "Civilian and infrastructure damage can prompt tighter air-defense posture and renewed risk-off market reaction.",
         "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.93458225161181,
+          21.483352833026142
+        ]
+      },
+      "properties": {
+        "id": "e44ad0c0180b",
+        "event_type": "shipping_disruption",
+        "severity": 60,
+        "confidence": "high",
+        "title": "French-owned CMA CGM container ship transited the Strait of Hormuz amid heightened risk",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "CMA CGM"
+        ],
+        "implication": "Shows some neutral/selected transits remain possible; nonetheless underscores politicized routing and volatile insurance/freight pricing.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/french-owned-cma-cgm-container-ship-passes-strait-hormuz-data-shows-2026-04-03/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.93347265145306,
+          21.46253418697468
+        ]
+      },
+      "properties": {
+        "id": "dc127a8d6bd6",
+        "event_type": "shipping_disruption",
+        "severity": 52,
+        "confidence": "med",
+        "title": "Some operators continued selective/neutral transits while others avoided Hormuz pending security clarity",
+        "timestamp_utc": "2026-04-03T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Commercial shipping"
+        ],
+        "implication": "Segmentation of routing increases schedule unreliability and adds cost pressures to global supply chains.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/french-owned-cma-cgm-container-ship-passes-strait-hormuz-data-shows-2026-04-03/",
           "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
         ]
       }
@@ -9171,8 +10007,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.25,
-          26.58
+          56.26355948478975,
+          26.572348808937768
         ]
       },
       "properties": {
@@ -9384,6 +10220,35 @@
           "Dana Gas"
         ],
         "implication": "Adds to supply disruption and increases reliance on southern Iraq exports that face drone and shipping risks.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.067352,
+          26.707417
+        ]
+      },
+      "properties": {
+        "id": "0b06dfe8bb35",
+        "event_type": "strike",
+        "severity": 80,
+        "confidence": "med",
+        "title": "Regional strikes contributed to outages at Qatar LNG, Saudi refining, and Israeli oil/gas fields (context)",
+        "timestamp_utc": "2026-03-02T00:00:00Z",
+        "location_name": "Ras Tanura, Saudi Arabia",
+        "location_resolved": "رحيمة, محافظة رأس تنوره, المنطقة الشرقية, 32811, السعودية",
+        "actors": [
+          "Iran",
+          "Saudi Aramco",
+          "Qatar"
+        ],
+        "implication": "Older but strategically critical context: illustrates multi-asset energy complex exposure; supports persistent volatility across oil, LNG and petrochemicals.",
         "source_urls": [
           "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/"
         ]
@@ -16646,6 +17511,33 @@
           "IAEA"
         ],
         "implication": "Elevates tail-risk of broader escalation and regulatory/security responses; contributes to risk-off sentiment.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2499930753678,
+          26.56957096881309
+        ]
+      },
+      "properties": {
+        "id": "a9a511855656",
+        "event_type": "shipping_disruption",
+        "severity": 58,
+        "confidence": "med",
+        "title": "Security risks in Hormuz contributed to episodic slowdowns and convoy-like behavior",
+        "timestamp_utc": null,
+        "location_name": "Strait of Hormuz, near United Arab Emirates",
+        "location_resolved": "Centroid: strait of hormuz",
+        "actors": [
+          "Commercial shipping"
+        ],
+        "implication": "Operational slowdowns reduce throughput and can create short-lived physical tightness and price spikes.",
         "source_urls": [
           "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
         ]
