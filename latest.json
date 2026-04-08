@@ -1,64 +1,94 @@
 {
   "headline_summary": [
-    "Iran says it struck an Israel-linked vessel in/near the Strait of Hormuz as maritime incidents persist at the key oil chokepoint.",
-    "Iran signals conditional/managed transit in the Strait of Hormuz for certain vessels, implying continued disruption risk rather than full normalization.",
-    "U.S. and partners weigh additional force-protection and air-defense measures in the Gulf after drone/missile incidents near energy infrastructure.",
-    "Diplomatic activity continues among Gulf states, the U.S., and European partners amid competing proposals on reopening/operating rules for Hormuz transits.",
-    "Market focus remains on oil supply risk premium, EM FX pressure from energy import costs, and broader risk-off flows tied to escalation headlines."
+    "Iran-linked attacks and conditional transit policies keep shipping risk elevated in the Strait of Hormuz, sustaining an oil risk premium.",
+    "Escalation expanded from maritime disruption into direct strikes and knock-on outages across Gulf refining, LNG and petrochemical assets (Saudi Arabia, Kuwait, Bahrain, UAE, Qatar, Iraq).",
+    "U.S. strikes at/near Iran’s Kharg Island export hub and threats of wider retaliation keep tail-risk of prolonged supply losses high.",
+    "Selective/neutral transits (e.g., a French-owned CMA CGM vessel) show passage is possible but politicized, keeping freight and insurance volatile.",
+    "OPEC+ is discussing/incrementing quotas, but officials and analysts emphasize additional supply is largely academic while Hormuz remains constrained."
   ],
-  "risk_score": 86,
+  "risk_score": 90,
   "risk_drivers": [
-    "Strait of Hormuz: intermittent/conditional transit and continued security incidents",
-    "Attack risk to tankers/LNG carriers and knock-on insurance/freight constraints",
-    "Gulf energy infrastructure vulnerability (refineries, ports, power)",
-    "Escalation ladder dynamics (ultimatums/retaliation cycles) creating headline-driven volatility",
-    "Policy uncertainty around sanctions, maritime rules, and military protection missions"
+    "Strait of Hormuz throughput remains constrained/conditional; attack and mining threats persist",
+    "Damage to major Gulf refining/LNG/petrochemical assets and slow recovery timelines",
+    "Direct attacks on export terminals and storage/processing hubs (Kharg Island, Ras Laffan, Sitra)",
+    "Force majeure and rerouting raise freight/war-risk insurance and reduce effective supply",
+    "Escalation ladder (ultimatums/retaliation cycles) driving headline volatility and risk-off flows"
   ],
   "market_implications": {
     "Energy": [
-      "oil_up_risk: persistent geopolitical premium while Hormuz remains insecure/managed",
-      "Higher freight/war-risk insurance can tighten effective supply and raise delivered costs",
-      "Refined product cracks risk if Gulf facilities face intermittent outages"
+      "oil_up_risk: geopolitical premium persists while Hormuz is constrained and Gulf facilities face drone/missile risk",
+      "Higher war-risk insurance/freight and episodic force majeure can tighten physical supply beyond headline production",
+      "LNG outages (Ras Laffan) increase gas price volatility and may pull incremental oil demand via switching"
     ],
     "FX": [
-      "em_fx_pressure: energy-importer EM currencies face terms-of-trade stress on oil spikes",
-      "risk_off_flows: USD/JPY/CHF bid during escalation headlines; pressure on high-beta FX"
+      "em_fx_pressure: energy-importer EM FX vulnerable to higher oil/LNG bills and wider current-account deficits",
+      "risk_off_flows: USD/JPY/CHF tend to bid on escalation; pressure on high-beta and frontier FX"
     ],
     "Rates": [
-      "rates_credit_spreads: wider EM/HY spreads on risk-off; inflation breakevens sensitive to crude",
-      "Duration can whipsaw if growth fears rise while oil lifts inflation expectations"
+      "rates_credit_spreads: wider EM/HY spreads on risk-off plus fiscal stress for energy importers",
+      "Oil-driven inflation risk can lift breakevens even as growth expectations soften"
     ],
     "Equities": [
-      "risk_off_flows: airlines/transport and consumer cyclicals vulnerable to fuel and risk-off shocks",
-      "Relative support for energy/defense; higher volatility in GCC markets"
+      "risk_off_flows: transport/airlines/consumer cyclicals vulnerable; relative support for energy/defense",
+      "GCC equities: volatility tied to outage headlines, fiscal offsets from oil, and security posture"
     ]
   },
   "sources": [
     {
-      "title": "Iran says it hit Israel-linked vessel in Hormuz Strait",
-      "url": "http://af.reuters.com/world/middle-east/iran-says-it-hit-israel-linked-vessel-hormuz-strait-2026-04-04/",
+      "title": "How the US-Israeli war with Iran is disrupting oil and gas",
+      "url": "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/",
       "publisher": "Reuters",
-      "published_at": null
+      "published_at": "2026-04-07T00:00:00Z"
     },
     {
-      "title": "Exclusive: US intelligence warns Iran unlikely to ease Hormuz Strait chokehold soon, sources say",
-      "url": "https://www.reuters.com/world/middle-east/us-intelligence-warns-iran-unlikely-ease-hormuz-strait-chokehold-soon-sources-2026-04-03/",
+      "title": "Kuwait Petroleum Corp reports damage at units after Iran drone attack",
+      "url": "https://www.reuters.com/world/middle-east/kuwait-petroleum-corp-reports-damage-units-after-iran-drone-attack-2026-04-05/",
       "publisher": "Reuters",
-      "published_at": null
+      "published_at": "2026-04-05T00:00:00Z"
     },
     {
-      "title": "World anxious to open Hormuz Strait while Trump and Iran trade threats",
-      "url": "http://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
+      "title": "OPEC+ agrees to boost oil output when Strait of Hormuz reopens",
+      "url": "https://www.reuters.com/business/energy/opec-debates-theoretical-oil-output-hike-amid-iran-war-paralysis-sources-say-2026-04-05/",
       "publisher": "Reuters",
-      "published_at": null
+      "published_at": "2026-04-05T00:00:00Z"
+    },
+    {
+      "title": "UAE says the use of Hormuz must be guaranteed in any US-Iran deal",
+      "url": "https://www.reuters.com/world/europe/uae-says-use-hormuz-must-be-guaranteed-any-us-iran-deal-2026-04-06/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-06T00:00:00Z"
+    },
+    {
+      "title": "French-owned CMA CGM container ship passes Strait of Hormuz, data shows",
+      "url": "https://www.reuters.com/world/europe/french-owned-cma-cgm-container-ship-passes-strait-hormuz-data-shows-2026-04-03/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-03T00:00:00Z"
+    },
+    {
+      "title": "Three workers wounded in drone strike on Iraq's North Rumaila oilfield, sources say",
+      "url": "https://www.reuters.com/business/energy/fire-reported-foreign-oil-companies-storage-facilities-iraq-after-drone-strike-2026-04-04/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-04T00:00:00Z"
+    },
+    {
+      "title": "Bahrain's Gulf Petrochemical Industries says fire under control at units after Iran drone attack",
+      "url": "http://stocks.us.reuters.com/business/energy/bahrains-gulf-petrochemical-industries-says-fire-under-control-units-after-iran-2026-04-05/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-05T00:00:00Z"
+    },
+    {
+      "title": "Qatar LNG, Saudi refinery, Israeli oil, gas fields down due to Mideast strikes",
+      "url": "https://www.reuters.com/business/energy/saudi-aramco-shuts-ras-tanura-refinery-after-drone-strike-source-says-2026-03-02/",
+      "publisher": "Reuters",
+      "published_at": "2026-03-02T00:00:00Z"
     },
     {
       "title": "Iran says Iraqi ships can pass Strait of Hormuz as transits tick up",
       "url": "https://www.aljazeera.com/economy/2026/4/5/iran-says-iraqi-ships-can-pass-strait-of-hormuz-as-transits-tick-up",
       "publisher": "Al Jazeera",
-      "published_at": null
+      "published_at": "2026-04-05T00:00:00Z"
     }
   ],
-  "generated_at_utc": "2026-04-07T13:04:40.074349Z",
-  "generated_at_ist": "2026-04-07T18:34:40.074367+05:30"
+  "generated_at_utc": "2026-04-08T01:50:57.969708Z",
+  "generated_at_ist": "2026-04-08T07:20:57.969728+05:30"
 }

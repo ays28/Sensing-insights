@@ -529,5 +529,52 @@
     "lon": 34.4641381,
     "lat": 31.5050311,
     "display_name": "Old City, Gaza, Gaza Governorate, Gaza Strip, Palestinian Territories"
+  },
+  "kharg island, iran": {
+    "lon": 50.3117293,
+    "lat": 29.2405943,
+    "display_name": "Khark Island, جزیره خارک, بخش خارگ, Bushehr County, Bushehr Province, Iran"
+  },
+  "mina abdullah, kuwait": {
+    "lon": 48.072277,
+    "lat": 28.9403925,
+    "display_name": "Mina Abdullah (Quarries), Ahmadi Governorate, Kuwait"
+  },
+  "sitra, bahrain": {
+    "lon": 50.6320232,
+    "lat": 26.1478317,
+    "display_name": "Sitra, Riffa, Southern Governorate, Bahrain"
+  },
+  "rumaila, iraq": {
+    "lon": 47.616667,
+    "lat": 30.766667,
+    "display_name": "Ramila, Al-Harthah Subdistrict, Al-Basrah District, Basra Governorate, 61020, Iraq"
+  },
+  "habshan, united arab emirates": {
+    "lon": 53.478834,
+    "lat": 23.8115091,
+    "display_name": "Habshan, Al Dhafrah Region, Abu Dhabi Emirate, United Arab Emirates"
+  },
+  "mesaieed, qatar": {
+    "lon": 51.5493583,
+    "lat": 24.9953944,
+    "display_name": "Mesaieed, Al Wakrah, Qatar"
+  },
+  "leviathan gas field, israel": null,
+  "mediterranean sea, near israel": null,
+  "erbil, iraq": {
+    "lon": 44.0094145,
+    "lat": 36.1911744,
+    "display_name": "Erbil, Erbil Central Subdistrict, Erbil District, Erbil Governorate, Iraqi Kurdistan Region, 44001, Iraq"
+  },
+  "asaluyeh, iran": {
+    "lon": 52.7837744,
+    "lat": 27.4058675,
+    "display_name": "Asaluyeh power plant, Bostanu, دهستان چاه مبارک, بخش چاه مبارک, Asaluyeh County, Bushehr Province, Iran"
+  },
+  "bushehr, iran": {
+    "lon": 51.3204877,
+    "lat": 28.8936645,
+    "display_name": "Bushehr Province, Iran"
   }
 }
