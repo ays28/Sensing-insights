@@ -576,5 +576,10 @@
     "lon": 51.3204877,
     "lat": 28.8936645,
     "display_name": "Bushehr Province, Iran"
+  },
+  "ahmadi, kuwait": {
+    "lon": 48.1652377,
+    "lat": 28.8538571,
+    "display_name": "Ahmadi Governorate, Kuwait"
   }
 }

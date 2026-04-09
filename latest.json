@@ -1,52 +1,69 @@
 {
   "headline_summary": [
-    "Reuters: US-Iran announce two-week ceasefire via Pakistan mediation, but hostilities and regional spillovers continue (incl. Lebanon/Gulf strikes).",
-    "Reuters: Strait of Hormuz remains conditional; Iran-linked naval threats keep war-risk and freight elevated despite some transits.",
-    "Reuters: Oil fell below $100 after ceasefire headline but remains well above pre-conflict levels; renewed spikes possible if fighting resumes or blockade persists.",
-    "Reuters: Iran sets preconditions for lasting peace talks (halt strikes, guarantees, compensation) and signals intent to levy fees for Hormuz passage.",
-    "Broader Middle East security environment remains brittle: maritime chokepoints, energy infrastructure, and proxy fronts create tail-risk for supply and risk assets."
+    "Reuters (Apr 8): U.S., Iran (and Israel) announce a two-week ceasefire brokered by Pakistan; talks slated to pursue a longer-term settlement.",
+    "Reuters (Apr 8): Iran says Strait of Hormuz transit remains closed without a permit; shipowners seek clarity and major liners stay cautious.",
+    "Reuters (Apr 7): U.S.-Israeli war with Iran has damaged 40+ energy assets and disrupted ~20% of global oil/LNG flows via Hormuz; U.S. issues ultimatum to reopen.",
+    "Reuters (Apr 7): Iran’s Supreme National Security Council outlines ceasefire-related demands (sanctions lifting, enrichment acceptance, U.S. withdrawal) and signals continued leverage over Hormuz.",
+    "Reuters (Apr 6/4): Drone strikes in southern Iraq (Basra/Rumaila) highlight spillover risk to non-Iranian supply and services operations.",
+    "Reuters (Apr 5): Kuwait reports severe damage after Iranian drone attack on oil facilities; recovery could take months.",
+    "Reuters (Apr 5): OPEC+ agrees a largely ‘on paper’ quota increase for May; additional barrels are irrelevant while Hormuz remains disrupted.",
+    "Reuters (Apr 3): Limited neutral/friendly transits (CMA CGM; Japanese LNG carrier; Omani tankers) show selective passage policy rather than full reopening.",
+    "Market focus: war-risk insurance, freight, and physical supply timing (6–8+ weeks to normalize) keep oil volatility and risk-off sensitivity elevated."
   ],
-  "risk_score": 82,
+  "risk_score": 84,
   "risk_drivers": [
-    "Ceasefire status unclear; active fighting and retaliation risk remains",
-    "Strait of Hormuz access is conditional and could tighten again quickly",
-    "Cross-border spillovers (Lebanon/Hezbollah front and Gulf energy infrastructure targeting)",
-    "Policy uncertainty around sanctions, shipping fees, and enforcement",
-    "High sensitivity of oil/LNG prices and insurance to headline risk"
+    "Hormuz transit still requires Iranian permits; closure can re-tighten quickly",
+    "Ceasefire is time-limited (two weeks) and contingent; negotiations face major gaps (enrichment, missiles, sanctions)",
+    "Spillover attacks on Gulf and Iraqi energy infrastructure (drones/missiles) reduce effective supply capacity",
+    "LNG disruption (Qatar force majeure) and refinery outages raise global energy price tail-risk",
+    "Maritime incident count and threats (target ships without permission) sustain war-risk premia",
+    "OPEC+ spare capacity cannot reach market if shipping chokepoints remain impaired"
   ],
   "market_implications": {
     "Energy": [
-      "oil_up_risk: any ceasefire breakdown or renewed Hormuz restrictions could re-price crude higher quickly",
-      "Physical differentials, freight and war-risk insurance likely remain volatile while transit is conditional",
-      "LNG and refined product balances in the Gulf remain vulnerable to drone/missile risk"
+      "oil_up_risk: Permit-based Hormuz passage + infrastructure damage keeps upside skew in crude and product cracks.",
+      "Freight/insurance: war-risk premia likely persist; normalization could take 6–8+ weeks even if ceasefire holds.",
+      "Gas/LNG: Qatar force majeure and facility damage keep LNG tightness and price volatility elevated."
     ],
     "FX": [
-      "em_fx_pressure: energy-importer EM currencies face renewed pressure if crude rebounds; current-account and inflation channels",
-      "risk_off_flows: USD/CHF/JPY benefit on escalation headlines; higher vol for high-beta FX"
+      "em_fx_pressure: Higher energy import bills and inflation pass-through pressure oil-importer EM FX.",
+      "risk_off_flows: Escalation headlines support USD/CHF/JPY; higher vol for high-beta and carry FX."
     ],
     "Rates": [
-      "rates_credit_spreads: risk-off widens EM/HY spreads; oil-driven inflation risk can steepen breakevens",
-      "If ceasefire holds and oil stays sub-$100, near-term inflation impulse may ease vs late-March peaks"
+      "rates_credit_spreads: Risk-off and higher energy-driven inflation expectations can widen HY/EM spreads and lift breakevens.",
+      "Ceasefire progress could compress near-term risk premium, but term premium remains sensitive to Hormuz access and supply repair timelines."
     ],
     "Equities": [
-      "risk_off_flows: airlines/shipping/consumer cyclicals most exposed to higher fuel and freight; relative support for energy/defense",
-      "GCC equities likely volatile: higher oil helps fiscal, but infrastructure/security risk weighs on multiples"
+      "risk_off_flows: Fuel- and freight-sensitive sectors (airlines, shipping, consumer cyclicals) face margin risk; energy/defense relatively supported.",
+      "GCC/Iraq: Higher oil can support revenues, but security risk and operational disruptions weigh on valuations and capex cadence."
     ]
   },
   "sources": [
     {
-      "title": "Explainer: US-Iran ceasefire: what we know",
-      "url": "https://www.reuters.com/world/asia-pacific/us-iran-ceasefire-what-we-know-2026-04-08/",
+      "title": "What the US, Iran, Israel and Pakistan have said about the ceasefire",
+      "url": "https://www.reuters.com/world/asia-pacific/what-us-iran-israel-pakistan-have-said-about-ceasefire-2026-04-08/",
       "publisher": "Reuters",
       "published_at": "2026-04-08T00:00:00Z"
     },
     {
-      "title": "Iran sets preconditions for talks on lasting peace with U.S., senior official tells Reuters",
-      "url": "https://www.reuters.com/world/middle-east/iran-sets-preconditions-talks-lasting-peace-with-us-senior-official-tells-2026-04-07/",
+      "title": "Shippers seek clarity on Hormuz passage as Iran issues fresh warnings",
+      "url": "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-08T00:00:00Z"
+    },
+    {
+      "title": "How the US-Israeli war with Iran is disrupting oil and gas",
+      "url": "https://mobile.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/?rpc=401&",
       "publisher": "Reuters",
       "published_at": "2026-04-07T00:00:00Z"
+    },
+    {
+      "title": "OPEC+ agrees to boost oil output when Strait of Hormuz reopens",
+      "url": "https://reuters.com/business/energy/opec-debates-theoretical-oil-output-hike-amid-iran-war-paralysis-sources-say-2026-04-05/",
+      "publisher": "Reuters",
+      "published_at": "2026-04-05T00:00:00Z"
     }
   ],
-  "generated_at_utc": "2026-04-09T01:26:26.195526Z",
-  "generated_at_ist": "2026-04-09T06:56:26.195543+05:30"
+  "generated_at_utc": "2026-04-09T13:06:48.712346Z",
+  "generated_at_ist": "2026-04-09T18:36:48.712366+05:30"
 }

@@ -41,6 +41,36 @@
       "location_name": "Strait of Hormuz, near Oman"
     },
     {
+      "id": "4d627f7794dd",
+      "label": "U.S., Iran and Israel announce a two-week ceasefire brokered by Pakistan; talks ",
+      "group": "event",
+      "severity": 78,
+      "confidence": "high",
+      "event_type": "diplomacy",
+      "timestamp_utc": "2026-04-08T00:00:00Z",
+      "location_name": "Islamabad, Pakistan"
+    },
+    {
+      "id": "763d4f9852b2",
+      "label": "Iran warns Strait of Hormuz remains closed to vessels without permits; shippers ",
+      "group": "event",
+      "severity": 88,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-04-08T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman"
+    },
+    {
+      "id": "60ebe6f4d74e",
+      "label": "Ceasefire positions reveal key negotiating demands: Iran seeks sanctions lifting",
+      "group": "event",
+      "severity": 45,
+      "confidence": "high",
+      "event_type": "sanctions",
+      "timestamp_utc": "2026-04-08T00:00:00Z",
+      "location_name": "Washington, DC, United States"
+    },
+    {
       "id": "1f2d9609d077",
       "label": "U.S. forces struck targets at/near Iran’s Kharg Island oil export terminal",
       "group": "event",
@@ -201,6 +231,16 @@
       "location_name": "Strait of Hormuz, near Iran"
     },
     {
+      "id": "83e7aaac77f5",
+      "label": "U.S. strikes military targets at Kharg Island as war-driven energy disruptions m",
+      "group": "event",
+      "severity": 82,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": "2026-04-07T00:00:00Z",
+      "location_name": "Kharg Island, Iran"
+    },
+    {
       "id": "0180bd5a9ad3",
       "label": "Pakistan-mediated two-stage ceasefire framework ('Islamabad Accord') circulated ",
       "group": "event",
@@ -279,6 +319,16 @@
       "event_type": "shipping_disruption",
       "timestamp_utc": "2026-04-06T00:00:00Z",
       "location_name": "Strait of Hormuz, near Iran"
+    },
+    {
+      "id": "db0787ec8c70",
+      "label": "Iraq says it could restore crude exports to ~3.4 million bpd within a week if th",
+      "group": "event",
+      "severity": 72,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-04-06T00:00:00Z",
+      "location_name": "Basra, Iraq"
     },
     {
       "id": "ba2b5fcba45e",
@@ -471,6 +521,26 @@
       "location_name": "Vienna, Austria"
     },
     {
+      "id": "8cc7cdf70de0",
+      "label": "Kuwait Petroleum Corporation reports severe material damage after Iranian drone ",
+      "group": "event",
+      "severity": 76,
+      "confidence": "high",
+      "event_type": "strike",
+      "timestamp_utc": "2026-04-05T00:00:00Z",
+      "location_name": "Ahmadi, Kuwait"
+    },
+    {
+      "id": "455b2ee48307",
+      "label": "OPEC+ agrees May quota increase of 206,000 bpd, largely ‘academic’ while Hormuz ",
+      "group": "event",
+      "severity": 62,
+      "confidence": "high",
+      "event_type": "other",
+      "timestamp_utc": "2026-04-05T00:00:00Z",
+      "location_name": "Vienna, Austria"
+    },
+    {
       "id": "388f8c5cb0b3",
       "label": "Iran authorizes 'essential goods' vessels to Iranian ports to transit the Strait",
       "group": "event",
@@ -546,6 +616,16 @@
       "group": "event",
       "severity": 53,
       "confidence": "med",
+      "event_type": "strike",
+      "timestamp_utc": "2026-04-04T00:00:00Z",
+      "location_name": "Basra, Iraq"
+    },
+    {
+      "id": "4065ae481d9b",
+      "label": "Drone strike hits BP-operated North Rumaila oilfield; three workers wounded (no ",
+      "group": "event",
+      "severity": 70,
+      "confidence": "high",
       "event_type": "strike",
       "timestamp_utc": "2026-04-04T00:00:00Z",
       "location_name": "Basra, Iraq"
@@ -859,6 +939,16 @@
       "event_type": "shipping_disruption",
       "timestamp_utc": "2026-04-03T00:00:00Z",
       "location_name": "Strait of Hormuz, near Oman"
+    },
+    {
+      "id": "763c5884afc0",
+      "label": "Selective ‘friendly’ transits continue: Japanese LNG carrier, French-owned CMA C",
+      "group": "event",
+      "severity": 68,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-04-03T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Iran"
     },
     {
       "id": "1a4cf3e3a3f3",
@@ -2931,96 +3021,6 @@
       "location_name": "Strait of Hormuz, near Oman"
     },
     {
-      "id": "53b3e860cc84",
-      "label": "COSCO suspends bookings amid Gulf conflict; China-linked shipping signals stress",
-      "group": "event",
-      "severity": 73,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-04T00:00:00Z",
-      "location_name": "Strait of Hormuz"
-    },
-    {
-      "id": "5ce23b60b77c",
-      "label": "Qatar declares force majeure on LNG exports after shutting gas liquefaction",
-      "group": "event",
-      "severity": 88,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-04T00:00:00Z",
-      "location_name": "Ras Laffan Industrial City, Qatar"
-    },
-    {
-      "id": "9562146883b1",
-      "label": "Qatar declares force majeure on LNG exports amid Gulf conflict",
-      "group": "event",
-      "severity": 72,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-04T00:00:00Z",
-      "location_name": "Ras Laffan, Qatar"
-    },
-    {
-      "id": "546c8eab8e5d",
-      "label": "Reuters: tankers face delays/insurance spikes linked to Hormuz disruption (shipp",
-      "group": "event",
-      "severity": 70,
-      "confidence": "med",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-04T00:00:00Z",
-      "location_name": "Strait of Hormuz, near United Arab Emirates"
-    },
-    {
-      "id": "aa67a0b9bd4a",
-      "label": "Qatar declared force majeure on LNG shipments, disrupting a major share of globa",
-      "group": "event",
-      "severity": 65,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-04T00:00:00Z",
-      "location_name": "Ras Laffan, Qatar"
-    },
-    {
-      "id": "9078b7975f85",
-      "label": "Qatar declared force majeure on LNG shipments amid conflict disruptions",
-      "group": "event",
-      "severity": 78,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-04T00:00:00Z",
-      "location_name": "Ras Laffan, Qatar"
-    },
-    {
-      "id": "f2db90646a49",
-      "label": "US announces additional sanctions targeting Iranian-linked entities amid conflic",
-      "group": "event",
-      "severity": 68,
-      "confidence": "high",
-      "event_type": "sanctions",
-      "timestamp_utc": "2026-03-03T20:22:00Z",
-      "location_name": "Washington, DC, United States"
-    },
-    {
-      "id": "8495e350d05c",
-      "label": "U.S. banks on heightened alert for Iran-linked cyberattacks as war escalates",
-      "group": "event",
-      "severity": 50,
-      "confidence": "high",
-      "event_type": "cyber",
-      "timestamp_utc": "2026-03-03T19:55:00Z",
-      "location_name": "New York, United States"
-    },
-    {
-      "id": "7eb8e16afdd2",
-      "label": "Iranian missiles hit central Israel (Tel Aviv district impacts reported)",
-      "group": "event",
-      "severity": 80,
-      "confidence": "high",
-      "event_type": "strike",
-      "timestamp_utc": "2026-03-03T13:29:00Z",
-      "location_name": "Tel Aviv, Israel"
-    },
-    {
       "id": "e749397fb99b",
       "label": "e749397fb99b",
       "group": "market"
@@ -3068,6 +3068,16 @@
     {
       "id": "b9ef450f8afb",
       "label": "b9ef450f8afb",
+      "group": "market"
+    },
+    {
+      "id": "9078b7975f85",
+      "label": "9078b7975f85",
+      "group": "market"
+    },
+    {
+      "id": "5ce23b60b77c",
+      "label": "5ce23b60b77c",
       "group": "market"
     },
     {
@@ -3266,6 +3276,11 @@
       "group": "market"
     },
     {
+      "id": "7eb8e16afdd2",
+      "label": "7eb8e16afdd2",
+      "group": "market"
+    },
+    {
       "id": "0219dcc6bccb",
       "label": "0219dcc6bccb",
       "group": "market"
@@ -3456,6 +3471,11 @@
       "group": "market"
     },
     {
+      "id": "f2db90646a49",
+      "label": "f2db90646a49",
+      "group": "market"
+    },
+    {
       "id": "82ff9bc5f1de",
       "label": "82ff9bc5f1de",
       "group": "market"
@@ -3471,8 +3491,18 @@
       "group": "market"
     },
     {
+      "id": "53b3e860cc84",
+      "label": "53b3e860cc84",
+      "group": "market"
+    },
+    {
       "id": "d02a8d4c56c6",
       "label": "d02a8d4c56c6",
+      "group": "market"
+    },
+    {
+      "id": "9562146883b1",
+      "label": "9562146883b1",
       "group": "market"
     },
     {
@@ -3491,8 +3521,23 @@
       "group": "market"
     },
     {
+      "id": "546c8eab8e5d",
+      "label": "546c8eab8e5d",
+      "group": "market"
+    },
+    {
+      "id": "aa67a0b9bd4a",
+      "label": "aa67a0b9bd4a",
+      "group": "market"
+    },
+    {
       "id": "6410eec9ab31",
       "label": "6410eec9ab31",
+      "group": "market"
+    },
+    {
+      "id": "8495e350d05c",
+      "label": "8495e350d05c",
       "group": "market"
     },
     {
@@ -3636,6 +3681,11 @@
       "group": "market"
     },
     {
+      "id": "8f1c9dac9a58",
+      "label": "8f1c9dac9a58",
+      "group": "market"
+    },
+    {
       "id": "c8be23761aba",
       "label": "c8be23761aba",
       "group": "market"
@@ -3717,7 +3767,7 @@
       "to": "rates_credit_spreads",
       "label": "widens",
       "confidence": "med",
-      "why": "Risk-off can widen corporate spreads and push safe-haven bid in rates."
+      "why": "Risk-off episodes commonly widen credit spreads and raise funding costs, especially in HY/EM."
     },
     {
       "from": "b8a9275fc4f9",
@@ -3851,6 +3901,13 @@
       "label": "triggers",
       "confidence": "med",
       "why": "Escalation against a major export hub increases geopolitical tail risk, typically prompting safe-haven and risk-off positioning."
+    },
+    {
+      "from": "oil_up_risk",
+      "to": "risk_off_flows",
+      "label": "triggers",
+      "confidence": "med",
+      "why": "Energy-driven inflation shock and geopolitical escalation typically increase demand for safe-haven assets and reduce risk appetite."
     },
     {
       "from": "b8a9275fc4f9",
@@ -5666,6 +5723,27 @@
       "why": "Escalation can raise energy supply risk premium"
     },
     {
+      "from": "83e7aaac77f5",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "8cc7cdf70de0",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
+      "from": "4065ae481d9b",
+      "to": "oil_up_risk",
+      "label": "raises",
+      "confidence": "med",
+      "why": "Escalation can raise energy supply risk premium"
+    },
+    {
       "from": "3a0229475c32",
       "to": "251d75072167",
       "label": "prompts",
@@ -5678,13 +5756,6 @@
       "label": "prolongs_conflict_tailrisk",
       "confidence": "med",
       "why": "Remaining capability implies longer conflict risk, supporting wider spreads and volatility."
-    },
-    {
-      "from": "oil_up_risk",
-      "to": "em_fx_pressure",
-      "label": "pressures",
-      "confidence": "med",
-      "why": "Higher energy prices worsen import bills for net importers, a common channel for EM FX stress during oil shocks."
     },
     {
       "from": "risk_off_flows",
@@ -6822,6 +6893,20 @@
     },
     {
       "from": "fbee6ddf034f",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "db0787ec8c70",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
+      "from": "763c5884afc0",
       "to": "oil_up_risk",
       "label": "drives",
       "confidence": "med",
@@ -8382,6 +8467,41 @@
       "why": "Heightened geopolitical risk can drive risk-off flows"
     },
     {
+      "from": "763d4f9852b2",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "60ebe6f4d74e",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Sanctions uncertainty can add to risk-off sentiment"
+    },
+    {
+      "from": "db0787ec8c70",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "4065ae481d9b",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Kinetic escalation can trigger risk-off positioning"
+    },
+    {
+      "from": "763c5884afc0",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
       "from": "65368b51bb88",
       "to": "em_fx_pressure",
       "label": "contributes",
@@ -8401,6 +8521,13 @@
       "label": "context_for",
       "confidence": "med",
       "why": "Selective transit can occur despite restrictions, illustrating conditional enforcement and uneven commercial risk exposure."
+    },
+    {
+      "from": "4065ae481d9b",
+      "to": "db0787ec8c70",
+      "label": "complicates_recovery",
+      "confidence": "med",
+      "why": "Spillover attacks on Iraqi facilities and logistics can slow ramp-up even if maritime access improves."
     },
     {
       "from": "9c76b0b84698",
@@ -8996,6 +9123,13 @@
       "label": "adds_inflation_growth_risk",
       "confidence": "med",
       "why": "Higher gas prices and supply tightness can raise inflation uncertainty and pressure spreads."
+    },
+    {
+      "from": "8f1c9dac9a58",
+      "to": "oil_up_risk",
+      "label": "adds_cross_commodity_tightness",
+      "confidence": "med",
+      "why": "LNG shortages can increase oil demand via switching and raise broader energy-complex risk premia."
     },
     {
       "from": "7bc1b19b96a2",
@@ -11742,6 +11876,13 @@
       "why": "Diplomacy can reduce near-term risk-off pressure"
     },
     {
+      "from": "4d627f7794dd",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
       "from": "5028bfd120b1",
       "to": "rates_credit_spreads",
       "label": "raises operational risk premium",
@@ -11938,6 +12079,13 @@
       "why": "Shipping disruption increases energy risk"
     },
     {
+      "from": "60ebe6f4d74e",
+      "to": "em_fx_pressure",
+      "label": "drives",
+      "confidence": "low",
+      "why": "Sanctions can pressure EM FX via trade/flows expectations"
+    },
+    {
       "from": "cc22c45dff54",
       "to": "oil_up_risk",
       "label": "could_reduce",
@@ -12118,6 +12266,13 @@
       "label": "supports",
       "confidence": "high",
       "why": "Prolonged constraint on a chokepoint carrying ~20% of global oil trade implies sustained supply risk."
+    },
+    {
+      "from": "763c5884afc0",
+      "to": "763d4f9852b2",
+      "label": "supports",
+      "confidence": "high",
+      "why": "These crossings illustrate the same selective/permit-based passage regime described by shipowners and authorities."
     },
     {
       "from": "b1d9062db582",
@@ -12981,6 +13136,13 @@
       "why": "A chokepoint constraint threatens export flows and boosts the crude risk premium."
     },
     {
+      "from": "oil_up_risk",
+      "to": "em_fx_pressure",
+      "label": "pressures",
+      "confidence": "high",
+      "why": "Higher energy prices worsen import bills and inflation for net energy importers, pressuring EM FX."
+    },
+    {
       "from": "bc21c04c76a8",
       "to": "7bc1b19b96a2",
       "label": "possible_retaliation",
@@ -13048,7 +13210,7 @@
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: hezbollah, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "c5533488d4ca",
@@ -13867,14 +14029,14 @@
       "to": "335a9e6d2327",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: unknown attackers, commercial shipping; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: commercial shipping, unknown attackers; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "5f132135a0dd",
       "to": "a4f4ebb62609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: nato, iran; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: nato, turkey; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "67120a4038b2",
@@ -14644,14 +14806,14 @@
       "to": "a4f4ebb62609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: nato, iran; Same type: strike; Same area: turkey; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: nato, turkey; Same type: strike; Same area: turkey; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "884fce8c5920",
       "to": "5f132135a0dd",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: nato, iran; Same type: strike; Same area: turkey; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: nato, turkey; Same type: strike; Same area: turkey; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "6516bdeb81a0",
@@ -14764,118 +14926,6 @@
       "label": "possible_retaliation",
       "confidence": "high",
       "why": "Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~0km); Escalation pattern"
-    },
-    {
-      "from": "597d896ac5c1",
-      "to": "202ab9c72210",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Same type: strike; Same area: strait of hormuz; Within 72h; Nearby (~2km); Escalation pattern"
-    },
-    {
-      "from": "4359ad2c806d",
-      "to": "3de946e7413b",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: israel; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "106a18dbfb4e",
-      "to": "3de946e7413b",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran, israel; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "b366934c5dac",
-      "to": "3de946e7413b",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: israel; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "106a18dbfb4e",
-      "to": "143e1506054f",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "7557abd37533",
-      "to": "106a18dbfb4e",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "b6f1342b1331",
-      "to": "106a18dbfb4e",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "577ce6091237",
-      "to": "106a18dbfb4e",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "202ab9c72210",
-      "to": "106a18dbfb4e",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "0020a47afb9e",
-      "to": "106a18dbfb4e",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "7bc1b19b96a2",
-      "to": "b366934c5dac",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: israel; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "bc21c04c76a8",
-      "to": "b366934c5dac",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: israel; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "a320489030af",
-      "to": "b366934c5dac",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: israel; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "0bca61c8284e",
-      "to": "597d896ac5c1",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: unattributed drone operators; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "3de946e7413b",
-      "to": "222564642de7",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran, israel; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "106a18dbfb4e",
-      "to": "c9b504ccd071",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
     }
   ]
 }
