@@ -21,6 +21,26 @@
       "group": "market"
     },
     {
+      "id": "6add4066e434",
+      "label": "U.S. and Iran agree to a two-week ceasefire brokered by Pakistan; fighting and r",
+      "group": "event",
+      "severity": 75,
+      "confidence": "high",
+      "event_type": "diplomacy",
+      "timestamp_utc": "2026-04-08T00:00:00Z",
+      "location_name": "Islamabad, Pakistan"
+    },
+    {
+      "id": "0c0a9f44bd92",
+      "label": "Strait of Hormuz remains effectively conditional despite ceasefire; Iranian navy",
+      "group": "event",
+      "severity": 80,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-04-08T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Oman"
+    },
+    {
       "id": "1f2d9609d077",
       "label": "U.S. forces struck targets at/near Iran’s Kharg Island oil export terminal",
       "group": "event",
@@ -159,6 +179,26 @@
       "event_type": "other",
       "timestamp_utc": "2026-04-07T00:00:00Z",
       "location_name": "New York, United States"
+    },
+    {
+      "id": "8197a42078ac",
+      "label": "Iran sets preconditions for lasting peace talks with the U.S., including halt to",
+      "group": "event",
+      "severity": 60,
+      "confidence": "high",
+      "event_type": "diplomacy",
+      "timestamp_utc": "2026-04-07T00:00:00Z",
+      "location_name": "Dubai, United Arab Emirates"
+    },
+    {
+      "id": "fbee6ddf034f",
+      "label": "Iran signals intent to levy fees for ships passing through the Strait of Hormuz ",
+      "group": "event",
+      "severity": 70,
+      "confidence": "high",
+      "event_type": "shipping_disruption",
+      "timestamp_utc": "2026-04-07T00:00:00Z",
+      "location_name": "Strait of Hormuz, near Iran"
     },
     {
       "id": "0180bd5a9ad3",
@@ -2981,46 +3021,6 @@
       "location_name": "Tel Aviv, Israel"
     },
     {
-      "id": "106a18dbfb4e",
-      "label": "Iranian missiles hit central Israel (Tel Aviv district impacts reported)",
-      "group": "event",
-      "severity": 62,
-      "confidence": "high",
-      "event_type": "strike",
-      "timestamp_utc": "2026-03-03T13:29:00Z",
-      "location_name": "Tel Aviv, Israel"
-    },
-    {
-      "id": "c3163702047d",
-      "label": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeli",
-      "group": "event",
-      "severity": 78,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-03T13:25:00Z",
-      "location_name": "Yanbu, Saudi Arabia"
-    },
-    {
-      "id": "094e555f2820",
-      "label": "Saudi Arabia considers diverting crude exports to Red Sea terminals to bypass Ho",
-      "group": "event",
-      "severity": 77,
-      "confidence": "med",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-03T13:25:00Z",
-      "location_name": "Yanbu, Saudi Arabia"
-    },
-    {
-      "id": "9ac2f1485234",
-      "label": "Saudi Aramco attempts to reroute crude exports to Yanbu to bypass Hormuz; pipeli",
-      "group": "event",
-      "severity": 78,
-      "confidence": "high",
-      "event_type": "shipping_disruption",
-      "timestamp_utc": "2026-03-03T13:25:00Z",
-      "location_name": "Yanbu, Saudi Arabia"
-    },
-    {
       "id": "e749397fb99b",
       "label": "e749397fb99b",
       "group": "market"
@@ -3326,6 +3326,11 @@
       "group": "market"
     },
     {
+      "id": "106a18dbfb4e",
+      "label": "106a18dbfb4e",
+      "group": "market"
+    },
+    {
       "id": "6516bdeb81a0",
       "label": "6516bdeb81a0",
       "group": "market"
@@ -3491,6 +3496,16 @@
       "group": "market"
     },
     {
+      "id": "c3163702047d",
+      "label": "c3163702047d",
+      "group": "market"
+    },
+    {
+      "id": "094e555f2820",
+      "label": "094e555f2820",
+      "group": "market"
+    },
+    {
       "id": "4337a45a340f",
       "label": "4337a45a340f",
       "group": "market"
@@ -3538,6 +3553,11 @@
     {
       "id": "41f56c2cca74",
       "label": "41f56c2cca74",
+      "group": "market"
+    },
+    {
+      "id": "9ac2f1485234",
+      "label": "9ac2f1485234",
       "group": "market"
     },
     {
@@ -3838,6 +3858,13 @@
       "label": "transmits_via_terms_of_trade",
       "confidence": "med",
       "why": "Higher energy import costs and volatility typically pressure oil-importer EM currencies and increase hedging demand."
+    },
+    {
+      "from": "0c0a9f44bd92",
+      "to": "em_fx_pressure",
+      "label": "transmits_via_energy_import_costs",
+      "confidence": "med",
+      "why": "Higher/volatile oil and freight costs typically pressure energy-importer EM FX through trade balance and inflation channels."
     },
     {
       "from": "fb45636fee2a",
@@ -4708,6 +4735,13 @@
       "why": "Minesweeping/escort planning could lower disruption tail risk, but implementation uncertainty remains high."
     },
     {
+      "from": "6add4066e434",
+      "to": "risk_off_flows",
+      "label": "reduces_near_term_risk_premium_but_keeps_volatility",
+      "confidence": "med",
+      "why": "Ceasefire headline can ease acute risk-off, but Reuters notes ongoing fighting and spillovers keep markets headline-sensitive."
+    },
+    {
       "from": "524f7a54bb21",
       "to": "oil_up_risk",
       "label": "reduces_confidence_in_safe_passage",
@@ -4839,6 +4873,13 @@
       "label": "reduces",
       "confidence": "med",
       "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
+      "from": "fbee6ddf034f",
+      "to": "oil_up_risk",
+      "label": "raises_structural_shipping_costs",
+      "confidence": "med",
+      "why": "Passage fees would increase transport costs and risk premia even without outright closure."
     },
     {
       "from": "1ee47aa1e216",
@@ -6780,6 +6821,13 @@
       "why": "Shipping disruption increases energy risk"
     },
     {
+      "from": "fbee6ddf034f",
+      "to": "oil_up_risk",
+      "label": "drives",
+      "confidence": "med",
+      "why": "Shipping disruption increases energy risk"
+    },
+    {
       "from": "47ca5dad8347",
       "to": "b8a9275fc4f9",
       "label": "delays_mitigation",
@@ -8314,6 +8362,20 @@
     },
     {
       "from": "dc127a8d6bd6",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "0c0a9f44bd92",
+      "to": "risk_off_flows",
+      "label": "contributes_to",
+      "confidence": "med",
+      "why": "Heightened geopolitical risk can drive risk-off flows"
+    },
+    {
+      "from": "fbee6ddf034f",
       "to": "risk_off_flows",
       "label": "contributes_to",
       "confidence": "med",
@@ -11666,6 +11728,20 @@
       "why": "Diplomacy can reduce near-term risk-off pressure"
     },
     {
+      "from": "6add4066e434",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
+      "from": "8197a42078ac",
+      "to": "risk_off_flows",
+      "label": "reduces",
+      "confidence": "low",
+      "why": "Diplomacy can reduce near-term risk-off pressure"
+    },
+    {
       "from": "5028bfd120b1",
       "to": "rates_credit_spreads",
       "label": "raises operational risk premium",
@@ -11776,6 +11852,13 @@
       "label": "feeds",
       "confidence": "low",
       "why": "If permits/fees persist, energy/freight inflation can tighten financial conditions and widen spreads."
+    },
+    {
+      "from": "8197a42078ac",
+      "to": "rates_credit_spreads",
+      "label": "extends_uncertainty",
+      "confidence": "low",
+      "why": "More demanding terms can slow a durable deal, sustaining risk premia that can widen credit spreads."
     },
     {
       "from": "6dcb6506e786",
@@ -12014,6 +12097,13 @@
       "label": "supports_risk_premium",
       "confidence": "high",
       "why": "IEA flags rising disruption and shortages, which typically increase crude/product risk premia."
+    },
+    {
+      "from": "0c0a9f44bd92",
+      "to": "oil_up_risk",
+      "label": "supports_geopolitical_oil_premium",
+      "confidence": "high",
+      "why": "Reuters reports threats and conditional passage; this directly constrains a major oil chokepoint and tightens supply expectations."
     },
     {
       "from": "b8a9275fc4f9",
@@ -13756,7 +13846,7 @@
       "to": "3de946e7413b",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: strike; Same area: iran; Within 72h; Nearby (~1km); Escalation pattern"
+      "why": "Shared actor: united states, iran; Same type: strike; Same area: iran; Within 72h; Nearby (~1km); Escalation pattern"
     },
     {
       "from": "202ab9c72210",
@@ -13833,14 +13923,14 @@
       "to": "3de946e7413b",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: strike; Within 72h; Regionally close (~419km); Escalation pattern"
+      "why": "Shared actor: united states, iran; Same type: strike; Within 72h; Regionally close (~419km); Escalation pattern"
     },
     {
       "from": "143e1506054f",
       "to": "c9b504ccd071",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: iran, united states; Same type: strike; Within 72h; Regionally close (~418km); Escalation pattern"
+      "why": "Shared actor: united states, iran; Same type: strike; Within 72h; Regionally close (~418km); Escalation pattern"
     },
     {
       "from": "577ce6091237",
@@ -14783,76 +14873,6 @@
     {
       "from": "106a18dbfb4e",
       "to": "c9b504ccd071",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "884fce8c5920",
-      "to": "3de946e7413b",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "106a18dbfb4e",
-      "to": "a4f4ebb62609",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "106a18dbfb4e",
-      "to": "5f132135a0dd",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "c9b504ccd071",
-      "to": "884fce8c5920",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "143e1506054f",
-      "to": "884fce8c5920",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "7eb8e16afdd2",
-      "to": "884fce8c5920",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "106a18dbfb4e",
-      "to": "884fce8c5920",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "7557abd37533",
-      "to": "884fce8c5920",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "b6f1342b1331",
-      "to": "884fce8c5920",
-      "label": "possible_retaliation",
-      "confidence": "high",
-      "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"
-    },
-    {
-      "from": "577ce6091237",
-      "to": "884fce8c5920",
       "label": "possible_retaliation",
       "confidence": "high",
       "why": "Shared actor: iran; Same type: strike; Within 72h; Escalation pattern"

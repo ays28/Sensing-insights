@@ -6,6 +6,63 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          73.05945554014461,
+          33.687948329187556
+        ]
+      },
+      "properties": {
+        "id": "6add4066e434",
+        "event_type": "diplomacy",
+        "severity": 75,
+        "confidence": "high",
+        "title": "U.S. and Iran agree to a two-week ceasefire brokered by Pakistan; fighting and regional spillovers continue",
+        "timestamp_utc": "2026-04-08T00:00:00Z",
+        "location_name": "Islamabad, Pakistan",
+        "location_resolved": "Islamabad, Zone 1, Islamabad Capital Territory, 44000, Pakistan",
+        "actors": [
+          "United States",
+          "Iran",
+          "Pakistan"
+        ],
+        "implication": "Ceasefire headline reduces immediate escalation risk but does not remove tail-risk; markets may fade risk premium if it holds, but pricing remains headline-driven.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/us-iran-ceasefire-what-we-know-2026-04-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.9233,
+          21.4735
+        ]
+      },
+      "properties": {
+        "id": "0c0a9f44bd92",
+        "event_type": "shipping_disruption",
+        "severity": 80,
+        "confidence": "high",
+        "title": "Strait of Hormuz remains effectively conditional despite ceasefire; Iranian navy threats reported by shipping sources",
+        "timestamp_utc": "2026-04-08T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "Even partial restrictions sustain war-risk premia in crude, freight and insurance; re-routing and delays can tighten physical supply.",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/us-iran-ceasefire-what-we-know-2026-04-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           50.315579896614764,
           29.257707248996322
         ]
@@ -394,8 +451,64 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          73.0651511,
-          33.6938118
+          55.1885387,
+          25.0742823
+        ]
+      },
+      "properties": {
+        "id": "8197a42078ac",
+        "event_type": "diplomacy",
+        "severity": 60,
+        "confidence": "high",
+        "title": "Iran sets preconditions for lasting peace talks with the U.S., including halt to strikes, guarantees, and compensation",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Dubai, United Arab Emirates",
+        "location_resolved": "Dubai Emirate, Dubai, United Arab Emirates",
+        "actors": [
+          "Iran",
+          "United States"
+        ],
+        "implication": "Raises negotiation complexity and timing risk; prolongs uncertainty around sanctions, shipping access, and energy flows.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/iran-sets-preconditions-talks-lasting-peace-with-us-senior-official-tells-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.688,
+          32.4279
+        ]
+      },
+      "properties": {
+        "id": "fbee6ddf034f",
+        "event_type": "shipping_disruption",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Iran signals intent to levy fees for ships passing through the Strait of Hormuz as part of a permanent peace framework",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Iran",
+        "location_resolved": "Centroid: iran",
+        "actors": [
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "Would raise structural transport costs and could reprice regional crude differentials; also increases sanction/evasion and compliance complexity.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/iran-sets-preconditions-talks-lasting-peace-with-us-senior-official-tells-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0732529749415,
+          33.69420688911704
         ]
       },
       "properties": {
