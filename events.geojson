@@ -82,7 +82,7 @@
           "Israel",
           "Pakistan"
         ],
-        "implication": "Reduces immediate escalation risk but remains time-limited and contingent; market risk premia can fade quickly if implementation holds, but tail-risk persists around negotiation gaps.",
+        "implication": "Reduces near-term escalation risk but remains time-limited; risk premia can re-price quickly if compliance falters or talks stall.",
         "source_urls": [
           "https://www.reuters.com/world/asia-pacific/what-us-iran-israel-pakistan-have-said-about-ceasefire-2026-04-08/"
         ]
@@ -146,6 +146,153 @@
         "implication": "Signals slow, contentious talks and policy uncertainty around sanctions and enforcement—supporting persistent geopolitical risk premium in energy and EM assets.",
         "source_urls": [
           "https://www.reuters.com/world/asia-pacific/what-us-iran-israel-pakistan-have-said-about-ceasefire-2026-04-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.9233,
+          21.4735
+        ]
+      },
+      "properties": {
+        "id": "59a5e7c97af7",
+        "event_type": "shipping_disruption",
+        "severity": 88,
+        "confidence": "high",
+        "title": "Iran warns Strait of Hormuz remains closed to vessels without permits; shipping majors seek clarity before resuming transits",
+        "timestamp_utc": "2026-04-08T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Iran",
+          "Maersk",
+          "Hapag-Lloyd",
+          "Frontline",
+          "BIMCO"
+        ],
+        "implication": "Permit-based passage keeps shipping flows constrained and supports persistent war-risk premia in freight/insurance; oil/LNG supply timing remains uncertain.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8194992,
+          1.357107
+        ]
+      },
+      "properties": {
+        "id": "0a7cb052c585",
+        "event_type": "shipping_disruption",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Major shipping companies remain cautious on Hormuz despite ceasefire; Hapag-Lloyd cites 6-8 weeks to restore normal flows",
+        "timestamp_utc": "2026-04-08T00:00:00Z",
+        "location_name": "Singapore",
+        "location_resolved": "Singapore",
+        "actors": [
+          "Hapag-Lloyd",
+          "Maersk",
+          "Frontline"
+        ],
+        "implication": "Extended recovery window implies continued physical tightness and higher forward volatility for energy and shipping-sensitive assets.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.92854072570195,
+          21.480135771028916
+        ]
+      },
+      "properties": {
+        "id": "f82b07e44ca4",
+        "event_type": "shipping_disruption",
+        "severity": 74,
+        "confidence": "high",
+        "title": "MarineTraffic data shows limited bulk carriers transiting Hormuz after ceasefire under Iranian permission",
+        "timestamp_utc": "2026-04-08T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "MarineTraffic",
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "Selective transit signals partial reopening only; market may keep a risk premium until routine passage resumes.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0013165,
+          53.5501721
+        ]
+      },
+      "properties": {
+        "id": "bb71e9882213",
+        "event_type": "shipping_disruption",
+        "severity": 70,
+        "confidence": "high",
+        "title": "Major shipping companies remain cautious on Hormuz despite ceasefire; Hapag-Lloyd cites 6-8 weeks to restore normal flows",
+        "timestamp_utc": "2026-04-08T00:00:00Z",
+        "location_name": "Hamburg, Germany",
+        "location_resolved": "Hamburg, Germany",
+        "actors": [
+          "Hapag-Lloyd",
+          "Maersk",
+          "Frontline"
+        ],
+        "implication": "Extended recovery window implies continued physical tightness and higher forward volatility for energy and shipping-sensitive assets.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13309266370206935,
+          51.51204433630075
+        ]
+      },
+      "properties": {
+        "id": "307f0fab2358",
+        "event_type": "shipping_disruption",
+        "severity": 74,
+        "confidence": "high",
+        "title": "Insurers and shipping groups warn maritime risk remains elevated after ~30 incidents since Feb. 28 amid Gulf conflict",
+        "timestamp_utc": "2026-04-08T00:00:00Z",
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "International Group of P&I Clubs",
+          "BIMCO",
+          "Iran"
+        ],
+        "implication": "Higher war-risk insurance and routing constraints raise effective delivered energy costs and reinforce risk-off positioning.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/"
         ]
       }
     },
@@ -266,8 +413,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1277653,
-          51.5074456
+          -0.12210271566030381,
+          51.50669674466083
         ]
       },
       "properties": {
@@ -619,6 +766,34 @@
         "implication": "Elevates risk of further supply outages and retaliation affecting Gulf energy infrastructure; reinforces oil upside tail-risk and risk-off episodes.",
         "source_urls": [
           "https://mobile.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/?rpc=401&"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.91916639485603,
+          21.467821404865152
+        ]
+      },
+      "properties": {
+        "id": "5ba02c44de0e",
+        "event_type": "shipping_disruption",
+        "severity": 76,
+        "confidence": "high",
+        "title": "U.S. Navy-led center notes nearly 30 maritime incidents involving commercial vessels/offshore infrastructure since Feb 28",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Joint Maritime Information Center",
+          "Commercial shipping"
+        ],
+        "implication": "High incident frequency sustains elevated insurance costs and deters traffic, reinforcing energy supply-route tail risks.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/"
         ]
       }
     },
@@ -1726,6 +1901,64 @@
         "implication": "Demonstrates spillover risk to Iraqi supply chain and services; can delay recovery even if Hormuz access improves.",
         "source_urls": [
           "https://www.reuters.com/business/energy/fire-reported-foreign-oil-companies-storage-facilities-iraq-after-drone-strike-2026-04-04/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.677826022153674,
+          33.21240588672981
+        ]
+      },
+      "properties": {
+        "id": "f5e1cbcf0a72",
+        "event_type": "strike",
+        "severity": 72,
+        "confidence": "high",
+        "title": "Drone strike triggers fire at foreign oil company storage facilities in Barjasiyah, west of Basra",
+        "timestamp_utc": "2026-04-04T00:00:00Z",
+        "location_name": "Barjasiyah, Iraq",
+        "location_resolved": "Centroid: iraq",
+        "actors": [
+          "Unknown (drone operators)",
+          "Foreign oil companies",
+          "Iraqi security sources"
+        ],
+        "implication": "Highlights spillover risk to Iraqi oil logistics and services; raises operational risk premia for regional supply chains.",
+        "source_urls": [
+          "https://www.reuters.com/video/watch/idRW990304042026RP1/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.683265248737754,
+          33.21805056750614
+        ]
+      },
+      "properties": {
+        "id": "e5ce4e7b1df1",
+        "event_type": "strike",
+        "severity": 62,
+        "confidence": "high",
+        "title": "Drone strike hits foreign oil company storage units at Barjasiyah (west of Basra); firefighters stop blaze",
+        "timestamp_utc": "2026-04-04T00:00:00Z",
+        "location_name": "Barjasiyah, Iraq",
+        "location_resolved": "Centroid: iraq",
+        "actors": [
+          "Unknown (drone operators)",
+          "Iraqi authorities",
+          "Foreign oil company (unnamed)"
+        ],
+        "implication": "Signals spillover to Iraqi storage/logistics nodes; raises risk premium on regional supply reliability even outside Iran.",
+        "source_urls": [
+          "https://www.reuters.com/video/watch/idRW990304042026RP1/"
         ]
       }
     },
@@ -17946,6 +18179,34 @@
         "implication": "Operational slowdowns reduce throughput and can create short-lived physical tightness and price spikes.",
         "source_urls": [
           "https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-04-07/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.25,
+          26.58
+        ]
+      },
+      "properties": {
+        "id": "28a5d9bad3a7",
+        "event_type": "shipping_disruption",
+        "severity": 76,
+        "confidence": "med",
+        "title": "Selective Hormuz passage policy emerges (permit-gated transits) rather than full reopening, limiting near-term throughput",
+        "timestamp_utc": null,
+        "location_name": "Strait of Hormuz, near United Arab Emirates",
+        "location_resolved": "Centroid: strait of hormuz",
+        "actors": [
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "If passage remains discretionary, markets may price a persistent chokepoint option value even under ceasefire headlines.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/"
         ]
       }
     }

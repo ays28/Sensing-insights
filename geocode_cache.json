@@ -581,5 +581,12 @@
     "lon": 48.1652377,
     "lat": 28.8538571,
     "display_name": "Ahmadi Governorate, Kuwait"
+  },
+  "bab al-mandeb strait, near yemen": null,
+  "barjasiyah, iraq": null,
+  "hamburg, germany": {
+    "lon": 10.0013165,
+    "lat": 53.5501721,
+    "display_name": "Hamburg, Germany"
   }
 }
