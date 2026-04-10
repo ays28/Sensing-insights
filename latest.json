@@ -1,57 +1,70 @@
 {
   "headline_summary": [
-    "Reuters (Apr 8): U.S., Iran and Israel announce a two-week ceasefire brokered by Pakistan; talks planned to pursue longer-term settlement.",
-    "Reuters (Apr 8): Iran warns Strait of Hormuz remains closed to vessels without a permit; shipowners and major liners seek clarity before resuming transits.",
-    "Reuters (Apr 7-8): Maritime risk remains elevated with ~30 incidents since Feb 28; insurers and shipping groups warn of continued targeting risk absent coordination.",
-    "Reuters (Apr 4): Drone strike sparks fire at foreign oil company storage units in Barjasiyah, west of Basra, highlighting spillover risk to Iraqi oil logistics.",
-    "Market focus: Even with ceasefire optics, permit-based passage keeps physical supply normalization slow; war-risk premia in freight/insurance and oil volatility persist."
+    "Reuters (Apr 9): ADNOC CEO says Strait of Hormuz is shut and must reopen unconditionally; UAE output hit by effective closure.",
+    "Reuters (Apr 8-9): Hormuz traffic near standstill; Iran warns ships to keep to its waters/permit rules, sustaining shipping disruption despite ceasefire talk.",
+    "Reuters (Apr 8): Shippers and insurers seek clarity before resuming transits; normalisation could take weeks even if restrictions ease.",
+    "Al Jazeera (Apr 7): Russia and China block a UN resolution on Strait of Hormuz, complicating diplomatic pressure on Iran.",
+    "NBC News (Apr 9): Shipping traffic through Hormuz remains effectively at a standstill despite ceasefire signals, highlighting ongoing chokepoint risk.",
+    "Reuters (Apr 5): OPEC+ debates/considers output policy tied to Hormuz reopening, underscoring oil-supply sensitivity to maritime access."
   ],
-  "risk_score": 82,
+  "risk_score": 86,
   "risk_drivers": [
-    "Permit-based Strait of Hormuz access (risk of selective enforcement and sudden re-tightening)",
-    "Ceasefire is time-limited and implementation-dependent; negotiation gaps can re-ignite escalation",
-    "High maritime incident count and explicit threats against unpermitted vessels sustain war-risk premia",
-    "Spillover attacks on Iraqi energy storage/logistics demonstrate regionalization risk"
+    "Effective Strait of Hormuz closure / permit-based passage and coercive enforcement risk",
+    "High likelihood of renewed incidents given warnings to vessels and near-standstill traffic",
+    "Diplomatic blockage at UN (Russia/China) reduces near-term multilateral leverage",
+    "Oil supply/freight insurance sensitivity to chokepoint normalization pace"
   ],
   "market_implications": {
     "Energy": [
-      "oil_up_risk: Permit-gated Hormuz transit keeps upside skew in crude and refined products; physical flows normalize slowly.",
-      "Freight/insurance: War-risk insurance and freight rates likely remain elevated until routine, unthreatened passage resumes.",
-      "Gas/LNG: Any continued Gulf chokepoint uncertainty supports LNG volatility via shipping/insurance constraints."
+      "oil_up_risk: Prolonged or selectively enforced Hormuz restrictions keep upside skew in crude and products; physical loadings may queue.",
+      "War-risk premia: Tanker rates and war-risk insurance likely stay elevated until routine, unthreatened transits resume.",
+      "Inventory timing risk: Delayed sailings can create regional dislocations (Asia/Europe) even if headline production is steady."
     ],
     "FX": [
-      "em_fx_pressure: Higher/volatile energy prices can pressure oil-importer EM FX via trade balances and inflation.",
-      "risk_off_flows: Escalation headlines favor USD/CHF/JPY and reduce carry appetite."
+      "em_fx_pressure: Higher energy import bills pressure oil-importer EM FX; Gulf FX pegs stay stable but liquidity conditions can tighten.",
+      "risk_off_flows: Escalation/chokepoint headlines typically support USD/CHF/JPY vs high-beta FX."
     ],
     "Rates": [
-      "rates_credit_spreads: Risk-off and energy-driven inflation uncertainty can widen credit spreads and lift breakevens.",
-      "Policy uncertainty: Central banks may face worse inflation-growth tradeoffs if energy shock persists."
+      "rates_credit_spreads: Risk-off and inflation uncertainty can widen credit spreads and lift inflation breakevens.",
+      "Policy reaction: Central banks may have to balance growth risks vs energy-driven inflation persistence."
     ],
     "Equities": [
-      "risk_off_flows: Airlines, transport, and energy-intensive industries face margin risk; energy/defense may outperform on shock headlines.",
-      "Regional risk: Iraq/GCC equities can see volatility—benefit from higher oil but face operational/security tail-risk."
+      "risk_off_flows: Transport/airlines and energy-intensive sectors face margin risk; energy and defense can outperform on shock headlines.",
+      "Regional equities volatility: GCC/Iraq equities can swing between oil-price benefit and operational/security tail risks."
     ]
   },
   "sources": [
     {
-      "title": "What the US, Iran, Israel and Pakistan have said about the ceasefire",
-      "url": "https://www.reuters.com/world/asia-pacific/what-us-iran-israel-pakistan-have-said-about-ceasefire-2026-04-08/",
+      "title": "Strait of Hormuz is shut, must reopen without conditions, UAE oil giant ADNOC's CEO says",
+      "url": "https://reut.rs/4e9HaDc",
       "publisher": "Reuters",
-      "published_at": "2026-04-08T00:00:00Z"
+      "published_at": "2026-04-09T00:00:00Z"
     },
     {
-      "title": "Shippers seek clarity on Hormuz passage as Iran issues fresh warnings",
-      "url": "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/",
+      "title": "Hormuz at near standstill as Iran warns ships to keep to its waters",
+      "url": "https://reut.rs/4t3m3qY",
       "publisher": "Reuters",
-      "published_at": "2026-04-08T00:00:00Z"
+      "published_at": null
     },
     {
-      "title": "Firefighters stop fire at drone-hit foreign oil storage units in Basra",
-      "url": "https://www.reuters.com/video/watch/idRW990304042026RP1/",
+      "title": "Strait of Hormuz shipping traffic is effectively at a standstill despite Iran ceasefire",
+      "url": "https://www.nbcnews.com/world/iran/strait-hormuz-shipping-traffic-effectively-standstill-iran-ceasefire-rcna267391",
+      "publisher": "NBC News",
+      "published_at": null
+    },
+    {
+      "title": "Russia and China block UN resolution on Strait of Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/4/7/russia-and-china-block-un-resolution-on-strait-of-hormuz",
+      "publisher": "Al Jazeera",
+      "published_at": "2026-04-07T00:00:00Z"
+    },
+    {
+      "title": "OPEC+ agrees to boost oil output when Strait of Hormuz reopens",
+      "url": "https://reuters.com/business/energy/opec-debates-theoretical-oil-output-hike-amid-iran-war-paralysis-sources-say-2026-04-05/",
       "publisher": "Reuters",
-      "published_at": "2026-04-04T00:00:00Z"
+      "published_at": "2026-04-05T00:00:00Z"
     }
   ],
-  "generated_at_utc": "2026-04-10T01:52:37.275898Z",
-  "generated_at_ist": "2026-04-10T07:22:37.275917+05:30"
+  "generated_at_utc": "2026-04-10T12:53:21.808802Z",
+  "generated_at_ist": "2026-04-10T18:23:21.808821+05:30"
 }

@@ -6,6 +6,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          55.93704178627627,
+          21.483111044740298
+        ]
+      },
+      "properties": {
+        "id": "7cb35ab4ffb0",
+        "event_type": "shipping_disruption",
+        "severity": 92,
+        "confidence": "high",
+        "title": "ADNOC CEO says Strait of Hormuz is shut and must reopen unconditionally; warns of market tightening",
+        "timestamp_utc": "2026-04-09T00:00:00Z",
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "ADNOC",
+          "United Arab Emirates",
+          "Iran"
+        ],
+        "implication": "Reinforces that physical flows remain constrained; supports sustained oil price risk premium and elevated tanker/insurance costs.",
+        "source_urls": [
+          "https://reut.rs/4e9HaDc"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           73.05945554014461,
           33.687948329187556
         ]
@@ -154,8 +183,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.9233,
-          21.4735
+          55.94140747310123,
+          21.469459838051904
         ]
       },
       "properties": {
@@ -662,8 +691,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.0060152,
-          40.7127281
+          -74.00926908080885,
+          40.709667088365165
         ]
       },
       "properties": {
@@ -794,6 +823,35 @@
         "implication": "High incident frequency sustains elevated insurance costs and deters traffic, reinforcing energy supply-route tail risks.",
         "source_urls": [
           "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "id": "b86dada0e9f7",
+        "event_type": "diplomacy",
+        "severity": 65,
+        "confidence": "high",
+        "title": "Russia and China block UN resolution on Strait of Hormuz",
+        "timestamp_utc": "2026-04-07T00:00:00Z",
+        "location_name": "New York, United States",
+        "location_resolved": "New York, United States",
+        "actors": [
+          "Russia",
+          "China",
+          "United Nations Security Council"
+        ],
+        "implication": "Reduces probability of fast UN-backed pressure on Iran; increases odds shipping disruption persists absent bilateral deals.",
+        "source_urls": [
+          "https://www.aljazeera.com/news/2026/4/7/russia-and-china-block-un-resolution-on-strait-of-hormuz"
         ]
       }
     },
@@ -1627,8 +1685,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3725042,
-          48.2083537
+          16.381036885639308,
+          48.20699008123751
         ]
       },
       "properties": {
@@ -1644,6 +1702,33 @@
           "OPEC+"
         ],
         "implication": "Spare capacity cannot meaningfully offset chokepoint constraints; market remains dominated by shipping access and repair timelines.",
+        "source_urls": [
+          "https://reuters.com/business/energy/opec-debates-theoretical-oil-output-hike-amid-iran-war-paralysis-sources-say-2026-04-05/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3725042,
+          48.2083537
+        ]
+      },
+      "properties": {
+        "id": "47f325733e0d",
+        "event_type": "other",
+        "severity": 55,
+        "confidence": "high",
+        "title": "OPEC+ debates output policy linked to Hormuz reopening",
+        "timestamp_utc": "2026-04-05T00:00:00Z",
+        "location_name": "Vienna, Austria",
+        "location_resolved": "Vienna, Austria",
+        "actors": [
+          "OPEC+"
+        ],
+        "implication": "Signals producers are conditioning supply decisions on shipping access; amplifies oil price sensitivity to reopening news.",
         "source_urls": [
           "https://reuters.com/business/energy/opec-debates-theoretical-oil-output-hike-amid-iran-war-paralysis-sources-say-2026-04-05/"
         ]
@@ -18207,6 +18292,90 @@
         "implication": "If passage remains discretionary, markets may price a persistent chokepoint option value even under ceasefire headlines.",
         "source_urls": [
           "https://www.reuters.com/business/energy/shippers-seek-clarity-hormuz-reopening-after-us-iran-ceasefire-deal-2026-04-08/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.688,
+          32.4279
+        ]
+      },
+      "properties": {
+        "id": "48ed379709d7",
+        "event_type": "shipping_disruption",
+        "severity": 90,
+        "confidence": "med",
+        "title": "Hormuz traffic near standstill as Iran warns ships to keep to its waters",
+        "timestamp_utc": null,
+        "location_name": "Strait of Hormuz, near Iran",
+        "location_resolved": "Centroid: iran",
+        "actors": [
+          "Iran"
+        ],
+        "implication": "Near-standstill conditions imply continuing delays and rerouting; keeps risk of sudden supply squeezes and freight spikes.",
+        "source_urls": [
+          "https://reut.rs/4t3m3qY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.90710672431789,
+          21.46529292354231
+        ]
+      },
+      "properties": {
+        "id": "788a272b31d9",
+        "event_type": "shipping_disruption",
+        "severity": 84,
+        "confidence": "high",
+        "title": "Shipping traffic through Hormuz remains effectively at a standstill despite ceasefire signals",
+        "timestamp_utc": null,
+        "location_name": "Strait of Hormuz, near Oman",
+        "location_resolved": "Centroid: oman",
+        "actors": [
+          "Iran",
+          "Commercial shipping"
+        ],
+        "implication": "Even with de-escalation headlines, the chokepoint is not normalising—prolonging war-risk premia and energy volatility.",
+        "source_urls": [
+          "https://www.nbcnews.com/world/iran/strait-hormuz-shipping-traffic-effectively-standstill-iran-ceasefire-rcna267391"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1277653,
+          51.5074456
+        ]
+      },
+      "properties": {
+        "id": "624584d720bf",
+        "event_type": "diplomacy",
+        "severity": 60,
+        "confidence": "med",
+        "title": "Ceasefire implementation uncertainty keeps insurers and shippers cautious on Gulf transits",
+        "timestamp_utc": null,
+        "location_name": "London, United Kingdom",
+        "location_resolved": "Greater London, England, United Kingdom",
+        "actors": [
+          "Commercial insurers",
+          "Shipowners"
+        ],
+        "implication": "Slow resumption keeps pressure on freight and supply chains; prolongs risk-off episodes on escalation headlines.",
+        "source_urls": [
+          "https://reut.rs/4e9HaDc",
+          "https://reut.rs/4t3m3qY"
         ]
       }
     }
