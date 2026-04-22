@@ -13451,7 +13451,7 @@
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: israel, hezbollah; Same type: strike; Same area: lebanon; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "c5533488d4ca",
@@ -13472,14 +13472,14 @@
       "to": "c5914c702d47",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
+      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
     },
     {
       "from": "e403eed12d08",
       "to": "0cf5c5e47a24",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: lebanon, israel; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
+      "why": "Shared actor: israel, lebanon; Same type: strike; Same area: lebanon; Within 72h; Nearby (~126km); Escalation pattern"
     },
     {
       "from": "e403eed12d08",
@@ -14270,14 +14270,14 @@
       "to": "335a9e6d2327",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: unknown attackers, commercial shipping; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: commercial shipping, unknown attackers; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "5f132135a0dd",
       "to": "a4f4ebb62609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: turkey, nato; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: iran, turkey; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "67120a4038b2",
