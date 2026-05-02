@@ -14270,14 +14270,14 @@
       "to": "335a9e6d2327",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: unknown attackers, commercial shipping; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: commercial shipping, unknown attackers; Same type: strike; Same area: iraq; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "5f132135a0dd",
       "to": "a4f4ebb62609",
       "label": "possible_retaliation",
       "confidence": "high",
-      "why": "Shared actor: turkey, nato; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
+      "why": "Shared actor: turkey, iran; Same type: strike; Same area: turkey; Within 72h; Nearby (~0km); Escalation pattern"
     },
     {
       "from": "67120a4038b2",
