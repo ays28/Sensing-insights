@@ -1,9 +1,9 @@
 name: Run tracker
 
 on:
-  schedule:
-    - cron: "0 */22 * * *"  # every 12 hours
-  workflow_dispatch:
+  push:
+    branches-ignore:
+      - "**"
 
 permissions:
   contents: write
